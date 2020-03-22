@@ -87,13 +87,12 @@ defaults:
             images:           #data file   #CHECK WHAT THIS IS FOR ?
             footer:           default
             image:
-                horizontal:         "/assets/images/default/horizontal.jpg"
-                vertical:           "/assets/images/default/vertical.jpg"
-                square:             "/assets/images/default/square.jpg"
-                random:             "https://source.unsplash.com/random/750x400"
-                background:         "/assets/images/default/background.jpg"
-                profile:            "/assets/images/profile/shanehoey.jpg"
-                mvp:                "/assets/images/profile/MVPLogo-300x475.png"
+                horizontal:         https://source.unsplash.com/Kc5GdiUbs8o/750x400
+                vertical:           https://source.unsplash.com/Kc5GdiUbs8o/400x750
+                square:             https://source.unsplash.com/Kc5GdiUbs8o/300x300
+                random:             https://source.unsplash.com/random/750x400"
+                background:         https://source.unsplash.com/Kc5GdiUbs8o/2400x1800
+                profile:            https://source.unsplash.com/Kc5GdiUbs8o/300x450
             order:             1000
     -   scope:
             path:        ""
