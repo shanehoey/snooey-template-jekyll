@@ -2,7 +2,7 @@
 
 An example site using then snooey theme for Jekyll.
 
-view a live example [snooey.netlify.com](snooey.netlify.com)
+view a live example [snooey.netlify.com](https://snooey.netlify.com)
 
 ##  Usage
 
