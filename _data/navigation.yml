@@ -1,0 +1,23 @@
+default: 
+    title:              "Snooey"
+    url:                "https://snooey.com"
+    icon:               "default"
+    navigation: 
+      - title:          home
+        url:            /home/
+      - title:          code
+        url:            /code/
+      - title:          documents
+        url:            /documents/
+      - title:          blog
+        url:            /blog/    
+      - title:          projects
+        url:            /projects/
+      - title:          snippets
+        url:            /snippets/
+      - title:          tldr
+        url:            /tldr/      
+      - title:          videos
+        url:            /videos/
+      - title:          wizards
+        url:            /wizards/

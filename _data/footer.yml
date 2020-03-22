@@ -1,0 +1,11 @@
+default:
+    title:              "Snooey"
+    url:                "https://snooey.com"
+    icon:               "footer"
+    navigation: 
+      - title:          terms
+        url:            /terms/
+      - title:          license
+        url:            /license/
+      - title:          contact
+        url:            /contact/

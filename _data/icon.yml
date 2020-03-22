@@ -1,0 +1,11 @@
+default:
+    icon:    "fas fa-route"
+    size:    "fa-2x"
+
+alert:
+    icon:    "fas fa-exclamation-triangle"
+    size:    "fa-5x"
+
+footer:
+    icon:    "fas fa-route"
+    size:    "fa-1x"

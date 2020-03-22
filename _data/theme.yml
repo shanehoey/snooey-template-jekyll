@@ -1,0 +1,128 @@
+feature:
+    default:
+        class:
+            section:      container my-5 p-5 z-depth-1
+            title:        text-center font-weight-bold mb-4 pb-2
+            subtitle:     font-weight-normal mb-3
+            description:  text-center lead grey-text mx-auto mb-5
+            excerpt:      text-muted mb-0
+            icon:         fa-3x text-primary
+            alert:        alert-primary alert-dismissible fade show
+            button:       btn btn-outline-primary
+    feature1:
+        class:
+            section:      container my-5 p-5 z-depth-1
+            title:        text-center font-weight-bold mb-4 pb-2
+            subtitle:     font-weight-normal mb-3
+            description:  text-center lead grey-text mx-auto mb-5
+            excerpt:      text-muted mb-0
+            icon:         fa-3x text-primary
+            button:       btn btn-outline-primary
+    feature2:
+        class:
+            section:      container my-5 p-5 z-depth-1
+            title:        text-center font-weight-bold mb-4 pb-2
+            description:  text-center lead grey-text mx-auto mb-5
+            subtitle:     font-weight-bold
+            excerpt:      grey-text
+            icon:         fa-2x text-primary
+            button:       btn btn-outline-primary btn-sm
+
+alert:
+    default:
+        class:       alert alert-primary
+    warning:
+        class:       alert alert-warning alert-dismissible fade show
+    error:
+        class:       alert alert-danger alert-dismissible fade show
+    grey:
+        class:       alert alert-secondary alert-dismissible fade show
+
+
+calltoaction:
+    default:
+        class:
+            section:      container my-5 px-0
+            div:          text-center text-white justify-content-between bg-dark p-4
+            heading:      font-weight-bold display-4
+            button:       btn btn-light btn-rounded px-5
+    primary:
+        class:
+            section:      container my-5 px-0
+            div:          text-center text-white d-md-flex justify-content-between p-5 bg-primary
+            heading:      font-weight-bold mb-md-0 mb-4 mt-2 pt-1
+            button:       btn btn-outline-light btn-rounded
+    secondary:
+        class:
+            section:      container my-5 px-0
+            div:          text-center text-dark d-md-flex justify-content-between bg-warning p-2
+            heading:      m-1
+            button:       btn btn-outline-dark btn-rounded px-5
+      
+layout:
+    default:
+        body:
+            class:       d-flex flex-column
+            style:
+        navigation:
+            class:       navbar navbar-expand-lg navbar-dark sticky-top bg-dark text-monospace # navbar navbar-expand-lg navbar-dark sticky-top bg-dark text-monospace
+            style:
+            container:   container-fluid          
+        content:
+            class:
+            style:
+        section:
+            class:
+            style:
+        icon:
+            class:
+            style:
+        footer:  
+            class:        bg-dark text-white py-4 text-monospace fixed-bottom
+            style:
+            container:    container
+    background:
+        body:
+            class:       body-background markdown d-flex flex-column
+            style: 
+        navigation:
+            class:       navbar navbar-expand-lg navbar-dark sticky-top bg-dark text-monospace 
+            style:       
+            container:   container-fluid          
+        content:
+            class:       container fill container-fluid (empty)
+            style:   
+        section:
+            class:
+            style:    
+        icon:
+            class:
+            style:     
+        footer:  
+            class:        bg-dark text-white py-4 text-monospace fixed-bottom
+            style:      
+            container:    container
+
+collection:
+    default:
+        wizards:
+            class:
+            style:
+        videos:
+            class:
+            style:
+        tldr:
+            class:
+            style:
+        projects:
+            class:
+            style:
+        post:
+            class:
+            style:
+        page:
+            class:
+            style:
+        documents:
+            class:
+            style:

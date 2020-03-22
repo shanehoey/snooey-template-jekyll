@@ -1,0 +1,7 @@
+netlify:               "0996c5f8-ceea-4c4d-baba-3b30861cf740"
+
+status:
+  - subject:           "Status"
+    status:            "development"
+    colour:            "orange"
+    color:             "orange"

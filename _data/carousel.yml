@@ -1,0 +1,11 @@
+default:
+    - image:     "https://source.unsplash.com/XksfkL6kN2M/1920x1080"
+      title:     "snooey.com"
+      subtitle:  "Snooey - a easy to use Jekyll theme by shanehoey"
+      content:   "<a href='https://snooey.com' class='btn btn-sm btn btn-outline-dark'>more...</a>"
+      url:       https://snooey.com
+    - image:     "https://source.unsplash.com/bepwY8khinw/1920x1080"
+      title:     "snooey.com"
+      subtitle:  "Snooey - a easy to use Jekyll theme by shanehoey"
+      content:   "<a href='https://snooey.com' class='btn btn-sm btn btn-outline-dark'>more...</a>"
+      url:       https://snooey.com

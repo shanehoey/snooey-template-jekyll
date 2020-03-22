@@ -1,0 +1,37 @@
+default:
+  images:
+    - title:         "code"
+      excerpt:       "code"
+      image:         "https://source.unsplash.com/random/300x300"
+      url:           "/code/"
+      class:         rounded img-fluid m-1 #img-thumbnail
+    - title:         "documents"
+      excerpt:       "documents"
+      image:         "https://source.unsplash.com/random/300x300"
+      url:           "/documents/"
+      class:         rounded img-fluid m-1 #img-thumbnail
+    - title:         "projects"
+      excerpt:       "projects"
+      image:         "https://source.unsplash.com/random/300x300"
+      url:           "/projects/"
+      class:         rounded img-fluid m-1 #img-thumbnail
+    - title:         "tldr"
+      excerpt:       "tldr"
+      image:         "https://source.unsplash.com/random/300x300"
+      url:           "/tldr/"
+      class:         rounded img-fluid m-1 #img-thumbnail
+    - title:         "videos"
+      excerpt:       "videos"
+      image:         "https://source.unsplash.com/random/300x300" 
+      url:           "/videos/"
+      class:         rounded img-fluid m-1 #img-thumbnail
+    - title:         "wizards"
+      excerpt:       "wizards"
+      image:         "https://source.unsplash.com/random/300x300"
+      url:           "/wizards/"
+      class:         rounded img-fluid m-1 #img-thumbnail
+    - title:         "snippets"
+      excerpt:       "snippets"
+      image:         "https://source.unsplash.com/random/300x300"
+      url:           "/snippets/"
+      class:         rounded img-fluid m-1 #img-thumbnail
