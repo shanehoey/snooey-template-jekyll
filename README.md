@@ -9,7 +9,9 @@ view a live example [snooey.netlify.com](https://snooey.netlify.com)
 Add the following to Gemfile
 
 ```
+
 gem "jekyll-remote-theme"
+
 ```
 
 Add the following to _config.yml 
