@@ -1,2 +1,2 @@
 # snooey-template
-Example site using snooey Jekyll template
+Example site using snooey theme for Jekyll template
