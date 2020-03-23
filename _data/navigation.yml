@@ -1,6 +1,6 @@
 default: 
-    title:              "Snooey"
-    url:                "https://snooey.com"
+    title:              "Snooey Theme"
+    url:                "https://snooey.netlify.com"
     icon:               "default"
     navigation: 
       - title:          home
