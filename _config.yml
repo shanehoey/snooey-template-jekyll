@@ -37,34 +37,22 @@ include:
 collections:
     code:
         output: true
-        permalink: /:collection/:path/:name/
-        title:  code title
-        description: code description
+        permalink: /:collection/:path/
     documents:
         output: true
         permalink: /:collection/:path/
-        title: documents title
-        description: documents description
     projects:
         output: true
         permalink: /:collection/:path/
-        title: projects title
-        description: projects description
     tldr:
         output: true
         permalink: /:collection/:path/
-        title: tldr title
-        description: tldr description
     videos:
         output: true
         permalink: /:collection/:path/
-        title: videos title
-        description: videos description
     wizards:
         output: true
         permalink: /:collection/:path/
-        title: wizards title
-        description: wizards description
 
 collections_dir: collections
 
