@@ -44,6 +44,9 @@ collections:
     projects:
         output: true
         permalink: /:collection/:path/
+    snippets:
+        output: true
+        permalink: /:collection/:path/
     tldr:
         output: true
         permalink: /:collection/:path/
