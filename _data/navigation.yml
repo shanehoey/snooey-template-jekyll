@@ -5,6 +5,8 @@ default:
     navigation: 
       - title:          home
         url:            /home/
+      - title:          Example
+        url:            /examples/
       - title:          code
         url:            /code/
       - title:          documents
