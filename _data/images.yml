@@ -1,5 +1,4 @@
 default:
-  images:
     - title:         "code"
       excerpt:       "code"
       image:         "https://source.unsplash.com/random/300x300"
