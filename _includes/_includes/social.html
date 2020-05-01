@@ -1,0 +1,39 @@
+{% case include.size %}
+{% when "xs" %}
+{% assign size = "fa-xs" %}
+{% when "sm" %}
+{% assign size = "fa-sm" %}
+{% when "lg" %}
+{% assign size = "fa-lg" %}
+{% when "2" %}
+{% assign size = "fa-2x" %}
+{% when "3" %}
+{% assign size = "fa-3x" %}
+{% when "4" %}
+{% assign size = "fa-4x" %}
+{% when "5" %}
+{% assign size = "fa-5x" %}
+{% when "6" %}
+{% assign size = "fa-6x" %}
+{% when "7" %}
+{% assign size = "fa-7x" %}
+{% when "8" %}
+{% assign size = "fa-8x" %}
+{% when "9" %}
+{% assign size = "fa-9x" %}
+{% when "10" %}
+{% assign size = "fa-10x" %}
+{% else %}
+{% assign size = "fa-3x" %}
+{% endcase %}
+<section id = "social" class="container my-5 py-5 text-center text-dark">
+    <h4 class="text-dark pb-3">Follow {{ page.author }} on</h4>
+    {% if site.social.facebook %}<a href="{{ site.social.facebook }}" class="mx-2 "><i class="fab fa-facebook-f {{ size}}"></i></a>{% endif %}
+    {% if site.social.twitter %}<a href="{{ site.social.twitter }}" class="mx-2" ><i class="fab fa-twitter {{ size}}"></i></a>{% endif %}
+    {% if site.social.linkedin %}<a href="{{ site.social.linkedin }}" class="mx-2" ><i class="fab fa-linkedin-in {{ size}}"></i></a>{% endif %}
+    {% if site.social.instagram %}<a href="{{ site.social.instagram }}" class="mx-2" ><i class="fab fa-instagram {{ size}}"></i></a>{% endif %}
+    {% if site.social.pinterest %}<a href="{{ site.social.pinterest }}" class="mx-2" ><i class="fab fa-pinterest {{ size}}"></i></a>{% endif %}
+    {% if site.social.youtube %}<a href="{{ site.social.youtube }}" class="mx-2" ><i class="fab fa-youtube {{ size}}"></i></a>{% endif %}
+    {% if site.social.github %}<a href="{{ site.social.github }}" class="mx-2" ><i class="fab fa-github {{ size}}"></i></a>{% endif %}
+    {% if site.social.stackoverflow %}<a href="{{ site.social.stackoverflow }}" class="mx-2" ><i class="fab fa-stack-overflow {{ size}}"></i></a>{% endif %}
+</section>

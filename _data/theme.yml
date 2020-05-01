@@ -38,7 +38,6 @@ alert:
     grey:
         class:       alert alert-secondary alert-dismissible fade show
 
-
 calltoaction:
     default:
         class:
@@ -124,5 +123,8 @@ collection:
             class:
             style:
         documents:
+            class:
+            style:
+        snippets:
             class:
             style:

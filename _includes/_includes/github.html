@@ -1,0 +1,12 @@
+{% if include.type contains 'edit ' %}
+{% assign url = 'https://github.com/{{ site.repository }}/files/edit/master/' | append: include.url %}
+[<i class="fab fa-github"></i> Edit on GitHub]({{ url }}){: .badge .badge-secondary }
+{% endif %}
+{% if include.type contains 'view ' %}
+{% assign url = 'https://github.com/{{ site.repository }}/files/blob/master/' | append: include.url %}
+[<i class="fab fa-github"></i> View on GitHub]({{ url }}){: .badge .badge-dark }
+{% endif %}
+{% if include.type contains 'save ' %}
+{% assign url = 'https://github.com/{{ site.repository }}/files/raw/master/' | append: include.url %}
+[<i class="fas fa-file"></i> Right Click Save-as...]({{ url }}){: .badge .badge-secondary }
+{% endif %}

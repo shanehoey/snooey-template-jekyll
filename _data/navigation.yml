@@ -5,7 +5,7 @@ default:
     navigation: 
       - title:          home
         url:            /home/
-      - title:          Example
+      - title:          example
         url:            /examples/
       - title:          code
         url:            /code/

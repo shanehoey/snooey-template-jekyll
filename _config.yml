@@ -119,6 +119,11 @@ defaults:
             icon:        "far fa-file-code"
     -   scope:
             path:        ""
+            type:        "snippets"
+        values:
+            layout:      "snippets"
+    -   scope:
+            path:        ""
             type:        "tldr"
         values:
             layout:      "tldr"

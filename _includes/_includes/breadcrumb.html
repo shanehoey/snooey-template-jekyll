@@ -1,0 +1,18 @@
+{% if page.breadcrumb %}
+{% capture pageurl %}{{ page.url | remove: "/index.html" }}{% endcapture %}
+{% assign spliturl = pageurl | split: '/' | shift %}
+<section id = "breadcrumb">
+    <ol class = "breadcrumb">
+        {% assign url = side.baseurl |append: '/' %}
+        <li class = "breadcrumb-item"><a href = "{{ url }}"><i class = "fas fa-home text-dark"></i></a></li>
+        {% for split in spliturl %} 
+            {% assign url = url | append: split |append: '/' %}
+            {% if forloop.last == false %}
+                <li class = "breadcrumb-item"><a href = "{{ url }}" class = "text-dark">{{ split }}</a></li>
+            {% else %}
+                <li class = "breadcrumb-item active"><a href = "{{ url }}" class = "text-dark">{{ split }}</a></li>
+            {% endif %}
+        {% endfor %}
+    </ol>
+</section>
+{% endif %}

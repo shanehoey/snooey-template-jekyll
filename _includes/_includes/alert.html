@@ -1,0 +1,16 @@
+{% assign message = include.message %}
+{% assign theme = include.theme %}
+{% unless message %}
+{% assign message = "Undefined Warning" %}
+{% endunless %}
+{% unless theme %}
+{% assign theme = site.data.theme.alert.default %}
+{% endunless %}
+<section id = "alert" class="{{ theme.class }}" role="alert">
+{{ message }}
+{% if theme.class contains "dismiss" %}
+<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+{% endif %}
+</section>

@@ -1,0 +1,14 @@
+{% if page.title %}
+{% assign title = page.title %}
+{% endif %}
+{% if page.subtitle %}
+{% assign subtitle = page.subtitle %}
+{% endif %}
+{% if include.title %}
+{% assign title = include.title %}
+{% endif %}
+{% if include.subtitle %}
+{% assign subtitle = include.subtitle %}
+{% endif %}
+{% if title or subtitle%}<section id = heading><h1>{{ page.title }}{% if subtitle %}<small> {{ subtitle }}</small>{% endif %}</h1></section>{% endif %}
+{% comment %} look at converting to data file ? {% endcomment %}

@@ -1,0 +1,54 @@
+{% assign type          =  include.type %}
+{% assign collection    =  include.collection %}
+{% assign limit         =  include.limit %}
+{% assign title         =  include.title %}
+{% assign description   =  include.description %}
+{% assign theme         =  include.theme %}
+{% unless collection %}
+{% include alert.html message = "missing Collection param" 
+                              theme = site.data.theme.alert.error 
+                              %}
+{% endunless %}
+{% unless theme %}
+{% include alert.html message = "missing theme param" 
+                              theme = site.data.theme.alert.warning 
+                              %}
+{% assign theme         =  site.data.theme.feature.default %}
+{% endunless %}
+{% if type == "feature1" or type == Null  %}
+<section class="{{ theme.class.section}}">
+    {% if title %}<h2 class="{{ theme.class.title }}">{{ title }}</h2>{% endif %}
+    {% if description %}<p class="{{ theme.class.description }}">{{ description }}</p>{% endif %}
+    <div class="row text-center d-flex justify-content-center my-5">
+        {% for post in collection limit: {{limit}} %}
+            <div class="col-lg-3 col-md-6 mb-4">
+                <i class="{{ post.icon }} {{theme.class.icon}} mb-4 "></i>
+                <h5 class="{{ theme.class.subtitle }}">{{ post.title }}</h5>
+                <p class="{{ theme.class.excerpt }}">{{ post.excerpt }}</p>
+            </div>
+        {% endfor %}
+    </div>
+</section>
+{% endif %}
+{% if type == "feature2" %}
+<section class="{{ theme.class.section }}">
+    {% if title %}<h2 class="{{ theme.class.title }}">{{ title }}</h2>{% endif %}
+    {% if description %}<p class="{{ theme.class.description }}">{{ description }}</p>{% endif %}
+    <div class="row">
+        {% for post in collection limit: {{limit}} %}
+            <div class="col-md-4 mb-5">
+                <div class="row">
+                    <div class="col-lg-2 col-md-3 col-2">
+                        <i class="{{ post.icon }} {{ theme.class.icon }}"></i>
+                    </div>
+                    <div class="col-lg-10 col-md-9 col-10">
+                        <h4 class = "{{ theme.class.subtitle }}">{{post.title}}</h4>
+                        <p class = "{{ theme.class.excerpt }}">{{post.excerpt}}</p>
+                        <a class = "{{ theme.class.button }}">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>
+{% endif %}

@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<section id = "documents" class = "{{ site.data.theme.collection.documents.default.class }}" style = "{{ site.data.theme.collection.documents.default.class }}">
+    {% if page.breadcrumb %} {% include breadcrumb.html %}{% endif %}
+    {% if page.alert %} {% include alert.html %} {% endif %}
+	{% if page.jumbotron %} {% include jumbotron.html %} {% endif %}
+		<div class="container">
+			{% if page.heading %} {% include heading.html %} {% endif %}
+			<div class="row">
+				<div class="col-sm-8" id="main">
+					{{ content }}
+				</div>
+				<div class="col-sm-4" id="sidebar">
+					{% include toc.html html=content class="list-group sticky-top" item_class="list-group-item  list-group-item-action" h_min=2 h_max=2 sanitize=true %}
+				</div>
+			</div>
+		</div>
+</section>

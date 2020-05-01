@@ -1,0 +1,257 @@
+{% case include.type %}
+    {% when "card" %}
+        {% assign type = "card" %}
+    {% when "featured" %}
+        {% assign type = "featured" %}
+    {% when "list" %}
+        {% assign type = "list" %}
+    {% else %}
+        {% assign type = "card" %}
+{% endcase %}
+{% if include.collection %}
+    {% assign collection = include.collection | where_exp: "item","item.hide != true"  %}
+{% elsif page.collection %}
+    {% assign collection = site[page.collection] | where_exp: "item","item.hide != true" %}
+{% else %}
+    {% assign collection = site.collections %}
+{% endif %}
+{% if include.url %} 
+    {% assign url = include.url %}
+{% else %}
+    {% assign url = "url" %}
+{% endif %}
+{% if include.title %}
+    {% assign title = include.title %}
+{% else %} 
+    {% assign title   = "title" %}
+{% endif %}
+{% if include.subtitle %}
+    {% assign subtitle = include.subtitle %}
+{% else %} 
+    {% assign subtitle = "subtitle" %} 
+{% endif %}
+{% if include.description %}
+    {% assign description = include.description %} 
+{% else %} 
+    {% assign description = "description" %} 
+{% endif %}
+{% if include.excerpt %} 
+    {% assign excerpt = include.excerpt %} 
+{% else %}
+    {% assign excerpt = "excerpt" %}
+{% endif %}
+{% if include.icon %} 
+    {% assign icon = include.icon %} 
+{% else %}
+    {% assign icon = "icon" %}
+{% endif %}
+{% if include.show-image == false %} 
+    {% assign show-image = false %}
+{% else %}
+    {% assign show-image = true %}
+{% endif %}
+{% if include.show-title == false %} 
+    {% assign hide-title = false %}
+{% else %}
+    {% assign show-title = true %}
+{% endif %}
+{% if include.show-subtitle == false %} 
+    {% assign show-subtitle = false %}
+{% else %}
+    {% assign show-subtitle = true %}
+{% endif %}
+{% if include.show-description == false %} 
+    {% assign show-description = false %}
+{% else %}
+    {% assign show-description = true %}
+{% endif %}
+{% if include.show-excerpt == false %} 
+    {% assign show-excerpt = false %}
+{% else %}
+    {% assign show-excerpt = true %}
+{% endif %}
+{% if include.show-button == false %} 
+    {% assign show-button = false %}
+{% else %}
+    {% assign show-button = true %}
+{% endif %}
+{% if include.show-titleoverlay == true %} 
+    {% assign show-titleoverlay = true %}
+{% else %}
+    {% assign show-titleoverlay = false %}
+{% endif %}
+{% if type == "card" %}
+    {% case include.columns %}
+        {% when 1 %}
+            {% assign class = "col-lg-12 mb-4" %}
+        {% when 2 %}
+            {% assign class = "col-lg-6 mb-4" %}
+        {% when 3 %}
+            {% assign class = "col-lg-4 col-sm-6 mb-4" %}
+        {% when 4 %}
+            {% assign class = "col-lg-3 col-md-4 col-sm-6 mb-4" %}
+        {% when 5 %}
+            {% assign class = "col-lg-3 col-md-4 col-sm-6 mb-4 col-lg-offset-1" %}
+        {% when 6 %}
+            {% assign class = "col-lg-2 col-md-4 col-sm-6 mb-4" %}
+        {% else %}
+            {% assign class = "col-lg-6 mb-4" %}
+    {% endcase %}
+<div id = "portfolio">
+    <div class="row">
+    {% if include.limit %}
+        {% for post in collection limit: {{include.limit}} %}
+            <div class="{{class}}">
+                <div class="card h-100">
+                    {% if show-image %}<a href="{{ post.[url] }}"><img class="card-img-top img-thumbnail" src="{{ post.image.horizontal }}"/>{% endif %}
+                    {% if show-titleoverlay %}<h5 class="card-img-overlay card-title text-white text-center">{{ post.[title] }}</h5>{% endif %}
+                    {% if show-image %}</a>{% endif %}
+                    {% if show-title -or show-subtitle -or show-description -or show-excerpt -or show-button %}<div class="card-body">{% endif %}
+                        {% if show-title %}<h3 class="card-title"><a href="{{ post.[url] }}">{{ post.[title] }}</a></h3>{% endif %}
+                        {% if show-subtitle %}<h5 class="card-title">{{ post.[subtitle] }}</h5>{% endif %}
+                        {% if show-description %}<p class="card-text text-justify">{{ post.[description] }}</p>{% endif %}
+                        {% if show-excerpt %}<p class="card-text text-justify font-weight-lighter">{{ post.[excerpt] }}</p>{% endif %}
+                        {% if show-button %}<a class="btn btn-primary" href="{{ post.[url] }}">visit {{ post.collection }}</a>{% endif %}
+                    {% if show-title -or show-subtitle -or show-description -or show-excerpt -or show-button %}</div>{% endif %}
+                </div>
+            </div>
+        {% endfor %}
+    {% else %}
+        {% for post in collection %}
+            <div class="{{class}}">
+                <div class="card h-100">
+                    {% if show-image %}<a href="{{ post.[url] }}"><img class="card-img-top img-thumbnail" src="{{ post.image.horizontal }}"/>{% endif %}
+                    {% if show-titleoverlay %}<h5 class="card-img-overlay card-title text-white text-center">{{ post.[title] }}</h5>{% endif %}
+                    {% if show-image %}</a>{% endif %}
+                    {% if show-title -or show-subtitle -or show-description -or show-excerpt -or show-button %}<div class="card-body">{% endif %}
+                        {% if show-title %}<h3 class="card-title"><a href="{{ post.[url] }}">{{ post.[title] }}</a></h3>{% endif %}
+                        {% if show-subtitle %}<h5 class="card-title">{{ post.[subtitle] }}</h5>{% endif %}
+                        {% if show-description %}<p class="card-text text-justify">{{ post.[description] }}</p>{% endif %}
+                        {% if show-excerpt %}<p class="card-text text-justify font-weight-lighter">{{ post.[excerpt] }}</p>{% endif %}
+                        {% if show-button %}<a class="btn btn-primary" href="{{ post.[url] }}">visit {{ post.collection }}</a>{% endif %}
+                    {% if show-title -or show-subtitle -or show-description -or show-excerpt -or show-button %}</div>{% endif %}
+                </div>
+            </div>
+        {% endfor %}
+    {% endif %}
+    </div>
+</div>
+{% endif %}
+{% if type == "featured" %}
+<div id = "portfolio">
+        {% for post in collection limit: 1 %}
+            <div class="row">
+                <div class="col-md-8">
+                    <img class="img-fluid" src="{{ post.image.horizontal }}" alt="">
+                </div>
+                <div class="col-md-4">
+                    {% if show-title %}<h3 class="my-3">{{ post.[title] }}</h3>{% endif %}
+                    {% if show-subtitle %}<h5 class="my-3">{{ post.[subtitle] }}</h5>{% endif %}
+                    {% if show-description %}<p>{{ post.[description] }}</p>{% endif %}
+                    {% if show-excerpt %}<p>{{ post.[excerpt] }}</p>{% endif %}
+                    {% if post.features %}
+                        <h3 class="my-3">Features</h3>
+                        <ul>
+                        {% for feature in post.features %}
+                            <li>{{ feature }}</li>
+                        {% endfor %}
+                        </ul>
+                    {% endif %}
+                </div>
+                <hr>
+            </div>
+        {% endfor %}
+    </div>
+{% endif %}
+{% if type == "list" %}
+    {% case include.width %}
+        {% when 25 %}
+            {% assign column1 = "col-md-3" %}
+            {% assign column2 = "col-md-9" %}
+        {% when 33 %}
+            {% assign column1 = "col-md-4" %}
+            {% assign column2 = "col-md-8" %}
+        {% when 50 %}
+            {% assign column1 = "col-md-6" %}
+            {% assign column2 = "col-md-6" %}
+        {% when 66 %}
+            {% assign column1 = "col-md-8" %}
+            {% assign column2 = "col-md-4" %}
+        {% when 75 %}
+            {% assign column1 = "col-md-9" %}
+            {% assign column2 = "col-md-3" %}
+        {% else %}
+            {% assign column1 = "col-md-7" %}
+            {% assign column2 = "col-md-5" %}
+    {% endcase %}
+    {% if show-image == false %}
+        {% assign column1 = "col-md-0" %}
+        {% assign column2 = "col-md-12" %}
+    {% endif %}
+<div id = "portfolio">
+        {% if include.limit %}
+            {% for post in collection limit: {{include.limit}} %}
+                <div class="row">
+                    {% if show-image %}
+                    <div class="{{ column1 }}">
+                        <a href="{{ post.[url] }}"><img class="img-fluid rounded mb-3 mb-md-0" src="{{ post.image.horizontal }}" alt=""></a>
+                    </div>
+                    {% endif %}
+                    <div class="{{ column2 }}">
+                        {% if show-title %}<h3 class="card-title"><a href="{{ post.[url] }}">{{ post.[title] }}</a></h3>{% endif %}
+                        {% if show-subtitle %}<h5 class="card-title">{{ post.[subtitle] }}</h5>{% endif %}
+                        {% if show-description %}<p class="card-text text-justify">{{ post.[description] }}</p>{% endif %}
+                        {% if show-excerpt %}<p class="card-text text-justify font-weight-lighter">{{ post.[excerpt] }}</p>{% endif %}
+                        {% if show-button %}<a class="btn btn-primary" href="{{ post.[url] }}">visit {{ post.collection }}</a>{% endif %}
+                    </div>
+                </div>
+                <hr>
+            {% endfor %}
+        {% else %}    
+            {% for post in collection %}
+                <div class="row">
+                    {% if show-image %}
+                    <div class="{{ column1 }}">
+                        <a href="{{ post.[url] }}"><img class="img-fluid rounded mb-3 mb-md-0" src="{{ post.image.horizontal }}" alt=""></a>
+                    </div>
+                    {% endif %}
+                    <div class="{{ column2 }}">
+                        {% if show-title %}<h3 class="card-title"><a href="{{ post.[url] }}">{{ post.[title] }}</a></h3>{% endif %}
+                        {% if show-subtitle %}<h5 class="card-title">{{ post.[subtitle] }}</h5>{% endif %}
+                        {% if show-description %}<p class="card-text text-justify">{{ post.[description] }}</p>{% endif %}
+                        {% if show-excerpt %}<p class="card-text text-justify font-weight-lighter">{{ post.[excerpt] }}</p>{% endif %}
+                        {% if show-button %}<a class="btn btn-primary" href="{{ post.[url] }}">visit {{ post.collection }}</a>{% endif %}
+                    </div>
+                </div>
+                <hr>
+            {% endfor %}
+        {% endif %}
+    </div>
+{% endif %}
+{% if pagination %}
+    <div id = "pagination">
+        <ul class="pagination justify-content-center">
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    <span class="sr-only">Previous</span>
+                </a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">3</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+{% endif %}
