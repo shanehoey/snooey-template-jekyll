@@ -1,32 +1,40 @@
 ---
 layout: default
 ---
-<section id = "videos" class= "{{ site.data.theme.videos.default.class }}" style = "{{ site.data.theme.videos.default.style }}" >
-    {% if page.breadcrumb %}{% include breadcrumb.html %}{% endif %}
-    {% if page.alert %}{% include alert.html %}{% endif %}
-    {% if page.jumbotron %}{% include jumbotron.html %}{% endif %}
-      <div class="container">
+{% comment %}
+<!--
+
+    v1.00 _layouts/videos.html
+    
+# TESTING pre-release testing
+# DOCUMENTATION Add documentation
+    
+-->
+{% endcomment %}
+
+<section id="videos" class="{{ site.data.theme.videos.default.class }}" style="{{ site.data.theme.videos.default.style }}">
+    <div class="container">
         {% if page.heading %}{% include heading.html %}{% endif %}
         <div class="row">
             <div class="col-md-8">
-              {% case page.video-provider %}
-                  {% when "youtube" %}
-                     {% include youtube.html id = page.video-id  %}
-                  {% when "ignite" %}
-                      {% include ignite.html id = page.video-id  %} 
-                  {% when "vimeo" 5}
-                      {% include vimeo.html id = page.video-id  %}
-              {% endcase %}
+                {% case page.video-provider %}
+                {% when "youtube" %}
+                {% include video-youtube.html id = page.video-id  %}
+                {% when "ignite" %}
+                {% include video-ignite.html id = page.video-id  %}
+                {% when "vimeo" 5}
+                      {% include video-vimeo.html id = page.video-id  %}
+                {% endcase %}
             </div>
             <div class="col-md-4">
-              <h3 class="my-3">{{ page.title }}</h3>
-              <p>{{ page.description }}</p>         
-              <h3 class="my-3">Details</h3>
-              <p><b>Conference:</b> {{ page.conference }}</p>
+                <h3 class="my-3">{{ page.title }}</h3>
+                <p>{{ page.description }}</p>
+                <h3 class="my-3">Details</h3>
+                <p><b>Conference:</b> {{ page.conference }}</p>
                 <p><b>Year:</b> {{ page.year }}</p>
                 <p><b>Speaker(s):</b> {{ page.speaker }}</p>
             </div>
-        </div> 
+        </div>
     </div>
     {{ content }}
 </section>

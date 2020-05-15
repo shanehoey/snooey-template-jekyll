@@ -1,0 +1,31 @@
+{% comment %}
+<!--
+    v1.00 _includes/footer02.html
+
+# DOCUMENTATION Add documentation
+
+    include footer02.html       collection = [object] (default site.data.footer.default)
+                                theme = [string] (default site.data.theme.footer.default)
+
+                            -->
+{% endcomment %}
+
+{% assign collection = include.collection %}
+{% unless collection %}
+{% assign collection = site.data.footer.default %}
+{% endunless %}
+
+{% assign theme = site.data.theme.footer.[include.theme] %}
+{% unless theme %}
+{% assign theme = site.data.theme.footer.default %}
+{% endunless %}
+
+<footer id = "footer02" class = "{{ theme.class.section }} p-3" {% if theme.style.section %}style = "{{ theme.style.section }}"{% endif %}>
+    <div class = "container" >
+        <p class = "text-reset text-center font-weight-light small">{{ collection.copyright}}<br>
+        {% for item in collection.navigation %}
+        <a href="{{ item.url}}" class = "text-reset text-center text-decoration-none font-weight-light px-2 small">{{ item.title }}</a>
+        {% endfor %}
+        </p>
+    </div>
+</footer>

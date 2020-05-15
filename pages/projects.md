@@ -11,5 +11,4 @@ hide:              true
 
 {{ page.description }}
 
-{% include portfolio.html type = "list" width = 33 show-button = false show-subtitle = false %}
-
+{% include blog01.html  collection = site.projects width = 33  hidden = "subtitle" %}

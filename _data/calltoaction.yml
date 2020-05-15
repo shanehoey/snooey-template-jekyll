@@ -1,0 +1,20 @@
+default:
+    image:     "https://source.unsplash.com/oqStl2L5oxI/1920x1080"
+    title:     "Lorem ipsum dolor"
+    subtitle:  "Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe"
+    url:       "https://snooey.netlify.com"
+    button:     more
+
+docs:
+    image:     "https://source.unsplash.com/oqStl2L5oxI/960x540"
+    title:     "Lorem ipsum dolor"
+    subtitle:  "Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe"
+    url:       "https://snooey.netlify.com"
+    button:     more
+
+tools:
+    image:     "https://source.unsplash.com/oqStl2L5oxI/480x270"
+    title:     "Lorem ipsum dolor"
+    subtitle:  "Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe"
+    url:       "https://snooey.netlify.com"
+    button:     more

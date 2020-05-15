@@ -7,6 +7,9 @@ permalink:         /examples/spacer/
 category:          example
 ---
 <h1>{{ page.title }}</h1>
+
 <p class = "text-justify">{{ page.description }}</p>
-{% include spacer.html %}
-<p class = "text-justify">{{ page.description }}</p>
+<hr>
+{% include spacer.html %}<hr>
+{% include spacer.html theme = "docs" %}<hr>
+{% include spacer.html theme = "tools" %}<hr>

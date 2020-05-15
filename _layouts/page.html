@@ -1,12 +1,19 @@
 ---
 layout: default
 ---
-<section id = "page"   class= "{{ site.data.theme.page.default.class }}" style = "{{ site.data.theme.page.default.style }}" >
-    {% if page.breadcrumb %}{% include breadcrumb.html %}{% endif %}
-    {% if page.alert %}{% include alert.html %}{% endif %}
-    {% if page.jumbotron %}{% include jumbotron.html %}{% endif %}
-    <div class = "container" >
-        {% if page.heading %}{% include heading.html %}{% endif %}
+{% comment %}
+<!--
+
+    v1.00 _layouts/page.html
+    
+# TESTING pre-release testing
+# DOCUMENTATION Add documentation
+    
+-->
+{% endcomment %}
+
+<section id="page" class="{{ site.data.theme.page.default.class }}" style="{{ site.data.theme.page.default.style }}">
+    <div class="container">
         {{ content }}
     </div>
 </section>

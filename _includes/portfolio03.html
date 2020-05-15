@@ -1,0 +1,97 @@
+{% comment %}
+<!--
+    v1.00 _includes/portfolio03.html
+
+# DOCUMENTATION Add documentation
+# ENHANCEMENT Needs improvement to layout and theme
+
+    include portfolio02.html    title = [string] (optional)
+                                description = [sting] (optional)
+                                theme = [string] (default site.data.theme.portfolio.default)
+                                collection = [object] (default site.posts)
+                                columns = [integer 1-6] (default 2)
+                                limit  = [integer]
+                                hidden = [string image,overlay,title,subtitle,description,excerpt,button]
+
+-->
+{% endcomment %}
+
+{% assign title = include.title  %}
+{% assign description = include.description %}
+
+{% assign limit  = include.limit %}
+
+{% assign collection = include.collection %}
+{% unless collection %}
+{% assign collection = site.posts %}
+{% endunless %}
+
+{% assign options = include.hidden | split:"," %}
+{% unless options %}
+{% assign options = "complete" %}
+{% endunless %}
+
+{% assign theme = site.data.theme.portfolio.[include.theme] %}
+{% unless theme %}
+{% assign theme = site.data.theme.portfolio.default %}
+{% endunless %}
+
+{% case include.columns %}
+{% when 1 %}
+    {% assign class = "col-lg-12 mb-4" %}
+{% when 2 %}
+    {% assign class = "col-lg-6 mb-4" %}
+{% when 3 %}
+    {% assign class = "col-lg-4 col-sm-6 mb-4" %}
+{% when 4 %}
+    {% assign class = "col-lg-3 col-md-4 col-sm-6 mb-4" %}
+{% when 5 %}
+    {% assign class = "col-lg-3 col-md-4 col-sm-6 mb-4 col-lg-offset-1" %}
+{% when 6 %}
+    {% assign class = "col-lg-2 col-md-4 col-sm-6 mb-4" %}
+{% else %}
+    {% assign class = "col-lg-6 mb-4" %}
+{% endcase %}
+
+    {% case include.width %}
+        {% when 25 %}
+            {% assign column1 = "col-md-3" %}
+            {% assign column2 = "col-md-9" %}
+        {% when 33 %}
+            {% assign column1 = "col-md-4" %}
+            {% assign column2 = "col-md-8" %}
+        {% when 50 %}
+            {% assign column1 = "col-md-6" %}
+            {% assign column2 = "col-md-6" %}
+        {% when 66 %}
+            {% assign column1 = "col-md-8" %}
+            {% assign column2 = "col-md-4" %}
+        {% when 75 %}
+            {% assign column1 = "col-md-9" %}
+            {% assign column2 = "col-md-3" %}
+        {% else %}
+            {% assign column1 = "col-md-7" %}
+            {% assign column2 = "col-md-5" %}
+    {% endcase %}
+    {% if show-image == false %}
+        {% assign column1 = "col-md-0" %}
+        {% assign column2 = "col-md-12" %}
+    {% endif %}
+<div id = "portfolio">
+    {% for item in collection limit: limit %}
+        <div class="row">
+             <div class="{{ column1 }}">
+                <a href="{{ item.url }}"><img class="img-fluid rounded mb-3 mb-md-0" src="{{ item.image.horizontal }}" alt=""></a>
+            </div>
+            <div class="{{ column2 }}">
+                <h3 class="card-title"><a href="{{ item.url }}">{{ item.title }}</a></h3>
+                <h5 class="card-title">{{ item.subtitle }}</h5>
+                <p class="card-text text-justify">{{ item.description }}</p>
+                <p class="card-text text-justify font-weight-lighter">{{ item.excerpt }}</p>
+                <a class="btn btn-primary" href="{{ item.url }}">visit {{ item.collection }}</a>
+            </div>
+        </div>
+        <hr>
+    {% endfor %}
+
+    </div>

@@ -1,0 +1,83 @@
+default: 
+    title:              "Snooey Theme"
+    url:                "https://snooey.netlify.app"
+    icon:               fas fa-portrait fa-1x
+    navigation: 
+      - title:          home
+        url:            /home/
+      - title:          examples
+        url:            /examples/
+      - title:          Pages
+        children:
+          - title:          code
+            url:            /code/
+          - title:          docs
+            url:            /documents/
+          - title:          blog
+            url:            /blog/
+          - title:          projects
+            url:            /projects/
+          - title:          snippets
+            url:            /snippets/
+          - title:          tldr
+            url:            /tldr/
+          - title:          videos
+            url:            /videos/
+          - title:          wizards
+            url:            /wizards/
+
+docs:
+    title:              "Snooey Theme"
+    url:                "https://snooey.netlify.app"
+    icon:               fas fa-portrait fa-1x
+    navigation: 
+        - title:          home
+          url:            /home/
+        - title:          examples
+          url:            /examples/
+        - title:          Pages
+          children:
+            - title:          code
+              url:            /code/
+            - title:          docs
+              url:            /documents/
+            - title:          blog
+              url:            /blog/
+            - title:          projects
+              url:            /projects/
+            - title:          snippets
+              url:            /snippets/
+            - title:          tldr
+              url:            /tldr/
+            - title:          videos
+              url:            /videos/
+            - title:          wizards
+              url:            /wizards/
+
+tools:
+    title:              "Snooey Theme"
+    url:                "https://snooey.netlify.app"
+    icon:               fas fa-portrait fa-1x
+    navigation: 
+      - title:          home
+        url:            /home/
+      - title:          examples
+        url:            /examples/
+      - title:          Pages
+        children:
+          - title:          code
+            url:            /code/
+          - title:          docs
+            url:            /documents/
+          - title:          blog
+            url:            /blog/
+          - title:          projects
+            url:            /projects/
+          - title:          snippets
+            url:            /snippets/
+          - title:          tldr
+            url:            /tldr/
+          - title:          videos
+            url:            /videos/
+          - title:          wizards
+            url:            /wizards/

@@ -1,106 +1,156 @@
+# includes/feature.html
 feature:
     default:
         class:
-            section:      container my-5 p-5 z-depth-1
-            title:        text-center font-weight-bold mb-4 pb-2
-            subtitle:     font-weight-normal mb-3
-            description:  text-center lead grey-text mx-auto mb-5
-            excerpt:      text-muted mb-0
-            icon:         fa-3x text-primary
+            section:      
+            title:        font-weight-bold text-primary
+            subtitle:     font-weight-normal text-dark
+            description:  text-dark 
+            excerpt:      text-dark
+            icon:         text-primary fa-4x
+            button:       btn btn-outline-primary
+        style: 
+            section:
+    docs:
+        class:
+            section:      bg-primary
+            title:        font-weight-bold text-white
+            subtitle:     font-weight-normal text-white text-bold
+            description:  text-white 
+            excerpt:      text-white 
+            icon:         text-white fa-3x
+            button:       btn btn-outline-primary
+        style: 
+            section:
+    tools:
+        class:
+            section:      
+            title:        font-weight-bold text-warning 
+            subtitle:     font-weight-normal text-warning
+            description:  text-white
+            excerpt:      text-white
+            icon:         text-warning fa-5x
             alert:        alert-primary alert-dismissible fade show
             button:       btn btn-outline-primary
-    feature1:
-        class:
-            section:      container my-5 p-5 z-depth-1
-            title:        text-center font-weight-bold mb-4 pb-2
-            subtitle:     font-weight-normal mb-3
-            description:  text-center lead grey-text mx-auto mb-5
-            excerpt:      text-muted mb-0
-            icon:         fa-3x text-primary
-            button:       btn btn-outline-primary
-    feature2:
-        class:
-            section:      container my-5 p-5 z-depth-1
-            title:        text-center font-weight-bold mb-4 pb-2
-            description:  text-center lead grey-text mx-auto mb-5
-            subtitle:     font-weight-bold
-            excerpt:      grey-text
-            icon:         fa-2x text-primary
-            button:       btn btn-outline-primary btn-sm
+        style: 
+            section:      "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
 
+#include/alert.html
 alert:
     default:
-        class:       alert alert-primary
+        class:       alert alert-primary alert-dismissible fade show
+        style:
+        icon:
     warning:
         class:       alert alert-warning alert-dismissible fade show
+        style:
+        icon:        fas fa-exclamation-triangle
     error:
         class:       alert alert-danger alert-dismissible fade show
-    grey:
-        class:       alert alert-secondary alert-dismissible fade show
+        style:  
+        icon:        fas fa-exclamation-square
+    docs:
+        class:       alert bg-dark text-white 
+        style:       
+        icon:        
+    tools:
+        class:       alert text-white fade show
+        style:       "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
+        icon:        fas fa-rocket pr-1
 
+# includes/calltoaction.html
 calltoaction:
     default:
         class:
-            section:      container my-5 px-0
-            div:          text-center text-white justify-content-between bg-dark p-4
-            heading:      font-weight-bold display-4
-            button:       btn btn-light btn-rounded px-5
-    primary:
+            section:      bg-dark
+            title:        font-weight-bold text-white
+            subtitle:     font-weight-normal text-white
+            button:       btn btn-sm btn-outline-light btn-rounded
+        style:
+            section:
+    docs:
         class:
-            section:      container my-5 px-0
-            div:          text-center text-white d-md-flex justify-content-between p-5 bg-primary
-            heading:      font-weight-bold mb-md-0 mb-4 mt-2 pt-1
-            button:       btn btn-outline-light btn-rounded
-    secondary:
+            section:      bg-primary
+            title:        font-italic text-white
+            subtitle:     font-weight-normal text-white
+            button:       btn btn-sm btn-outline-light btn-rounded 
+        style:
+            section:
+    tools:
         class:
-            section:      container my-5 px-0
-            div:          text-center text-dark d-md-flex justify-content-between bg-warning p-2
-            heading:      m-1
-            button:       btn btn-outline-dark btn-rounded px-5
-      
+            section:      
+            title:        font-weight-bold text-white
+            subtitle:     font-weight-normal text-white
+            button:       btn btn-sm btn-outline-light btn-rounded
+        style:
+            section:      "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
+
+# includes/navbar.html 
+navbar:
+    default:
+        class:
+            section:      bg-dark navbar-dark fixed-top text-white
+            alternative:  bg-light navbar-light fixed-top text-dark
+        style: 
+            section:
+            alternative:  
+    docs:
+        class:  
+            section:     bg-primary navbar-dark fixed-top text-white
+            alternative: bg-light navbar-light fixed-top text-primary
+        style: 
+            section:
+            alternative: 
+    tools:
+        class:
+            section:     navbar-dark fixed-top
+            alternative: bg-white navbar-light fixed-top
+        style: 
+            section:     "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
+            alternative: "background: url('/assets/images/background-pattern.png')"
+
+# includes/footer.html 
+footer:
+    default:
+        class:
+            section:        bg-dark text-white 
+        style: 
+            section:        
+    docs:
+        class:
+            section:        bg-primary text-white
+        style:
+            section:
+    tools:
+        class:
+            section:        text-white
+        style:
+            section:        "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
+
+# layout/default.html
 layout:
     default:
-        body:
-            class:       d-flex flex-column
+            class: 
+                body:      d-flex flex-column
+                content:   container fdnsjk
             style:
-        navigation:
-            class:       navbar navbar-expand-lg navbar-dark sticky-top bg-dark text-monospace # navbar navbar-expand-lg navbar-dark sticky-top bg-dark text-monospace
-            style:
-            container:   container-fluid          
-        content:
+                body:
+                content:
+    docs:
             class:
-            style:
-        section:
-            class:
-            style:
-        icon:
-            class:
-            style:
-        footer:  
-            class:        bg-dark text-white py-4 text-monospace fixed-bottom
-            style:
-            container:    container
-    background:
-        body:
-            class:       body-background markdown d-flex flex-column
-            style: 
-        navigation:
-            class:       navbar navbar-expand-lg navbar-dark sticky-top bg-dark text-monospace 
+                body:      d-flex flex-column
+                section:   "container fill container-fluid (empty)"
             style:       
-            container:   container-fluid          
-        content:
-            class:       container fill container-fluid (empty)
-            style:   
-        section:
-            class:
-            style:    
-        icon:
-            class:
-            style:     
-        footer:  
-            class:        bg-dark text-white py-4 text-monospace fixed-bottom
-            style:      
-            container:    container
+                body:      "background: url('/assets/images/background.jpg') no-repeat center center fixed;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;-o-background-size: cover;"
+                section:   
+    tools:
+        class:
+            body:      d-flex flex-column
+            section:   "container fill container-fluid (empty)"
+        style:       
+            body:      "background: url('/assets/images/background.jpg') no-repeat center center fixed;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;-o-background-size: cover;"
+            section:   
+        
 
 collection:
     default:
@@ -128,3 +178,319 @@ collection:
         snippets:
             class:
             style:
+
+# includes/social.html
+social:
+    default:
+        class:
+            section: container py-5 text-center text-dark
+            title:   text-dark pb-3
+            icon:    mx-3 fa-4x
+        style:
+            section:
+    docs:
+        class:
+            section: container py-5 text-center text-white bg-dark
+            title:   text-white pb-3
+            icon:    text-white mx-2 fa-3x
+        style:
+            section:
+    tools:
+        class: 
+            section: text-center py-3
+            title:   text-white pb-3
+            icon:    text-white mx-2 fa-2x
+        style:
+            section:        "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"             
+
+# include/spacer.html
+spacer:
+    default:
+        class:
+            section:    py-5 bg-dark
+        style:
+            section:   
+    white:
+        class:
+            section:    py-5
+        style:
+            section:   
+    docs:
+        class:
+            section:     py-5 bg-primary
+        style:
+            section:        
+    tools:
+        class:
+            section:    py-5
+        style:
+            section:    "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
+                
+          
+# includes/breadcrumb.html
+breadcrumb:           
+    default:
+        class: 
+            section: 
+            text:         text-dark
+        style:
+            section:
+    docs:
+        class: 
+            section:      bg-dark
+            text:         text-white
+        style:
+            section:      "margin-bottom: 0rem;"
+    tools:
+        class: 
+            section: 
+            text:         text-white
+        style:
+            section:      "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
+
+# includes/sponsor.html
+sponsor:           
+    default:
+        class: 
+            section:    
+            image:          img-fluid img-thumbnail float-right
+            title:          text-white text-decoration-none
+            subtitle:
+            description:    text-muted
+        style:
+            section:
+    docs:
+        class: 
+            section:     
+            image:          img-fluid float-right
+            title:          text-white  text-decoration-none
+            subtitle:
+            description:    text-muted
+        style:
+            section:
+    tools:
+        class: 
+            section:        
+            sponsor:        text-white py-4
+            image:          img-fluid float-left
+            title:          text-white py-2 text-decoration-none
+            subtitle:       text-white py-2
+            description:    text-white text-muted
+        style:
+            section:        "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
+
+# includes/blog.html
+blog:           
+    default:
+        class: 
+            section:    
+            title:            text-center text-dark text-decoration-none
+            description:      text-justify text-muted
+            item:
+                title:          text-dark text-decoration-none
+                subtitle:       text-dark text-decoration-none
+                description:    text-dark text-decoration-none text-justify
+                excerpt:        text-muted text-decoration-none  
+                image:          img-fluid
+                btn:            btn btn-sm btn-dark
+        style:
+            section:
+    docs:
+        class: 
+            section:        text-primary text-decoration-none
+            title:          text-primary text-decoration-none
+            description:    text-muted
+            item:
+                title:          text-primary text-decoration-none
+                subtitle:       text-dark text-decoration-none
+                description:    text-dark text-decoration-none text-justify
+                excerpt:        text-primary text-decoration-none  
+                image:          img-fluid
+                btn:            btn btn-sm btn-primary
+        style:
+            section: 
+    tools:
+        class: 
+            section:            p-5
+            title:              text-warning text-decoration-none
+            description:        text-white
+            item:
+                title:          text-warning text-decoration-none
+                subtitle:       text-white text-decoration-none
+                description:    text-white text-decoration-none text-justify
+                excerpt:        text-warning text-decoration-none  
+                image:          img-fluid img-thumbnail
+                btn:            btn btn-sm btn-warning
+        style:
+            section:            "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
+
+# includes/jumbotron.html 
+jumbotron:
+    default:
+        class:
+            section:        bg-dark text-white
+        style: 
+            section:        
+    docs:
+        class:
+            section:        bg-primary text-white
+        style:
+            section:
+    tools:
+        class:
+            section:        text-white
+        style:
+            section:        "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
+
+
+# includes/newsfeed.html 
+newsfeed:
+    default:
+        class:
+            section:        bg-dark text-white
+            title:          text-warning text-decoration-none
+            subtitle:
+            description:    
+        style: 
+            section:        
+    docs:
+        class:
+            section:        bg-white text-dark
+            title:          text-primary text-decoration-none
+            description:    text-dark
+        style:
+            section:
+    tools:
+        class:
+            section:        text-white
+            title:          text-warning text-decoration-none
+            description:    
+        style:
+            section:        "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
+
+# includes/portfolio.html 
+portfolio:
+    default:
+        class: 
+            section:    
+            title:            text-center text-dark text-decoration-none
+            description:      text-justify text-muted
+            item:
+                title:          text-dark text-decoration-none
+                subtitle:       text-dark text-decoration-none
+                description:    text-dark text-decoration-none text-justify
+                excerpt:        text-muted text-decoration-none  
+                image:          img-fluid
+                btn:            btn btn-sm btn-dark
+        style:
+            section:
+    docs:
+        class: 
+            section:        text-primary text-decoration-none
+            title:          text-primary text-decoration-none
+            description:    text-muted
+            item:
+                title:          text-primary text-decoration-none
+                subtitle:       text-dark text-decoration-none
+                description:    text-dark text-decoration-none text-justify
+                excerpt:        text-primary text-decoration-none  
+                image:          img-fluid
+                btn:            btn btn-sm btn-primary
+        style:
+            section: 
+    tools:
+        class: 
+            section:            p-5
+            title:              text-warning text-decoration-none
+            description:        text-white
+            item:
+                title:          text-dark text-decoration-none
+                subtitle:       text-warning text-decoration-none
+                description:    text-dark text-decoration-none text-justify
+                excerpt:        text-muted text-decoration-none  
+                image:          img-fluid img-thumbnail
+                btn:            btn btn-sm btn-warning float-right text-white
+        style:
+            section:            "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
+
+
+# includes/related.html 
+related:
+    default:
+        class: 
+            section:          p-5
+            title:            text-dark text-decoration-none
+            subtitle:         text-DARK text-decoration-none
+            item:
+                title:          text-dark text-decoration-none
+                image:          img-fluid
+        style:
+            section:
+    docs:
+        class: 
+            section:        p-5
+            title:          text-primary text-decoration-none
+            subtitle:       text-primary text-decoration-none
+            item:
+                title:          text-primary text-decoration-none
+                image:          img-fluid
+        style:
+            section: 
+    tools:
+        class: 
+            section:            p-5
+            title:              text-warning text-decoration-none
+            subtitle:           text-white text-decoration-none
+            item:
+                title:          text-white text-decoration-none
+                image:          img-fluid img-rounded
+        style:
+            section:            "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
+
+
+
+
+            
+oldfeatures:
+    default1:    
+        class:
+            section:      container my-5 p-5 z-depth-1
+            title:        text-center font-weight-bold mb-4 pb-2
+            subtitle:     font-weight-normal mb-3
+            description:  text-center lead grey-text mx-auto mb-5
+            excerpt:      text-muted mb-0
+            icon:         fa-3x text-primary
+            alert:        alert-primary alert-dismissible fade show
+            button:       btn btn-outline-primary
+    feature1:
+        class:
+            section:      container my-5 p-5 z-depth-1
+            title:        text-center font-weight-bold mb-4 pb-2
+            subtitle:     font-weight-normal mb-3
+            description:  text-center lead grey-text mx-auto mb-5
+            excerpt:      text-muted mb-0
+            icon:         fa-3x text-primary
+            button:       btn btn-outline-primary
+    feature2:
+        class:
+            section:      container my-5 p-5 z-depth-1
+            title:        text-center font-weight-bold mb-4 pb-2
+            description:  text-center lead grey-text mx-auto mb-5
+            subtitle:     font-weight-bold
+            excerpt:      grey-text
+            icon:         fa-2x text-primary
+            button:       btn btn-outline-primary btn-sm
+    feature2:
+        class:
+            section:      container my-5 p-5 z-depth-1
+            title:        text-center font-weight-bold mb-4 pb-2
+            description:  text-center lead grey-text mx-auto mb-5
+            subtitle:     font-weight-bold
+            excerpt:      grey-text
+            icon:         fa-2x text-primary
+            button:       btn btn-outline-primary btn-sm
+    feature4:
+        class:
+            section:      container bg-primary p-5
+            title:        text-center text-white font-weight-bold mb-4 pb-2
+            description:  text-center text-white lead grey-text mx-auto

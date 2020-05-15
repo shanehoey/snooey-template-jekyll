@@ -1,9 +1,0 @@
-{% if page.icon %}
-{% assign icon = site.data.icon.[page.icon] %}
-{% endif %}
-{% if include.icon %}
-{% assign icon = site.data.icon.[include.icon] %}
-{% endif %}
-{% if icon %}
-<i class="{{ icon.icon }} {{ icon.size }}"></i>
-{% endif %}

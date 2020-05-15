@@ -1,7 +1,8 @@
 default:
-    title:              "Snooey Theme"
-    url:                "https://github.com/shanehoey/snooey"
-    icon:               "footer"
+    title:              "snooey..com"
+    url:                "https://shanehoey.com"
+    icon:               fas fa-portrait fa-1x
+    copyright:          "&copy; Shane Hoey 2018-2020. All Rights Reserved."
     navigation: 
       - title:          terms
         url:            /terms/
@@ -9,3 +10,30 @@ default:
         url:            /license/
       - title:          contact
         url:            /contact/
+
+docs:
+    title:              docs.shanehoey.com
+    url:                https://docs.shanehoey.com
+    icon:               fas fa-portrait fa-1x
+    copyright:          "&copy; Shane Hoey 2018-2020. All Rights Reserved."
+    navigation: 
+      - title:          shanehoey.com
+        url:            shanehoey.com
+      - title:          terms
+        url:            /terms/
+      - title:          license
+        url:            /license/
+
+tools:
+    title:              tools.shanehoey.com
+    url:                https://tools.shanehoey.com
+    icon:               fas fa-portrait fa-1x
+    copyright:          "&copy; Shane Hoey 2018-2020. All Rights Reserved."
+    navigation: 
+      - title:          shanehoey.com
+        url:            shanehoey.com
+      - title:          terms
+        url:            /terms/
+      - title:          license
+        url:            /license/
+        

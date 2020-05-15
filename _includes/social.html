@@ -1,0 +1,33 @@
+{% comment %}
+<!--
+    v1.00 _includes/social.html 
+
+# DOCUMENTATION Add documentation
+
+    include social.html     collection = [object]
+                            theme = [string] (default site.data.theme.social.default)
+                         
+-->
+{% endcomment %}
+
+{% assign collection = include.collection %}
+{% unless collection %}
+{% assign collection = site.data.social.default %}
+{% endunless %}
+
+{% assign theme = site.data.theme.social.[include.theme] %}
+{% unless theme %}
+{% assign theme = site.data.theme.social.default %}
+{% endunless %}
+
+<section id = "social" class = "{{ theme.class.section }}" {% if theme.style.section %}style = "{{ theme.style.section }}"{% endif %}>
+{% if collection.title %}<h4 class = "{{ theme.class.title }}">{{ collection.title }}</h4>{% endif %}
+{% if collection.facebook %}<a href = "{{ collection.facebook }}" class = "{{ theme.class.icon }}"><i class = "fab fa-facebook-f {{ size }}"></i></a>{% endif %}
+{% if collection.twitter %}<a href = "{{ collection.twitter }}" class = "{{ theme.class.icon }}" ><i class = "fab fa-twitter {{ size}}"></i></a>{% endif %}
+{% if collection.linkedin %}<a href = "{{ collection.linkedin }}" class = "{{ theme.class.icon }}" ><i class = "fab fa-linkedin-in {{ size}}"></i></a>{% endif %}
+{% if collection.instagram %}<a href = "{{ collection.instagram }}" class = "{{ theme.class.icon }}" ><i class = "fab fa-instagram {{ size}}"></i></a>{% endif %}
+{% if collection.pinterest %}<a href = "{{ collection.pinterest }}" class = "{{ theme.class.icon }}" ><i class = "fab fa-pinterest {{ size}}"></i></a>{% endif %}
+{% if collection.youtube %}<a href = "{{ collection.youtube }}" class = "{{ theme.class.icon }}" ><i class = "fab fa-youtube {{ size}}"></i></a>{% endif %}
+{% if collection.github %}<a href = "{{ collection.github }}" class = "{{ theme.class.icon }}" ><i class = "fab fa-github {{ size}}"></i></a>{% endif %}
+{% if collection.stackoverflow %}<a href = "{{ collection.stackoverflow }}" class = "{{ theme.class.icon }}" ><i class = "fab fa-stack-overflow {{ size}}"></i></a>{% endif %}
+</section>

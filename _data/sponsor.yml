@@ -1,0 +1,29 @@
+default:
+    sponsor:      "Sponsored by:"
+    title:        Shane Hoey
+    subtitle:     Modern Collaboration & Automation Specialist
+    description:  Reinventing the Modern Workplace thru creative use of collaboration & mobility with Microsoft Teams, and Automation with Low Code Solutions
+    excerpt:      Reinventing the Modern Workplace thru creative use of collaboration & mobility with Microsoft Teams, and Automation with Low Code Solutions
+    url:          https://shanehoey.com
+    image:        /assets/images/shanehoey-100x150.jpg
+
+docs:
+    sponsor:      "Sponsored by:"
+    title:        Shane Hoey
+    subtitle:     Modern Collaboration & Automation Specialist
+    description:  Reinventing the Modern Workplace thru creative use of collaboration & mobility with Microsoft Teams, and Automation with Low Code Solutions
+    excerpt:      Reinventing the Modern Workplace thru creative use of collaboration & mobility with Microsoft Teams, and Automation with Low Code Solutions
+    url:          https://shanehoey.com
+    image:        /assets/images/shanehoey-300x300.jpg
+
+tools:
+    sponsor:      "Sponsored by:"
+    title:        Shane Hoey
+    subtitle:     Modern Collaboration & Automation Specialist
+    description:  Reinventing the Modern Workplace thru creative use of collaboration & mobility with Microsoft Teams, and Automation with Low Code Solutions
+    excerpt:      Reinventing the Modern Workplace thru creative use of collaboration & mobility with Microsoft Teams, and Automation with Low Code Solutions
+    url:          https://docs.shanehoey.com
+    image:        /assets/images/shanehoey-120x120.jpg
+
+
+ 

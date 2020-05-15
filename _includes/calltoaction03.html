@@ -1,0 +1,38 @@
+{% comment %}
+<!--
+    v1.00 _includes/calltoaction03.html
+
+# DOCUMENTATION Add documentation
+# ENHANCEMENT Improve Layout
+    
+    include calltoaction03.html     collection = [object] (default site.posts)
+                                    button = [string] (default "Read More...")
+                                    theme = [string] (default site.data.theme.calltoaction.default)
+
+-->
+{% endcomment %}
+
+{% assign collection = collection.item %}
+{% unless collection %}
+{% assign collection = site.data.calltoaction.default %}
+{% endunless %}
+
+{% assign theme = site.data.theme.calltoaction.[include.theme] %}
+{% unless theme %}
+{% assign theme = site.data.theme.calltoaction.default %}
+{% endunless %}
+
+{% assign button = "Read More.." %}
+
+<section id="calltoaction03" class="{{ theme.class.section }} p-3"
+    {% if theme.style.section %}style="{{ theme.style.section }}" {% endif %}>
+    <div class="row {{ theme.class.div }}">
+        <div class="col-lg-4 mb-lg-0 mb-md-4 align-self-center justify-content-center">
+            <h3 class="{{ theme.class.title }}">{{ collection.title }}</h3>
+        </div>
+        <div class="col-lg-8">
+            <p class="{{ theme.class.subtitle }}">{{ collection.subtitle }}</p>
+            <a class="{{ theme.class.button }} float-right" href="{{ collection.url }}" role="button">{{ button }}</a>
+        </div>
+    </div>
+</section>

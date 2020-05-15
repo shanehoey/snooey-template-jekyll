@@ -11,4 +11,5 @@ hide:              true
 
 {{ page.description }}
 
-{% include portfolio.html type = "card" columns = 3 show-button = false show-subtitle = false show-description = false %}
+{% include portfolio01.html title = page.title description = page.description collection = site.videos theme = "docs" columns = 4 hidden = "description,title" %}
+<hr>

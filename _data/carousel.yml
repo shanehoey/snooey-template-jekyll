@@ -1,11 +1,55 @@
 default:
-    - image:     "https://source.unsplash.com/XksfkL6kN2M/1920x1080"
-      title:     "snooey.com"
-      subtitle:  "Snooey - a easy to use Jekyll theme by shanehoey"
-      content:   "<a href='https://snooey.com' class='btn btn-sm btn btn-outline-dark'>more...</a>"
-      url:       https://snooey.com
-    - image:     "https://source.unsplash.com/bepwY8khinw/1920x1080"
-      title:     "snooey.com"
-      subtitle:  "Snooey - a easy to use Jekyll theme by shanehoey"
-      content:   "<a href='https://snooey.com' class='btn btn-sm btn btn-outline-dark'>more...</a>"
-      url:       https://snooey.com
+    - image:     "https://source.unsplash.com/oqStl2L5oxI/1920x1080"
+      title:     "Lorem ipsum dolor"
+      subtitle:  "Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe"
+      btn:       "btn btn-sm btn btn-outline-light"
+      url:       https://snooey.netlify.app
+    - image:     "https://source.unsplash.com/g42A22TR8k8/1920x1080"
+      title:     "Lorem ipsum dolor"
+      subtitle:  "Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe"
+      btn:   "<a href='https://snooey.netlify.app' class='btn btn-sm btn btn-outline-dark'>more...</a>"
+      url:       https://snooey.netlify.app
+    - image:     "https://source.unsplash.com/IxlY2KB4Krs/1920x1080"
+      title:     "Lorem ipsum dolor"
+      subtitle:  "Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe"
+      btn:   "<a href='https://snooey.netlify.app' class='btn btn-sm btn btn-outline-dark'>more...</a>"
+      url:       https://snooey.netlify.app
+    - image:     "https://source.unsplash.com/-9FhscOsxtE/1920x1080"
+      title:     "Lorem ipsum dolor"
+      subtitle:  "Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe"
+      btn:   "<a href='https://snooey.netlify.app' class='btn btn-sm btn btn-outline-dark'>more...</a>"
+      url:       https://snooey.netlify.app
+    - image:     "https://source.unsplash.com/cTqxDBsEv3g/1920x1080"
+      title:     "Lorem ipsum dolor"
+      subtitle:  "Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe"
+      btn:   "<a href='https://snooey.netlify.app' class='btn btn-sm btn btn-outline-dark'>more...</a>"
+      url:       https://snooey.netlify.app
+      
+docs:
+  - image:     "https://source.unsplash.com/oqStl2L5oxI/1920x1080"
+    title:     "Lorem ipsum dolor"
+    subtitle:  "Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe"
+    btn:       "btn btn-sm btn btn-outline-light"
+    url:       https://snooey.netlify.app
+  - image:     "https://source.unsplash.com/g42A22TR8k8/1920x1080"
+    title:     "Lorem ipsum dolor"
+    subtitle:  "Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe"
+    btn:   "<a href='https://snooey.netlify.app' class='btn btn-sm btn btn-outline-dark'>more...</a>"
+    url:       https://snooey.netlify.app
+
+tools:
+  - image:     "https://source.unsplash.com/IxlY2KB4Krs/1920x1080"
+    title:     "Lorem ipsum dolor"
+    subtitle:  "Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe"
+    btn:   "<a href='https://snooey.netlify.app' class='btn btn-sm btn btn-outline-dark'>more...</a>"
+    url:       https://snooey.netlify.app
+  - image:     "https://source.unsplash.com/-9FhscOsxtE/1920x1080"
+    title:     "Lorem ipsum dolor"
+    subtitle:  "Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe"
+    btn:   "<a href='https://snooey.netlify.app' class='btn btn-sm btn btn-outline-dark'>more...</a>"
+    url:       https://snooey.netlify.app
+  - image:     "https://source.unsplash.com/cTqxDBsEv3g/1920x1080"
+    title:     "Lorem ipsum dolor"
+    subtitle:  "Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe"
+    btn:   "<a href='https://snooey.netlify.app' class='btn btn-sm btn btn-outline-dark'>more...</a>"
+    url:       https://snooey.netlify.app

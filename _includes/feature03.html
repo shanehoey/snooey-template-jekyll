@@ -1,0 +1,60 @@
+{% comment %}
+<!--
+   v1.00 _includes/feature03.html
+
+# DOCUMENTATION Add documentation
+# ENHANCEMENT make the columns responsive ie 2,3,4 automatically
+
+    include feature04.html      collection [object] (default site.data.feature.default )
+                                limit = [integer] (default 3)]
+                                title = [string] (optional)
+                                description = [string] (optional)
+                                theme = [string] (default site.data.theme.feature.default)
+
+-->
+{% endcomment %}
+
+{% assign collection = include.collection %}
+{% unless collection %}
+{% assign collection = site.data.feature.default %}
+{% endunless %}
+
+{% assign limit         =  include.limit %}
+{% unless limit %}
+{% assign limit         =  3 %}
+{% endunless %}
+
+{% assign title         =  include.title %}
+{% unless title %}
+{% assign title         =  collection.title %}
+{% endunless %}
+
+{% assign description   =  include.description %}
+{% unless description %}
+{% assign description   =  collection.description %}
+{% endunless %}
+
+{% assign theme         =  site.data.theme.feature.[include.theme] %}
+{% unless theme %}
+{% assign theme         =  site.data.theme.feature.default %}
+{% endunless %}
+
+<section id = "feature02" class = "container {{ theme.class.section }}" {% if theme.style.section %}style = "{{ theme.style.section }}"{% endif %}>
+    {% if title %}<h2 class="text-center pt-4 {{ theme.class.title }}">{{ title }}</h2>{% endif %}
+    {% if description %}<p class="text-justify pb-4 {{ theme.class.description }}">{{ description }}</p>{% endif %}
+    <div class="row ">
+        {% for item in collection limit: {{limit}} %}
+            <div class = "col-md-4 mb-5 pt-5">
+                <div class = "row">
+                    <div class = "col-lg-2 col-md-3 col-2">
+                        <i class = "{{ item.icon }} fa-1x {{ theme.class.icon | replace: "fa-1x", "" | replace: "fa-2x", "" | replace: "fa-3x", "" | replace: "fa-4x", "" | replace: "fa-5x", "" }} "></i>
+                    </div>
+                    <div class="col-lg-10 col-md-9 col-10">
+                        <h4 class = "{{ theme.class.title }}">{{item.title}}</h4>
+                        <p class = "{{ theme.class.excerpt }}">{{item.excerpt}}</p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>

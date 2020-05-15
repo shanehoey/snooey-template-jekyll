@@ -1,0 +1,34 @@
+{% comment %}
+<!--
+    v1.00 _includes/feature04.html
+
+# DOCUMENTATION Add documentation
+
+    includes feature04.html     collection [object] (default site.data.feature.default )
+                                limit = [integer] (default 4)]
+                                theme = [string] (default site.data.theme.feature.default)
+                                
+-->
+{% endcomment %}
+
+{% assign collection  =  include.collection %}
+{% unless collection %}
+{% assign collection  =  site.data.feature.default %}
+{% endunless %}
+
+{% assign limit       =  include.limit %}
+{% unless limit %}
+{% assign limit       =  1 %}
+{% endunless %}
+
+{% assign theme       =  site.data.theme.feature.[include.theme] %}
+{% unless theme %}
+{% assign theme       =  site.data.theme.feature.default %}
+{% endunless %}
+
+{% for item in collection limit: {{limit}} %}
+<section id = "feature04" class = "p-4 {{ theme.class.section }}" {% if theme.style.section %}style = "{{ theme.style.section }}"{% endif %}>
+{% if item.title %}<h2 class="{{ theme.class.title }}">{{ item.title }}</h2>{% endif %}
+{% if item.description %}<p class="{{ theme.class.description }}">{{ item.description }}</p>{% endif %}
+</section>
+{% endfor %}

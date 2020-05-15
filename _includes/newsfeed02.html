@@ -1,0 +1,103 @@
+{% comment %}
+<!--
+    v1.00 _includes/newsfeed02.html 
+
+# COMMENTS Add comments
+# DOCUMENTATION Add documentation
+
+    include newsfeed02.html   title = [string] (optional)
+                              description = [string] (optional)
+                              limit =  [Integer] (default 7)
+                              collection = [object] (default site.posts)
+                              collection2 = [object] (default site.posts)
+                              theme = [sting] (default site.data.theme.newsfeed.default)
+                              
+-->
+{% endcomment %}
+
+{% assign title = include.title  %}
+{% assign description = include.description %}
+{% assign limit  = include.limit %}
+{% unless limit %}
+{% assign limit = 5 %}
+{% endunless %}
+
+{% assign collection = include.collection %}
+{% unless collection %}
+{% assign collection = site.posts %}
+{% endunless %}
+
+{% assign collection2 = include.collection2 %}
+{% unless collection2 %}
+{% assign collection2 = site.posts %}
+{% endunless %}
+
+
+{% assign theme = site.data.theme.newsfeed.[include.theme] %}
+{% unless theme %}
+{% assign theme = site.data.theme.newsfeed.default %}
+{% endunless %}
+
+  <section id="newsfeed02" class = "{{ theme.class.section }}" {% if theme.style.section %}style = "{{ theme.style.section }}"{% endif %}>
+    {% if title %}<h3 class="text-center font-weight-bold p-3 {{ theme.class.title }}">{{ title }}</h3>{% endif %}
+    {% if description %}<p class="text-justify mx-auto p-3">{{ description }}</p>{% endif %}
+    <div class="row p-3">
+      <div class="col-lg-6 col-md-12">
+        {% for post in collection limit: limit %}
+        {% if forloop.first %}
+        <a href = "{{ post.url }}" class = "text-decoration-none">
+            <img class="img-fluid" src = "{{ post.image.horizontal }}" alt = "{{ post.excerpt }}">
+        </a>
+        <a href = "{{ post.url }}" class = "text-decoration-none">
+            <h3 class="{{ theme.class.title }}">{{ post.title }}</h3>
+        </a>
+            <p class="{{ theme.class.description }} text-justify">{{ post.description }}</p>
+        {% else %}
+          <div class="row p-3">
+              <div class="col-md-3">
+                <a href = "{{ post.url }}" class = "text-decoration-none">
+                  <img class="img-fluid rounded" src="{{ post.image.horizontal }}" alt="Sample image">
+                </a>
+              </div>
+              <div class="col-md-9">
+                <a href = "{{ post.url }}" class = "text-decoration-none">
+                  <h5 class="{{ theme.class.title }} m-0">{{ post.title }}</h5>
+                </a>
+                <p class="{{ theme.class.description }} text-truncate">{{ post.description }}</p>
+              </div>
+          </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+      {% comment %}
+      <!--column2-->
+      {% endcomment %}
+      <div class="col-lg-6 col-md-12">
+          {% for post in collection2 limit: limit %}
+          {% if forloop.first %}
+          <a href = "{{ post.url }}" class = "text-decoration-none">
+            <img class="img-fluid" src = "{{ post.image.horizontal }}" alt = "{{ post.excerpt }}">
+        </a>
+        <a href = "{{ post.url }}" class = "text-decoration-none">
+            <h3 class="{{ theme.class.title }}">{{ post.title }}</h3>
+        </a>
+            <p class="{{ theme.class.description }} text-justify">{{ post.description }}</p>
+        {% else %}
+      <div class ="row p-3">
+        <div class = "col-md-3">
+          <a href = "{{ post.url }}" class = "text-decoration-none">
+            <img class = "img-fluid rounded" src = "{{ post.image.horizontal }}" alt = "{{ post.excerpt }}">
+          </a>
+        </div>
+        <div class="col-md-9">
+          <a href = "{{ post.url }}" class = "text-decoration-none">
+            <h5 class="{{ theme.class.title }} m-0">{{ post.title }}</h5>
+          </a>
+          <p class="{{ theme.class.description }} text-truncate">{{ post.description }}</p>
+        </div>
+    </div>
+      {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>

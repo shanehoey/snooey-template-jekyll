@@ -11,5 +11,4 @@ layout:            page
 
 {{ page.description }}
 
-{% include portfolio.html type = "card" columns = 4 show-button = false show-subtitle = false  description="extract"%}
-
+{% include blog01.html  collection = site.documents width = 33  hidden = "subtitle" %}

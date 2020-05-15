@@ -1,139 +1,118 @@
-title:                     "Snooey Jekyll Theme Template"
-url:                       "https://snooey.netlify.com"
-baseurl:                   "/"
-title_seperator:           " | " 
-locale:                    "en"
-timezone:                  "Australia/Brisbane"
+# v1.00 _config.yml
+#   DOCUMENTATION Add documentation
 
-social:
-    facebook:       /
-    twitter:        /
-    linkedin:       /
-    instagram:      /
-    pinterest:      /
-    youtube:        /
-    github:         /
-    stackoverflow:  /
+title: "Shane Hoey, Reinventing the Modern Workplace"
+url: "https:/shanehoey.com"
+baseurl: "/"
+title_seperator: " | "
+locale: "en"
+timezone: "Australia/Brisbane"
+
+exclude:
+  - LICENSE
+  - README.md
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
 
 plugins_dir:                _plugins
-plugins: 
-    - jekyll-archives 
-    - jekyll-sitemap
-    - jekyll-seo-tag
-    - jekyll-remote-theme
+plugins:
+  - jekyll-remote-theme
 
 remote_theme:     shanehoey/snooey
 
-exclude:
-    - LICENSE
-    - README.md
-    - .gitignore
-    - Gemfile
-    - Gemfile.lock
-    
 include:
-    - _pages
-
-collections:
-    code:
-        output: true
-        permalink: /:collection/:path/
-    documents:
-        output: true
-        permalink: /:collection/:path/
-    projects:
-        output: true
-        permalink: /:collection/:path/
-    snippets:
-        output: true
-        permalink: /:collection/:path/
-    tldr:
-        output: true
-        permalink: /:collection/:path/
-    videos:
-        output: true
-        permalink: /:collection/:path/
-    wizards:
-        output: true
-        permalink: /:collection/:path/
+  - _pages
 
 collections_dir: collections
 
+collections:
+  code:
+    output: true
+    permalink: /:collection/:path/
+  documents:
+    output: true
+    permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
+  snippets:
+    output: true
+    permalink: /:collection/:path/
+  tldr:
+    output: true
+    permalink: /:collection/:path/
+  videos:
+    output: true
+    permalink: /:collection/:path/
+  wizards:
+    output: true
+    permalink: /:collection/:path/
+
 defaults:
-    -   scope:
-            path: ""
-        values:
-            title:   
-            subtitle:
-            excerpt:
-            description:
-            author:           Shane Hoey
-            icon:             fas fa-rocket
-            navigation:       default
-            carousel:         #data file
-            jumbotron:        #data file
-            breadcrumb:       true #true false
-            alert:            #data file
-            heading:          false #true false
-            images:           #data file   #CHECK WHAT THIS IS FOR ?
-            footer:           default
-            image:
-                horizontal:         https://source.unsplash.com/Kc5GdiUbs8o/750x400
-                vertical:           https://source.unsplash.com/Kc5GdiUbs8o/400x750
-                square:             https://source.unsplash.com/Kc5GdiUbs8o/300x300
-                random:             https://source.unsplash.com/random/750x400"
-                background:         https://source.unsplash.com/Kc5GdiUbs8o/2400x1800
-                profile:            https://source.unsplash.com/Kc5GdiUbs8o/300x450
-            order:             1000
-    -   scope:
-            path:        ""
-            type:        "pages"
-        values:
-            layout:      "page"
-            permalink:   /:basename/
-            theme: 
-                section:
-                    class:
-                    style:
-    -   scope:
-            path:        ""
-            type:        "posts"
-        values:
-            layout:      "post"
-    -   scope:
-            path:        ""
-            type:        "code"
-        values:
-            layout:      "code"
-    -   scope:
-            path:        ""
-            type:        "documents"
-        values:
-            layout:      "documents"
-            icon:        "far fa-file-code"
-    -   scope:
-            path:        ""
-            type:        "projects"
-        values:
-            layout:      "projects"
-            icon:        "far fa-file-code"
-    -   scope:
-            path:        ""
-            type:        "snippets"
-        values:
-            layout:      "snippets"
-    -   scope:
-            path:        ""
-            type:        "tldr"
-        values:
-            layout:      "tldr"
-    -   scope:
-            path:        ""
-            type:        "videos"
-        values:
-            layout:      "videos"
-    -   scope:
-            path:        ""
-            type:        "wizards"
-        values:
-            layout:      "wizards"
+  - scope:
+      path: ""
+    values:
+      title:
+      subtitle:
+      excerpt:
+      description:
+      author: Shane Hoey
+      icon: fas fa-rocket
+      navbar: true
+      breadcrumb: true
+      carousel: false
+      footer: true
+      image:
+        horizontal: https://source.unsplash.com/bepwY8khinw/750x400
+        vertical: https://source.unsplash.com/bepwY8khinw/400x750
+        square: https://source.unsplash.com/bepwY8khinw/300x300
+        random: https://source.unsplash.com/bepwY8khinw/750x400
+        background: https://source.unsplash.com/bepwY8khinw/2400x1800
+        profile: https://source.unsplash.com/bepwY8khinw/300x450
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      permalink: /:basename/
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "code"
+    values:
+      layout: "code"
+  - scope:
+      path: ""
+      type: "documents"
+    values:
+      layout: "documents"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "projects"
+  - scope:
+      path: ""
+      type: "snippets"
+    values:
+      layout: "snippets"
+  - scope:
+      path: ""
+      type: "tldr"
+    values:
+      layout: "tldr"
+  - scope:
+      path: ""
+      type: "videos"
+    values:
+      layout: "videos"
+  - scope:
+      path: ""
+      type: "wizards"
+    values:
+      layout: "wizards"

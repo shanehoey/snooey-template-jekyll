@@ -1,0 +1,38 @@
+# _data/social.yml
+
+default:
+    title:          Lorem ipsum dolor
+    www:            Lorem ipsum dolor
+    facebook:       Lorem ipsum dolor
+    twitter:        Lorem ipsum dolor
+    linkedin:       Lorem ipsum dolor
+    instagram:      Lorem ipsum dolor
+    pinterest:      Lorem ipsum dolor
+    youtube:        Lorem ipsum dolor
+    github:         Lorem ipsum dolor
+    stackoverflow:  Lorem ipsum dolor
+
+docs:
+    title:          Lorem ipsum dolor
+    www:            Lorem ipsum dolor
+    facebook:       Lorem ipsum dolor
+    twitter:        Lorem ipsum dolor
+    linkedin:       Lorem ipsum dolor
+    instagram:      Lorem ipsum dolor
+    pinterest:      Lorem ipsum dolor
+    youtube:        Lorem ipsum dolor
+    github:         Lorem ipsum dolor
+    stackoverflow:  Lorem ipsum dolor
+
+
+tools:
+    title:          Lorem ipsum dolor
+    www:            Lorem ipsum dolor
+    facebook:       Lorem ipsum dolor
+    twitter:        Lorem ipsum dolor
+    linkedin:       Lorem ipsum dolor
+    instagram:      Lorem ipsum dolor
+    pinterest:      Lorem ipsum dolor
+    youtube:        Lorem ipsum dolor
+    github:         Lorem ipsum dolor
+    stackoverflow:  Lorem ipsum dolor

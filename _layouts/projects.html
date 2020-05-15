@@ -1,10 +1,18 @@
 ---
 layout: default
 ---
+{% comment %}
+<!--
+
+	v1.00 _layouts/projects.html
+	
+# TESTING pre-release testing
+# DOCUMENTATION Add documentation
+	
+-->
+{% endcomment %}
+
 <section id = "projects"   class= "{{ site.data.theme.projects.default.class }}" style = "{{ site.data.theme.projects.default.style }}" >
-    {% if page.breadcrumb %}{% include breadcrumb.html %}{% endif %}
-    {% if page.alert %}{% include alert.html %}{% endif %}
-	{% if page.jumbotron %}{% include jumbotron.html %}{% endif %}
 		<div class="container">
 			{% if page.heading %}{% include heading.html %}{% endif %}
 			<div class="row">
