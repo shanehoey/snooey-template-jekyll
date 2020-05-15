@@ -1,30 +1,29 @@
 ---
-title:             "title"
-subtitle:          "subtitle"
-permalink:         "/home.html"
+title:             Snooey Jekyll Theme
+subtitle:          Lorem ipsum dolor sit amet.
+description:       Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe qui quibusdam accusamus ut velit asperiores vel natus temporibus. Qui sapiente saepe qui totam saepe est suscipit quia vel error provident cum omnis eius aut galisum rem nulla dolor? Qui internos voluptas est nulla odit est temporibus expedita eos quidem cumque. Ea voluptates eligendi quo rerum libero et molestiae harum vel fugit magni et cupiditate optio At quia consequuntur ut exercitationem laboriosam. Cum blanditiis voluptatibus At amet sunt At quia deleniti id quibusdam neque ut odio placeat.
+permalink:         /
 carousel:  true
-breadcrumb: true
 ---
 
 
-{% include feature01.html       collection = site.data.feature.skills
-                                type = "feature1"  
-                                title = "Technology, its what I'm great at!"
-                                description = "Shane Hoey is passionate about cutting edge technology, I live and breath Technology, It’s what I do best. From playing with the latest gadgets to spending the day writing code, it’s what I get excited about. In my day job I thrive on SKype for Business, Office 365, Windows Azure, Windows PowerShell. I strive to understand how these technologies work at a deep technical level." 
+{% include feature01.html       collection = site.data.feature.default
+                                title = "Lorem ipsum dolor sit amet."
+                                description = page.description
                                 theme = "default"
-                                limit = 6 %}
-{% include feature01.html         collection = site.data.feature.skills-technical
-                                type = "feature1"  
-                                title = "Technology, its what I'm great at!"
-                                description = "Shane Hoey is passionate about cutting edge technology, I live and breath Technology, It’s what I do best. From playing with the latest gadgets to spending the day writing code, it’s what I get excited about. In my day job I thrive on SKype for Business, Office 365, Windows Azure, Windows PowerShell. I strive to understand how these technologies work at a deep technical level." 
-                                theme = "default"
-                                limit = 6 %}
-{% include feature01.html         type = "feature4"  
-                                title = "My focus is Technology"
-                                description = "It’s technology and the understanding of how technology works that excites me. I’m always trying to stay a step ahead learning the latest products.!" 
-                                theme = "feature4" %}
+                                limit = 6 
+                                %}
 
+{% include feature01.html       collection = site.data.feature.default
+                                title = "Lorem ipsum dolor sit amet."
+                                description = page.description
+                                limit = 6 
+                                %}
 
-{% include spacer.html %}
-{% include spacer.html  %}
+{% include feature01.html       collection = site.data.feature.default
+                                title = "Lorem ipsum dolor sit amet."
+                                description = page.description 
+                                %}
+ 
+{% include social.html %}
 
