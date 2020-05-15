@@ -63,6 +63,7 @@ defaults:
       breadcrumb: true
       carousel: false
       footer: true
+      pagetheme: default
       image:
         horizontal: https://source.unsplash.com/bepwY8khinw/750x400
         vertical: https://source.unsplash.com/bepwY8khinw/400x750
@@ -86,16 +87,19 @@ defaults:
       type: "code"
     values:
       layout: "code"
+      pagetheme: code
   - scope:
       path: ""
       type: "documents"
     values:
       layout: "documents"
+      pagetheme: documents
   - scope:
       path: ""
       type: "projects"
     values:
       layout: "projects"
+      pagetheme: projects
   - scope:
       path: ""
       type: "snippets"
@@ -106,13 +110,16 @@ defaults:
       type: "tldr"
     values:
       layout: "tldr"
+      pagetheme: tldr
   - scope:
       path: ""
       type: "videos"
     values:
       layout: "videos"
+      pagetheme: videos
   - scope:
       path: ""
       type: "wizards"
     values:
       layout: "wizards"
+      pagetheme: wizards
