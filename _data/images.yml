@@ -1,24 +1,24 @@
 default:
-    horizontal:     https://source.unsplash.com/bepwY8khinw/750x400
-    vertical:       https://source.unsplash.com/bepwY8khinw/400x750
-    square:         https://source.unsplash.com/bepwY8khinw/300x300
-    random:         https://source.unsplash.com/bepwY8khinw/750x400
-    background:     https://source.unsplash.com/bepwY8khinw/2400x1800
-    profile:        https://source.unsplash.com/bepwY8khinw/300x450
+    horizontal:     https://source.unsplash.com/random/750x400
+    vertical:       https://source.unsplash.com/random/400x750
+    square:         https://source.unsplash.com/random/300x300
+    random:         https://source.unsplash.com/random/750x400
+    background:     https://source.unsplash.com/random/2400x1800
+    profile:        https://source.unsplash.com/random/300x450
 
 docs:
-    horizontal:     https://source.unsplash.com/bepwY8khinw/750x400
-    vertical:       https://source.unsplash.com/bepwY8khinw/400x750
-    square:         https://source.unsplash.com/bepwY8khinw/300x300
-    random:         https://source.unsplash.com/bepwY8khinw/750x400
-    background:     https://source.unsplash.com/bepwY8khinw/2400x1800
-    profile:        https://source.unsplash.com/bepwY8khinw/300x450
+    horizontal:     https://source.unsplash.com/random/750x400
+    vertical:       https://source.unsplash.com/random/400x750
+    square:         https://source.unsplash.com/random/300x300
+    random:         https://source.unsplash.com/random/750x400
+    background:     https://source.unsplash.com/random/2400x1800
+    profile:        https://source.unsplash.com/random/300x450
 
 tools:
-    horizontal:     https://source.unsplash.com/bepwY8khinw/750x400
-    vertical:       https://source.unsplash.com/bepwY8khinw/400x750
-    square:         https://source.unsplash.com/bepwY8khinw/300x300
-    random:         https://source.unsplash.com/bepwY8khinw/750x400
-    background:     https://source.unsplash.com/bepwY8khinw/2400x1800
-    profile:        https://source.unsplash.com/bepwY8khinw/300x450
+    horizontal:     https://source.unsplash.com/random/750x400
+    vertical:       https://source.unsplash.com/random/400x750
+    square:         https://source.unsplash.com/random/300x300
+    random:         https://source.unsplash.com/random/750x400
+    background:     https://source.unsplash.com/random/2400x1800
+    profile:        https://source.unsplash.com/random/300x450
     

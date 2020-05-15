@@ -1,29 +1,29 @@
 default:
     sponsor:      "Sponsored by:"
-    title:        Shane Hoey
-    subtitle:     Modern Collaboration & Automation Specialist
-    description:  Reinventing the Modern Workplace thru creative use of collaboration & mobility with Microsoft Teams, and Automation with Low Code Solutions
-    excerpt:      Reinventing the Modern Workplace thru creative use of collaboration & mobility with Microsoft Teams, and Automation with Low Code Solutions
-    url:          https://shanehoey.com
-    image:        /assets/images/shanehoey-100x150.jpg
+    title:        Lorem ipsum dolor
+    subtitle:     Lorem ipsum dolor
+    description:  Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
+    excerpt:      Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
+    url:          https://snooey.netlify.app
+    image:        https://source.unsplash.com/random/100x150
 
 docs:
     sponsor:      "Sponsored by:"
-    title:        Shane Hoey
-    subtitle:     Modern Collaboration & Automation Specialist
-    description:  Reinventing the Modern Workplace thru creative use of collaboration & mobility with Microsoft Teams, and Automation with Low Code Solutions
-    excerpt:      Reinventing the Modern Workplace thru creative use of collaboration & mobility with Microsoft Teams, and Automation with Low Code Solutions
-    url:          https://shanehoey.com
-    image:        /assets/images/shanehoey-300x300.jpg
+    title:        Lorem ipsum dolor
+    subtitle:     Lorem ipsum dolor
+    description:  Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
+    excerpt:      Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
+    url:          https://snooey.netlify.app
+    image:        https://source.unsplash.com/random/300x300
 
 tools:
     sponsor:      "Sponsored by:"
-    title:        Shane Hoey
-    subtitle:     Modern Collaboration & Automation Specialist
-    description:  Reinventing the Modern Workplace thru creative use of collaboration & mobility with Microsoft Teams, and Automation with Low Code Solutions
-    excerpt:      Reinventing the Modern Workplace thru creative use of collaboration & mobility with Microsoft Teams, and Automation with Low Code Solutions
-    url:          https://docs.shanehoey.com
-    image:        /assets/images/shanehoey-120x120.jpg
+    title:        Lorem ipsum dolor
+    subtitle:     Lorem ipsum dolor
+    description:  Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
+    excerpt:      Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
+    url:          https://snooey.netlify.app
+    image:        https://source.unsplash.com/random/120x120
 
 
  

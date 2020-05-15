@@ -1,8 +1,8 @@
 default:
-    title:              "snooey..com"
-    url:                "https://shanehoey.com"
+    title:              snooey.netlify.app
+    url:                https://snooey.netlify.app
     icon:               fas fa-portrait fa-1x
-    copyright:          "&copy; Shane Hoey 2018-2020. All Rights Reserved."
+    copyright:          '&copy; Shane Hoey 2018-2020. All Rights Reserved.'
     navigation: 
       - title:          terms
         url:            /terms/
@@ -12,26 +12,26 @@ default:
         url:            /contact/
 
 docs:
-    title:              docs.shanehoey.com
-    url:                https://docs.shanehoey.com
+    title:              snooey.netlify.app
+    url:                https://snooey.netlify.app
     icon:               fas fa-portrait fa-1x
-    copyright:          "&copy; Shane Hoey 2018-2020. All Rights Reserved."
+    copyright:          '&copy; Shane Hoey 2018-2020. All Rights Reserved.'
     navigation: 
-      - title:          shanehoey.com
-        url:            shanehoey.com
+      - title:          snooey.netlify.app
+        url:            snooey.netlify.app
       - title:          terms
         url:            /terms/
       - title:          license
         url:            /license/
 
 tools:
-    title:              tools.shanehoey.com
-    url:                https://tools.shanehoey.com
+    title:              snooey.netlify.app
+    url:                https://snooey.netlify.app
     icon:               fas fa-portrait fa-1x
-    copyright:          "&copy; Shane Hoey 2018-2020. All Rights Reserved."
+    copyright:          '&copy; Shane Hoey 2018-2020. All Rights Reserved.'
     navigation: 
-      - title:          shanehoey.com
-        url:            shanehoey.com
+      - title:          snooey.netlify.app 
+        url:            snooey.netlify.app
       - title:          terms
         url:            /terms/
       - title:          license
