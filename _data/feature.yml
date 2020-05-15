@@ -1,3 +1,5 @@
+# _data/feature.yml
+
 default:
     - icon:         fas fa-users
       title:        Lorem ipsum

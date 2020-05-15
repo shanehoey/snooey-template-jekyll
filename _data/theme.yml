@@ -1,3 +1,5 @@
+# _data/theme.yml
+
 # includes/feature.html
 feature:
     default:
@@ -126,59 +128,7 @@ footer:
             section:        text-white
         style:
             section:        "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
-
-# layout/default.html
-layout:
-    default:
-            class: 
-                body:      d-flex flex-column
-                content:   container fdnsjk
-            style:
-                body:
-                content:
-    docs:
-            class:
-                body:      d-flex flex-column
-                section:   "container fill container-fluid (empty)"
-            style:       
-                body:      "background: url('/assets/images/background.jpg') no-repeat center center fixed;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;-o-background-size: cover;"
-                section:   
-    tools:
-        class:
-            body:      d-flex flex-column
-            section:   "container fill container-fluid (empty)"
-        style:       
-            body:      "background: url('/assets/images/background.jpg') no-repeat center center fixed;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;-o-background-size: cover;"
-            section:   
-        
-
-collection:
-    default:
-        wizards:
-            class:
-            style:
-        videos:
-            class:
-            style:
-        tldr:
-            class:
-            style:
-        projects:
-            class:
-            style:
-        post:
-            class:
-            style:
-        page:
-            class:
-            style:
-        documents:
-            class:
-            style:
-        snippets:
-            class:
-            style:
-
+      
 # includes/social.html
 social:
     default:
@@ -224,8 +174,7 @@ spacer:
         class:
             section:    py-5
         style:
-            section:    "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
-                
+            section:    "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"            
           
 # includes/breadcrumb.html
 breadcrumb:           
@@ -446,3 +395,85 @@ related:
                 image:          img-fluid img-rounded
         style:
             section:            "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
+
+
+# layout/default.html
+layout:
+    default:
+        class:
+            body:
+            section:
+        style:
+            body:
+            section:
+    background:
+        class:
+            body:
+            section:
+        style:
+            body:      "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
+            section:                 
+    code:
+        body:
+            section:
+        style:
+            body:
+            section:
+    documents:
+        body:
+            section:
+        style:
+            body:
+            section:
+    page:
+        body:
+            section:
+        style:
+            body:
+            section:
+    post:
+        body:
+            section:
+        style:
+            body:
+            section:
+    projects:
+        body:
+            section:
+        style:
+            body:
+            section:
+    snippets:
+        body:
+            section:
+        style:
+            body:
+            section:
+    tldr:
+        body:
+            section:
+        style:
+            body:
+            section:
+    videos:
+        body:
+            section:
+        style:
+            body:
+            section:
+    wizards: 
+        body:
+            section:
+        style:
+            body:
+            section:        
+        
+        videos:
+                wizards: 
+
+
+
+
+                    style:       
+            body:      "background: url('/assets/images/background.jpg') no-repeat center center fixed;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;-o-background-size: cover;"
+            section: 

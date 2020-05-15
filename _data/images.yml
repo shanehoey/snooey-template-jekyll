@@ -1,3 +1,5 @@
+# _data/images.yml
+
 default:
     horizontal:     https://source.unsplash.com/random/750x400
     vertical:       https://source.unsplash.com/random/400x750

@@ -1,3 +1,5 @@
+# _data/sponsor.yml
+
 default:
     sponsor:      "Sponsored by:"
     title:        Lorem ipsum dolor

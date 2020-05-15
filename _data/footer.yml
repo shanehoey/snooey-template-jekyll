@@ -1,3 +1,5 @@
+# _data/footer.yml
+
 default:
     title:              snooey.netlify.app
     url:                https://snooey.netlify.app

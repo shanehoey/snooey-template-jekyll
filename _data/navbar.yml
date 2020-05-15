@@ -1,3 +1,5 @@
+# _data/navbar.yml
+
 default: 
     title:              "Snooey Theme"
     url:                "https://snooey.netlify.app"
