@@ -1,5 +1,5 @@
 https://code.snooey.com/*  https://snooey.com/code/:splat 200
-https://docs.snooey.com/*  https://snooey.com/documents/:splat 200
+https://docs.snooey.com/*  https://snooey.com/documents/:splat 200!
 https://hello.snooey.com/*  https://snooey.com/hello/:splat 200
 https://tldr.snooey.com/*  https://snooey.com/tldr/:splat 200
 https://tools.snooey.com/*  https://snooey.com/tools/:splat 200
