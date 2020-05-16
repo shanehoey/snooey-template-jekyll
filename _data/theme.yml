@@ -4,414 +4,412 @@
 feature:
     default:
         class:
-            section:      
-            title:        font-weight-bold text-primary
-            subtitle:     font-weight-normal text-dark
-            description:  text-dark 
-            excerpt:      text-dark
-            icon:         text-primary fa-4x
-            button:       btn btn-outline-primary
-        style: 
+            section:
+            title: font-weight-bold text-primary
+            subtitle: font-weight-normal text-dark
+            description: text-dark
+            excerpt: text-dark
+            icon: text-primary fa-4x
+            button: btn btn-outline-primary
+        style:
             section:
     documents:
         class:
-            section:      bg-primary
-            title:        font-weight-bold text-white
-            subtitle:     font-weight-normal text-white text-bold
-            description:  text-white 
-            excerpt:      text-white 
-            icon:         text-white fa-3x
-            button:       btn btn-outline-primary
-        style: 
+            section: bg-primary
+            title: font-weight-bold text-white
+            subtitle: font-weight-normal text-white text-bold
+            description: text-white
+            excerpt: text-white
+            icon: text-white fa-3x
+            button: btn btn-outline-primary
+        style:
             section:
     tools:
         class:
-            section:      
-            title:        font-weight-bold text-warning 
-            subtitle:     font-weight-normal text-warning
-            description:  text-white
-            excerpt:      text-white
-            icon:         text-warning fa-5x
-            alert:        alert-primary alert-dismissible fade show
-            button:       btn btn-outline-primary
-        style: 
-            section:      "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
+            section:
+            title: font-weight-bold text-warning
+            subtitle: font-weight-normal text-warning
+            description: text-white
+            excerpt: text-white
+            icon: text-warning fa-5x
+            alert: alert-primary alert-dismissible fade show
+            button: btn btn-outline-primary
+        style:
+            section: "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
 
 #include/alert.html
 alert:
     default:
-        class:       alert alert-primary alert-dismissible fade show
+        class: alert alert-primary alert-dismissible fade show
         style:
         icon:
     warning:
-        class:       alert alert-warning alert-dismissible fade show
+        class: alert alert-warning alert-dismissible fade show
         style:
-        icon:        fas fa-exclamation-triangle
+        icon: fas fa-exclamation-triangle
     error:
-        class:       alert alert-danger alert-dismissible fade show
-        style:  
-        icon:        fas fa-exclamation-square
+        class: alert alert-danger alert-dismissible fade show
+        style:
+        icon: fas fa-exclamation-square
     documents:
-        class:       alert bg-dark text-white 
-        style:       
-        icon:        
+        class: alert bg-dark text-white
+        style:
+        icon:
     tools:
-        class:       alert text-white fade show
-        style:       "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
-        icon:        fas fa-rocket pr-1
+        class: alert text-white fade show
+        style: "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
+        icon: fas fa-rocket pr-1
 
 # includes/calltoaction.html
 calltoaction:
     default:
         class:
-            section:      bg-dark
-            title:        font-weight-bold text-white
-            subtitle:     font-weight-normal text-white
-            button:       btn btn-sm btn-outline-light btn-rounded
+            section: bg-dark
+            title: font-weight-bold text-white
+            subtitle: font-weight-normal text-white
+            button: btn btn-sm btn-outline-light btn-rounded
         style:
             section:
     documents:
         class:
-            section:      bg-primary
-            title:        font-italic text-white
-            subtitle:     font-weight-normal text-white
-            button:       btn btn-sm btn-outline-light btn-rounded 
+            section: bg-primary
+            title: font-italic text-white
+            subtitle: font-weight-normal text-white
+            button: btn btn-sm btn-outline-light btn-rounded
         style:
             section:
     tools:
         class:
-            section:      
-            title:        font-weight-bold text-white
-            subtitle:     font-weight-normal text-white
-            button:       btn btn-sm btn-outline-light btn-rounded
+            section:
+            title: font-weight-bold text-white
+            subtitle: font-weight-normal text-white
+            button: btn btn-sm btn-outline-light btn-rounded
         style:
-            section:      "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
+            section: "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
 
-# includes/navbar.html 
+# includes/navbar.html
 navbar:
     default:
         class:
-            section:      bg-dark navbar-dark fixed-top text-white
-            alternative:  bg-light navbar-light fixed-top text-dark
-        style: 
+            section: bg-dark navbar-dark fixed-top text-white
+            alternative: bg-light navbar-light fixed-top text-dark
+        style:
             section:
-            alternative:  
+            alternative:
     documents:
-        class:  
-            section:     bg-primary navbar-dark fixed-top text-white
+        class:
+            section: bg-primary navbar-dark fixed-top text-white
             alternative: bg-light navbar-light fixed-top text-primary
-        style: 
+        style:
             section:
-            alternative: 
+            alternative:
     tools:
         class:
-            section:     navbar-dark fixed-top
+            section: navbar-dark fixed-top
             alternative: bg-white navbar-light fixed-top
-        style: 
-            section:     "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
+        style:
+            section: "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
             alternative: "background: url('/assets/images/background-pattern.png')"
 
-# includes/footer.html 
+# includes/footer.html
 footer:
     default:
         class:
-            section:        bg-dark text-white 
-        style: 
-            section:        
+            section: bg-dark text-white
+        style:
+            section:
     documents:
         class:
-            section:        bg-primary text-white
+            section: bg-primary text-white
         style:
             section:
     tools:
         class:
-            section:        text-white
+            section: text-white
         style:
-            section:        "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
-      
+            section: "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
+
 # includes/social.html
 social:
     default:
         class:
             section: container py-5 text-center text-dark
-            title:   text-dark pb-3
-            icon:    mx-3 fa-4x
+            title: text-dark pb-3
+            icon: mx-3 fa-4x
         style:
             section:
     documents:
         class:
             section: container py-5 text-center text-white bg-dark
-            title:   text-white pb-3
-            icon:    text-white mx-2 fa-3x
+            title: text-white pb-3
+            icon: text-white mx-2 fa-3x
         style:
             section:
     tools:
-        class: 
+        class:
             section: text-center py-3
-            title:   text-white pb-3
-            icon:    text-white mx-2 fa-2x
+            title: text-white pb-3
+            icon: text-white mx-2 fa-2x
         style:
-            section:        "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"             
+            section: "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
 
 # include/spacer.html
 spacer:
     default:
         class:
-            section:    py-5 bg-dark
+            section: py-5 bg-dark
         style:
-            section:   
+            section:
     white:
         class:
-            section:    py-5
-        style:
-            section:   
-    documents:
-        class:
-            section:     py-5 bg-primary
-        style:
-            section:        
-    tools:
-        class:
-            section:    py-5
-        style:
-            section:    "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"            
-          
-# includes/breadcrumb.html
-breadcrumb:           
-    default:
-        class: 
-            section: 
-            text:         text-dark
+            section: py-5
         style:
             section:
     documents:
-        class: 
-            section:      bg-dark
-            text:         text-white
+        class:
+            section: py-5 bg-primary
         style:
-            section:      "margin-bottom: 0rem;"
+            section:
     tools:
-        class: 
-            section: 
-            text:         text-white
+        class:
+            section: py-5
         style:
-            section:      "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
+            section: "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
+
+# includes/breadcrumb.html
+breadcrumb:
+    default:
+        class:
+            section:
+            text: text-dark
+        style:
+            section:
+    documents:
+        class:
+            section: bg-dark
+            text: text-white
+        style:
+            section: "margin-bottom: 0rem;"
+    tools:
+        class:
+            section:
+            text: text-white
+        style:
+            section: "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
 
 # includes/sponsor.html
-sponsor:           
+sponsor:
     default:
-        class: 
-            section:    
-            image:          img-fluid img-thumbnail float-right
-            title:          text-white text-decoration-none
+        class:
+            section:
+            image: img-fluid img-thumbnail float-right
+            title: text-white text-decoration-none
             subtitle:
-            description:    text-muted
+            description: text-muted
         style:
             section:
     documents:
-        class: 
-            section:     
-            image:          img-fluid float-right
-            title:          text-white  text-decoration-none
+        class:
+            section:
+            image: img-fluid float-right
+            title: text-white  text-decoration-none
             subtitle:
-            description:    text-muted
+            description: text-muted
         style:
             section:
     tools:
-        class: 
-            section:        
-            sponsor:        text-white py-4
-            image:          img-fluid float-left
-            title:          text-white py-2 text-decoration-none
-            subtitle:       text-white py-2
-            description:    text-white text-muted
+        class:
+            section:
+            sponsor: text-white py-4
+            image: img-fluid float-left
+            title: text-white py-2 text-decoration-none
+            subtitle: text-white py-2
+            description: text-white text-muted
         style:
-            section:        "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
+            section: "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
 
 # includes/blog.html
-blog:           
+blog:
     default:
-        class: 
-            section:    
-            title:            text-center text-dark text-decoration-none
-            description:      text-justify text-muted
+        class:
+            section:
+            title: text-center text-dark text-decoration-none
+            description: text-justify text-muted
             item:
-                title:          text-dark text-decoration-none
-                subtitle:       text-dark text-decoration-none
-                description:    text-dark text-decoration-none text-justify
-                excerpt:        text-muted text-decoration-none  
-                image:          img-fluid
-                btn:            btn btn-sm btn-dark
+                title: text-dark text-decoration-none
+                subtitle: text-dark text-decoration-none
+                description: text-dark text-decoration-none text-justify
+                excerpt: text-muted text-decoration-none
+                image: img-fluid
+                btn: btn btn-sm btn-dark
         style:
             section:
     documents:
-        class: 
-            section:        text-primary text-decoration-none
-            title:          text-primary text-decoration-none
-            description:    text-muted
+        class:
+            section: text-primary text-decoration-none
+            title: text-primary text-decoration-none
+            description: text-muted
             item:
-                title:          text-primary text-decoration-none
-                subtitle:       text-dark text-decoration-none
-                description:    text-dark text-decoration-none text-justify
-                excerpt:        text-primary text-decoration-none  
-                image:          img-fluid
-                btn:            btn btn-sm btn-primary
+                title: text-primary text-decoration-none
+                subtitle: text-dark text-decoration-none
+                description: text-dark text-decoration-none text-justify
+                excerpt: text-primary text-decoration-none
+                image: img-fluid
+                btn: btn btn-sm btn-primary
         style:
-            section: 
+            section:
     tools:
-        class: 
-            section:            p-5
-            title:              text-warning text-decoration-none
-            description:        text-white
+        class:
+            section: p-5
+            title: text-warning text-decoration-none
+            description: text-white
             item:
-                title:          text-warning text-decoration-none
-                subtitle:       text-white text-decoration-none
-                description:    text-white text-decoration-none text-justify
-                excerpt:        text-warning text-decoration-none  
-                image:          img-fluid img-thumbnail
-                btn:            btn btn-sm btn-warning
+                title: text-warning text-decoration-none
+                subtitle: text-white text-decoration-none
+                description: text-white text-decoration-none text-justify
+                excerpt: text-warning text-decoration-none
+                image: img-fluid img-thumbnail
+                btn: btn btn-sm btn-warning
         style:
-            section:            "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
+            section: "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
 
-# includes/jumbotron.html 
+# includes/jumbotron.html
 jumbotron:
     default:
         class:
-            section:        bg-dark text-white
-        style: 
-            section:        
+            section: bg-dark text-white
+        style:
+            section:
     documents:
         class:
-            section:        bg-primary text-white
+            section: bg-primary text-white
         style:
             section:
     tools:
         class:
-            section:        text-white
+            section: text-white
         style:
-            section:        "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
+            section: "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
 
-
-# includes/newsfeed.html 
+# includes/newsfeed.html
 newsfeed:
     default:
         class:
-            section:        bg-dark text-white
-            title:          text-warning text-decoration-none
+            section: bg-dark text-white
+            title: text-warning text-decoration-none
             subtitle:
-            description:    
-        style: 
-            section:        
+            description:
+        style:
+            section:
     documents:
         class:
-            section:        bg-white text-dark
-            title:          text-primary text-decoration-none
-            description:    text-dark
+            section: bg-white text-dark
+            title: text-primary text-decoration-none
+            description: text-dark
         style:
             section:
     tools:
         class:
-            section:        text-white
-            title:          text-warning text-decoration-none
-            description:    
+            section: text-white
+            title: text-warning text-decoration-none
+            description:
         style:
-            section:        "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
+            section: "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
 
-# includes/portfolio.html 
+# includes/portfolio.html
 portfolio:
     default:
-        class: 
-            section:    
-            title:            text-center text-dark text-decoration-none
-            description:      text-justify text-muted
+        class:
+            section:
+            title: text-center text-dark text-decoration-none
+            description: text-justify text-muted
             item:
-                title:          text-dark text-decoration-none
-                subtitle:       text-dark text-decoration-none
-                description:    text-dark text-decoration-none text-justify
-                excerpt:        text-muted text-decoration-none  
-                image:          img-fluid
-                btn:            btn btn-sm btn-dark
+                title: text-dark text-decoration-none
+                subtitle: text-dark text-decoration-none
+                description: text-dark text-decoration-none text-justify
+                excerpt: text-muted text-decoration-none
+                image: img-fluid
+                btn: btn btn-sm btn-dark
         style:
             section:
     documents:
-        class: 
-            section:        text-primary text-decoration-none
-            title:          text-primary text-decoration-none
-            description:    text-muted
+        class:
+            section: text-primary text-decoration-none
+            title: text-primary text-decoration-none
+            description: text-muted
             item:
-                title:          text-primary text-decoration-none
-                subtitle:       text-dark text-decoration-none
-                description:    text-dark text-decoration-none text-justify
-                excerpt:        text-primary text-decoration-none  
-                image:          img-fluid
-                btn:            btn btn-sm btn-primary
+                title: text-primary text-decoration-none
+                subtitle: text-dark text-decoration-none
+                description: text-dark text-decoration-none text-justify
+                excerpt: text-primary text-decoration-none
+                image: img-fluid
+                btn: btn btn-sm btn-primary
         style:
-            section: 
+            section:
     tools:
-        class: 
-            section:            p-5
-            title:              text-warning text-decoration-none
-            description:        text-white
+        class:
+            section: p-5
+            title: text-warning text-decoration-none
+            description: text-white
             item:
-                title:          text-dark text-decoration-none
-                subtitle:       text-warning text-decoration-none
-                description:    text-dark text-decoration-none text-justify
-                excerpt:        text-muted text-decoration-none  
-                image:          img-fluid img-thumbnail
-                btn:            btn btn-sm btn-warning float-right text-white
+                title: text-dark text-decoration-none
+                subtitle: text-warning text-decoration-none
+                description: text-dark text-decoration-none text-justify
+                excerpt: text-muted text-decoration-none
+                image: img-fluid img-thumbnail
+                btn: btn btn-sm btn-warning float-right text-white
         style:
-            section:            "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
+            section: "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
 
-
-# includes/related.html 
+# includes/related.html
 related:
     default:
-        class: 
-            section:          p-5
-            title:            text-dark text-decoration-none
-            subtitle:         text-DARK text-decoration-none
+        class:
+            section: p-5
+            title: text-dark text-decoration-none
+            subtitle: text-DARK text-decoration-none
             item:
-                title:          text-dark text-decoration-none
-                image:          img-fluid
+                title: text-dark text-decoration-none
+                image: img-fluid
         style:
             section:
     documents:
-        class: 
-            section:        p-5
-            title:          text-primary text-decoration-none
-            subtitle:       text-primary text-decoration-none
+        class:
+            section: p-5
+            title: text-primary text-decoration-none
+            subtitle: text-primary text-decoration-none
             item:
-                title:          text-primary text-decoration-none
-                image:          img-fluid
+                title: text-primary text-decoration-none
+                image: img-fluid
         style:
-            section: 
+            section:
     tools:
-        class: 
-            section:            p-5
-            title:              text-warning text-decoration-none
-            subtitle:           text-white text-decoration-none
+        class:
+            section: p-5
+            title: text-warning text-decoration-none
+            subtitle: text-white text-decoration-none
             item:
-                title:          text-white text-decoration-none
-                image:          img-fluid img-rounded
+                title: text-white text-decoration-none
+                image: img-fluid img-rounded
         style:
-            section:            "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
+            section: "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
 
 # layout/default.html
 layout:
     default:
         class:
-            body:  default
+            body: default
             section: default
         style:
-            body: 
-            section: 
+            body:
+            section:
     default-background:
         class:
-            body:  text-white default-background
-            section: 
+            body: text-white default-background
+            section:
         style:
-            body:      "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
-            section:                 
+            body: "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
+            section:
     code:
         class:
             body: code
@@ -421,57 +419,57 @@ layout:
             section:
     documents:
         class:
-            body: docs
+            body: documents
             section:
         style:
             body:
             section:
     page:
         class:
-            body:
+            body: page
             section:
         style:
             body:
             section:
     post:
         class:
-            body:
+            body: post
             section:
         style:
             body:
             section:
     tools:
         class:
-            body:
+            body: tools
             section:
         style:
-            body:
+            body: style
             section:
     snippets:
         class:
-            body:
+            body: snippets
             section:
         style:
             body:
             section:
     tldr:
         class:
-            body:
+            body: tldr
             section:
         style:
             body:
             section:
     videos:
         class:
-            body:
+            body: videos
             section:
         style:
             body:
             section:
     wizards:
-        class: 
-            body:
+        class:
+            body: wizards
             section:
         style:
             body:
-            section:        
+            section:
