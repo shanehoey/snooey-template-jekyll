@@ -1,3 +1,5 @@
+https://code.snooey.com/*  https://snooey.com/code/:splat 200!
+
 #https://snooey.com/documents/*  https://docs.snooey.com/:splat 301!
 https://docs.snooey.com/*  https://snooey.com/documents/:splat 200!
 
@@ -11,4 +13,3 @@ https://tldr.snooey.com/*  https://snooey.com/tldr/:splat 200!
 https://tools.snooey.com/*  https://snooey.com/tools/:splat 200!
 
 https://snooey.com/code/*  https://code.snooey.com/:splat 301!
-https://code.snooey.com/*  https://snooey.com/code/:splat 200!
