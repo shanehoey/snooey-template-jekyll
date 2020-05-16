@@ -1,6 +1,6 @@
-/documents/*  https://docs.snooey.com/documents/:splat 200
-/hello/*  https://hello.snooey.com/:splat 200
-/tools/*  https://tools.snooey.com/:splat 200
+/documents/*  https://docs.snooey.com/documents/:splat 200!
+/hello/*  https://hello.snooey.com/:splat 200!
+/tools/*  https://tools.snooey.com/:splat 200!
 
 
 #https://code.snooey.com/*  https://snooey.com/code/:splat 200
