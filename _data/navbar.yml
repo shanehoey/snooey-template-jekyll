@@ -6,7 +6,7 @@ default:
     icon:               fas fa-portrait fa-1x
     navigation: 
       - title:          home
-        url:            /home/
+        url:            /
       - title:          examples
         url:            /examples/
       - title:          Pages
@@ -34,7 +34,7 @@ docs:
     icon:               fas fa-portrait fa-1x
     navigation: 
         - title:          home
-          url:            /home/
+          url:            /
         - title:          examples
           url:            /examples/
         - title:          Pages
@@ -62,7 +62,7 @@ tools:
     icon:               fas fa-portrait fa-1x
     navigation: 
       - title:          home
-        url:            /home/
+        url:            /
       - title:          examples
         url:            /examples/
       - title:          Pages
