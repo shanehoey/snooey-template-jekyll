@@ -27,3 +27,7 @@ plugins:
 remote_theme: shanehoey/snooey
 
 ```
+
+# Known Issues
+
+# TODO Documentation - Documentation on how to use theme is not very good
