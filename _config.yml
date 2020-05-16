@@ -2,8 +2,8 @@
 
 # TODO Documentation - Add documentation
 
-title: "Shane Hoey, Reinventing the Modern Workplace"
-url: "https://shanehoey.com"
+title: "Snooey"
+url: "https://snooey.netlify.app"
 baseurl: "/"
 title_seperator: " | "
 locale: "en"
@@ -34,7 +34,7 @@ collections:
   documents:
     output: true
     permalink: /:collection/:path/
-  projects:
+  tools:
     output: true
     permalink: /:collection/:path/
   snippets:
@@ -97,10 +97,10 @@ defaults:
       pagetheme: documents
   - scope:
       path: ""
-      type: "projects"
+      type: "tools"
     values:
-      layout: "projects"
-      pagetheme: projects
+      layout: "tools"
+      pagetheme: tools
   - scope:
       path: ""
       type: "snippets"

@@ -17,8 +17,8 @@ default:
             url:            /documents/
           - title:          blog
             url:            /blog/
-          - title:          projects
-            url:            /projects/
+          - title:          tools
+            url:            /tools/
           - title:          snippets
             url:            /snippets/
           - title:          tldr
@@ -45,8 +45,8 @@ docs:
               url:            /documents/
             - title:          blog
               url:            /blog/
-            - title:          projects
-              url:            /projects/
+            - title:          tools
+              url:            /tools/
             - title:          snippets
               url:            /snippets/
             - title:          tldr
@@ -73,8 +73,8 @@ tools:
             url:            /documents/
           - title:          blog
             url:            /blog/
-          - title:          projects
-            url:            /projects/
+          - title:          tools
+            url:            /tools/
           - title:          snippets
             url:            /snippets/
           - title:          tldr
