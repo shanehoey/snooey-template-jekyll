@@ -1,14 +1,14 @@
-#https://snooey.com/documents/*  https://docs.snooey.com/:splat 200!
+https://snooey.com/documents/*  https://docs.snooey.com/:splat 301!
 https://docs.snooey.com/*  https://snooey.com/documents/:splat 200!
 
-#https://snooey.com/hello/*  https://hello.snooey.com/:splat 200!
+https://snooey.com/hello/*  https://hello.snooey.com/:splat 301!
 https://hello.snooey.com/*  https://snooey.com/hello/:splat 200!
 
-#https://snooey.com/tldr/*  https://tldr.snooey.com/:splat 200!
+https://snooey.com/tldr/*  https://tldr.snooey.com/:splat 301!
 https://tldr.snooey.com/*  https://snooey.com/tldr/:splat 200!
 
-#https://snooey.com/tools/*  https://tools.snooey.com/:splat 200!
+https://snooey.com/tools/*  https://tools.snooey.com/:splat 301!
 https://tools.snooey.com/*  https://snooey.com/tools/:splat 200!
 
-#https://snooey.com/code/*  https://code.snooey.com/:splat 200!
+https://snooey.com/code/*  https://code.snooey.com/:splat 301!
 https://code.snooey.com/*  https://snooey.com/code/:splat 200!
