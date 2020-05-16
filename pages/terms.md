@@ -2,6 +2,10 @@
 title: "Terms of Use"
 ---
 
+# {{ page.title }} 
+
+{{ page.description }}
+
 ## Disclaimer!
 All content provided is for informational purposes only and PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
 

@@ -7,9 +7,9 @@ excerpt: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explica
 layout: page
 ---
 
-# page.title 
+# {{ page.title }} 
 
-page.description
+{{ page.description }}
 
 {% include portfolio01.html title = page.title description = page.description collection = site.videos theme = "docs" columns = 4 hidden = "description,title" %}
 <hr>

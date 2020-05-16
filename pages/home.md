@@ -6,6 +6,9 @@ permalink: /
 carousel: true
 ---
 
+# {{ page.title }} 
+
+{{ page.description }}
 
 {% include feature01.html       collection = site.data.feature.default
                                 title = "Lorem ipsum dolor sit amet."
