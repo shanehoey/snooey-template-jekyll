@@ -400,15 +400,15 @@ related:
 layout:
     default:
         class:
-            body:
-            section:
+            body:  "bo"
+            section: "sec"
         style:
-            body:
-            section:
+            body: "bo"
+            section: "sec"
     background:
         class:
-            body:
-            section:
+            body: 
+            section: 
         style:
             body:      "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
             section:                 
