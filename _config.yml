@@ -8,6 +8,7 @@ baseurl: "/"
 title_seperator: " | "
 locale: "en"
 timezone: "Australia/Brisbane"
+copyright:  Copyright (c) 2018-2020 Shane Hoey
 
 exclude:
   - LICENSE
