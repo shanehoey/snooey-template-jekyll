@@ -34,7 +34,7 @@ hello:
     btn: btn btn-sm btn btn-outline-dark
     url: https://hello.snooey.com
 
-docs:
+documents:
   - image: https://source.unsplash.com/random/1920x1080
     title: Lorem ipsum dolor
     subtitle: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe

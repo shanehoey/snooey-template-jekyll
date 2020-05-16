@@ -7,7 +7,7 @@ default:
     url:       "https://snooey.com"
     button:     more
 
-docs:
+documents:
     image:     "https://source.unsplash.com/random/960x540"
     title:     "Lorem ipsum dolor"
     subtitle:  "Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe"

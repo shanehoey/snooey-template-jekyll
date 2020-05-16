@@ -1,7 +1,7 @@
 # v1.00 _config.yml
 
 title: "Snooey"
-url: "https://snooey.netlify.app"
+url: "https://snooey.com"
 baseurl: "/"
 title_seperator: " | "
 locale: "en"
@@ -87,43 +87,40 @@ defaults:
           type: "code"
       values:
           layout: "code"
-          pagetheme: code
           theme: "code"
     - scope:
           path: ""
           type: "documents"
       values:
           layout: "documents"
-          pagetheme: docs
-          theme: "docs"
+          theme: "documents"
     - scope:
           path: ""
           type: "tools"
       values:
-          layout: "tools"
-          pagetheme: tools
-          theme: "tools"
+          layout:  tools
+          theme:  tools
     - scope:
           path: ""
           type: "snippets"
       values:
           layout: "snippets"
+          theme: "snippets"
     - scope:
           path: ""
           type: "tldr"
       values:
-          layout: "tldr"
-          pagetheme: tldr
-          theme: "tldr"
+          layout: tldr
+          theme: tldr
     - scope:
           path: ""
           type: "videos"
       values:
-          layout: "videos"
-          pagetheme: videos
+          layout: videos
+          theme:  videos
     - scope:
           path: ""
           type: "wizards"
       values:
-          layout: "wizards"
-          pagetheme: wizards
+          layout: wizards
+          theme: wizards

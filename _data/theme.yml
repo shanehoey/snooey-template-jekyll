@@ -13,7 +13,7 @@ feature:
             button:       btn btn-outline-primary
         style: 
             section:
-    docs:
+    documents:
         class:
             section:      bg-primary
             title:        font-weight-bold text-white
@@ -51,7 +51,7 @@ alert:
         class:       alert alert-danger alert-dismissible fade show
         style:  
         icon:        fas fa-exclamation-square
-    docs:
+    documents:
         class:       alert bg-dark text-white 
         style:       
         icon:        
@@ -70,7 +70,7 @@ calltoaction:
             button:       btn btn-sm btn-outline-light btn-rounded
         style:
             section:
-    docs:
+    documents:
         class:
             section:      bg-primary
             title:        font-italic text-white
@@ -96,7 +96,7 @@ navbar:
         style: 
             section:
             alternative:  
-    docs:
+    documents:
         class:  
             section:     bg-primary navbar-dark fixed-top text-white
             alternative: bg-light navbar-light fixed-top text-primary
@@ -118,7 +118,7 @@ footer:
             section:        bg-dark text-white 
         style: 
             section:        
-    docs:
+    documents:
         class:
             section:        bg-primary text-white
         style:
@@ -138,7 +138,7 @@ social:
             icon:    mx-3 fa-4x
         style:
             section:
-    docs:
+    documents:
         class:
             section: container py-5 text-center text-white bg-dark
             title:   text-white pb-3
@@ -165,7 +165,7 @@ spacer:
             section:    py-5
         style:
             section:   
-    docs:
+    documents:
         class:
             section:     py-5 bg-primary
         style:
@@ -184,7 +184,7 @@ breadcrumb:
             text:         text-dark
         style:
             section:
-    docs:
+    documents:
         class: 
             section:      bg-dark
             text:         text-white
@@ -208,7 +208,7 @@ sponsor:
             description:    text-muted
         style:
             section:
-    docs:
+    documents:
         class: 
             section:     
             image:          img-fluid float-right
@@ -244,7 +244,7 @@ blog:
                 btn:            btn btn-sm btn-dark
         style:
             section:
-    docs:
+    documents:
         class: 
             section:        text-primary text-decoration-none
             title:          text-primary text-decoration-none
@@ -280,7 +280,7 @@ jumbotron:
             section:        bg-dark text-white
         style: 
             section:        
-    docs:
+    documents:
         class:
             section:        bg-primary text-white
         style:
@@ -302,7 +302,7 @@ newsfeed:
             description:    
         style: 
             section:        
-    docs:
+    documents:
         class:
             section:        bg-white text-dark
             title:          text-primary text-decoration-none
@@ -333,7 +333,7 @@ portfolio:
                 btn:            btn btn-sm btn-dark
         style:
             section:
-    docs:
+    documents:
         class: 
             section:        text-primary text-decoration-none
             title:          text-primary text-decoration-none
@@ -375,7 +375,7 @@ related:
                 image:          img-fluid
         style:
             section:
-    docs:
+    documents:
         class: 
             section:        p-5
             title:          text-primary text-decoration-none
@@ -400,28 +400,28 @@ related:
 layout:
     default:
         class:
-            body:  "bo"
-            section: "sec"
+            body:  default
+            section: default
         style:
-            body: "bo"
-            section: "sec"
-    background:
-        class:
             body: 
+            section: 
+    default-background:
+        class:
+            body:  text-white default-background
             section: 
         style:
             body:      "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
             section:                 
     code:
         class:
-            body:
+            body: code
             section:
         style:
             body:
             section:
     documents:
         class:
-            body:
+            body: docs
             section:
         style:
             body:

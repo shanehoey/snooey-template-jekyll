@@ -38,7 +38,7 @@ hello:
     - title:          hello
       url:            /hello/
 
-docs:
+documents:
   title:              docs.snooey.com
   url:                https://docs.snooey.com
   icon:               fas fa-portrait fa-1x

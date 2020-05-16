@@ -15,7 +15,7 @@ default:
       - title:          contact
         url:            /contact/
 
-docs:
+documents:
     title:              snooey.com
     url:                https://snooey.com
     icon:               fas fa-portrait fa-1x
