@@ -20,7 +20,7 @@ docs:
     copyright:          '&copy; Shane Hoey 2018-2020. All Rights Reserved.'
     navigation: 
       - title:          snooey.netlify.app
-        url:            snooey.netlify.app
+        url:            /
       - title:          terms
         url:            /terms/
       - title:          license
@@ -28,12 +28,12 @@ docs:
 
 tools:
     title:              snooey.netlify.app
-    url:                https://snooey.netlify.app
+    url:                /
     icon:               fas fa-portrait fa-1x
     copyright:          '&copy; Shane Hoey 2018-2020. All Rights Reserved.'
     navigation: 
       - title:          snooey.netlify.app 
-        url:            snooey.netlify.app
+        url:            /
       - title:          terms
         url:            /terms/
       - title:          license

@@ -1,8 +1,8 @@
 # _data/navbar.yml
 
 default: 
-    title:              "Snooey Theme"
-    url:                "https://snooey.netlify.app"
+    title:              Snooey Theme
+    url:                /
     icon:               fas fa-portrait fa-1x
     navigation: 
       - title:          home
@@ -29,8 +29,8 @@ default:
             url:            /wizards/
 
 docs:
-    title:              "Snooey Theme"
-    url:                "https://snooey.netlify.app"
+    title:              Snooey Theme
+    url:                /
     icon:               fas fa-portrait fa-1x
     navigation: 
         - title:          home
@@ -57,8 +57,8 @@ docs:
               url:            /wizards/
 
 tools:
-    title:              "Snooey Theme"
-    url:                "https://snooey.netlify.app"
+    title:              Snooey Theme
+    url:                /
     icon:               fas fa-portrait fa-1x
     navigation: 
       - title:          home
