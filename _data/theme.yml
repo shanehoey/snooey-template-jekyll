@@ -396,7 +396,6 @@ related:
         style:
             section:            "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
 
-
 # layout/default.html
 layout:
     default:
@@ -414,55 +413,64 @@ layout:
             body:      "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
             section:                 
     code:
-        body:
+        class:
+            body:
             section:
         style:
             body:
             section:
     documents:
-        body:
+        class:
+            body:
             section:
         style:
             body:
             section:
     page:
-        body:
+        class:
+            body:
             section:
         style:
             body:
             section:
     post:
-        body:
+        class:
+            body:
             section:
         style:
             body:
             section:
     tools:
-        body:
+        class:
+            body:
             section:
         style:
             body:
             section:
     snippets:
-        body:
+        class:
+            body:
             section:
         style:
             body:
             section:
     tldr:
-        body:
+        class:
+            body:
             section:
         style:
             body:
             section:
     videos:
-        body:
+        class:
+            body:
             section:
         style:
             body:
             section:
-    wizards: 
-        body:
+    wizards:
+        class: 
+            body:
             section:
         style:
             body:
