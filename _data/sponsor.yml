@@ -27,5 +27,23 @@ tools:
     url:          https://snooey.netlify.app
     image:        https://source.unsplash.com/random/120x120
 
+tldr:
+    sponsor:      "Sponsored by:"
+    title:        Lorem ipsum dolor
+    subtitle:     Lorem ipsum dolor
+    description:  Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
+    excerpt:      Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
+    url:          https://snooey.netlify.app
+    image:        https://source.unsplash.com/random/120x120
 
+hello:
+    sponsor:      "Sponsored by:"
+    title:        Lorem ipsum dolor
+    subtitle:     Lorem ipsum dolor
+    description:  Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
+    excerpt:      Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
+    url:          https://snooey.netlify.app
+    image:        https://source.unsplash.com/random/120x120
+
+    
  

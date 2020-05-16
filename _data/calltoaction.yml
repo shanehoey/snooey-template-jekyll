@@ -4,19 +4,33 @@ default:
     image:     "https://source.unsplash.com/random/1920x1080"
     title:     "Lorem ipsum dolor"
     subtitle:  "Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe"
-    url:       "https://snooey.netlify.com"
+    url:       "https://snooey.com"
     button:     more
 
 docs:
     image:     "https://source.unsplash.com/random/960x540"
     title:     "Lorem ipsum dolor"
     subtitle:  "Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe"
-    url:       "https://snooey.netlify.com"
+    url:       "https://docs.snooey.com"
     button:     more
 
 tools:
     image:     "https://source.unsplash.com/random/480x270"
     title:     "Lorem ipsum dolor"
     subtitle:  "Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe"
-    url:       "https://snooey.netlify.com"
+    url:       "https://tools.snooey.com"
     button:     more
+
+tldr:
+    image:     "https://source.unsplash.com/random/960x540"
+    title:     "Lorem ipsum dolor"
+    subtitle:  "Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe"
+    url:        https://tldr.snooey.com
+    button:     more
+
+hello:
+    image:     https://source.unsplash.com/random/480x270
+    title:     Lorem ipsum dolor
+    subtitle:  Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
+    url:       https://hello.snooey.com
+    button:    hello!
