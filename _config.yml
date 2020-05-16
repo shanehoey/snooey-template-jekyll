@@ -23,6 +23,7 @@ remote_theme: shanehoey/snooey
 
 include:
     - _pages
+    - _redirects
 
 collections_dir: collections
 
