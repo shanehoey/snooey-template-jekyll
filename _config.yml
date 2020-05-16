@@ -8,119 +8,124 @@ baseurl: "/"
 title_seperator: " | "
 locale: "en"
 timezone: "Australia/Brisbane"
-copyright:  Copyright (c) 2018-2020 Shane Hoey
+copyright: Copyright (c) 2018-2020 Shane Hoey
 
 exclude:
-  - LICENSE
-  - README.md
-  - .gitignore
-  - Gemfile
-  - Gemfile.lock
+    - LICENSE
+    - README.md
+    - .gitignore
+    - Gemfile
+    - Gemfile.lock
 
-plugins_dir:                _plugins
+plugins_dir: _plugins
 plugins:
-  - jekyll-remote-theme
+    - jekyll-remote-theme
 
-remote_theme:     shanehoey/snooey
+remote_theme: shanehoey/snooey
 
 include:
-  - _pages
+    - _pages
 
 collections_dir: collections
 
 collections:
-  code:
-    output: true
-    permalink: /:collection/:path/
-  documents:
-    output: true
-    permalink: /:collection/:path/
-  snippets:
-    output: true
-    permalink: /:collection/:path/
-  tldr:
-    output: true
-    permalink: /:collection/:path/
-  tools:
-    output: true
-    permalink: /:collection/:path/
-  videos:
-    output: true
-    permalink: /:collection/:path/
-  wizards:
-    output: true
-    permalink: /:collection/:path/
+    code:
+        output: true
+        permalink: /:collection/:path/
+    documents:
+        output: true
+        permalink: /:collection/:path/
+    snippets:
+        output: true
+        permalink: /:collection/:path/
+    tldr:
+        output: true
+        permalink: /:collection/:path/
+    tools:
+        output: true
+        permalink: /:collection/:path/
+    videos:
+        output: true
+        permalink: /:collection/:path/
+    wizards:
+        output: true
+        permalink: /:collection/:path/
 
 defaults:
-  - scope:
-      path: ""
-    values:
-      title:
-      subtitle:
-      excerpt:
-      description:
-      author: Shane Hoey
-      icon: fas fa-rocket
-      navbar: true
-      breadcrumb: true
-      carousel: false
-      footer: true
-      image:
-        horizontal: https://source.unsplash.com/random/750x400
-        vertical: https://source.unsplash.com/random/400x750
-        square: https://source.unsplash.com/random/300x300
-        random: https://source.unsplash.com/random/750x400
-        background: https://source.unsplash.com/random/2400x1800
-        profile: https://source.unsplash.com/random/300x450
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-      permalink: /:basename/
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-      type: "code"
-    values:
-      layout: "code"
-      pagetheme: code
-  - scope:
-      path: ""
-      type: "documents"
-    values:
-      layout: "documents"
-      pagetheme: documents
-  - scope:
-      path: ""
-      type: "tools"
-    values:
-      layout: "tools"
-      pagetheme: tools
-  - scope:
-      path: ""
-      type: "snippets"
-    values:
-      layout: "snippets"
-  - scope:
-      path: ""
-      type: "tldr"
-    values:
-      layout: "tldr"
-      pagetheme: tldr
-  - scope:
-      path: ""
-      type: "videos"
-    values:
-      layout: "videos"
-      pagetheme: videos
-  - scope:
-      path: ""
-      type: "wizards"
-    values:
-      layout: "wizards"
-      pagetheme: wizards
+    - scope:
+          path: ""
+      values:
+          title:
+          subtitle:
+          excerpt:
+          description:
+          author: Shane Hoey
+          icon: fas fa-rocket
+          navbar: true
+          breadcrumb: true
+          carousel: false
+          footer: true
+          theme:
+          image:
+              horizontal: https://source.unsplash.com/random/750x400
+              vertical: https://source.unsplash.com/random/400x750
+              square: https://source.unsplash.com/random/300x300
+              random: https://source.unsplash.com/random/750x400
+              background: https://source.unsplash.com/random/2400x1800
+              profile: https://source.unsplash.com/random/300x450
+    - scope:
+          path: ""
+          type: "pages"
+      values:
+          layout: "page"
+          permalink: /:basename/
+    - scope:
+          path: ""
+          type: "posts"
+      values:
+          layout: "post"
+    - scope:
+          path: ""
+          type: "code"
+      values:
+          layout: "code"
+          pagetheme: code
+          theme: "code"
+    - scope:
+          path: ""
+          type: "documents"
+      values:
+          layout: "documents"
+          pagetheme: docs
+          theme: "docs"
+    - scope:
+          path: ""
+          type: "tools"
+      values:
+          layout: "tools"
+          pagetheme: tools
+          theme: "tools"
+    - scope:
+          path: ""
+          type: "snippets"
+      values:
+          layout: "snippets"
+    - scope:
+          path: ""
+          type: "tldr"
+      values:
+          layout: "tldr"
+          pagetheme: tldr
+          theme: "tldr"
+    - scope:
+          path: ""
+          type: "videos"
+      values:
+          layout: "videos"
+          pagetheme: videos
+    - scope:
+          path: ""
+          type: "wizards"
+      values:
+          layout: "wizards"
+          pagetheme: wizards
