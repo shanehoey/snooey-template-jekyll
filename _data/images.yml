@@ -24,3 +24,20 @@ tools:
     background:     https://source.unsplash.com/random/2400x1800
     profile:        https://source.unsplash.com/random/300x450
     
+
+tldr:
+    horizontal:     https://source.unsplash.com/random/750x400
+    vertical:       https://source.unsplash.com/random/400x750
+    square:         https://source.unsplash.com/random/300x300
+    random:         https://source.unsplash.com/random/750x400
+    background:     https://source.unsplash.com/random/2400x1800
+    profile:        https://source.unsplash.com/random/300x450
+
+hello:
+    horizontal:     https://source.unsplash.com/random/750x400
+    vertical:       https://source.unsplash.com/random/400x750
+    square:         https://source.unsplash.com/random/300x300
+    random:         https://source.unsplash.com/random/750x400
+    background:     https://source.unsplash.com/random/2400x1800
+    profile:        https://source.unsplash.com/random/300x450
+    

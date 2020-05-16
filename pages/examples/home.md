@@ -14,5 +14,5 @@ permalink: /examples/
 <h5><a href="{{ page.url }}">{{ page.title }}</a></h5>
     {% endif %}
 {% endfor %}
-<p class = "text-justify">{{ page.description }}</p>
+
 
