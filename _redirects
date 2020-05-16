@@ -5,8 +5,9 @@ https://tldr.snooey.com/*  https://snooey.com/tldr/:splat 200
 https://tools.snooey.com/*  https://snooey.com/tools/:splat 200
 
 
-#https://snooey.com/documents/*  https://docs.snooey.com/:splat 301!
+/documents/*  https://docs.snooey.com/:splat 301!
+https://snooey.com/code/*  https://code.snooey.com/:splat 301!
 #https://snooey.com/hello/*  https://hello.snooey.com/:splat 301!
 #https://snooey.com/tldr/*  https://tldr.snooey.com/:splat 301!
 #https://snooey.com/tools/*  https://tools.snooey.com/:splat 301!
-#https://snooey.com/code/*  https://code.snooey.com/:splat 301!
+
