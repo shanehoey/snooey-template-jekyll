@@ -1,4 +1,14 @@
-http://docs.snooey.com/*  http://snooey.com/docs/:splat               200!
-http://hello.snooey.com/*  http://snooey.com/hello/:splat             200!
-http://tldr.snooey.com/*  http://snooey.com/tldr/:splat               200!
-http://tools.snooey.com/*  http://snooey.com/tools/:splat             200!
+http://snooey.com/documents/*  http://docs.snooey.com/:splat 200!
+http://docs.snooey.com/*  http://snooey.com/documents/:splat 200!
+
+http://snooey.com/hello/*  http://hello.snooey.com/:splat 200!
+http://hello.snooey.com/*  http://snooey.com/hello/:splat 200!
+
+http://snooey.com/tldr/*  http://tldr.snooey.com/:splat 200!
+http://tldr.snooey.com/*  http://snooey.com/tldr/:splat 200!
+
+http://snooey.com/tools/*  http://tools.snooey.com/:splat 200!
+http://tools.snooey.com/*  http://snooey.com/tools/:splat 200!
+
+http://snooey.com/code/*  http://code.snooey.com/:splat 200!
+http://code.snooey.com/*  http://snooey.com/code/:splat 200!
