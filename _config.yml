@@ -21,8 +21,6 @@ plugins:
     - jekyll-sitemap
     - jekyll-seo-tag
     - jekyll-remote-theme
-    - Jekyll-mermaid
-
 
 remote_theme: shanehoey/snooey
 
