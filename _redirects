@@ -18,10 +18,10 @@ https://hello.snooey.com/hello/* https://hello.snooey.com/hello/:splat 200
 /blog/* https://blog.snooey.com/blog/:splat 301!
 /hello/* https://hello.snooey.com/:splat 301!
 
-https://snooey.com/   /index.html   200
-https://tools.snooey.com/    /tools.html   200
-https://docs.snooey.com/    /docs.html   200
-https://blog.snooey.com/    /blog.html   200
-https://hello.snooey.com/    /hello.html   200
+https://snooey.com   /index.html   200
+https://tools.snooey.com    /tools.html   200
+https://docs.snooey.com    /docs.html   200
+https://blog.snooey.com    /blog.html   200
+https://hello.snooey.com    /hello.html   200
 
 
