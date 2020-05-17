@@ -17,10 +17,8 @@ https://hello.snooey.com/hello/* https://hello.snooey.com/hello/:splat 200
 /wizards/* https://tools.snooey.com/wizards/:splat 301!
 /blogs/* https://blog.snooey.com/blogs/:splat 301!
 
-
-
-https://snooey.com   /index.html   200!
-https://tools.snooey.com    /tools.html   200!
-https://docs.snooey.com    /docs.html   200!
-https://blog.snooey.com    /blog.html   200!
-https://hello.snooey.com    /hello.html   200!
+https://snooey.com /index.html 200!
+https://tools.snooey.com /tools.html 200!
+https://docs.snooey.com /docs.html 200!
+https://blog.snooey.com /blog.html 200!
+https://hello.snooey.com /hello.html 200!
