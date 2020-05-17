@@ -83,6 +83,7 @@ defaults:
           type: "posts"
       values:
           layout: "post"
+          permalink: /blogs/
     - scope:
           path: ""
           type: "code"
