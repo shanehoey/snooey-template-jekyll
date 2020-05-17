@@ -7,9 +7,17 @@ default:
     navigation: 
       - title:          home
         url:            /
-      - title:          examples
-        url:            /examples/
+      - title:          docs
+        url:            /docs/   
+      - title:          tools
+        url:            /tools/         
+      - title:          blog
+        url:            /blog/  
+      - title:          hello
+        url:            /hello/ 
       - title:          Pages
+      - title:          examples
+        url:            /examples/    
         children:
           - title:          code
             url:            /code/
@@ -29,15 +37,23 @@ default:
             url:            /wizards/
 
 hello:
-    title:              hello.snooey.com
-    url:                https://hello.snooey.com
+    title:              snooey.com
+    url:                https://snooey.com
     icon:               fas fa-portrait fa-1x
     navigation: 
       - title:          home
         url:            /
-      - title:          examples
-        url:            /examples/
+      - title:          docs
+        url:            /docs/   
+      - title:          tools
+        url:            /tools/         
+      - title:          blog
+        url:            /blog/  
+      - title:          hello
+        url:            /hello/ 
       - title:          Pages
+      - title:          examples
+        url:            /examples/    
         children:
           - title:          code
             url:            /code/
@@ -55,18 +71,63 @@ hello:
             url:            /videos/
           - title:          wizards
             url:            /wizards/
-      
-
-documents:
-    title:              docs.snooey.com
-    url:                https://docs.snooey.com
+  
+  
+blogs:
+    title:              snooey.com
+    url:                https://snooey.com
     icon:               fas fa-portrait fa-1x
     navigation: 
       - title:          home
         url:            /
-      - title:          examples
-        url:            /examples/
+      - title:          docs
+        url:            /docs/   
+      - title:          tools
+        url:            /tools/         
+      - title:          blog
+        url:            /blog/  
+      - title:          hello
+        url:            /hello/ 
       - title:          Pages
+      - title:          examples
+        url:            /examples/    
+        children:
+          - title:          code
+            url:            /code/
+          - title:          docs
+            url:            /documents/
+          - title:          blog
+            url:            /blog/
+          - title:          tools
+            url:            /tools/
+          - title:          snippets
+            url:            /snippets/
+          - title:          tldr
+            url:            /tldr/
+          - title:          videos
+            url:            /videos/
+          - title:          wizards
+            url:            /wizards/  
+
+
+documents:
+    title:              snooey.com
+    url:                https://snooey.com
+    icon:               fas fa-portrait fa-1x
+    navigation: 
+      - title:          home
+        url:            /
+      - title:          docs
+        url:            /docs/   
+      - title:          tools
+        url:            /tools/         
+      - title:          blog
+        url:            /blog/  
+      - title:          hello
+        url:            /hello/ 
+      - title:          Pages
+      - title:          examples
+        url:            /examples/    
         children:
           - title:          code
             url:            /code/
@@ -86,15 +147,23 @@ documents:
             url:            /wizards/
 
 tools:
-    title:              tools.snooey.com
-    url:                https://hello.snooey.com
+    title:              snooey.com
+    url:                https://snooey.com
     icon:               fas fa-portrait fa-1x
     navigation: 
       - title:          home
         url:            /
-      - title:          examples
-        url:            /examples/
+      - title:          docs
+        url:            /docs/   
+      - title:          tools
+        url:            /tools/         
+      - title:          blog
+        url:            /blog/  
+      - title:          hello
+        url:            /hello/ 
       - title:          Pages
+      - title:          examples
+        url:            /examples/    
         children:
           - title:          code
             url:            /code/
@@ -114,15 +183,23 @@ tools:
             url:            /wizards/
 
 tldr:
-    title:              tldr.snooey.com
-    url:                https://tldr.snooey.com
+    title:              snooey.com
+    url:                https://snooey.com
     icon:               fas fa-portrait fa-1x
     navigation: 
       - title:          home
         url:            /
-      - title:          examples
-        url:            /examples/
+      - title:          docs
+        url:            /docs/   
+      - title:          tools
+        url:            /tools/         
+      - title:          blog
+        url:            /blog/  
+      - title:          hello
+        url:            /hello/ 
       - title:          Pages
+      - title:          examples
+        url:            /examples/    
         children:
           - title:          code
             url:            /code/
