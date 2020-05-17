@@ -1,5 +1,5 @@
 #redirect /hello/* to 
-/hello/*   https://hello.snooey.com/hello/home.html   200!
+/hello/*   https://hello.snooey.com/hello/home.html:splat 200!
 
 https://docs.snooey.com/* https://docs.snooey.com/home-docs.html:splat 200
 
