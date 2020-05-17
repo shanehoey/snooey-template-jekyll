@@ -8,13 +8,13 @@ default:
       - title:          home
         url:            https://snooey.com
       - title:          docs
-        url:            https://docs.shanehoey.com 
+        url:            https://docs.snooey.com 
       - title:          tools
-        url:            https://tools.shanehoey.com       
+        url:            https://tools.snooey.com       
       - title:          blog
-        url:            https://blog.shanehoey.com 
+        url:            https://blog.snooey.com 
       - title:          hello
-        url:            https://hello.shanehoey.com  
+        url:            https://hello.snooey.com  
       - title:          examples
         url:            /examples/    
         children:
