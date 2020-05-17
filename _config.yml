@@ -38,6 +38,7 @@ plugins:
     - jekyll-seo-tag
     - jekyll-remote-theme
     - jekyll-spaceship
+    - jekyll-toc
 
 remote_theme: shanehoey/snooey
 
