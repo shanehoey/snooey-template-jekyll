@@ -1,21 +1,15 @@
 
 https://docs.snooey.com/* https://docs.snooey.com/home-docs.html:splat 200
+
 https://docs.snooey.com/documents/* https://docs.snooey.com/documents/:splat 200
 https://docs.snooey.com/tldr/* https://docs.snooey.com/tldr/:splat 200
-/documents/* https://docs.snooey.com/:splat 301!
-/tldr/* https://docs.snooey.com/:splat 301!
 
-https://tools.snooey.com/* https://tools.snooey.com/home-tools.html:splat 200
-https://tools.snooey.com/tools/* https://tools.snooey.com/tools/:splat 200
-https://tools.snooey.com/code/* https://tools.snooey.com/code/:splat 200
-https://tools.snooey.com/snippets/* https://tools.snooey.com/snippets/:splat 200
-https://tools.snooey.com/wizards/* https://tools.snooey.com/wizards/:splat 200
-/tools/* https://tools.snooey.com/:splat 301!
-/code/* https://tools.snooey.com/:splat 301!
-/snippets/* https://tools.snooey.com/:splat 301!
-/wizards/* https://tools.snooey.com/:splat 301!
+https://docs.snooey.com/code/* https://tools.snooey.com/code/:splat 200
+https://docs.snooey.com/snippets/* https://tools.snooey.com/snippets/:splat 200
+https://docs.snooey.com/wizards/* https://tools.snooey.com/wizards/:splat 200
+https://docs.snooey.com/tools/* https://tools.snooey.com/tools/:splat 200
 
+https://docs.snooey.com/videos/* https://blog.snooey.com/videos/:splat 200
+https://docs.snooey.com/blog/* https://blog.snooey.com/blog/:splat 200
 
-https://hello.snooey.com/* https://hello.snooey.com/home-hello.html:splat 200
-https://hello.snooey.com/* https://hello.snooey.com/:splat 200
-/hello/* https://hello.snooey.com/:splat 301!
+https://docs.snooey.com/hello/* https://hello.snooey.com/home-hello.html/:splat 200
