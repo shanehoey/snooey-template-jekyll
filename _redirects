@@ -22,8 +22,7 @@ https://hello.snooey.com    /hello.html   200
 /code/* https://tools.snooey.com/code/:splat 301!
 /snippets/* https://tools.snooey.com/snippets/:splat 301!
 /wizards/* https://tools.snooey.com/wizards/:splat 301!
-/blogs/* https://blog.snooey.com/blog/:splat 301!
-/hello/* https://hello.snooey.com/:splat 301!
+/blogs/* https://blog.snooey.com/blogs/:splat 301!
 
 
 
