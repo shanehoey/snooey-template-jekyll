@@ -8,6 +8,19 @@ locale: "en"
 timezone: "Australia/Brisbane"
 copyright: Copyright (c) 2018-2020 Shane Hoey
 
+# added for seo 
+# tagline: "Snooey Jekyll Theme"
+# description:
+# url: https://snooey.com
+# author:
+# twitter:
+#    twitter: summary
+#    username: shanehoey
+# social:
+# webmaster_verifications:
+#    google:
+#    bing: 
+
 exclude:
     - LICENSE
     - README.md
@@ -15,12 +28,16 @@ exclude:
     - Gemfile
     - Gemfile.lock
 
+
+
+
 plugins_dir: _plugins
 plugins:
     - jekyll-remote-theme
     - jekyll-sitemap
     - jekyll-seo-tag
     - jekyll-remote-theme
+    - jekyll-spaceship
 
 remote_theme: shanehoey/snooey
 
