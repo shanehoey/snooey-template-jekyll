@@ -18,7 +18,7 @@ exclude:
 plugins_dir: _plugins
 plugins:
     - jekyll-remote-theme
-
+    - jekyll
 remote_theme: shanehoey/snooey
 
 include:
