@@ -1,15 +1,15 @@
 #redirect /hello/* to 
-/hello/*   https://hello.snooey.com/hello/:splat 200!
-/blog/* https://blog.snooey.com/blog/:splat 200!
+/hello/*   https://hello.snooey.com/hello/:splat 301!
+/blog/* https://blog.snooey.com/blog/:splat 301!
 
 https://docs.snooey.com/documents/* https://docs.snooey.com/documents/:splat 200
 https://docs.snooey.com/tldr/* https://docs.snooey.com/tldr/:splat 200
 https://docs.snooey.com/videos/* https://docs.snooey.com/videos/:splat 200
 
-https://docs.snooey.com/tools/* https://tools.snooey.com/tools/:splat 200!
-https://docs.snooey.com/code/* https://tools.snooey.com/code/:splat 200!
-https://docs.snooey.com/snippets/* https://tools.snooey.com/snippets/:splat 200!
-https://docs.snooey.com/wizards/* https://tools.snooey.com/wizards/:splat 200!
+https://docs.snooey.com/tools/* https://tools.snooey.com/tools/:splat 301!
+https://docs.snooey.com/code/* https://tools.snooey.com/code/:splat 301!
+https://docs.snooey.com/snippets/* https://tools.snooey.com/snippets/:splat 301!
+https://docs.snooey.com/wizards/* https://tools.snooey.com/wizards/:splat 301!
 
 
 
