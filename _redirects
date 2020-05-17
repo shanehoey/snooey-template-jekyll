@@ -1,15 +1,27 @@
-#redirect /hello/* to 
 /hello/*   https://hello.snooey.com/hello/:splat 301!
 /blog/* https://blog.snooey.com/blog/:splat 301!
 
-https://docs.snooey.com/documents/* https://docs.snooey.com/documents/:splat 200
-https://docs.snooey.com/tldr/* https://docs.snooey.com/tldr/:splat 200
-https://docs.snooey.com/videos/* https://docs.snooey.com/videos/:splat 200
+#https://docs.snooey.com/documents/* https://docs.snooey.com/documents/:splat 200
+#https://docs.snooey.com/tldr/* https://docs.snooey.com/tldr/:splat 200
+#https://docs.snooey.com/videos/* https://docs.snooey.com/videos/:splat 200
 
-https://docs.snooey.com/tools/* https://tools.snooey.com/tools/:splat 301!
-https://docs.snooey.com/code/* https://tools.snooey.com/code/:splat 301!
-https://docs.snooey.com/snippets/* https://tools.snooey.com/snippets/:splat 301!
-https://docs.snooey.com/wizards/* https://tools.snooey.com/wizards/:splat 301!
+#https://docs.snooey.com/tools/* https://tools.snooey.com/tools/:splat 301!
+#https://docs.snooey.com/code/* https://tools.snooey.com/code/:splat 301!
+#https://docs.snooey.com/snippets/* https://tools.snooey.com/snippets/:splat 301!
+#https://docs.snooey.com/wizards/* https://tools.snooey.com/wizards/:splat 301!
 
+#this causes multiple redirects how do I stop it, above works ok
+
+#https://docs.snooey.com/documents/* https://docs.snooey.com/documents/:splat 200
+#https://docs.snooey.com/tldr/* https://docs.snooey.com/tldr/:splat 200
+#https://docs.snooey.com/videos/* https://docs.snooey.com/videos/:splat 200
+/documents/* https://docs.snooey.com/documents/:splat 301!
+/tldr/* https://docs.snooey.com/documents/:splat 301!
+/videos/* https://docs.snooey.com/videos/:splat 301!
+
+/tools/* https://tools.snooey.com/tools/:splat 301!
+/code/* https://tools.snooey.com/code/:splat 301!
+/snippets/* https://tools.snooey.com/snippets/:splat 301!
+/wizards/* https://tools.snooey.com/wizards/:splat 301!
 
 
