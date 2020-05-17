@@ -1,5 +1,7 @@
 #redirect /hello/* to 
 /hello/*   https://hello.snooey.com/hello/:splat 200!
+/blog/* https://blog.snooey.com/blog/:splat 200!
+
 
 https://docs.snooey.com/documents/* https://docs.snooey.com/documents/:splat 200
 https://docs.snooey.com/tldr/* https://docs.snooey.com/tldr/:splat 200
@@ -12,4 +14,4 @@ https://docs.snooey.com/wizards/* https://tools.snooey.com/wizards/:splat
 
 https://docs.snooey.com/blog/* https://blog.snooey.com/blog/:splat 200
 
-https://docs.snooey.com/* https://docs.snooey.com/home-docs.html:splat 200!
+
