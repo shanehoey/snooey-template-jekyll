@@ -1,3 +1,5 @@
 [[plugins]]
 package = "@netlify/plugin-sitemap"
-prettyURLs = true
+
+    [plugins.inputs]
+    prettyURLs = true
