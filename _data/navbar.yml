@@ -22,8 +22,8 @@ default:
             url:            /code/
           - title:          docs
             url:            /documents/
-          - title:          blog
-            url:            /blog/
+          - title:          blogs
+            url:            /blogs/
           - title:          tools
             url:            /tools/
           - title:          snippets
@@ -57,8 +57,8 @@ hello:
             url:            /code/
           - title:          docs
             url:            /documents/
-          - title:          blog
-            url:            /blog/
+          - title:          blogs
+            url:            /blogs/
           - title:          tools
             url:            /tools/
           - title:          snippets
@@ -93,8 +93,8 @@ blogs:
             url:            /code/
           - title:          docs
             url:            /documents/
-          - title:          blog
-            url:            /blog/
+          - title:          blogs
+            url:            /blogs/
           - title:          tools
             url:            /tools/
           - title:          snippets
@@ -118,8 +118,8 @@ documents:
             url:            https://docs.snooey.com 
           - title:          tools
             url:            https://tools.snooey.com       
-          - title:          blog
-            url:            https://blog.snooey.com 
+          - title:          blogs
+            url:            https://blogs.snooey.com 
           - title:          hello
             url:            https://hello.snooey.com  
           - title:          examples
@@ -129,8 +129,8 @@ documents:
                 url:            /code/
               - title:          docs
                 url:            /documents/
-              - title:          blog
-                url:            /blog/
+              - title:          blogs
+                url:            /blogs/
               - title:          tools
                 url:            /tools/
               - title:          snippets
@@ -153,8 +153,8 @@ tools:
         url:            https://docs.snooey.com 
       - title:          tools
         url:            https://tools.snooey.com       
-      - title:          blog
-        url:            https://blog.snooey.com 
+      - title:          blogs
+        url:            https://blogs.snooey.com 
       - title:          hello
         url:            https://hello.snooey.com  
       - title:          examples
@@ -188,8 +188,8 @@ tldr:
         url:            https://docs.snooey.com 
       - title:          tools
         url:            https://tools.snooey.com       
-      - title:          blog
-        url:            https://blog.snooey.com 
+      - title:          blogs
+        url:            https://blogs.snooey.com 
       - title:          hello
         url:            https://hello.snooey.com  
       - title:          examples
@@ -199,8 +199,8 @@ tldr:
             url:            /code/
           - title:          docs
             url:            /documents/
-          - title:          blog
-            url:            /blog/
+          - title:          blogs
+            url:            /blogs/
           - title:          tools
             url:            /tools/
           - title:          snippets
