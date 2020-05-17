@@ -12,9 +12,9 @@
 
 #this causes multiple redirects how do I stop it, above works ok
 
-#https://docs.snooey.com/documents/* https://docs.snooey.com/documents/:splat 200
-#https://docs.snooey.com/tldr/* https://docs.snooey.com/tldr/:splat 200
-#https://docs.snooey.com/videos/* https://docs.snooey.com/videos/:splat 200
+https://docs.snooey.com/documents/* https://docs.snooey.com/documents/:splat 200
+https://docs.snooey.com/tldr/* https://docs.snooey.com/tldr/:splat 200
+https://docs.snooey.com/videos/* https://docs.snooey.com/videos/:splat 200
 /documents/* https://docs.snooey.com/documents/:splat 301!
 /tldr/* https://docs.snooey.com/documents/:splat 301!
 /videos/* https://docs.snooey.com/videos/:splat 301!
