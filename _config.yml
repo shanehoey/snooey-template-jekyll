@@ -18,7 +18,12 @@ exclude:
 plugins_dir: _plugins
 plugins:
     - jekyll-remote-theme
-    - jekyll
+    - jekyll-sitemap
+    - jekyll-seo-tag
+    - jekyll-remote-theme
+    - Jekyll-mermaid
+
+
 remote_theme: shanehoey/snooey
 
 include:
