@@ -30,4 +30,5 @@ remote_theme: shanehoey/snooey
 
 # Known Issues
 
-# TODO Documentation - Documentation on how to use theme is not very good
+[] # Documentation on how to use theme is not very good
+[] # Not yet at stable v1.00 release expect breaking changes
