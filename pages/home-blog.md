@@ -10,4 +10,4 @@ carousel: true
 
 {{ page.description }}
 
-home-tools.html
+home-blog.html
