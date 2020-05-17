@@ -6,16 +6,15 @@ default:
     icon:               fas fa-portrait fa-1x
     navigation: 
       - title:          home
-        url:            /
+        url:            https://snooey.com
       - title:          docs
-        url:            /docs/   
+        url:            https://docs.shanehoey.com 
       - title:          tools
-        url:            /tools/         
+        url:            https://tools.shanehoey.com       
       - title:          blog
-        url:            /blog/  
+        url:            https://blog.shanehoey.com 
       - title:          hello
-        url:            /hello/ 
-      - title:          Pages
+        url:            https://hello.shanehoey.com  
       - title:          examples
         url:            /examples/    
         children:
@@ -42,18 +41,17 @@ hello:
     icon:               fas fa-portrait fa-1x
     navigation: 
       - title:          home
-        url:            /
+        url:            https://snooey.com
       - title:          docs
-        url:            /docs/   
+        url:            https://docs.shanehoey.com 
       - title:          tools
-        url:            /tools/         
+        url:            https://tools.shanehoey.com       
       - title:          blog
-        url:            /blog/  
+        url:            https://blog.shanehoey.com 
       - title:          hello
-        url:            /hello/ 
-      - title:          Pages
+        url:            https://hello.shanehoey.com  
       - title:          examples
-        url:            /examples/    
+        url:            /examples/      
         children:
           - title:          code
             url:            /code/
@@ -79,16 +77,15 @@ blogs:
     icon:               fas fa-portrait fa-1x
     navigation: 
       - title:          home
-        url:            /
+        url:            https://snooey.com
       - title:          docs
-        url:            /docs/   
+        url:            https://docs.shanehoey.com 
       - title:          tools
-        url:            /tools/         
+        url:            https://tools.shanehoey.com       
       - title:          blog
-        url:            /blog/  
+        url:            https://blog.shanehoey.com 
       - title:          hello
-        url:            /hello/ 
-      - title:          Pages
+        url:            https://hello.shanehoey.com  
       - title:          examples
         url:            /examples/    
         children:
@@ -115,19 +112,18 @@ documents:
     url:                https://snooey.com
     icon:               fas fa-portrait fa-1x
     navigation: 
-      - title:          home
-        url:            /
+       - title:          home
+        url:            https://snooey.com
       - title:          docs
-        url:            /docs/   
+        url:            https://docs.shanehoey.com 
       - title:          tools
-        url:            /tools/         
+        url:            https://tools.shanehoey.com       
       - title:          blog
-        url:            /blog/  
+        url:            https://blog.shanehoey.com 
       - title:          hello
-        url:            /hello/ 
-      - title:          Pages
+        url:            https://hello.shanehoey.com  
       - title:          examples
-        url:            /examples/    
+        url:            /examples/     
         children:
           - title:          code
             url:            /code/
@@ -152,16 +148,15 @@ tools:
     icon:               fas fa-portrait fa-1x
     navigation: 
       - title:          home
-        url:            /
+        url:            https://snooey.com
       - title:          docs
-        url:            /docs/   
+        url:            https://docs.shanehoey.com 
       - title:          tools
-        url:            /tools/         
+        url:            https://tools.shanehoey.com       
       - title:          blog
-        url:            /blog/  
+        url:            https://blog.shanehoey.com 
       - title:          hello
-        url:            /hello/ 
-      - title:          Pages
+        url:            https://hello.shanehoey.com  
       - title:          examples
         url:            /examples/    
         children:
@@ -188,18 +183,17 @@ tldr:
     icon:               fas fa-portrait fa-1x
     navigation: 
       - title:          home
-        url:            /
+        url:            https://snooey.com
       - title:          docs
-        url:            /docs/   
+        url:            https://docs.shanehoey.com 
       - title:          tools
-        url:            /tools/         
+        url:            https://tools.shanehoey.com       
       - title:          blog
-        url:            /blog/  
+        url:            https://blog.shanehoey.com 
       - title:          hello
-        url:            /hello/ 
-      - title:          Pages
+        url:            https://hello.shanehoey.com  
       - title:          examples
-        url:            /examples/    
+        url:            /examples/   
         children:
           - title:          code
             url:            /code/
