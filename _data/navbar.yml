@@ -112,35 +112,35 @@ documents:
     url:                https://snooey.com
     icon:               fas fa-portrait fa-1x
     navigation: 
-       - title:          home
-        url:            https://snooey.com
-      - title:          docs
-        url:            https://docs.shanehoey.com 
-      - title:          tools
-        url:            https://tools.shanehoey.com       
-      - title:          blog
-        url:            https://blog.shanehoey.com 
-      - title:          hello
-        url:            https://hello.shanehoey.com  
-      - title:          examples
-        url:            /examples/     
-        children:
-          - title:          code
-            url:            /code/
+          - title:          home
+            url:            https://snooey.com
           - title:          docs
-            url:            /documents/
-          - title:          blog
-            url:            /blog/
+            url:            https://docs.shanehoey.com 
           - title:          tools
-            url:            /tools/
-          - title:          snippets
-            url:            /snippets/
-          - title:          tldr
-            url:            /tldr/
-          - title:          videos
-            url:            /videos/
-          - title:          wizards
-            url:            /wizards/
+            url:            https://tools.shanehoey.com       
+          - title:          blog
+            url:            https://blog.shanehoey.com 
+          - title:          hello
+            url:            https://hello.shanehoey.com  
+          - title:          examples
+            url:            /examples/     
+            children:
+              - title:          code
+                url:            /code/
+              - title:          docs
+                url:            /documents/
+              - title:          blog
+                url:            /blog/
+              - title:          tools
+                url:            /tools/
+              - title:          snippets
+                url:            /snippets/
+              - title:          tldr
+                url:            /tldr/
+              - title:          videos
+                url:            /videos/
+              - title:          wizards
+                url:            /wizards/
 
 tools:
     title:              snooey.com
