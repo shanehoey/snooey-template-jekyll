@@ -29,42 +29,114 @@ default:
             url:            /wizards/
 
 hello:
-  title:              hello.snooey.com
-  url:                https://hello.snooey.com
-  icon:               fas fa-portrait fa-1x
-  navigation: 
-    - title:          home
-      url:            /
-    - title:          hello
-      url:            /hello/
+    title:              hello.snooey.com
+    url:                https://hello.snooey.com
+    icon:               fas fa-portrait fa-1x
+    navigation: 
+      - title:          home
+        url:            /
+      - title:          examples
+        url:            /examples/
+      - title:          Pages
+        children:
+          - title:          code
+            url:            /code/
+          - title:          docs
+            url:            /documents/
+          - title:          blog
+            url:            /blog/
+          - title:          tools
+            url:            /tools/
+          - title:          snippets
+            url:            /snippets/
+          - title:          tldr
+            url:            /tldr/
+          - title:          videos
+            url:            /videos/
+          - title:          wizards
+            url:            /wizards/
+      
 
 documents:
-  title:              docs.snooey.com
-  url:                https://docs.snooey.com
-  icon:               fas fa-portrait fa-1x
-  navigation: 
-    - title:          home
-      url:            /
-    - title:          docs
-      url:            /docs/
-
+    title:              docs.snooey.com
+    url:                https://docs.snooey.com
+    icon:               fas fa-portrait fa-1x
+    navigation: 
+      - title:          home
+        url:            /
+      - title:          examples
+        url:            /examples/
+      - title:          Pages
+        children:
+          - title:          code
+            url:            /code/
+          - title:          docs
+            url:            /documents/
+          - title:          blog
+            url:            /blog/
+          - title:          tools
+            url:            /tools/
+          - title:          snippets
+            url:            /snippets/
+          - title:          tldr
+            url:            /tldr/
+          - title:          videos
+            url:            /videos/
+          - title:          wizards
+            url:            /wizards/
 
 tools:
-  title:              tools.snooey.com
-  url:                https://hello.snooey.com
-  icon:               fas fa-portrait fa-1x
-  navigation: 
-    - title:          home
-      url:            /
-    - title:          tools
-      url:            /tools/
+    title:              tools.snooey.com
+    url:                https://hello.snooey.com
+    icon:               fas fa-portrait fa-1x
+    navigation: 
+      - title:          home
+        url:            /
+      - title:          examples
+        url:            /examples/
+      - title:          Pages
+        children:
+          - title:          code
+            url:            /code/
+          - title:          docs
+            url:            /documents/
+          - title:          blog
+            url:            /blog/
+          - title:          tools
+            url:            /tools/
+          - title:          snippets
+            url:            /snippets/
+          - title:          tldr
+            url:            /tldr/
+          - title:          videos
+            url:            /videos/
+          - title:          wizards
+            url:            /wizards/
 
 tldr:
-  title:              tldr.snooey.com
-  url:                https://tldr.snooey.com
-  icon:               fas fa-portrait fa-1x
-  navigation: 
-    - title:          home
-      url:            /
-    - title:          tldr
-      url:            /tldr/
+    title:              tldr.snooey.com
+    url:                https://tldr.snooey.com
+    icon:               fas fa-portrait fa-1x
+    navigation: 
+      - title:          home
+        url:            /
+      - title:          examples
+        url:            /examples/
+      - title:          Pages
+        children:
+          - title:          code
+            url:            /code/
+          - title:          docs
+            url:            /documents/
+          - title:          blog
+            url:            /blog/
+          - title:          tools
+            url:            /tools/
+          - title:          snippets
+            url:            /snippets/
+          - title:          tldr
+            url:            /tldr/
+          - title:          videos
+            url:            /videos/
+          - title:          wizards
+            url:            /wizards/
