@@ -1,36 +1,35 @@
-# _data/calltoaction.yml
-
 default:
-    image:     "https://source.unsplash.com/random/1920x1080"
-    title:     "Lorem ipsum dolor"
-    subtitle:  "Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe"
-    url:       "https://snooey.com"
-    button:     more
+    - title: Lorem ipsum dolor
+      subtitle: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
+      image: 'https://source.unsplash.com/random/800x600'
+      url: 'https://snooey.com'
+      btn: Learn More
 
-documents:
-    image:     "https://source.unsplash.com/random/960x540"
-    title:     "Lorem ipsum dolor"
-    subtitle:  "Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe"
-    url:       "https://docs.snooey.com"
-    button:     more
+blog:
+    - title: Lorem ipsum dolor
+      subtitle: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
+      image: 
+        default: https://source.unsplash.com/random/960x540
+      url: https://blog.snooey.com'
+      btn: more    
+
+docs:
+    - title: Lorem ipsum dolor
+      subtitle: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
+      image: 'https://source.unsplash.com/random/960x540'
+      url: 'https://docs.snooey.com'
+      btn: Learn More
 
 tools:
-    image:     "https://source.unsplash.com/random/480x270"
-    title:     "Lorem ipsum dolor"
-    subtitle:  "Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe"
-    url:       "https://tools.snooey.com"
-    button:     more
-
-tldr:
-    image:     "https://source.unsplash.com/random/960x540"
-    title:     "Lorem ipsum dolor"
-    subtitle:  "Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe"
-    url:        https://tldr.snooey.com
-    button:     more
+    - title: Lorem ipsum dolor
+      subtitle: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
+      image: 'https://source.unsplash.com/random/960x540'
+      url: 'https://tools.snooey.com'
+      btn: Learn More
 
 hello:
-    image:     https://source.unsplash.com/random/480x270
-    title:     Lorem ipsum dolor
-    subtitle:  Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
-    url:       https://hello.snooey.com
-    button:    hello!
+    - title: Lorem ipsum dolor
+      subtitle: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
+      image: 'https://source.unsplash.com/random/960x540'
+      url: 'https://hello.snooey.com'
+      btn: Learn More

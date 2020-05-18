@@ -8,7 +8,7 @@ locale: "en"
 timezone: "Australia/Brisbane"
 copyright: Copyright (c) 2018-2020 Shane Hoey
 
-# added for seo 
+# Future Use - Jekyll-seo-tag
 # tagline: "Snooey Jekyll Theme"
 # description:
 # url: https://snooey.com
@@ -19,7 +19,7 @@ copyright: Copyright (c) 2018-2020 Shane Hoey
 # social:
 # webmaster_verifications:
 #    google:
-#    bing: 
+#    bing:
 
 exclude:
     - LICENSE
@@ -27,9 +27,6 @@ exclude:
     - .gitignore
     - Gemfile
     - Gemfile.lock
-
-
-
 
 plugins_dir: _plugins
 plugins:
@@ -87,6 +84,7 @@ defaults:
           footer: true
           theme:
           image:
+              default: https://source.unsplash.com/random/800x600
               horizontal: https://source.unsplash.com/random/750x400
               vertical: https://source.unsplash.com/random/400x750
               square: https://source.unsplash.com/random/300x300
@@ -121,8 +119,8 @@ defaults:
           path: ""
           type: "tools"
       values:
-          layout:  tools
-          theme:  tools
+          layout: tools
+          theme: tools
     - scope:
           path: ""
           type: "snippets"
@@ -140,7 +138,7 @@ defaults:
           type: "videos"
       values:
           layout: videos
-          theme:  videos
+          theme: videos
     - scope:
           path: ""
           type: "wizards"

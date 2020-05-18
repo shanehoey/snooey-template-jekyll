@@ -11,5 +11,5 @@ permalink: /examples/spacer/
 <p class = "text-justify">{{ page.description }}</p>
 <hr>
 {% include spacer.html %}<hr>
-{% include spacer.html theme = "docs" %}<hr>
-{% include spacer.html theme = "tools" %}<hr>
+{% include spacer.html  theme = site.data.theme.spacer.docs %}<hr>
+{% include spacer.html  theme = site.data.theme.spacer.tools %}<hr>

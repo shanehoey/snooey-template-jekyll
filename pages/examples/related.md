@@ -10,5 +10,14 @@ permalink: /examples/related/
 <p class = "text-justify">{{ page.description }}</p>
 
 {% include related.html title = "Related" %}
-{% include related.html collection = site.tldr theme = "docs" title = "related" subtitle = "tldr posts" %}
-{% include related.html collection = site.code theme = "tools" title = "related" subtitle = "tools posts" limit = 8 %}
+
+{% include related.html collection = site.tldr  
+                        theme = site.data.theme.related.docs 
+                        title = "related" 
+                        subtitle = "tldr posts" %}
+
+{% include related.html collection = site.code  
+                        theme = site.data.theme.related.tools 
+                        title = "related" 
+                        subtitle = "tools posts" 
+                        limit = 8 %}

@@ -15,14 +15,14 @@ default:
       - title:          contact
         url:            /contact/
 
-documents:
+docs:
     title:              snooey.com
     url:                https://snooey.com
     icon:               fas fa-portrait fa-1x
     copyright:          '&copy; Shane Hoey 2018-2020. All Rights Reserved.'
     navigation: 
       - title:          docs.snooey.com
-        url:            https:/docs.snooey.com
+        url:            https://docs.snooey.com
       - title:          terms
         url:            /terms/
       - title:          license
@@ -45,14 +45,14 @@ tools:
       - title:          contact
         url:            /contact/
 
-tldr:
+blog:
   title:              snooey.com
   url:                https://snooey.com
   icon:               fas fa-portrait fa-1x
   copyright:          '&copy; Shane Hoey 2018-2020. All Rights Reserved.'
   navigation: 
-    - title:          tldr.snooey.com
-      url:            https://tldr.snooey.com
+    - title:          blog.snooey.com
+      url:            https://blog.snooey.com
     - title:          terms
       url:            /terms/
     - title:          license

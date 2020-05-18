@@ -9,9 +9,24 @@ collection: "tldr"
 
 <h1>{{ page.title }}</h1>
 <p class = "text-justify">{{ page.description }}</p>
-{% include portfolio01.html title = page.title description = page.description collection = site.code limit = 2 hidden = "overlay,excerpt,button" %}
+
+{% include portfolio01.html     title = page.title 
+                                description = page.description 
+                                collection = site.code 
+                                limit = 2 
+                                hidden = "overlay,excerpt,button" %}
 <hr>
-{% include portfolio01.html title = page.title description = page.description collection = site.code theme = "docs" columns = 4 limit = 4 hidden = "description,title" %}
+{% include portfolio01.html     title = page.title 
+                                description = page.description 
+                                collection = site.code  
+                                theme = site.data.theme.portfolio.docs 
+                                columns = 4 
+                                limit = 4 
+                                hidden = "description,title" %}
 <hr>
-{% include portfolio01.html title = page.title description = page.description collection = site.code theme = "tools" limit = 2 %}
+{% include portfolio01.html     title = page.title 
+                                description = page.description 
+                                collection = site.code 
+                                theme = site.data.theme.portfolio.tools 
+                                limit = 2 %}
 <hr>

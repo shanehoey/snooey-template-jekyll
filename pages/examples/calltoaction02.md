@@ -11,5 +11,5 @@ permalink: /examples/calltoaction02/
 
 <hr>
 {% include calltoaction02.html %}<hr>
-{% include calltoaction02.html collection = site.data.calltoaction.docs theme = "docs" %}<hr>
-{% include calltoaction02.html collection = site.data.calltoaction.tools theme = "tools" %}<hr>
+{% include calltoaction02.html collection = site.data.calltoaction.docs theme = site.data.theme.calltoaction.docs %}<hr>
+{% include calltoaction02.html collection = site.data.calltoaction.tools theme = site.data.theme.calltoaction.tools %}<hr>

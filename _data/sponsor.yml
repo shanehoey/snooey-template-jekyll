@@ -9,7 +9,7 @@ default:
     url:          https://snooey.netlify.app
     image:        https://source.unsplash.com/random/100x150
 
-documents:
+docs:
     sponsor:      "Sponsored by:"
     title:        Lorem ipsum dolor
     subtitle:     Lorem ipsum dolor
@@ -27,7 +27,7 @@ tools:
     url:          https://snooey.netlify.app
     image:        https://source.unsplash.com/random/120x120
 
-tldr:
+blog:
     sponsor:      "Sponsored by:"
     title:        Lorem ipsum dolor
     subtitle:     Lorem ipsum dolor

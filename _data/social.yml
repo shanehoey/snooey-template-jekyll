@@ -12,7 +12,7 @@ default:
     github:         Lorem ipsum dolor
     stackoverflow:  Lorem ipsum dolor
 
-documents:
+docs:
     title:          Lorem ipsum dolor
     www:            Lorem ipsum dolor
     facebook:       Lorem ipsum dolor
@@ -49,7 +49,7 @@ hello:
     github:         Lorem ipsum dolor
     stackoverflow:  Lorem ipsum dolor
 
-tldr:
+blog:
     title:          Lorem ipsum dolor
     www:            Lorem ipsum dolor
     facebook:       Lorem ipsum dolor

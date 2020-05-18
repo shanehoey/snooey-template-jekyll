@@ -1,56 +1,51 @@
 # _data/carousel.yml
 
 default:
-    - image: https://source.unsplash.com/random/1920x1080
-      title: Lorem ipsum dolor
+    - title: Lorem ipsum dolor
       subtitle: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
+      image: https://source.unsplash.com/random/1920x1080
       btn: btn btn-sm btn btn-outline-light
       url: https://snooey.com
-    - image: https://source.unsplash.com/random/1920x1080
-      title: Lorem ipsum dolor
+    - title: Lorem ipsum dolor
       subtitle: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
-      btn: btn btn-sm btn btn-outline-dark
-      url: https://hello.snooey.com
-    - image: https://source.unsplash.com/random/1920x1080
-      title: Lorem ipsum dolor
+      image: https://source.unsplash.com/random/1920x1080
+      btn: btn btn-sm btn btn-outline-light
+      url: https://snooey.com
+    - title: Lorem ipsum dolor
       subtitle: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
-      btn: btn btn-outline-dark'>more...</a>
-      url: https://docs.snooey.com
-    - image: https://source.unsplash.com/random/1920x1080
-      title: Lorem ipsum dolor
+      image: https://source.unsplash.com/random/1920x1080
+      btn: btn btn-sm btn btn-outline-light
+      url: https://snooey.com
+    - title: Lorem ipsum dolor
       subtitle: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
-      btn: btn btn-sm btn btn-outline-dark
-      url: https://tools.snooey.com
-    - image: https://source.unsplash.com/random/1920x1080
-      title: Lorem ipsum dolor
-      subtitle: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
-      btn: btn btn-sm btn btn-outline-dark
-      url: https://tldr.snooey.com
+      image: https://source.unsplash.com/random/1920x1080
+      btn: btn btn-sm btn btn-outline-light
+      url: https://snooey.com
 
 hello:
-  - image: https://source.unsplash.com/random/1920x1080
-    title: Lorem ipsum dolor
-    subtitle: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
-    btn: btn btn-sm btn btn-outline-dark
-    url: https://hello.snooey.com
+    - title: Lorem ipsum dolor
+      subtitle: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
+      image: https://source.unsplash.com/random/1920x1080
+      btn: btn btn-sm btn btn-outline-light
+      url: https://snooey.com
 
-documents:
-  - image: https://source.unsplash.com/random/1920x1080
-    title: Lorem ipsum dolor
-    subtitle: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
-    btn: btn btn-outline-dark'>more...</a>
-    url: https://docs.snooey.com
+docs:
+    - title: Lorem ipsum dolor
+      subtitle: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
+      image: https://source.unsplash.com/random/1920x1080
+      btn: btn btn-sm btn btn-outline-light
+      url: https://docs.snooey.com
 
 tools:
-  - image: https://source.unsplash.com/random/1920x1080
-    title: Lorem ipsum dolor
-    subtitle: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
-    btn: btn btn-sm btn btn-outline-dark
-    url: https://tools.snooey.com
+    - title: Lorem ipsum dolor
+      subtitle: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
+      image: https://source.unsplash.com/random/1920x1080
+      btn: btn btn-sm btn btn-outline-dark
+      url: https://tools.snooey.com
 
-tldr:
-  - image: https://source.unsplash.com/random/1920x1080
-    title: Lorem ipsum dolor
-    subtitle: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
-    btn: btn btn-sm btn btn-outline-dark
-    url: https://tldr.snooey.com
+blog:
+    - title: Lorem ipsum dolor
+      subtitle: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
+      image: https://source.unsplash.com/random/1920x1080
+      btn: btn btn-sm btn btn-outline-dark
+      url: https://blog.snooey.com

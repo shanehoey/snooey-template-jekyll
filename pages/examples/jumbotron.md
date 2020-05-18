@@ -10,5 +10,5 @@ permalink: /examples/jumbotron/
 <p class = "text-justify">{{ page.description }}</p>
 <hr>
 {% include jumbotron.html %}<hr>
-{% include jumbotron.html collection = site.data.jumbotron.docs theme = "docs" %}<hr>
-{% include jumbotron.html collection = site.data.jumbotron.tools theme = "tools" %}<hr>
+{% include jumbotron.html collection = site.data.jumbotron.docs  theme = site.data.theme.jumbotron.docs %}<hr>
+{% include jumbotron.html collection = site.data.jumbotron.tools  theme = site.data.theme.jumbotron.tools %}<hr>

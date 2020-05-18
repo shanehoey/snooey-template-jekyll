@@ -21,15 +21,15 @@ default:
           - title:          code
             url:            /code/
           - title:          docs
-            url:            /documents/
+            url:            /docs/
           - title:          blogs
             url:            /blogs/
           - title:          tools
             url:            /tools/
           - title:          snippets
             url:            /snippets/
-          - title:          tldr
-            url:            /tldr/
+          - title:          blog
+            url:            /blog/
           - title:          videos
             url:            /videos/
           - title:          wizards
@@ -56,15 +56,15 @@ hello:
           - title:          code
             url:            /code/
           - title:          docs
-            url:            /documents/
+            url:            /docs/
           - title:          blogs
             url:            /blogs/
           - title:          tools
             url:            /tools/
           - title:          snippets
             url:            /snippets/
-          - title:          tldr
-            url:            /tldr/
+          - title:          blog
+            url:            /blog/
           - title:          videos
             url:            /videos/
           - title:          wizards
@@ -92,22 +92,22 @@ blogs:
           - title:          code
             url:            /code/
           - title:          docs
-            url:            /documents/
+            url:            /docs/
           - title:          blogs
             url:            /blogs/
           - title:          tools
             url:            /tools/
           - title:          snippets
             url:            /snippets/
-          - title:          tldr
-            url:            /tldr/
+          - title:          blog
+            url:            /blog/
           - title:          videos
             url:            /videos/
           - title:          wizards
             url:            /wizards/  
 
 
-documents:
+docs:
     title:              snooey.com
     url:                https://snooey.com
     icon:               fas fa-portrait fa-1x
@@ -128,15 +128,15 @@ documents:
               - title:          code
                 url:            /code/
               - title:          docs
-                url:            /documents/
+                url:            /docs/
               - title:          blogs
                 url:            /blogs/
               - title:          tools
                 url:            /tools/
               - title:          snippets
                 url:            /snippets/
-              - title:          tldr
-                url:            /tldr/
+              - title:          blog
+                url:            /blog/
               - title:          videos
                 url:            /videos/
               - title:          wizards
@@ -163,21 +163,21 @@ tools:
           - title:          code
             url:            /code/
           - title:          docs
-            url:            /documents/
+            url:            /docs/
           - title:          blogs
             url:            /blogs/
           - title:          tools
             url:            /tools/
           - title:          snippets
             url:            /snippets/
-          - title:          tldr
-            url:            /tldr/
+          - title:          blog
+            url:            /blog/
           - title:          videos
             url:            /videos/
           - title:          wizards
             url:            /wizards/
 
-tldr:
+blog:
     title:              snooey.com
     url:                https://snooey.com
     icon:               fas fa-portrait fa-1x
@@ -198,15 +198,15 @@ tldr:
           - title:          code
             url:            /code/
           - title:          docs
-            url:            /documents/
+            url:            /docs/
           - title:          blogs
             url:            /blogs/
           - title:          tools
             url:            /tools/
           - title:          snippets
             url:            /snippets/
-          - title:          tldr
-            url:            /tldr/
+          - title:          blog
+            url:            /blog/
           - title:          videos
             url:            /videos/
           - title:          wizards

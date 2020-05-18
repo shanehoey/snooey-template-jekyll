@@ -9,5 +9,5 @@ permalink: /examples/tiles/
 <h1>{{ page.title }}</h1>
 <p class = "text-justify">{{ page.description }}</p>
 {% include tiles.html %}
-{% include tiles.html theme = "docs" %}
-{% include tiles.html theme = "tools" %}
+{% include tiles.html  theme = site.data.theme.tiles.docs %}
+{% include tiles.html  theme = site.data.theme.tiles.tools %}

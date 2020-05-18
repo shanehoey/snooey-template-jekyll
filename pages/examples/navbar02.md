@@ -19,5 +19,5 @@ permalink: /examples/navbar02/
 
 <hr>
 {% include navbar02.html %}<hr>
-{ % include navbar02.html collection = site.data.navbar.docs theme = "docs" % }
-{ % include navbar02.html collection = site.data.navbar.tools theme = "tools" % }
+{ % include navbar02.html collection = site.data.navbar.docs  theme = site.data.theme.navbar.docs % }
+{ % include navbar02.html collection = site.data.navbar.tools  theme = site.data.theme.navbar.tools % }

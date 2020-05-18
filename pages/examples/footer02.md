@@ -11,6 +11,6 @@ permalink: /examples/footer02/
 <hr>
 {% include footer02.html    %}<hr>
 {% include footer02.html    item = site.data.footer.docs
-                            theme = "docs" %}<hr>
+                             theme = site.data.theme.footer.docs %}<hr>
 {% include footer02.html    item = site.data.footer.tools
-                            theme = "tools" %}<hr>
+                             theme = site.data.theme.footer.tools %}<hr>

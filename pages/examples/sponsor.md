@@ -11,7 +11,7 @@ permalink: /examples/sponsor/
 <hr>
 {% include sponsor.html %}
 <hr>
-{% include sponsor.html collection = site.data.sponsor.docs theme = "docs" %}
+{% include sponsor.html collection = site.data.sponsor.docs  theme = site.data.theme.sponsor.docs %}
 <hr>
-{% include sponsor.html collection = site.data.sponsor.tools theme = "tools" %}
+{% include sponsor.html collection = site.data.sponsor.tools  theme = site.data.theme.sponsor.tools %}
 <hr>

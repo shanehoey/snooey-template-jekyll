@@ -10,5 +10,5 @@ permalink: /examples/navbar01/
 <p class = "text-justify">{{ page.description }}</p>
 <hr>
 {% include navbar01.html %}<hr>
-{% include navbar01.html collection = site.data.navbar.docs theme = "docs" %}<hr>
-{% include navbar01.html collection = site.data.bavbar.tools theme = "tools" %}<hr>
+{% include navbar01.html collection = site.data.navbar.docs  theme = site.data.theme.navbar.docs %}<hr>
+{% include navbar01.html collection = site.data.bavbar.tools  theme = site.data.theme.calnavbarltoaction.tools %}<hr>

@@ -9,9 +9,14 @@ permalink: /examples/newsfeed01/
 <h1>{{ page.title }}</h1>
 <p class = "text-justify">{{ page.description }}</p>
 <hr>
-{% include newsfeed01.html  title = page.title description = page.description %}
+{% include newsfeed01.html  title = page.title 
+                            description = page.description %}
 <hr>
-{% include newsfeed01.html theme = "docs" title = page.title description = page.description %}
+{% include newsfeed01.html  theme = site.data.theme.newsfeed.docs 
+                            title = page.title 
+                            description = page.description %}
 <hr>
-{% include newsfeed01.html theme = "tools" title = page.title description = page.description %}
+{% include newsfeed01.html  theme = site.data.theme.newsfeed.tools 
+                            title = page.title 
+                            description = page.description %}
 <hr>

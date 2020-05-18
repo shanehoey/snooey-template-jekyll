@@ -1,34 +1,15 @@
-# Snooey Template example
+# Snooey Jekyll Remote Template
 
-An example site using then snooey theme for Jekyll.
+An example site using then snooey theme with Jekyll.
 
-view a live example [snooey.netlify.com](https://snooey.netlify.com)
+View a live example @ [snooey.com](https://snooey.com)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/531d26ad-f8c2-412d-900e-e4cfe05603b3/deploy-status)](https://app.netlify.com/sites/snooey/deploys)
 
+##  Want more information
 
-##  Usage
+This repository just contains the remote theme files only,  refer to [github](https://github.com/snooey-template) for all documentation and example usage
 
-Add the following to Gemfile
+## Known Issues
 
-```
-
-gem "jekyll-remote-theme"
-
-```
-
-Add the following to _config.yml 
-
-```
-
-plugins:
-  - jekyll-remote-theme
-
-remote_theme: shanehoey/snooey
-
-```
-
-# Known Issues
-
-[] # Documentation on how to use theme is not very good
 [] # Not yet at stable v1.00 release expect breaking changes

@@ -16,9 +16,9 @@ permalink: /examples/blog01/
 
 {% include blog01.html  title = page.title
                         description = page.description
-                        collection = site.wizards
+                        collection = site.documents
                         limit = 2
-                        theme = "docs"
+                        theme = site.data.theme.blog.docs
                         width = 50
                         %}
 
@@ -26,7 +26,7 @@ permalink: /examples/blog01/
                         description = page.description
                         collection = site.documents
                         limit = 2
-                        theme = "tools"
+                        theme = site.data.theme.blog.tools
                         width = 40
                         hidden = "subtitle"
                         %}

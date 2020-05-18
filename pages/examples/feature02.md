@@ -12,9 +12,9 @@ permalink: /examples/feature02/
 {% include feature02.html   %}<hr>
 {% include feature02.html   title = page.title
                             description = page.description %}<hr>
-{% include feature02.html   theme = "docs" 
+{% include feature02.html   theme = site.data.theme.feature.docs 
                             collection = site.data.feature.docs %}<hr>
-{% include feature02.html   theme = "tools" 
+{% include feature02.html   theme = site.data.theme.feature.tools 
                             collection = site.data.feature.tools 
                             title = page.title                            
                             description = page.description %}<hr>

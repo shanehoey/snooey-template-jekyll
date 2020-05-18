@@ -15,5 +15,5 @@ permalink: /examples/alert/
 {% include alert.html message = "Error Message 4" theme = "warning" icon = "fas fa-bomb"  %}<hr/>
 {% include alert.html message = "Error Message 5" theme = "error"  %}<hr/>
 {% include alert.html message = "Error Message 6" theme = "error" icon = "fas fa-bomb" %}<hr/>
-{% include alert.html message = "Error Message 7" theme = "docs" %}<hr/>
-{% include alert.html message = "Error Message 8" theme = "tools" %}<hr/>
+{% include alert.html message = "Error Message 7"  theme = site.data.theme.alert.docs %}<hr/>
+{% include alert.html message = "Error Message 8"  theme = site.data.theme.alert.tools %}<hr/>

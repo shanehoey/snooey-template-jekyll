@@ -10,5 +10,7 @@ permalink: /examples/video/
 <p class = "text-justify">{{ page.description }}</p>
 
 {% include video-youtube.html %}
-{% include video-vimeo.html theme = "docs" %}
-{% include video-ignite.html theme = "tools" %}
+
+{% include video-vimeo.html theme = site.data.theme.video.docs %}
+
+{% include video-ignite.html theme = site.data.theme.video.tools %}

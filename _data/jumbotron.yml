@@ -3,7 +3,7 @@
 default:
     - content:        "<div class = 'p-4'><h1 class='jumbotron-heading'>Search</h1><p class='lead'>Everything you need to know about Jekyll.</p><div><form class='form-inline' action='/search/' method='get'><input class = 'form-control form-control-sm w-100' type = 'text' placeholder = 'Search not yet available'/></form></div></div>"
 
-documents:
+docs:
     - content:        "<div class = 'p-4'><h1 class='jumbotron-heading'>Search</h1><p class='lead'>Everything you need to know about Jekyll.</p><div><form class='form-inline' action='/search/' method='get'><input class = 'form-control form-control-sm w-100' type = 'text' placeholder = 'Search not yet available'/></form></div></div>"
 
 tools:

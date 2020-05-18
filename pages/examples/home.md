@@ -15,4 +15,3 @@ permalink: /examples/
     {% endif %}
 {% endfor %}
 
-
