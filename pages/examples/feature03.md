@@ -16,17 +16,21 @@ collection:
 <h1>{{ page.title }}</h1>
 <p class = "text-justify">{{ page.description }}</p>
 
-{% include feature03.html   %}<hr>
+{% include feature03.html   %}
+<hr/>
 
 {% include feature03.html   theme = site.data.theme.feature.docs 
                             collection = site.documents
                             title = page.title
                             description = page.description
-                            limit = 2 %}<hr>
+                            limit = 2 %}
+<hr/>
 
 {% include feature03.html   theme = site.data.theme.feature.tools 
                             collection = site.data.feature.tools 
-                            limit = 4 %}<hr>
+                            limit = 4 %}
+<hr/>
                             
 {% include feature03.html   collection = page.collection.posts 
-                            limit = 3 %}<hr>
+                            limit = 3 %}
+<hr/>

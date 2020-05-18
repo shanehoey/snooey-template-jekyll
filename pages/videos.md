@@ -18,4 +18,4 @@ theme: videos
                             theme = site.data.theme.portfolio.docs
                             columns = 4 
                             hidden = "description,title" %}
-<hr>
+<hr/>

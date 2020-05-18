@@ -8,7 +8,10 @@ permalink: /examples/jumbotron/
 
 <h1>{{ page.title }}</h1>
 <p class = "text-justify">{{ page.description }}</p>
-<hr>
-{% include jumbotron.html %}<hr>
-{% include jumbotron.html collection = site.data.jumbotron.docs  theme = site.data.theme.jumbotron.docs %}<hr>
-{% include jumbotron.html collection = site.data.jumbotron.tools  theme = site.data.theme.jumbotron.tools %}<hr>
+<hr/>
+{% include jumbotron.html %}
+<hr/>
+{% include jumbotron.html collection = site.data.jumbotron.docs  theme = site.data.theme.jumbotron.docs %}
+<hr/>
+{% include jumbotron.html collection = site.data.jumbotron.tools  theme = site.data.theme.jumbotron.tools %}
+<hr/>

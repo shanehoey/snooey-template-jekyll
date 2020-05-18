@@ -8,10 +8,13 @@ permalink: /examples/portfolio02/
 
 <h1>{{ page.title }}</h1>
 <p class = "text-justify">{{ page.description }}</p>
+<hr/>
 
 {% include portfolio02.html %}
+<hr/>
 
 {% include portfolio02.html  theme = site.data.theme.portfolio.docs %}
+<hr/>
 
 {% include portfolio02.html  theme = site.data.theme.portfolio.tools %}
-
+<hr/>

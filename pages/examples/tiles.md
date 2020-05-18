@@ -8,6 +8,13 @@ permalink: /examples/tiles/
 
 <h1>{{ page.title }}</h1>
 <p class = "text-justify">{{ page.description }}</p>
+<hr/>
+
 {% include tiles.html %}
+<hr/>
+
 {% include tiles.html  theme = site.data.theme.tiles.docs %}
+<hr/>
+
 {% include tiles.html  theme = site.data.theme.tiles.tools %}
+<hr/>

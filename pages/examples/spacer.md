@@ -9,7 +9,12 @@ permalink: /examples/spacer/
 <h1>{{ page.title }}</h1>
 
 <p class = "text-justify">{{ page.description }}</p>
-<hr>
-{% include spacer.html %}<hr>
-{% include spacer.html  theme = site.data.theme.spacer.docs %}<hr>
-{% include spacer.html  theme = site.data.theme.spacer.tools %}<hr>
+<hr/>
+{% include spacer.html %}
+<hr/>
+
+{% include spacer.html  theme = site.data.theme.spacer.docs %}
+<hr/>
+
+{% include spacer.html  theme = site.data.theme.spacer.tools %}
+<hr/>

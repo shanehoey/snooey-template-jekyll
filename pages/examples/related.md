@@ -8,16 +8,20 @@ permalink: /examples/related/
 
 <h1>{{ page.title }}</h1>
 <p class = "text-justify">{{ page.description }}</p>
+<hr/>
 
 {% include related.html title = "Related" %}
+<hr/>
 
 {% include related.html collection = site.tldr  
                         theme = site.data.theme.related.docs 
                         title = "related" 
                         subtitle = "tldr posts" %}
+<hr/>
 
 {% include related.html collection = site.code  
                         theme = site.data.theme.related.tools 
                         title = "related" 
                         subtitle = "tools posts" 
                         limit = 8 %}
+<hr/>

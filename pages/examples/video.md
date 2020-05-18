@@ -8,9 +8,13 @@ permalink: /examples/video/
 
 <h1>{{ page.title }}</h1>
 <p class = "text-justify">{{ page.description }}</p>
+<hr/>
 
 {% include video-youtube.html %}
+<hr/>
 
 {% include video-vimeo.html theme = site.data.theme.video.docs %}
+<hr/>
 
 {% include video-ignite.html theme = site.data.theme.video.tools %}
+<hr/>

@@ -8,7 +8,13 @@ permalink: /examples/calltoaction01/
 
 <h1>{{ page.title }}</h1>
 <p class = "text-justify">{{ page.description }}</p>
-<hr>
-{% include calltoaction01.html %}<hr>
-{% include calltoaction01.html collection = site.data.calltoaction.docs  theme = site.data.theme.calltoaction.docs %}<hr>
-{% include calltoaction01.html collection = site.data.calltoaction.tools theme = site.data.theme.calltoaction.tools %}<hr>
+<hr/>
+
+{% include calltoaction01.html %}
+<hr/>
+
+{% include calltoaction01.html collection = site.data.calltoaction.docs  theme = site.data.theme.calltoaction.docs %}
+<hr/>
+
+{% include calltoaction01.html collection = site.data.calltoaction.tools theme = site.data.theme.calltoaction.tools %}
+<hr/>

@@ -8,7 +8,14 @@ permalink: /examples/navbar01/
 
 <h1>{{ page.title }}</h1>
 <p class = "text-justify">{{ page.description }}</p>
-<hr>
-{% include navbar01.html %}<hr>
-{% include navbar01.html collection = site.data.navbar.docs  theme = site.data.theme.navbar.docs %}<hr>
-{% include navbar01.html collection = site.data.bavbar.tools  theme = site.data.theme.calnavbarltoaction.tools %}<hr>
+<hr/>
+{% include navbar01.html %}
+<hr/>
+
+{% include navbar01.html    collection = site.data.navbar.docs  
+                            theme = site.data.theme.navbar.docs %}
+<hr/>
+
+{% include navbar01.html    collection = site.data.navbar.tools  
+                            theme = site.data.theme.navbar.tools %}
+<hr/>

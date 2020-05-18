@@ -14,7 +14,7 @@ layout:
         class:
             body: 
             section: 
-            container:
+            container: container
         style:
             body:
             section:

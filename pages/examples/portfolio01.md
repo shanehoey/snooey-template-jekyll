@@ -15,7 +15,8 @@ collection: "tldr"
                                 collection = site.code 
                                 limit = 2 
                                 hidden = "overlay,excerpt,button" %}
-<hr>
+<hr/>
+
 {% include portfolio01.html     title = page.title 
                                 description = page.description 
                                 collection = site.code  
@@ -23,10 +24,11 @@ collection: "tldr"
                                 columns = 4 
                                 limit = 4 
                                 hidden = "description,title" %}
-<hr>
+<hr/>
+
 {% include portfolio01.html     title = page.title 
                                 description = page.description 
                                 collection = site.code 
                                 theme = site.data.theme.portfolio.tools 
                                 limit = 2 %}
-<hr>
+<hr/>

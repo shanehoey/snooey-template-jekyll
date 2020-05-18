@@ -8,16 +8,19 @@ permalink: /examples/feature05/
 
 <h1>{{ page.title }}</h1>
 <p class = "text-justify">{{ page.description }}</p>
-<hr>
+<hr/>
 
-{% include feature05.html %}<hr>
+{% include feature05.html %}
+<hr/>
 
 {% include feature05.html   theme = site.data.theme.feature.docs
                             title = page.title
                             description = page.description
-                            %}<hr>
+                            %}
+<hr/>
                             
 {% include feature05.html   theme = site.data.theme.feature.tools
                             title = page.title
                             description = page.description
-                            %}<hr>
+                            %}
+<hr/>

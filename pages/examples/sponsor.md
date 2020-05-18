@@ -8,10 +8,14 @@ permalink: /examples/sponsor/
 
 <h1>{{ page.title }}</h1>
 <p class = "text-justify">{{ page.description }}</p>
-<hr>
+<hr/>
 {% include sponsor.html %}
-<hr>
-{% include sponsor.html collection = site.data.sponsor.docs  theme = site.data.theme.sponsor.docs %}
-<hr>
-{% include sponsor.html collection = site.data.sponsor.tools  theme = site.data.theme.sponsor.tools %}
-<hr>
+<hr/>
+
+{% include sponsor.html     collection = site.data.sponsor.docs  
+                            theme = site.data.theme.sponsor.docs %}
+<hr/>
+
+{% include sponsor.html     collection = site.data.sponsor.tools  
+                            theme = site.data.theme.sponsor.tools %}
+<hr/>

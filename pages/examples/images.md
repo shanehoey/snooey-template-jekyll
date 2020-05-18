@@ -9,8 +9,11 @@ permalink: /examples/images/
 <h1>{{ page.title }}</h1>
 <p class = "text-justify">{{ page.description }}</p>
 
-<hr>
-{% include images.html %}<hr>
-{% include images.html  collection = 'docs' %}<hr>
-{% include images.html collection = 'tools' %}<hr>
-<hr>
+<hr/>
+{% include images.html %}
+<hr/>
+{% include images.html  collection = 'docs' %}
+<hr/>
+{% include images.html collection = 'tools' %}
+<hr/>
+<hr/>

@@ -9,6 +9,12 @@ permalink: /examples/breadcrumb/
 <h1>{{ page.title }}</h1>
 <p class = "text-justify">{{ page.description }}</p>
 <hr/>
-{% include breadcrumb.html %}<hr/>
-{% include breadcrumb.html  theme = site.data.theme.breadcrumb.docs %}<hr/>
-{% include breadcrumb.html  theme = site.data.theme.breadcrumb.tools %}<hr/>
+
+{% include breadcrumb.html %}
+<hr/>
+
+{% include breadcrumb.html  theme = site.data.theme.breadcrumb.docs %}
+<hr/>
+
+{% include breadcrumb.html  theme = site.data.theme.breadcrumb.tools %}
+<hr/>

@@ -8,11 +8,13 @@ permalink: /examples/blog01/
 
 <h1>{{ page.title }}</h1>
 <p class = "text-justify">{{ page.description }}</p>
+<hr/>
 
 {% include blog01.html  title = page.title
                         description = page.description
                         limit = 2
                         %}
+<hr/>
 
 {% include blog01.html  title = page.title
                         description = page.description
@@ -21,6 +23,7 @@ permalink: /examples/blog01/
                         theme = site.data.theme.blog.docs
                         width = 50
                         %}
+<hr/>
 
 {% include blog01.html  title = page.title
                         description = page.description
@@ -30,3 +33,4 @@ permalink: /examples/blog01/
                         width = 40
                         hidden = "subtitle"
                         %}
+<hr/>

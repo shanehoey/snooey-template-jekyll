@@ -8,10 +8,15 @@ permalink: /examples/social/
 
 <h1>{{ page.title }}</h1>
 <p class = "text-justify">{{ page.description }}</p>
-<hr>
+<hr/>
+
 {% include social.html %}
+<hr/>
+
 {% include social.html  theme = site.data.theme.social.docs  
                         collection = site.data.social.docs %}
+<hr/>
+
 {% include social.html  theme = site.data.theme.social.tools 
                         collection = site.data.social.tools %}
-<hr>
+<hr/>
