@@ -12,9 +12,9 @@ icon:  fas fa-rocket
 layout:
     default:
         class:
-            body: aaaaaa
-            section: bbbbbb
-            container: cccccc
+            body: 
+            section: 
+            container: container
         style:
             body:
             section:

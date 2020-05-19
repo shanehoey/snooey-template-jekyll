@@ -33,7 +33,6 @@ plugins:
     - jekyll-remote-theme
     - jekyll-sitemap
     - jekyll-seo-tag
-    - jekyll-remote-theme
     - jekyll-spaceship
     - jekyll-toc
 
