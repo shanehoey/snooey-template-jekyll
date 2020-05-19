@@ -82,7 +82,7 @@ defaults:
           breadcrumb: true
           carousel: false
           footer: true
-          theme:
+          theme: pages
           image:
               default: https://source.unsplash.com/random/800x600
               horizontal: https://source.unsplash.com/random/750x400
@@ -96,12 +96,14 @@ defaults:
           type: "pages"
       values:
           layout: "page"
+          theme: page  
           permalink: /:basename/
     - scope:
           path: ""
           type: "posts"
       values:
           layout: "post"
+          theme: post
           permalink: /blogs/:slug/
     - scope:
           path: ""

@@ -12,9 +12,9 @@ icon:  fas fa-rocket
 layout:
     default:
         class:
-            body: 
-            section: 
-            container: container
+            body: aaaaaa
+            section: bbbbbb
+            container: cccccc
         style:
             body:
             section:
@@ -23,7 +23,7 @@ layout:
         class:
             body: text-white default-background
             section:
-            container:
+            container: container
         style:
             body: "background: url('/assets/images/background-pattern.png'),linear-gradient(to left, #4C5657, #253036"
             section:
@@ -32,16 +32,16 @@ layout:
         class:
             body: 
             section:
-            container:
+            container:  container
         style:
             body:
             section:
-            container:
+            container: 
     docs:
         class:
             body: 
             section:
-            container:
+            container: container
         style:
             body:
             section:
@@ -50,7 +50,7 @@ layout:
         class:
             body:
             section:
-            container:
+            container: container
         style:
             body: 
             section:
@@ -59,7 +59,7 @@ layout:
         class:
             body: 
             section:
-            container:
+            container: container
         style:
             body:
             section:
