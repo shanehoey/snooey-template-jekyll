@@ -18,6 +18,10 @@ default:
       - title:          examples
         url:            /examples/    
         children:
+          - title:          examples
+            url:            /examples/
+          - title:          hello
+            url:            /hello/
           - title:          code
             url:            /code/
           - title:          docs
@@ -34,6 +38,7 @@ default:
             url:            /videos/
           - title:          wizards
             url:            /wizards/
+  
 
 hello:
     title:              snooey.com
@@ -53,6 +58,10 @@ hello:
       - title:          examples
         url:            /examples/      
         children:
+          - title:          examples
+            url:            /examples/
+          - title:          hello
+            url:            /hello/
           - title:          code
             url:            /code/
           - title:          docs
@@ -89,6 +98,10 @@ blogs:
       - title:          examples
         url:            /examples/    
         children:
+          - title:          examples
+            url:            /examples/
+          - title:          hello
+            url:            /hello/
           - title:          code
             url:            /code/
           - title:          docs
@@ -125,6 +138,10 @@ docs:
           - title:          examples
             url:            /examples/     
             children:
+              - title:          examples
+                url:            /examples/
+              - title:          hello
+                url:            /hello/
               - title:          code
                 url:            /code/
               - title:          docs
@@ -160,6 +177,10 @@ tools:
       - title:          examples
         url:            /examples/    
         children:
+          - title:          examples
+            url:            /examples/
+          - title:          hello
+            url:            /hello/
           - title:          code
             url:            /code/
           - title:          docs
@@ -195,6 +216,10 @@ blog:
       - title:          examples
         url:            /examples/   
         children:
+          - title:          examples
+            url:            /examples/
+          - title:          hello
+            url:            /hello/
           - title:          code
             url:            /code/
           - title:          docs
