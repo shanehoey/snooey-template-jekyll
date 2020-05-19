@@ -96,7 +96,6 @@ defaults:
       values:
           layout: "page"
           theme: page  
-          permalink: /:basename/
     - scope:
           path: ""
           type: "posts"
