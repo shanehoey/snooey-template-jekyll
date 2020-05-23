@@ -10,13 +10,14 @@ permalink: /examples/calltoaction03/
 <p class = "text-justify">{{ page.description }}</p>
 <hr/>
 
-{% include calltoaction03.html %}
-<hr/>
+{% include calltoaction03.html  collection = site.data.calltoaction.docs  
+                                theme = site.data.theme.theme1 %}
 
 {% include calltoaction03.html  collection = site.data.calltoaction.docs  
-                                theme = site.data.theme.calltoaction.docs %}
-<hr/>
+                                theme = site.data.theme.theme1-dark %}
 
-{% include calltoaction03.html  collection = site.data.calltoaction.tools
-                                theme = site.data.theme.calltoaction.tools %}
-<hr/>
+{% include calltoaction03.html  collection = site.data.calltoaction.docs  
+                                theme = site.data.theme.theme1-image %}
+
+{% include calltoaction03.html  collection = site.data.calltoaction.docs  
+                                theme = site.data.theme.theme1-image-fixed %}

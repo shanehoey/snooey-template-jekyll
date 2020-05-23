@@ -9,11 +9,7 @@ permalink: /examples/footer02/
 <h1>{{ page.title }}</h1>
 <p class = "text-justify">{{ page.description }}</p>
 <hr/>
-{% include footer02.html    %}
-<hr/>
-{% include footer02.html    item = site.data.footer.docs
-                             theme = site.data.theme.footer.docs %}
-<hr/>
-{% include footer02.html    item = site.data.footer.tools
-                             theme = site.data.theme.footer.tools %}
-<hr/>
+{% include footer02.html theme = site.data.theme.theme1 %}
+{% include footer02.html theme = site.data.theme.theme1-dark %}
+{% include footer02.html theme = site.data.theme.theme1-image %}
+{% include footer02.html theme = site.data.theme.theme1-image-fixed %}

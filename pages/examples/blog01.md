@@ -13,6 +13,7 @@ permalink: /examples/blog01/
 {% include blog01.html  title = page.title
                         description = page.description
                         limit = 2
+                        container = "container"
                         %}
 <hr/>
 

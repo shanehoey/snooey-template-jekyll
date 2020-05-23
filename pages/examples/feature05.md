@@ -10,17 +10,16 @@ permalink: /examples/feature05/
 <p class = "text-justify">{{ page.description }}</p>
 <hr/>
 
-{% include feature05.html %}
-<hr/>
-
-{% include feature05.html   theme = site.data.theme.feature.docs
+{% include feature05.html   theme = site.data.theme.theme1
                             title = page.title
                             description = page.description
+                            container = "container"
                             %}
 <hr/>
                             
-{% include feature05.html   theme = site.data.theme.feature.tools
+{% include feature05.html   theme = site.data.theme.theme1-dark
                             title = page.title
                             description = page.description
+                            container = "container"
                             %}
 <hr/>

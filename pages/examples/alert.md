@@ -10,32 +10,20 @@ permalink: /examples/alert/
 <p class = "text-justify">{{ page.description }}</p>
 <hr/>
 
-{% include alert.html   message = "Error Message 1" %}<hr/>
-{% include alert.html   message = "Error Message 2" 
-                        icon = "fas fa-bug" %}
-<hr/>
+{% include alert.html   message = "Error Message 1" %}
 
-{% include alert.html   message = "Error Message 3" 
-                        theme = "warning"  %}
-<hr/>
+{% include alert.html   message = "Error Message 2" icon = "fas fa-bug" %}
 
-{% include alert.html   message = "Error Message 4" 
-                        theme = "warning" icon = "fas fa-bomb"  %}
-<hr/>
+{% include alert.html   message = "Error Message 3" theme = page.alert.warning  %}
 
-{% include alert.html   message = "Error Message 5" 
-                        theme = "error"  %}
-<hr/>
+{% include alert.html   message = "Error Message 4" theme = page.alert.warning icon = "fas fa-bomb"  %}
 
-{% include alert.html   message = "Error Message 6" 
-                        theme = "error" 
-                        icon = "fas fa-bomb" %}
-<hr/>
+{% include alert.html   message = "Error Message 5"  theme = page.alert.error %}
 
-{% include alert.html   message = "Error Message 7"  
-                        theme = site.data.theme.alert.docs %}
-<hr/>
+{% include alert.html   message = "Error Message 6"  theme = page.alert.error  icon = "fas fa-bomb" %}
+
+{% include alert.html   message = "Error Message 7"   theme = page.alert.theme1 %}
+
 
 {% include alert.html   message = "Error Message 8"  
-                        theme = site.data.theme.alert.tools %}
-<hr/>
+                        theme = page.alert.theme1 %}
