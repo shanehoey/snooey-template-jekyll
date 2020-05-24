@@ -1,11 +1,11 @@
 # v1.00 _config.yml
 
-title: "Snooey"
-url: "https://snooey.com"
-baseurl: "/"
-title_seperator: " | "
-locale: "en"
-timezone: "Australia/Brisbane"
+title: Snooey
+url:  https://snooey.com
+baseurl: /
+seperator: " | "
+locale: en
+timezone: Australia/Brisbane
 copyright: Copyright (c) 2018-2020 Shane Hoey
 
 # Future Use - Jekyll-seo-tag
@@ -69,7 +69,7 @@ collections:
 
 defaults:
     - scope:
-          path: ""
+          path: 
       values:
           title:
           subtitle:
@@ -81,7 +81,7 @@ defaults:
           breadcrumb: true
           carousel: false
           footer: true
-          theme: pages
+          theme: brand1
           image:
               default: https://source.unsplash.com/random/800x600
               horizontal: https://source.unsplash.com/random/750x400
@@ -91,57 +91,57 @@ defaults:
               background: https://source.unsplash.com/random/2400x1800
               profile: https://source.unsplash.com/random/300x450
     - scope:
-          path: ""
-          type: "pages"
+          path: 
+          type: pages
       values:
-          layout: "page"
-          theme: page  
+          layout:  page
+          theme:   brand1  
     - scope:
-          path: ""
-          type: "posts"
+          path: 
+          type: posts
       values:
-          layout: "post"
-          theme: post
+          layout:   post
+          theme:     brand4
           permalink: /blogs/:slug/
     - scope:
-          path: ""
-          type: "code"
+          path: 
+          type: code
       values:
-          layout: "code"
-          theme: "code"
+          layout: code
+          theme: theme3
     - scope:
-          path: ""
-          type: "documents"
+          path: 
+          type: documents
       values:
-          layout: "documents"
-          theme: "documents"
+          layout:  documents
+          theme:  theme2
     - scope:
-          path: ""
-          type: "tools"
+          path:  
+          type:  tools
       values:
           layout: tools
-          theme: tools
+          theme: theme3
     - scope:
-          path: ""
-          type: "snippets"
+          path: 
+          type: snippets
       values:
-          layout: "snippets"
-          theme: "snippets"
+          layout: snippets
+          theme: theme3
     - scope:
-          path: ""
-          type: "tldr"
+          path: 
+          type: tldr
       values:
           layout: tldr
-          theme: tldr
+          theme: theme2
     - scope:
-          path: ""
-          type: "videos"
+          path: 
+          type: videos
       values:
           layout: videos
-          theme: videos
+          theme: theme2
     - scope:
-          path: ""
-          type: "wizards"
+          path:  
+          type:  wizards
       values:
           layout: wizards
-          theme: wizards
+          theme: theme3
