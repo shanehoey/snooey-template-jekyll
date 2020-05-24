@@ -11,29 +11,53 @@ permalink: /examples/alert/
 {{ page.description }}
 
 ## Syntax
-
-```
-   include alert.html   message  = [string]
-                        theme    = [object]
-                        icon     = [string]
-                        section  = [string]
-                        container  = [string]
+{% raw %}
 ```
 
-{% include alert.html   message = "Error Message 1" %}
+{% include alert.html   message  = [string]
+                        theme    = (optional)[object]
+                        icon     = (optional)[string]*
+                        section  = (optional)[string]*
+                        container  = (optional)[string]*
+%}
 
-{% include alert.html   message = "Error Message 2" icon = "fas fa-bug" %}
+```
+__message__
 
-{% include alert.html   message = "Error Message 3" theme = site.data.alert.warning  %}
+Error message
 
-{% include alert.html   message = "Error Message 4" theme = site.data.alert.warning icon = "fas fa-bomb"  %}
+__theme__
+
+yml containing the alert theme yaml site.data.alert.
+
+__icon__
+
+__section__
+
+example  container  
+
+__container__
+
+example container 
+
+{% endraw %}
+
+<span class="container border border-dark p-3">
+
+{% include alert.html   message = "Error Message 1" section = "container" %}
+
+{% include alert.html   message = "Error Message 2" icon = "fas fa-bug" section = "container" container = "container"%}
+
+{% include alert.html   message = "Error Message 3" theme = site.data.alert.warning  container = "container-fluid" %}
+
+{% include alert.html   message = "Error Message 4" theme = site.data.alert.warning icon = "fas fa-bomb" container = "container-fluid" %}
 
 {% include alert.html   message = "Error Message 5"  theme = site.data.alert.error %}
 
-{% include alert.html   message = "Error Message 6"  theme = site.data.alert.error  icon = "fas fa-bomb" %}
+{% include alert.html   message = "Error Message 6"  theme = site.data.alert.error  icon = "fas fa-bomb" container = "container-fluid" %}
 
 {% include alert.html   message = "Error Message 7"   theme = site.data.alert.theme1 %}
 
+{% include alert.html   message = "Error Message 8"  theme = site.data.alert.theme2 container = "container-fluid" %}
 
-{% include alert.html   message = "Error Message 8"  
-                        theme = site.data.alert.theme1 %}
+{% include alert.html   message = "Error Message 9"  theme = site.data.alert.theme3 %}

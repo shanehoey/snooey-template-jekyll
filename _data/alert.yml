@@ -1,19 +1,27 @@
 default:
-    class: alert alert-primary alert-dismissible fade show
+    class: alert alert-primary alert-dismissible fade show 
     icon:
 
 warning:
-    class: alert alert-warning alert alert-dismissible fade show
+    class: alert alert-warning alert alert-dismissible fade show 
     icon: fas fa-exclamation-triangle
 
 error:
-    class: alert alert-danger alert-dismissible fade show
+    class: alert alert-danger alert-dismissible fade show bg-error
     icon: fas fa-exclamation-square
 
 theme1:
-    class: alert text-white brand-bg-unsplash4
+    class: alert text-white brand-bg-unsplash2-fixed
     icon:
         
 theme2:
-    class: alert fade show brand-bg-pattern
+    class: alert fade show brand-bg-color1
     icon: fas fa-rocket pr-1
+    
+theme3:
+    class: alert fade show brand-bg-color2
+    icon: fas fa-rocket pr-1
+    
+theme1:
+    class: alert text-white brand-bg-unsplash2
+    icon:

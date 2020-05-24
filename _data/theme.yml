@@ -9,16 +9,9 @@
  
 theme1:
     layout:
-        body:               brand-img-background
-        code:
-        documents:
-        page:
-        post:
-        snippets:
-        tldr:
-        tools: 
-        videos:
-        wizards:
+        body:           brand-img-background
+        section:        container
+        container:      container
     text:
         primary:        brand-text-color1
         secondary:      brand-text-dark
@@ -46,16 +39,9 @@ theme1:
 
 theme1-dark:
     layout:
-        body:               brand-img-background
-        code:
-        documents:
-        page:
-        post:
-        snippets:
-        tldr:
-        tools: 
-        videos:
-        wizards:
+        body:           brand-img-background
+        section:        container
+        container:      container
     text:
         primary:        brand-text-light
         secondary:      brand-text-color1
@@ -83,16 +69,9 @@ theme1-dark:
 
 theme1-image:
     layout:
-        body:               brand-img-background
-        code:
-        documents:
-        page:
-        post:
-        snippets:
-        tldr:
-        tools: 
-        videos:
-        wizards:
+        body:           brand-img-background
+        section:        container
+        container:      container
     text:
         primary:        brand-text-light
         secondary:      brand-text-color1
