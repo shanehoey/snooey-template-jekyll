@@ -99,13 +99,13 @@ defaults:
           layout:  page
           brand:   brand1
           theme:   theme1
-          scheme: default  
+          scheme:  default  
     - scope:
           path: ""
           type: posts
       values:
           layout:    post
-          brand:     brand1
+          brand:     brand2
           theme:     theme1
           scheme:    default
           permalink: /blogs/:slug/
@@ -116,15 +116,15 @@ defaults:
           layout: code
           brand:   brand3
           theme:   theme1
-          scheme: default
+          scheme:  default
     - scope:
           path: ""
           type: documents
       values:
           layout:  documents
-          brand:   brand2
+          brand:   brand4
           theme:   theme1
-          scheme: default
+          scheme:  default
     - scope:
           path:  ""
           type:  tools
@@ -146,7 +146,7 @@ defaults:
           type: tldr
       values:
           layout: tldr
-          brand: brand2
+          brand: brand4
           theme: theme1
           scheme: default
     - scope:
@@ -154,7 +154,7 @@ defaults:
           type: videos
       values:
           layout: videos
-          brand: brand2
+          brand: brand4
           theme: theme1
           scheme: default
     - scope:
@@ -162,7 +162,7 @@ defaults:
           type:  wizards
       values:
           layout: wizards
-          brand: brand3
+          brand: brand5
           theme: theme1
           scheme: default
           
