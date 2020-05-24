@@ -1,0 +1,19 @@
+default:
+    class: alert alert-primary alert-dismissible fade show
+    icon:
+
+warning:
+    class: alert alert-warning alert alert-dismissible fade show
+    icon: fas fa-exclamation-triangle
+
+error:
+    class: alert alert-danger alert-dismissible fade show
+    icon: fas fa-exclamation-square
+
+theme1:
+    class: alert text-white brand-bg-unsplash4
+    icon:
+        
+theme2:
+    class: alert fade show brand-bg-pattern
+    icon: fas fa-rocket pr-1

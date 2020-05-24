@@ -6,9 +6,20 @@ excerpt: "Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explic
 permalink: /examples/alert/
 ---
 
-<h1>{{ page.title }}</h1>
+# {{ page.title }}
+
 <p class = "text-justify">{{ page.description }}</p>
 <hr/>
+
+## Syntax
+```
+   include alert.html   message  = [string]
+                        theme    = [object]
+                        icon     = [string]
+                        section  = [string]
+                        container  = [string]
+```
+
 
 {% include alert.html   message = "Error Message 1" %}
 
