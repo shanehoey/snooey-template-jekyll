@@ -105,7 +105,7 @@ defaults:
           type: posts
       values:
           layout:    post
-          brand:     brand2
+          brand:     brand4
           theme:     theme1
           scheme:    default
           permalink: /blogs/:slug/
@@ -122,7 +122,7 @@ defaults:
           type: documents
       values:
           layout:  documents
-          brand:   brand4
+          brand:   brand2
           theme:   theme1
           scheme:  default
     - scope:
@@ -146,7 +146,7 @@ defaults:
           type: tldr
       values:
           layout: tldr
-          brand: brand4
+          brand: brand2
           theme: theme1
           scheme: default
     - scope:
@@ -154,7 +154,7 @@ defaults:
           type: videos
       values:
           layout: videos
-          brand: brand4
+          brand: brand2
           theme: theme1
           scheme: default
     - scope:
@@ -162,7 +162,7 @@ defaults:
           type:  wizards
       values:
           layout: wizards
-          brand: brand5
+          brand: brand3
           theme: theme1
           scheme: default
           

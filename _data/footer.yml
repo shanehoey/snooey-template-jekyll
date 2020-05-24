@@ -7,7 +7,7 @@ brand1:
     copyright:          '&copy; Shane Hoey 2018-2020. All Rights Reserved.'
     navigation: 
       - title:          snooey.com
-        url:            https://snooey.com
+        url:            /
       - title:          terms
         url:            /terms/
       - title:          license
@@ -17,12 +17,12 @@ brand1:
 
 brand2:
     title:              snooey.com
-    url:                https://snooey.com
+    url:                /
     icon:               fas fa-portrait fa-1x
     copyright:          '&copy; Shane Hoey 2018-2020. All Rights Reserved.'
     navigation: 
       - title:          snooey.com
-        url:            https://snooey.com
+        url:            /
       - title:          terms
         url:            /terms/
       - title:          license
@@ -32,12 +32,12 @@ brand2:
 
 brand3: 
     title:              snooey.com
-    url:                https://snooey.com
+    url:                /
     icon:               fas fa-portrait fa-1x
     copyright:          '&copy; Shane Hoey 2018-2020. All Rights Reserved.'
     navigation: 
       - title:          snooey.com
-        url:            https://snooey.com
+        url:            /
       - title:          terms
         url:            /terms/
       - title:          license
@@ -47,12 +47,12 @@ brand3:
 
 brand4:
     title:              snooey.com
-    url:                https://snooey.com
+    url:                /
     icon:               fas fa-portrait fa-1x
     copyright:          '&copy; Shane Hoey 2018-2020. All Rights Reserved.'
     navigation: 
       - title:          snooey.com
-        url:            https://snooey.com
+        url:            /
       - title:          terms
         url:            /terms/
       - title:          license
@@ -62,12 +62,12 @@ brand4:
 
 brand5:
     title:              snooey.com
-    url:                https://snooey.com
+    url:                /
     icon:               fas fa-portrait fa-1x
     copyright:          '&copy; Shane Hoey 2018-2020. All Rights Reserved.'
     navigation: 
       - title:          snooey.com
-        url:            https://snooey.com
+        url:            /
       - title:          terms
         url:            /terms/
       - title:          license

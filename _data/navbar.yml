@@ -6,15 +6,15 @@ brand1:
     icon:               fas fa-portrait fa-1x
     navigation: 
       - title:          home
-        url:            https://snooey.com
+        url:            /
       - title:          docs
-        url:            https://docs.snooey.com 
+        url:            /docs/ 
       - title:          tools
-        url:            https://tools.snooey.com       
+        url:            /tools/       
       - title:          blog
-        url:            https://blog.snooey.com 
+        url:            /blog/ 
       - title:          hello
-        url:            https://hello.snooey.com  
+        url:            /hello/
       - title:          examples
         url:            /examples/    
         children:
@@ -45,15 +45,15 @@ brand2:
     icon:               fas fa-portrait fa-1x
     navigation: 
       - title:          home
-        url:            https://snooey.com
+        url:            /
       - title:          docs
-        url:            https://docs.snooey.com 
+        url:            /docs/
       - title:          tools
-        url:            https://tools.snooey.com       
+        url:            /tools/    
       - title:          blog
-        url:            https://blog.snooey.com 
+        url:            /blog/
       - title:          hello
-        url:            https://hello.snooey.com  
+        url:            /hello/
       - title:          examples
         url:            /examples/    
         children:
@@ -84,16 +84,15 @@ brand3:
     icon:               fas fa-portrait fa-1x
     navigation: 
       - title:          home
-        url:            https://snooey.com
+        url:            /
       - title:          docs
-        url:            https://docs.snooey.com 
+        url:            /docs/
       - title:          tools
-        url:            https://tools.snooey.com       
+        url:            /tools/      
       - title:          blog
-        url:            https://blog.snooey.com 
+        url:            /blog/
       - title:          hello
-        url:            https://hello.snooey.com  
-      - title:          examples
+        url:            /hello/
         url:            /examples/    
         children:
           - title:          examples
@@ -123,15 +122,15 @@ brand4:
     icon:               fas fa-portrait fa-1x
     navigation: 
       - title:          home
-        url:            https://snooey.com
+        url:            /snooey.com
       - title:          docs
-        url:            https://docs.snooey.com 
+        url:            /docs/
       - title:          tools
-        url:            https://tools.snooey.com       
+        url:            /tools/   
       - title:          blog
-        url:            https://blog.snooey.com 
+        url:            /blog/
       - title:          hello
-        url:            https://hello.snooey.com  
+        url:            /hello/
       - title:          examples
         url:            /examples/    
         children:
@@ -162,15 +161,15 @@ brand5:
     icon:               fas fa-portrait fa-1x
     navigation: 
       - title:          home
-        url:            https://snooey.com
+        url:            /snooey.com
       - title:          docs
-        url:            https://docs.snooey.com 
+        url:            /docs/
       - title:          tools
-        url:            https://tools.snooey.com       
+        url:            /tools/
       - title:          blog
-        url:            https://blog.snooey.com 
+        url:            /blog/
       - title:          hello
-        url:            https://hello.snooey.com  
+        url:            /hello/
       - title:          examples
         url:            /examples/    
         children:

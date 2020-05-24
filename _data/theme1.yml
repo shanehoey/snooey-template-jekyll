@@ -7,7 +7,7 @@
 
 # this is used to set the theme used in all layouts files
  
-default:
+light:
     layout:
         body:           
         section:        container
@@ -55,7 +55,6 @@ dark:
         background:     brand-img-background
         pattern:        brand-img-pattern
  
-
 image:
     layout:
         body:           brand-color1
