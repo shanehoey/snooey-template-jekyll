@@ -3,7 +3,7 @@
 title: Snooey
 url:  https://snooey.com
 baseurl: /
-seperator: " | "
+separator: " | "
 locale: en
 timezone: Australia/Brisbane
 copyright: Copyright (c) 2018-2020 Shane Hoey
@@ -81,7 +81,8 @@ defaults:
           breadcrumb: true
           carousel: false
           footer: true
-          theme: brand1
+          brand: brand1
+          theme: theme1
           image:
               default: https://source.unsplash.com/random/800x600
               horizontal: https://source.unsplash.com/random/750x400
@@ -95,53 +96,63 @@ defaults:
           type: pages
       values:
           layout:  page
-          theme:   brand1  
+          brand:   brand1
+          theme:   theme1  
     - scope:
           path: ""
           type: posts
       values:
-          layout:   post
-          theme:     brand4
+          layout:    post
+          brand:     brand1
+          theme:     theme1
           permalink: /blogs/:slug/
     - scope:
           path: ""
           type: code
       values:
           layout: code
-          theme: theme3
+          brand:   brand3
+          theme:   theme1
     - scope:
           path: ""
           type: documents
       values:
           layout:  documents
-          theme:  theme2
+          brand:   brand2
+          theme:   theme1
     - scope:
           path:  ""
           type:  tools
       values:
           layout: tools
-          theme: theme3
+          brand:  brand3
+          theme:  theme1
     - scope:
           path: ""
           type: snippets
       values:
           layout: snippets
-          theme: theme3
+          brand: brand3
+          theme: theme1
     - scope:
           path: ""
           type: tldr
       values:
           layout: tldr
-          theme: theme2
+          brand: brand2
+          theme: theme1
     - scope:
           path: ""
           type: videos
       values:
           layout: videos
-          theme: theme2
+          brand: brand2
+          theme: theme1
     - scope:
           path:  ""
           type:  wizards
       values:
           layout: wizards
-          theme: theme3
+          brand: brand3
+          theme: theme1
+          

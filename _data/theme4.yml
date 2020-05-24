@@ -1,0 +1,82 @@
+# _data/theme.yml
+
+#  brand-bg-color1 brand-bg-color2 brand-bg-color3 brand-bg-color4 brand-bg-color5
+#  brand-text-color1 brand-text-color2 brand-text-color3 brand-text-color4 brand-text-color5
+#  brand-bg-unsplash1 brand-bg-unsplash2 brand-bg-unsplash3 brand-bg-unsplash4 brand-bg-unsplash5 
+#  brand-img-pattern brand-img-background
+
+# this is used to set the theme used in all layouts files
+ 
+default:
+    layout:
+        body:           brand-img-background
+        section:        container
+        container:      container
+    text:
+        primary:        brand-text-color4
+        accent1:        brand-text-color3
+        accent2:        brand-text-color2
+        accent3:        brand-text-color1
+        accent4:        brand-text-color5
+        light:          brand-text-light
+        dark:           brand-text-dark
+    bg:
+        primary:        brand-bg-light
+        accent1:        brand-bg-color4
+        accent2:        brand-bg-color5
+        accent3:        brand-bg-color1
+        accent4:        brand-bg-color2
+        light:          brand-bg-light
+        dark:           brand-bg-dark
+        background:     brand-img-background
+        pattern:        brand-img-pattern
+ 
+dark:
+    layout:
+        body:           brand-color1
+        section:        container
+        container:      container
+    text:
+        primary:        brand-text-color4
+        accent1:        brand-text-color3
+        accent2:        brand-text-color2
+        accent3:        brand-text-color1
+        accent4:        brand-text-color5
+        light:          brand-text-light
+        dark:           brand-text-dark
+    bg:
+        primary:        brand-bg-light
+        accent1:        brand-bg-color4
+        accent2:        brand-bg-color3
+        accent3:        brand-bg-color2
+        accent4:        brand-bg-color1
+        light:          brand-bg-light
+        dark:           brand-bg-dark
+        background:     brand-img-background
+        pattern:        brand-img-pattern
+ 
+
+image:
+    layout:
+        body:           brand-color1
+        section:        container
+        container:      container
+    text:
+        primary:        brand-text-color4
+        accent1:        brand-text-color3
+        accent2:        brand-text-color2
+        accent3:        brand-text-color1
+        accent4:        brand-text-color5
+        light:          brand-text-light
+        dark:           brand-text-dark
+    bg:
+        primary:        brand-bg-light
+        accent1:        brand-bg-color4
+        accent2:        brand-bg-color3
+        accent3:        brand-bg-color2
+        accent4:        brand-bg-color1
+        light:          brand-bg-light
+        dark:           brand-bg-dark
+        background:     brand-img-background
+        pattern:        brand-img-pattern
+        
