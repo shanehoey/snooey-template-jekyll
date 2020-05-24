@@ -8,10 +8,10 @@ permalink: /examples/alert/
 
 # {{ page.title }}
 
-<p class = "text-justify">{{ page.description }}</p>
-<hr/>
+{{ page.description }}
 
 ## Syntax
+
 ```
    include alert.html   message  = [string]
                         theme    = [object]
@@ -20,21 +20,20 @@ permalink: /examples/alert/
                         container  = [string]
 ```
 
-
 {% include alert.html   message = "Error Message 1" %}
 
 {% include alert.html   message = "Error Message 2" icon = "fas fa-bug" %}
 
-{% include alert.html   message = "Error Message 3" theme = page.alert.warning  %}
+{% include alert.html   message = "Error Message 3" theme = site.data.alert.warning  %}
 
-{% include alert.html   message = "Error Message 4" theme = page.alert.warning icon = "fas fa-bomb"  %}
+{% include alert.html   message = "Error Message 4" theme = site.data.alert.warning icon = "fas fa-bomb"  %}
 
-{% include alert.html   message = "Error Message 5"  theme = page.alert.error %}
+{% include alert.html   message = "Error Message 5"  theme = site.data.alert.error %}
 
-{% include alert.html   message = "Error Message 6"  theme = page.alert.error  icon = "fas fa-bomb" %}
+{% include alert.html   message = "Error Message 6"  theme = site.data.alert.error  icon = "fas fa-bomb" %}
 
-{% include alert.html   message = "Error Message 7"   theme = page.alert.theme1 %}
+{% include alert.html   message = "Error Message 7"   theme = site.data.alert.theme1 %}
 
 
 {% include alert.html   message = "Error Message 8"  
-                        theme = page.alert.theme1 %}
+                        theme = site.data.alert.theme1 %}
