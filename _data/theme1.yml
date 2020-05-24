@@ -9,7 +9,7 @@
  
 default:
     layout:
-        body:           brand-img-background
+        body:           
         section:        container
         container:      container
     text:
@@ -37,7 +37,7 @@ dark:
         section:        container
         container:      container
     text:
-        primary:        brand-text-color1
+        primary:        brand-text-light
         accent1:        brand-text-color2
         accent2:        brand-text-color3
         accent3:        brand-text-color4
@@ -45,11 +45,11 @@ dark:
         light:          brand-text-light
         dark:           brand-text-dark
     bg:
-        primary:        brand-bg-light
-        accent1:        brand-bg-color1
-        accent2:        brand-bg-color2
-        accent3:        brand-bg-color3
-        accent4:        brand-bg-color4
+        primary:        brand-bg-color1
+        accent1:        brand-bg-color2
+        accent2:        brand-bg-color3
+        accent3:        brand-bg-color4
+        accent4:        brand-bg-color5
         light:          brand-bg-light
         dark:           brand-bg-dark
         background:     brand-img-background

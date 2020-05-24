@@ -83,6 +83,7 @@ defaults:
           footer: true
           brand: brand1
           theme: theme1
+          scheme: default
           image:
               default: https://source.unsplash.com/random/800x600
               horizontal: https://source.unsplash.com/random/750x400
@@ -97,7 +98,8 @@ defaults:
       values:
           layout:  page
           brand:   brand1
-          theme:   theme1  
+          theme:   theme1
+          scheme: default  
     - scope:
           path: ""
           type: posts
@@ -105,6 +107,7 @@ defaults:
           layout:    post
           brand:     brand1
           theme:     theme1
+          scheme:    default
           permalink: /blogs/:slug/
     - scope:
           path: ""
@@ -113,6 +116,7 @@ defaults:
           layout: code
           brand:   brand3
           theme:   theme1
+          scheme: default
     - scope:
           path: ""
           type: documents
@@ -120,6 +124,7 @@ defaults:
           layout:  documents
           brand:   brand2
           theme:   theme1
+          scheme: default
     - scope:
           path:  ""
           type:  tools
@@ -127,6 +132,7 @@ defaults:
           layout: tools
           brand:  brand3
           theme:  theme1
+          scheme: default
     - scope:
           path: ""
           type: snippets
@@ -134,6 +140,7 @@ defaults:
           layout: snippets
           brand: brand3
           theme: theme1
+          scheme: default
     - scope:
           path: ""
           type: tldr
@@ -141,6 +148,7 @@ defaults:
           layout: tldr
           brand: brand2
           theme: theme1
+          scheme: default
     - scope:
           path: ""
           type: videos
@@ -148,6 +156,7 @@ defaults:
           layout: videos
           brand: brand2
           theme: theme1
+          scheme: default
     - scope:
           path:  ""
           type:  wizards
@@ -155,4 +164,5 @@ defaults:
           layout: wizards
           brand: brand3
           theme: theme1
+          scheme: default
           
