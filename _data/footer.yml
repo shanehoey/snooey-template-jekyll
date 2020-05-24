@@ -1,6 +1,6 @@
 # _data/footer.yml
 
-default:
+brand1:
     title:              snooey.com
     url:                https://snooey.com
     icon:               fas fa-portrait fa-1x
@@ -15,14 +15,14 @@ default:
       - title:          contact
         url:            /contact/
 
-docs:
+brand2:
     title:              snooey.com
     url:                https://snooey.com
     icon:               fas fa-portrait fa-1x
     copyright:          '&copy; Shane Hoey 2018-2020. All Rights Reserved.'
     navigation: 
-      - title:          docs.snooey.com
-        url:            https://docs.snooey.com
+      - title:          snooey.com
+        url:            https://snooey.com
       - title:          terms
         url:            /terms/
       - title:          license
@@ -30,14 +30,14 @@ docs:
       - title:          contact
         url:            /contact/
 
-tools:
+brand3: 
     title:              snooey.com
     url:                https://snooey.com
     icon:               fas fa-portrait fa-1x
     copyright:          '&copy; Shane Hoey 2018-2020. All Rights Reserved.'
     navigation: 
-      - title:          tools.snooey.com
-        url:            https://tools.snooey.com
+      - title:          snooey.com
+        url:            https://snooey.com
       - title:          terms
         url:            /terms/
       - title:          license
@@ -45,32 +45,32 @@ tools:
       - title:          contact
         url:            /contact/
 
-blog:
-  title:              snooey.com
-  url:                https://snooey.com
-  icon:               fas fa-portrait fa-1x
-  copyright:          '&copy; Shane Hoey 2018-2020. All Rights Reserved.'
-  navigation: 
-    - title:          blog.snooey.com
-      url:            https://blog.snooey.com
-    - title:          terms
-      url:            /terms/
-    - title:          license
-      url:            /license/
-    - title:          contact
-      url:            /contact/
+brand4:
+    title:              snooey.com
+    url:                https://snooey.com
+    icon:               fas fa-portrait fa-1x
+    copyright:          '&copy; Shane Hoey 2018-2020. All Rights Reserved.'
+    navigation: 
+      - title:          snooey.com
+        url:            https://snooey.com
+      - title:          terms
+        url:            /terms/
+      - title:          license
+        url:            /license/
+      - title:          contact
+        url:            /contact/
 
-hello:
-  title:              hello.snooey.com
-  url:                https://hello.snooey.com
-  icon:               fas fa-portrait fa-1x
-  copyright:          '&copy; Shane Hoey 2018-2020. All Rights Reserved.'
-  navigation: 
-    - title:          hello.snooey.com
-      url:            https://hello.snooey.com
-    - title:          terms
-      url:            /terms/
-    - title:          license
-      url:            /license/
-    - title:          contact
-      url:            /contact/
+brand5:
+    title:              snooey.com
+    url:                https://snooey.com
+    icon:               fas fa-portrait fa-1x
+    copyright:          '&copy; Shane Hoey 2018-2020. All Rights Reserved.'
+    navigation: 
+      - title:          snooey.com
+        url:            https://snooey.com
+      - title:          terms
+        url:            /terms/
+      - title:          license
+        url:            /license/
+      - title:          contact
+        url:            /contact/

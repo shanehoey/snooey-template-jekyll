@@ -1,6 +1,6 @@
 # _data/social.yml
 
-default:
+brand1:
     title:          Lorem ipsum dolor
     www:            Lorem ipsum dolor
     facebook:       Lorem ipsum dolor
@@ -12,7 +12,7 @@ default:
     github:         Lorem ipsum dolor
     stackoverflow:  Lorem ipsum dolor
 
-docs:
+brand2:
     title:          Lorem ipsum dolor
     www:            Lorem ipsum dolor
     facebook:       Lorem ipsum dolor
@@ -24,8 +24,7 @@ docs:
     github:         Lorem ipsum dolor
     stackoverflow:  Lorem ipsum dolor
 
-
-tools:
+brand3:
     title:          Lorem ipsum dolor
     www:            Lorem ipsum dolor
     facebook:       Lorem ipsum dolor
@@ -37,7 +36,7 @@ tools:
     github:         Lorem ipsum dolor
     stackoverflow:  Lorem ipsum dolor
 
-hello:
+brand4:
     title:          Lorem ipsum dolor
     www:            Lorem ipsum dolor
     facebook:       Lorem ipsum dolor
@@ -49,7 +48,7 @@ hello:
     github:         Lorem ipsum dolor
     stackoverflow:  Lorem ipsum dolor
 
-blog:
+brand5:
     title:          Lorem ipsum dolor
     www:            Lorem ipsum dolor
     facebook:       Lorem ipsum dolor

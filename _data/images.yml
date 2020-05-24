@@ -1,13 +1,8 @@
 # _data/images.yml
 
-default:
-    horizontal:     https://source.unsplash.com/random/750x400
-    vertical:       https://source.unsplash.com/random/400x750
-    square:         https://source.unsplash.com/random/300x300
-    random:         https://source.unsplash.com/random/750x400
+# TODO Investigate remove and converted to sass ?  probably means harder to change on the fly
 
-
-docs:
+brand1:
     horizontal:     https://source.unsplash.com/random/750x400
     vertical:       https://source.unsplash.com/random/400x750
     square:         https://source.unsplash.com/random/300x300
@@ -15,7 +10,7 @@ docs:
     background:     https://source.unsplash.com/random/2400x1800
     profile:        https://source.unsplash.com/random/300x450
 
-tools:
+brand2:
     horizontal:     https://source.unsplash.com/random/750x400
     vertical:       https://source.unsplash.com/random/400x750
     square:         https://source.unsplash.com/random/300x300
@@ -24,7 +19,7 @@ tools:
     profile:        https://source.unsplash.com/random/300x450
     
 
-blog:
+brand3:
     horizontal:     https://source.unsplash.com/random/750x400
     vertical:       https://source.unsplash.com/random/400x750
     square:         https://source.unsplash.com/random/300x300
@@ -32,7 +27,15 @@ blog:
     background:     https://source.unsplash.com/random/2400x1800
     profile:        https://source.unsplash.com/random/300x450
 
-hello:
+brand4:
+    horizontal:     https://source.unsplash.com/random/750x400
+    vertical:       https://source.unsplash.com/random/400x750
+    square:         https://source.unsplash.com/random/300x300
+    random:         https://source.unsplash.com/random/750x400
+    background:     https://source.unsplash.com/random/2400x1800
+    profile:        https://source.unsplash.com/random/300x450
+    
+brand5:
     horizontal:     https://source.unsplash.com/random/750x400
     vertical:       https://source.unsplash.com/random/400x750
     square:         https://source.unsplash.com/random/300x300

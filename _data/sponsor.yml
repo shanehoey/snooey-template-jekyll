@@ -1,6 +1,6 @@
 # _data/sponsor.yml
 
-default:
+brand1:
     sponsor:      "Sponsored by:"
     title:        Lorem ipsum dolor
     subtitle:     Lorem ipsum dolor
@@ -9,41 +9,39 @@ default:
     url:          https://snooey.netlify.app
     image:        https://source.unsplash.com/random/100x150
 
-docs:
+brand2:
     sponsor:      "Sponsored by:"
     title:        Lorem ipsum dolor
     subtitle:     Lorem ipsum dolor
     description:  Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
     excerpt:      Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
     url:          https://snooey.netlify.app
-    image:        https://source.unsplash.com/random/300x300
+    image:        https://source.unsplash.com/random/100x150
 
-tools:
+brand3:
     sponsor:      "Sponsored by:"
     title:        Lorem ipsum dolor
     subtitle:     Lorem ipsum dolor
     description:  Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
     excerpt:      Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
     url:          https://snooey.netlify.app
-    image:        https://source.unsplash.com/random/120x120
+    image:        https://source.unsplash.com/random/100x150
 
-blog:
+brand4:
     sponsor:      "Sponsored by:"
     title:        Lorem ipsum dolor
     subtitle:     Lorem ipsum dolor
     description:  Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
     excerpt:      Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
     url:          https://snooey.netlify.app
-    image:        https://source.unsplash.com/random/120x120
+    image:        https://source.unsplash.com/random/100x150
 
-hello:
+brand5:
     sponsor:      "Sponsored by:"
     title:        Lorem ipsum dolor
     subtitle:     Lorem ipsum dolor
     description:  Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
     excerpt:      Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
     url:          https://snooey.netlify.app
-    image:        https://source.unsplash.com/random/120x120
-
-    
- 
+    image:        https://source.unsplash.com/random/100x150
+                            

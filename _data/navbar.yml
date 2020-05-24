@@ -1,6 +1,6 @@
 # _data/navbar.yml
 
-default: 
+brand1: 
     title:              Snooey Theme
     url:                /
     icon:               fas fa-portrait fa-1x
@@ -38,130 +38,10 @@ default:
             url:            /videos/
           - title:          wizards
             url:            /wizards/
-  
 
-hello:
-    title:              snooey.com
-    url:                https://snooey.com
-    icon:               fas fa-portrait fa-1x
-    navigation: 
-      - title:          home
-        url:            https://snooey.com
-      - title:          docs
-        url:            https://docs.snooey.com 
-      - title:          tools
-        url:            https://tools.snooey.com       
-      - title:          blog
-        url:            https://blog.snooey.com 
-      - title:          hello
-        url:            https://hello.snooey.com  
-      - title:          examples
-        url:            /examples/      
-        children:
-          - title:          examples
-            url:            /examples/
-          - title:          hello
-            url:            /hello/
-          - title:          code
-            url:            /code/
-          - title:          docs
-            url:            /docs/
-          - title:          blogs
-            url:            /blogs/
-          - title:          tools
-            url:            /tools/
-          - title:          snippets
-            url:            /snippets/
-          - title:          blog
-            url:            /blog/
-          - title:          videos
-            url:            /videos/
-          - title:          wizards
-            url:            /wizards/
-  
-  
-blogs:
-    title:              snooey.com
-    url:                https://snooey.com
-    icon:               fas fa-portrait fa-1x
-    navigation: 
-      - title:          home
-        url:            https://snooey.com
-      - title:          docs
-        url:            https://docs.snooey.com 
-      - title:          tools
-        url:            https://tools.snooey.com       
-      - title:          blog
-        url:            https://blog.snooey.com 
-      - title:          hello
-        url:            https://hello.snooey.com  
-      - title:          examples
-        url:            /examples/    
-        children:
-          - title:          examples
-            url:            /examples/
-          - title:          hello
-            url:            /hello/
-          - title:          code
-            url:            /code/
-          - title:          docs
-            url:            /docs/
-          - title:          blogs
-            url:            /blogs/
-          - title:          tools
-            url:            /tools/
-          - title:          snippets
-            url:            /snippets/
-          - title:          blog
-            url:            /blog/
-          - title:          videos
-            url:            /videos/
-          - title:          wizards
-            url:            /wizards/  
-
-
-docs:
-    title:              snooey.com
-    url:                https://snooey.com
-    icon:               fas fa-portrait fa-1x
-    navigation: 
-          - title:          home
-            url:            https://snooey.com
-          - title:          docs
-            url:            https://docs.snooey.com 
-          - title:          tools
-            url:            https://tools.snooey.com       
-          - title:          blog
-            url:            https://blog.snooey.com 
-          - title:          hello
-            url:            https://hello.snooey.com  
-          - title:          examples
-            url:            /examples/     
-            children:
-              - title:          examples
-                url:            /examples/
-              - title:          hello
-                url:            /hello/
-              - title:          code
-                url:            /code/
-              - title:          docs
-                url:            /docs/
-              - title:          blogs
-                url:            /blogs/
-              - title:          tools
-                url:            /tools/
-              - title:          snippets
-                url:            /snippets/
-              - title:          blog
-                url:            /blog/
-              - title:          videos
-                url:            /videos/
-              - title:          wizards
-                url:            /wizards/
-
-tools:
-    title:              snooey.com
-    url:                https://snooey.com
+brand2: 
+    title:              Snooey Theme
+    url:                /
     icon:               fas fa-portrait fa-1x
     navigation: 
       - title:          home
@@ -198,9 +78,9 @@ tools:
           - title:          wizards
             url:            /wizards/
 
-blog:
-    title:              snooey.com
-    url:                https://snooey.com
+brand3: 
+    title:              Snooey Theme
+    url:                /
     icon:               fas fa-portrait fa-1x
     navigation: 
       - title:          home
@@ -214,7 +94,7 @@ blog:
       - title:          hello
         url:            https://hello.snooey.com  
       - title:          examples
-        url:            /examples/   
+        url:            /examples/    
         children:
           - title:          examples
             url:            /examples/
@@ -236,3 +116,82 @@ blog:
             url:            /videos/
           - title:          wizards
             url:            /wizards/
+
+brand4: 
+    title:              Snooey Theme
+    url:                /
+    icon:               fas fa-portrait fa-1x
+    navigation: 
+      - title:          home
+        url:            https://snooey.com
+      - title:          docs
+        url:            https://docs.snooey.com 
+      - title:          tools
+        url:            https://tools.snooey.com       
+      - title:          blog
+        url:            https://blog.snooey.com 
+      - title:          hello
+        url:            https://hello.snooey.com  
+      - title:          examples
+        url:            /examples/    
+        children:
+          - title:          examples
+            url:            /examples/
+          - title:          hello
+            url:            /hello/
+          - title:          code
+            url:            /code/
+          - title:          docs
+            url:            /docs/
+          - title:          blogs
+            url:            /blogs/
+          - title:          tools
+            url:            /tools/
+          - title:          snippets
+            url:            /snippets/
+          - title:          blog
+            url:            /blog/
+          - title:          videos
+            url:            /videos/
+          - title:          wizards
+            url:            /wizards/
+
+brand5: 
+    title:              Snooey Theme
+    url:                /
+    icon:               fas fa-portrait fa-1x
+    navigation: 
+      - title:          home
+        url:            https://snooey.com
+      - title:          docs
+        url:            https://docs.snooey.com 
+      - title:          tools
+        url:            https://tools.snooey.com       
+      - title:          blog
+        url:            https://blog.snooey.com 
+      - title:          hello
+        url:            https://hello.snooey.com  
+      - title:          examples
+        url:            /examples/    
+        children:
+          - title:          examples
+            url:            /examples/
+          - title:          hello
+            url:            /hello/
+          - title:          code
+            url:            /code/
+          - title:          docs
+            url:            /docs/
+          - title:          blogs
+            url:            /blogs/
+          - title:          tools
+            url:            /tools/
+          - title:          snippets
+            url:            /snippets/
+          - title:          blog
+            url:            /blog/
+          - title:          videos
+            url:            /videos/
+          - title:          wizards
+            url:            /wizards/
+            

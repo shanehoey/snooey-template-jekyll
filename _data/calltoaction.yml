@@ -1,11 +1,6 @@
-default:
-    - title: Lorem ipsum dolor
-      subtitle: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
-      image: 'https://source.unsplash.com/random/800x600'
-      url: 'https://snooey.com'
-      btn: Learn More
+# _data/calltoaction.yml
 
-blog:
+brand1:
     - title: Lorem ipsum dolor
       subtitle: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
       image: 
@@ -13,21 +8,28 @@ blog:
       url: https://blog.snooey.com'
       btn: more    
 
-docs:
+brand2:
     - title: Lorem ipsum dolor
       subtitle: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
       image: 'https://source.unsplash.com/random/960x540'
       url: 'https://docs.snooey.com'
       btn: Learn More
 
-tools:
+brand3:
     - title: Lorem ipsum dolor
       subtitle: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
       image: 'https://source.unsplash.com/random/960x540'
       url: 'https://tools.snooey.com'
       btn: Learn More
 
-hello:
+brand4:
+    - title: Lorem ipsum dolor
+      subtitle: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
+      image: 'https://source.unsplash.com/random/960x540'
+      url: 'https://hello.snooey.com'
+      btn: Learn More
+
+brand5:
     - title: Lorem ipsum dolor
       subtitle: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
       image: 'https://source.unsplash.com/random/960x540'
