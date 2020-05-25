@@ -8,7 +8,7 @@
 # this is used to set the theme used in all layouts files
  
 light:
-    layout:
+    layout:             d-flex flex-column h-100
         body:           brand-img-background
         section:        container
         container:      container
@@ -33,7 +33,7 @@ light:
  
 dark:
     layout:
-        body:           brand-color1
+        body:           d-flex flex-column h-100 brand-color1
         section:        container
         container:      container
     text:
@@ -57,7 +57,7 @@ dark:
  
 image:
     layout:
-        body:           brand-color1
+        body:           d-flex flex-column h-100 brand-color1
         section:        container
         container:      container
     text:

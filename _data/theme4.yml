@@ -9,7 +9,7 @@
  
 light:
     layout:
-        body:           brand-img-background
+        body:           d-flex flex-column h-100
         section:        container
         container:      container
     text:
@@ -33,7 +33,7 @@ light:
  
 dark:
     layout:
-        body:           brand-color1
+        body:           d-flex flex-column h-100 brand-color1
         section:        container
         container:      container
     text:
@@ -57,7 +57,7 @@ dark:
  
 image:
     layout:
-        body:           brand-color1
+        body:           d-flex flex-column h-100 brand-color1
         section:        container
         container:      container
     text:
