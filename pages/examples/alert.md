@@ -22,24 +22,6 @@ permalink: /examples/alert/
 %}
 
 ```
-__message__
-
-Error message
-
-__theme__
-
-yml containing the alert theme yaml site.data.alert.
-
-__icon__
-
-__section__
-
-example  container  
-
-__container__
-
-example container 
-
 {% endraw %}
 
 <span class="container border border-dark p-3">

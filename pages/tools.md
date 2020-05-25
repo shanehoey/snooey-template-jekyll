@@ -12,3 +12,6 @@ brand: brand3
 {{ page.description }}
 
 tools.html
+
+{% include social.html %}
+

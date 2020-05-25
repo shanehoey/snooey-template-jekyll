@@ -1,0 +1,82 @@
+{% comment %}
+<!--
+    v1.00  _includes/feature05.html
+
+# Documentation -  Add to documentation
+# TODO Enhancement -  Add ability to replace the icon with an image
+
+    includes feature05.html     collection [object] (default site.data.feature.default)
+                                featured [object] (default site.data.feature.default)
+                                title = [string] (optional)
+                                description = [string] (optional)
+                                limit = [integer] (default 4)]
+                                theme = [string] (default site.data.theme.feature.default)
+                                
+                            
+-->
+{% endcomment %}
+
+{% assign featured = include.featured %}
+{% unless featured %}
+{% assign featured = site.data.feature.[page.brand] %}
+{% endunless %}
+{% unless collection %}
+{% assign collection = site.data.feature.brand1 %}
+{% endunless %}
+
+
+{% assign collection = include.collection %}
+{% unless collection %}
+{% assign collection = site.data.feature.[page.brand] %}
+{% endunless %}
+{% unless collection %}
+{% assign collection = site.data.feature.brand1 %}
+{% endunless %}
+
+{% assign limit         =  include.limit %}
+{% unless limit %}
+{% assign limit         =  4 %}
+{% endunless %}
+
+{% assign title         =  include.title %}
+{% assign description   =  include.description %}
+
+{% assign theme = include.theme %}
+{% unless theme %}
+{% assign theme = site.data[page.theme].light %}
+{% endunless %}
+
+{% assign section = include.section %}
+{% assign container = include.container %}
+
+{% assign items = ( collection )  %}
+{% if include.category %}
+{% assign items = (items | where: 'categories', include.category) %}
+{% endif %}
+
+<section id="feature01" class="p-3 {{ theme.bg.primary }} {{ theme.text.primary }} {{ section }}">
+    {% if container %}<div id="container" class="{{ container }}">{% endif %}
+        
+    {% if title %}<h2 class="{{ theme.text.primary }}">{{ title }}</h2>{% endif %}
+    {% if description %}<p class="{{ theme.text.primary }} text-justify">{{ description }}</p>{% endif %}
+    <div class="row d-flex justify-content-between align-items-center">
+        {% for item in featured limit: 1 %}
+        <div class="col-md-7 mb-4">
+            <h2 class="{{ theme.text.primary }} mb-3">{{ item.title }}</h2>
+            <p class="{{ theme.text.primary }} text-justify pt-3">{{ item.description }}</p>
+        </div>
+        <div class="col-md-5 col-lg-4 d-flex justify-content-center mb-md-0 mb-5">
+            <i class="{{ theme.text.primary }} {{ item.icon }} fa-10x"></i>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="row pt-3">
+        {% for item in collection limit: {{limit}} %}
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="{{ theme.text.primary }} font-weight-bold mb-3">{{ item.title }}</h4>
+            <p class="{{ theme.text.primary }} mb-lg-0">{{ item.excerpt }}</p>
+        </div>
+        {% endfor %}
+    </div>
+    {% if container %}</div>{% endif %}
+</section>

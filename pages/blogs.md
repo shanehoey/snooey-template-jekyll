@@ -12,3 +12,5 @@ brand: brand4
 {{ page.description }}
 
 blogs.html
+
+{% include social.html %}

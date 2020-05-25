@@ -1,0 +1,38 @@
+{% comment %}
+<!--
+    v1.00 _includes/footer02.html
+
+# Documentation -  Add to documentation
+
+    include footer02.html       collection = [object] (default site.data.footer.default)
+                                theme = [string] (default site.data.theme.footer.default)
+
+                            -->
+{% endcomment %}
+
+{% assign collection = include.collection %}
+{% unless collection %}
+{% assign collection = site.data.footer.[page.brand] %}
+{% endunless %}
+{% unless collection %}
+{% assign collection = site.data.footer.brand1 %}
+{% endunless %}
+
+{% assign theme = include.theme %}
+{% unless theme %}
+{% assign theme = site.data[page.theme].light %}
+{% endunless %}
+
+{% assign section = include.section %}
+{% assign container = include.container %}
+
+<section id="footer02" class="mt-auto p-4 {{ theme.bg.primary }} {{ theme.text.primary }} {{ section }} ">
+    {% if container %}<div id="container" class="{{ container }}">{% endif %}
+           <p class="text-reset text-center font-weight-light small">{{ collection.copyright}}<br>
+        {% for item in collection.navigation %}
+        <a href="{{ item.url}}"
+            class="text-reset text-center text-decoration-none font-weight-light px-2 small">{{ item.title }}</a>
+        {% endfor %}
+    </p>
+    {% if container %}</div>{% endif %}
+</footer>

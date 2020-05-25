@@ -12,3 +12,6 @@ brand: brand2
 {{ page.description }}
 
 docs.html
+
+{% include social.html %}
+

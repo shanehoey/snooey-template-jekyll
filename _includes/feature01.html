@@ -1,0 +1,54 @@
+{% comment %}
+<!--
+    v1.00 _includes/feature01.html
+    
+# Documentation -  Add to documentation
+
+    includes feature01.html     collection [object] (default site.data.feature.default )
+                                title = [string] (optional)
+                                description = [string] (optional)
+                                limit = [integer] (default 4)]
+                                theme = [string] (default site.data.theme.feature.default)
+ 
+-->
+{% endcomment %}
+
+{% assign collection = include.collection %}
+{% unless collection %}
+{% assign collection = site.data.feature.[page.brand] %}
+{% endunless %}
+{% unless collection %}
+{% assign collection = site.data.feature.brand1 %}
+{% endunless %}
+
+{% assign title =  include.title %}
+{% assign description = include.description %}
+
+{% assign limit = include.limit %}
+{% unless limit %}
+{% assign limit = 4 %}
+{% endunless %}
+
+{% assign theme = include.theme %}
+{% unless theme %}
+{% assign theme = site.data[page.theme].light %}
+{% endunless %}
+
+{% assign section = include.section %}
+{% assign container = include.container %}
+
+<section id="feature01" class="{{ theme.bg.primary }} {{ theme.text.primary }} {{ section }}">
+    {% if container %}<div id="container" class="{{ container }}">{% endif %}
+    {% if title %}<h2 class="mb-4 pb-2 text-center font-weight-bold {{ theme.text.primary }}">{{ title }}</h2>{% endif %}
+    {% if description %}<p class="mx-auto mb-5 text-justify {{ theme.text.primary }}">{{ description }}</p>{% endif %}
+    <div class="row text-center d-flex justify-content-center my-5">
+        {% for item in collection limit: {{limit}} %}
+        <div class="col-lg-3 col-md-6 mb-4">
+            <i class="{{ item.icon }} fa-4x mb-4 {{ theme.text.primary }} "></i>
+            <h5 class="{{ theme.text.primary }}">{{ item.title }}</h5>
+            <p class="mb-0 {{ theme.text.primary }}">{{ item.excerpt }}</p>
+        </div>
+        {% endfor %}
+    </div>
+    {% if container %}</div>{% endif %}
+</section>

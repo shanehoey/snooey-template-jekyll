@@ -13,3 +13,4 @@ brand: brand5
 
 hello.html
 
+{% include social.html %}

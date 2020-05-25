@@ -1,0 +1,42 @@
+{% comment %}
+<!--
+    v1.00 _includes/feature04.html
+
+# Documentation -  Add to documentation
+
+    includes feature04.html     collection [object] (default site.data.feature.default )
+                                limit = [integer] (default 4)]
+                                theme = [string] (default site.data.theme.feature.default)
+                                
+-->
+{% endcomment %}
+
+{% assign collection  =  include.collection %}
+{% unless collection %}
+{% assign collection = site.data.feature.[page.brand] %}
+{% endunless %}
+{% unless collection %}
+{% assign collection  =  site.data.feature.brand1 %}
+{% endunless %}
+
+{% assign limit       =  include.limit %}
+{% unless limit %}
+{% assign limit       =  1 %}
+{% endunless %}
+
+{% assign theme = include.theme %}
+{% unless theme %}
+{% assign theme = site.data[page.theme].light %}
+{% endunless %}
+
+{% assign section = include.section %}
+{% assign container = include.container %}
+
+{% for item in collection limit: {{limit}} %}
+<section id="feature04" class="{{ theme.bg.primary }} {{ theme.text.primary }} {{ section }}">
+    {% if container %}<div id="container" class="{{ container }}">{% endif %}
+            {% if item.title %}<h2 class="{{ theme.text.primary }}">{{ item.title }}</h2>{% endif %}
+    {% if item.description %}<p class="text-justify {{ theme.text.primary }}">{{ item.description }}</p>{% endif %}
+    {% if container %}</div>{% endif %}
+</section>
+{% endfor %}

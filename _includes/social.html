@@ -1,0 +1,41 @@
+{% comment %}
+<!--
+    v1.00 _includes/social.html 
+
+# Documentation -  Add to documentation
+
+    include social.html     collection = [object]
+                            theme = [string] (default site.data.theme.social.default)
+                         
+-->
+{% endcomment %}
+
+{% assign collection = include.collection %}
+{% unless collection %}
+{% assign collection = site.data.social.[page.brand] %}
+{% endunless %}
+{% unless collection %}
+{% assign collection = site.data.social.brand1 %}
+{% endunless %}
+
+{% assign theme = include.theme %}
+{% unless theme %}
+{% assign theme = site.data[page.theme].light %}
+{% endunless %}
+
+{% assign section = include.section %}
+{% assign container = include.container %}
+
+<section id="social" class="text-center py-5 {{ theme.bg.primary }} {{ theme.text.accent4 }} {{ section }}">
+    {% if container %}<div id="container" class="{{ container }}">{% endif %}
+    {% if collection.title %}<h4 class = "{{ theme.text.primary }} p-4">{{ collection.title }}</h4>{% endif %}
+    {% if collection.facebook %}<a href = "{{ collection.facebook }}" class = "mx-3 {{ theme.text.accent4 }}"><i class = "fab fa-facebook-f fa-4x"></i></a>{% endif %}
+    {% if collection.twitter %}<a href = "{{ collection.twitter }}" class = "mx-3 {{ theme.text.accent4 }}" ><i class = "fab fa-twitter fa-4x"></i></a>{% endif %}
+    {% if collection.linkedin %}<a href = "{{ collection.linkedin }}" class = "mx-3 {{ theme.text.accent4 }}" ><i class = "fab fa-linkedin-in fa-4x"></i></a>{% endif %}
+    {% if collection.instagram %}<a href = "{{ collection.instagram }}" class = "mx-3 {{ theme.text.accent4 }}" ><i class = "fab fa-instagram fa-4x"></i></a>{% endif %}
+    {% if collection.pinterest %}<a href = "{{ collection.pinterest }}" class = "mx-3 {{ theme.text.accent4 }}" ><i class = "fab fa-pinterest fa-4x"></i></a>{% endif %}
+    {% if collection.youtube %}<a href = "{{ collection.youtube }}" class = "{mx-3 {{ theme.text.accent4 }}" ><i class = "fab fa-youtube fa-4x"></i></a>{% endif %}
+    {% if collection.github %}<a href = "{{ collection.github }}" class = "mx-3 {{ theme.text.accent4 }}" ><i class = "fab fa-github fa-4x"></i></a>{% endif %}
+    {% if collection.stackoverflow %}<a href = "{{ collection.stackoverflow }}" class = "mx-3 {{ theme.text.accent4 }}" ><i class = "fab fa-stack-overflow fa-4x"></i></a>{% endif %}
+    {% if container %}</div>{% endif %}
+</section>

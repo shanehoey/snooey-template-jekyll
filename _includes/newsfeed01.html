@@ -1,0 +1,70 @@
+{% comment %}
+<!--
+    v1.00 _includes/newsfeed01.html
+ 
+    include newsfeed01.html   title = [string] (optional)
+                              description = [string] (optional)
+                              limit =  [Integer] (default 7)
+                              collection = [object] (default site.posts)
+                              theme = [sting] (default site.data.theme.newsfeed.default)
+
+-->
+{% endcomment %}
+
+{% assign title = include.title  %}
+{% assign description = include.description %}
+{% assign limit  = include.limit %}
+{% unless limit %}
+{% assign limit = 7 %}
+{% endunless %}
+
+{% assign collection = include.collection %}
+{% unless collection %}
+{% assign collection = site.posts %}
+{% endunless %}
+
+{% assign theme = include.theme %}
+{% unless theme %}
+{% assign theme = site.data[page.theme].light %}
+{% endunless %}
+
+{% assign section = include.section %}
+{% assign container = include.container %}
+
+
+
+<section id="newsfeed01" class="{{ theme.bg.primary }} {{ theme.text.primary }} {{ section }}">
+  {% if container %}<div id="container" class="{{ container }}">{% endif %}
+ {% if title %}<h3 class="">{{ title }}</h3>{% endif %}
+  {% if description %}<p class="{{ theme.description }}">{{ description }}</p>{% endif %}
+  <div class="row">
+      {% for item in collection %}
+      {% if forloop.first %}
+      <div class="col-lg-6 col-md-12 mb-4">
+        <a href = "{{ item.url }}" class = "text-decoration-none"><img class="img-fluid rounded px-3" src = "{{ item.image.horizontal }}" alt = "{{ item.excerpt }}"></a>
+        <a href = "{{ item.url }}" class = "text-decoration-none"><h3 class="{{ theme.item.title }}">{{ item.title }}</h3></a>
+        <p class="text-justify">{{ item.description }}</p>
+      </div>
+      {% endif %}
+      {% endfor %}
+      <!--SECOND-->
+      <div class="col-lg-6 col-md-12 mb-1">
+          {% for item in collection offset: 1  limit: limit %}
+              <div class="row mb-2">
+                  <div class = "col-md-3">
+                      <a href = "{{ item.url }}" class = "text-decoration-none">
+                          <img class = "img-fluid rounded px-3" src = "{{ item.image.horizontal }}" alt = "{{ item.excerpt }}">
+                      </a>
+                  </div>
+                  <div class="col-md-9">
+                      <a href = "{{ item.url }}" class = "text-decoration-none">
+                          <h5 class="{{ theme.item.title }} m-0">{{ item.title }}</h5>
+                        </a>
+                      <p class=" text-decoration-none text-justify text-truncate">{{ item.description }}</p>
+                    </div>
+              </div>
+          {% endfor %}
+      </div>
+    </div>
+    {% if container %}</div>{% endif %}
+</section>

@@ -1,0 +1,20 @@
+{% comment %}
+<!--
+    v1.00 _includes/spacer.html
+
+# Documentation -  Add to documentation
+
+    include spacer.html theme = [string] (default site.data.theme.social.default)
+  
+-->
+{% endcomment %}
+
+{% assign theme = include.theme %}
+{% unless theme %}
+{% assign theme = site.data[page.theme].light %}
+{% endunless %}
+
+{% assign section = include.section %}
+{% assign container = include.container %}
+
+<Section id = "spacer" class="{{ theme.bg.primary }} {{ theme.text.primary}} {{ section }}" ></Section>
