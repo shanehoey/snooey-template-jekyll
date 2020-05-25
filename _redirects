@@ -25,6 +25,7 @@ https://docs.snooey.com/index.html https://snooey.com/ 302!
 https://blog.snooey.com/index.html https://snooey.com/ 302!
 https://hello.snooey.com/index.html https://snooey.com/ 302!
 
+
 # redirect subdomain to correct file 
 https://snooey.com /index.html 200!
 https://tools.snooey.com /tools.html 200!

@@ -6,7 +6,7 @@ brand1:
     icon:               fas fa-portrait fa-1x
     navigation: 
       - title:          home
-        url:            /index.htmlt
+        url:            /index.html
       - title:          docs
         url:            /docs/ 
       - title:          tools
