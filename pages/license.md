@@ -1,5 +1,6 @@
 ---
 title: "License"
+permalink: /license/
 ---
 
 # {{ page.title }} 

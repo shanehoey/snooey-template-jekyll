@@ -1,5 +1,6 @@
 ---
 title: "Terms of Use"
+permalink: /terms/
 ---
 
 # {{ page.title }} 
