@@ -16,13 +16,13 @@ brand1:
         url:            /contact/
 
 brand2:
-    title:              snooey.com
+    title:              docs.snooey.com
     url:                /
     icon:               fas fa-portrait fa-1x
     copyright:          '&copy; Shane Hoey 2018-2020. All Rights Reserved.'
     navigation: 
       - title:          snooey.com
-        url:            /
+        url:            /docs.html
       - title:          terms
         url:            /terms/
       - title:          license
@@ -31,8 +31,8 @@ brand2:
         url:            /contact/
 
 brand3: 
-    title:              snooey.com
-    url:                /
+    title:              tools.snooey.com
+    url:                /tools.html
     icon:               fas fa-portrait fa-1x
     copyright:          '&copy; Shane Hoey 2018-2020. All Rights Reserved.'
     navigation: 
@@ -46,8 +46,8 @@ brand3:
         url:            /contact/
 
 brand4:
-    title:              snooey.com
-    url:                /
+    title:              blog.snooey.com
+    url:                /blog.html
     icon:               fas fa-portrait fa-1x
     copyright:          '&copy; Shane Hoey 2018-2020. All Rights Reserved.'
     navigation: 
@@ -61,8 +61,8 @@ brand4:
         url:            /contact/
 
 brand5:
-    title:              snooey.com
-    url:                /
+    title:              hello.snooey.com
+    url:                /hello.html
     icon:               fas fa-portrait fa-1x
     copyright:          '&copy; Shane Hoey 2018-2020. All Rights Reserved.'
     navigation: 

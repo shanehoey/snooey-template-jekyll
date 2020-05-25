@@ -12,6 +12,8 @@ brand1:
         children:
           - title:      docs
             url:        /docs/
+          - title:      documents
+            url:        /documents/
           - title:      tldr
             url:        /tldr/
           - title:      videos
@@ -46,6 +48,8 @@ brand2:
         children:
           - title:      docs
             url:        /docs/
+          - title:      documents
+            url:        /documents/
           - title:      tldr
             url:        /tldr/
           - title:      videos
@@ -116,6 +120,8 @@ brand4:
         children:
           - title:      docs
             url:        /docs/
+          - title:      documents
+            url:        /documents/
           - title:      tldr
             url:        /tldr/
           - title:      videos
@@ -150,6 +156,8 @@ brand5:
         children:
           - title:      docs
             url:        /docs/
+          - title:      documents
+            url:        /documents/
           - title:      tldr
             url:        /tldr/
           - title:      videos
