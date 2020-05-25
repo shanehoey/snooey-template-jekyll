@@ -23,8 +23,8 @@ https://docs.snooey.com /docs.html 200!
 https://blog.snooey.com /blogs/ 200!
 https://hello.snooey.com /hello.html 200!
 
-https://snooey.com/index.html /index.html 200!
-https://tools.snooey.com/tools.html /tools.html 200!
-https://docs.snooey.com/docs.html /docs.html 200!
-https://blog.snooey.com/blogs/ /blogs.html 200!
-https://hello.snooey.com/hello/ /hello.html 200!
+https://snooey.com/index.html https://snooey.com/ 200!
+https://tools.snooey.com/tools.html https://tools.snooey.com/ 200!
+https://docs.snooey.com/docs.html https://docs.snooey.com/ 200!
+https://blog.snooey.com/blogs/ https://blog.snooey.com/ 200!
+https://hello.snooey.com/hello/ https://hello.snooey.com/ 200!

@@ -93,6 +93,7 @@ brand3:
         url:            /blog/
       - title:          hello
         url:            /hello/
+      - title:          examples  
         url:            /examples/    
         children:
           - title:          examples
