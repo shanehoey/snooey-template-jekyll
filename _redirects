@@ -9,6 +9,7 @@ https://blog.snooey.com/blogs/* https://blog.snooey.com/blogs/:splat 200
 https://hello.snooey.com/hello/* https://hello.snooey.com/hello/:splat 200
 
 /documents/* https://docs.snooey.com/documents/:splat 301!
+/docs/* https://docs.snooey.com/documents/:splat 301!
 /tldr/* https://docs.snooey.com/documents/:splat 301!
 /videos/* https://docs.snooey.com/videos/:splat 301!
 /tools/* https://tools.snooey.com/tools/:splat 301!
