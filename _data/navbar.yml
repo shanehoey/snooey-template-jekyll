@@ -80,6 +80,8 @@ brand3:
         children:
           - title:      docs
             url:        /docs/
+          - title:      documents
+            url:        /documents/
           - title:      tldr
             url:        /tldr/
           - title:      videos
