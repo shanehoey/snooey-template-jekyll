@@ -8,8 +8,8 @@
 # this is used to set the theme used in all layouts files
  
 light:
-    layout:             d-flex flex-column h-100
-        body:           brand-img-background
+    layout:             
+        body:           d-flex flex-column h-100 
         section:        container
         container:      container
     text:
