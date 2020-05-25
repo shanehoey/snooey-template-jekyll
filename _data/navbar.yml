@@ -6,7 +6,7 @@ brand1:
     icon:               fas fa-portrait fa-1x
     navigation: 
       - title:          home
-        url:            /
+        url:            /index.htmlt
       - title:          docs
         url:            /docs/ 
       - title:          tools
@@ -123,7 +123,7 @@ brand4:
     icon:               fas fa-portrait fa-1x
     navigation: 
       - title:          home
-        url:            /snooey.com
+        url:            /
       - title:          docs
         url:            /docs/
       - title:          tools
@@ -162,7 +162,7 @@ brand5:
     icon:               fas fa-portrait fa-1x
     navigation: 
       - title:          home
-        url:            /snooey.com
+        url:            /
       - title:          docs
         url:            /docs/
       - title:          tools
