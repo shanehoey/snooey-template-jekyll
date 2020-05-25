@@ -1,3 +1,5 @@
+# _data/alert.yml
+
 default:
     class: alert alert-primary alert-dismissible fade show 
     icon:
@@ -22,6 +24,6 @@ theme3:
     class: alert fade show brand-bg-color2
     icon: fas fa-rocket pr-1
     
-theme1:
+theme4:
     class: alert text-white brand-bg-unsplash2
     icon:

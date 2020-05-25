@@ -30,7 +30,7 @@ brand1:
           - title:      wizards
             url:        /wizards/
       - title:          blog
-        url:            /blog/ 
+        url:            /blogs/ 
       - title:          hello
         url:            /hello/ 
       - title:          examples
@@ -66,7 +66,7 @@ brand2:
           - title:      wizards
             url:        /wizards/
       - title:          blog
-        url:            /blog/ 
+        url:            /blogs/ 
       - title:          hello
         url:            /hello/ 
       - title:          examples
@@ -102,7 +102,7 @@ brand3:
           - title:      wizards
             url:        /wizards/
       - title:          blog
-        url:            /blog/ 
+        url:            /blogs/ 
       - title:          hello
         url:            /hello/ 
       - title:          examples
@@ -138,7 +138,7 @@ brand4:
           - title:      wizards
             url:        /wizards/
       - title:          blog
-        url:            /blog/ 
+        url:            /blogs/ 
       - title:          hello
         url:            /hello/ 
       - title:          examples
@@ -174,7 +174,7 @@ brand5:
           - title:      wizards
             url:        /wizards/
       - title:          blog
-        url:            /blog/ 
+        url:            /blogs/ 
       - title:          hello
         url:            /hello/ 
       - title:          examples

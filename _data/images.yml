@@ -1,6 +1,7 @@
 # _data/images.yml
 
-# TODO Investigate remove and converted to sass ?  probably means harder to change on the fly
+# TODO Investigate - Can I remove this ? 
+# and am I even using it
 
 brand1:
     horizontal:     https://source.unsplash.com/random/750x400
