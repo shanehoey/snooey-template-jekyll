@@ -11,4 +11,4 @@ brand: brand3
 
 {{ page.description }}
 
-{% include blog01.html  collection = site.snippets width = 33  hidden = "subtitle" %}
+snippets.html

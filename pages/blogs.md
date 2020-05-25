@@ -11,4 +11,4 @@ brand: brand4
 
 {{ page.description }}
 
-{% include blog01.html  collection = site.posts width = 33  hidden = "subtitle" %}
+blogs.html

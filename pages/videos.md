@@ -11,10 +11,4 @@ brand: brand2
 
 {{ page.description }}
 
-{% include portfolio01.html title = page.title 
-                            description = page.description 
-                            collection = site.videos  
-                            theme = site.data.theme.portfolio.docs
-                            columns = 4 
-                            hidden = "description,title" %}
-<hr/>
+videos.html
