@@ -8,15 +8,24 @@ https://tools.snooey.com/wizards/* https://tools.snooey.com/wizards/:splat 200
 https://blog.snooey.com/blogs/* https://blog.snooey.com/blogs/:splat 200
 https://hello.snooey.com/hello/* https://hello.snooey.com/hello/:splat 200
 
+# main headings
+/docs/* https://docs.snooey.com/:splat 301!
+/tools/* https://tools.snooey.com/:splat 301!
+/blogs/* https://blogs.snooey.com/:splat 301!
+/hello/* https://hello.snooey.com/:splat 301!
+
+#
 /documents/* https://docs.snooey.com/documents/:splat 301!
 /tldr/* https://docs.snooey.com/documents/:splat 301!
 /videos/* https://docs.snooey.com/videos/:splat 301!
-/tools/* https://tools.snooey.com/tools/:splat 301!
+
+#
 /code/* https://tools.snooey.com/code/:splat 301!
 /snippets/* https://tools.snooey.com/snippets/:splat 301!
 /wizards/* https://tools.snooey.com/wizards/:splat 301!
 /blogs/* https://blog.snooey.com/blogs/:splat 301!
 
+# proxy subdomain to file
 https://snooey.com /index.html 200!
 https://tools.snooey.com /tools.html 200!
 https://docs.snooey.com /docs.html 200!
