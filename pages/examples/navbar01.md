@@ -6,16 +6,11 @@ excerpt: "Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explic
 permalink: /examples/navbar01/
 ---
 
+{% assign themes = site.data[page.theme] %}
+
 <h1>{{ page.title }}</h1>
 <p class = "text-justify">{{ page.description }}</p>
-<hr/>
 
-{% include navbar01.html   theme = themes.theme1  example=true%}
-
-{% include navbar01.html   theme = site.data.theme.theme2  example=true%}
-
-{% include navbar01.html   theme = site.data.theme.theme3  example=true%}
-
-{% include navbar01.html   theme = site.data.theme.theme4  example=true%}
-
-{% include navbar01.html   theme = site.data.theme.theme5  example=true%}
+{% include navbar01.html   theme = themes.light example=true%}
+{% include navbar01.html   theme = themes.dark  example=true%}
+{% include navbar01.html   theme = themes.image  example=true%}

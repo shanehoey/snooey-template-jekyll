@@ -5,19 +5,17 @@ description: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut exp
 excerpt: "Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe qui quibusdam accusamus ut velit asperiores vel natus temporibus."
 permalink: /examples/calltoaction02/
 ---
+{% assign themes = site.data[page.theme] %}
 
 <h1>{{ page.title }}</h1>
 <p class = "text-justify">{{ page.description }}</p>
 <hr/>
 
-{% include calltoaction02.html  collection = site.data.calltoaction.docs  
-                                theme = site.data.theme.theme1 %}
+{% include calltoaction02.html  collection = site.data.calltoaction.docs %}
+
 
 {% include calltoaction02.html  collection = site.data.calltoaction.docs  
-                                theme = site.data.theme.theme1-dark %}
+                                theme = themes.dark %}
 
 {% include calltoaction02.html  collection = site.data.calltoaction.docs  
-                                theme = site.data.theme.theme1-image %}
-
-{% include calltoaction02.html  collection = site.data.calltoaction.docs  
-                                theme = site.data.theme.theme1-image-fixed %}
+                                theme = themes.image %}

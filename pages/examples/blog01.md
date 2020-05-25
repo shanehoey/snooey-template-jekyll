@@ -13,16 +13,15 @@ permalink: /examples/blog01/
 {% include blog01.html  title = page.title
                         description = page.description
                         limit = 2
-                        container = "container"
                         %}
 <hr/>
 
+{% assign themes = site.data[page.theme] %}
 {% include blog01.html  title = page.title
                         description = page.description
                         collection = site.documents
                         limit = 2
-                        theme = site.data.theme.blog.docs
-                        width = 50
+                        theme = themes.dark
                         %}
 <hr/>
 

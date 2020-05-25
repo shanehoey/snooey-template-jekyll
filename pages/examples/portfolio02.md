@@ -6,15 +6,24 @@ excerpt: "Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explic
 permalink: /examples/portfolio02/
 ---
 
+{% assign themes = site.data[page.theme] %}
 <h1>{{ page.title }}</h1>
 <p class = "text-justify">{{ page.description }}</p>
-<hr/>
 
-{% include portfolio02.html %}
-<hr/>
-
-{% include portfolio02.html  theme = site.data.theme.portfolio.docs %}
-<hr/>
-
-{% include portfolio02.html  theme = site.data.theme.portfolio.tools %}
-<hr/>
+{% include portfolio02.html     title = page.title 
+                                description = page.description 
+                                collection = site.code 
+                                limit = 2 
+                                hidden = "overlay,excerpt,button" %}
+{% include portfolio02.html     title = page.title 
+                                description = page.description 
+                                collection = site.code  
+                                theme = themes.dark
+                                columns = 4 
+                                limit = 4 
+                                hidden = "description,title" %}
+{% include portfolio02.html     title = page.title 
+                                description = page.description 
+                                collection = site.code 
+                                theme = themes.image
+                                limit = 2 %}

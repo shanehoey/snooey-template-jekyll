@@ -5,23 +5,22 @@ description: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut exp
 excerpt: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe qui quibusdam accusamus ut velit asperiores vel natus temporibus.
 permalink: /examples/feature01/
 ---
+{% assign themes = site.data[page.theme] %}
 
 <h1>{{ page.title }}</h1>
 <p class = "text-justify">{{ page.description }}</p>
-<hr/>
-{% include feature01.html   %}
-<hr/>
+
 {% include feature01.html   title = page.title
                             description = page.description
+                            section = "container p-3"
                             %}
-<hr/>
-{% include feature01.html   theme = site.data.theme.feature.docs 
+{% include feature01.html   theme = themes.dark
                             collection = site.data.feature.docs 
+                            container = "container p-3"
                             %}
-<hr/>
-{% include feature01.html   theme = site.data.theme.feature.tools 
+{% include feature01.html   theme = themes.image 
                             collection = site.data.feature.tools 
                             title = page.title                            
                             description = page.description 
+                            container = "container p-3"
                             %}
-<hr/>

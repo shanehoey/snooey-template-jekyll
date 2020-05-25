@@ -10,3 +10,28 @@ permalink: /examples/portfolio03/
 <p class = "text-justify">{{ page.description }}</p>
 
 {% include portfolio03.html %}
+
+{% assign themes = site.data[page.theme] %}
+<h1>{{ page.title }}</h1>
+<p class = "text-justify">{{ page.description }}</p>
+
+{% include portfolio03.html     title = page.title 
+                                description = page.description 
+                                collection = site.code 
+                                limit = 2 
+                                hidden = "overlay,excerpt,button" %}
+{% include portfolio03.html     title = page.title 
+                                description = page.description 
+                                collection = site.code  
+                                theme = themes.dark
+                                columns = 4 
+                                limit = 4 
+                                section = "container-fluid p-3"
+                                hidden = "description,title" %}
+{% include portfolio03.html     title = page.title 
+                                description = page.description 
+                                collection = site.code 
+                                theme = themes.image
+                                limit = 2 
+                                section = "container-fluid p-3"
+                                %}

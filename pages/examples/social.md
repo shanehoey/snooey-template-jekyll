@@ -13,10 +13,14 @@ permalink: /examples/social/
 {% include social.html %}
 <hr/>
 
-{% include social.html  theme = site.data.theme.social.docs  
-                        collection = site.data.social.docs %}
+{% assign theme = site.data[page.theme].dark %}
+{% include social.html  theme = theme
+                        collection = site.data.social.tools %}
+Works
+{% include social.html  theme = themes.dark
+                        collection = site.data.social.tools %}
 <hr/>
-
-{% include social.html  theme = site.data.theme.social.tools 
+WORKS 
+{% include social.html  theme = site.data.theme1.dark
                         collection = site.data.social.tools %}
 <hr/>

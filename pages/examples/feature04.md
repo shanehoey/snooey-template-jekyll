@@ -12,19 +12,21 @@ collection:
   - title: Lorem ipsum dolor sit amet.
     description: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe qui quibusdam accusamus ut velit asperiores vel natus temporibus.
 ---
+{% assign themes = site.data[page.theme] %}
 
 <h1>{{ page.title }}</h1>
 <p class = "text-justify">{{ page.description }}</p>
-<hr/>
-{% include feature04.html   %}
-<hr/>
-{% include feature04.html   theme = site.data.theme.feature.docs 
-                            collection = site.documents
-                            limit = 2 %}
-<hr/>
-{% include feature04.html   theme = site.data.theme.feature.tools 
+
+{% include feature04.html   title = page.title
+                            description = page.description
+                            %}
+{% include feature04.html   theme = themes.dark
+                            collection = site.data.feature.docs 
+                            container = "container p-4"
+                            %}
+{% include feature04.html   theme = themes.image 
                             collection = site.data.feature.tools 
-                            limit = 4 %}
-<hr/>
-{% include feature04.html   collection = page.collection limit = 3 %}
-<hr/>
+                            title = page.title                            
+                            description = page.description 
+                            section = "container p-4"
+                            %}

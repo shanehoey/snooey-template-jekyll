@@ -6,26 +6,20 @@ excerpt: "Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explic
 permalink: /examples/newsfeed02/
 ---
 
+
+{% assign themes = site.data[page.theme] %}
+
 <h1>{{ page.title }}</h1>
 <p class = "text-justify">{{ page.description }}</p>
-<hr/>
+
 
 {% include newsfeed02.html  title = page.title 
                             description = page.description %}
-<hr/>
 
-{% include newsfeed02.html  collection = site.documents 
-                            collection2 = site.tldr 
-                            theme = site.data.theme.newsfeed.docs 
+{% include newsfeed02.html  theme = themes.dark
                             title = page.title 
-                            description = page.description 
-                            %}
-<hr/>
+                            description = page.description %}
 
-{% include newsfeed02.html  collection = site.documents 
-                            collection2 = site.code 
-                             theme = site.data.theme.newsfeed.tools 
+{% include newsfeed02.html  theme = themes.image
                             title = page.title 
-                            description = page.description 
-                            %}
-<hr/>
+                            description = page.description %}

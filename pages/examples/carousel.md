@@ -9,5 +9,5 @@ permalink: /examples/carousel/
 <h1>{{ page.title }}</h1>
 <p class = "text-justify">{{ page.description }}</p>
 <hr/>
-{% include carousel.html    collection =  site.data.carousel.example %}
+{% include carousel.html collection =  site.data.carousel.example %}
 <hr/>
