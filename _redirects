@@ -17,11 +17,10 @@ https://hello.snooey.com/hello/* https://hello.snooey.com/hello/:splat 200
 /wizards/* https://tools.snooey.com/wizards/:splat 301!
 /blogs/* https://blog.snooey.com/blogs/:splat 301!
 
-https://snooey.com/index.html https://snooey.com/ 302!
-https://tools.snooey.com/index.html https://tools.snooey.com/ 302!
-https://docs.snooey.com/index.html https://docs.snooey.com/ 302!
-https://blog.snooey.com/index.html https://blog.snooey.com/ 302!
-https://hello.snooey.com/index.html https://hello.snooey.com/ 302!
+https://tools.snooey.com/index.html https://snooey.com/ 302!
+https://docs.snooey.com/index.html https://snooey.com/ 302!
+https://blog.snooey.com/index.html https://snooey.com/ 302!
+https://hello.snooey.com/index.html https://snooey.com/ 302!
 
 https://tools.snooey.com/tools.html https://tools.snooey.com/ 302!
 https://docs.snooey.com/docs.html https://docs.snooey.com/ 302!
