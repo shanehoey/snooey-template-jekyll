@@ -1,7 +1,7 @@
 # _data/navbar.yml
 
 brand1: 
-    title:              Snooey Theme
+    title:              snooey.com
     url:                /
     icon:               fas fa-portrait fa-1x
     navigation: 
@@ -9,189 +9,163 @@ brand1:
         url:            /index.html
       - title:          docs
         url:            /docs/ 
+        children:
+          - title:      docs
+            url:        /docs/
+          - title:      tldr
+            url:        /tldr/
+          - title:      videos
+            url:        /videos/
       - title:          tools
-        url:            /tools/       
+        url:            /tools/ 
+        children:
+          - title:      tools
+            url:        /tools/
+          - title:      code
+            url:        /code/
+          - title:      snippets
+            url:        /snippets/
+          - title:      wizards
+            url:        /wizards/
       - title:          blog
         url:            /blog/ 
       - title:          hello
-        url:            /hello/
+        url:            /hello/ 
       - title:          examples
-        url:            /examples/    
-        children:
-          - title:          examples
-            url:            /examples/
-          - title:          hello
-            url:            /hello/
-          - title:          code
-            url:            /code/
-          - title:          docs
-            url:            /docs/
-          - title:          blogs
-            url:            /blogs/
-          - title:          tools
-            url:            /tools/
-          - title:          snippets
-            url:            /snippets/
-          - title:          blog
-            url:            /blog/
-          - title:          videos
-            url:            /videos/
-          - title:          wizards
-            url:            /wizards/
+        url:            /examples/
 
 brand2: 
-    title:              Snooey Theme
+    title:              docs.snooey.com
     url:                /
     icon:               fas fa-portrait fa-1x
     navigation: 
       - title:          home
-        url:            /
+        url:            /index.html
       - title:          docs
-        url:            /docs/
-      - title:          tools
-        url:            /tools/    
-      - title:          blog
-        url:            /blog/
-      - title:          hello
-        url:            /hello/
-      - title:          examples
-        url:            /examples/    
+        url:            /docs/ 
         children:
-          - title:          examples
-            url:            /examples/
-          - title:          hello
-            url:            /hello/
-          - title:          code
-            url:            /code/
-          - title:          docs
-            url:            /docs/
-          - title:          blogs
-            url:            /blogs/
-          - title:          tools
-            url:            /tools/
-          - title:          snippets
-            url:            /snippets/
-          - title:          blog
-            url:            /blog/
-          - title:          videos
-            url:            /videos/
-          - title:          wizards
-            url:            /wizards/
+          - title:      docs
+            url:        /docs/
+          - title:      tldr
+            url:        /tldr/
+          - title:      videos
+            url:        /videos/
+      - title:          tools
+        url:            /tools/ 
+        children:
+          - title:      tools
+            url:        /tools/
+          - title:      code
+            url:        /code/
+          - title:      snippets
+            url:        /snippets/
+          - title:      wizards
+            url:        /wizards/
+      - title:          blog
+        url:            /blog/ 
+      - title:          hello
+        url:            /hello/ 
+      - title:          examples
+        url:            /examples/
 
 brand3: 
-    title:              Snooey Theme
+    title:              tools.snooey.com
     url:                /
     icon:               fas fa-portrait fa-1x
     navigation: 
       - title:          home
-        url:            /
+        url:            /index.html
       - title:          docs
-        url:            /docs/
-      - title:          tools
-        url:            /tools/      
-      - title:          blog
-        url:            /blog/
-      - title:          hello
-        url:            /hello/
-      - title:          examples  
-        url:            /examples/    
+        url:            /docs/ 
         children:
-          - title:          examples
-            url:            /examples/
-          - title:          hello
-            url:            /hello/
-          - title:          code
-            url:            /code/
-          - title:          docs
-            url:            /docs/
-          - title:          blogs
-            url:            /blogs/
-          - title:          tools
-            url:            /tools/
-          - title:          snippets
-            url:            /snippets/
-          - title:          blog
-            url:            /blog/
-          - title:          videos
-            url:            /videos/
-          - title:          wizards
-            url:            /wizards/
+          - title:      docs
+            url:        /docs/
+          - title:      tldr
+            url:        /tldr/
+          - title:      videos
+            url:        /videos/
+      - title:          tools
+        url:            /tools/ 
+        children:
+          - title:      tools
+            url:        /tools/
+          - title:      code
+            url:        /code/
+          - title:      snippets
+            url:        /snippets/
+          - title:      wizards
+            url:        /wizards/
+      - title:          blog
+        url:            /blog/ 
+      - title:          hello
+        url:            /hello/ 
+      - title:          examples
+        url:            /examples/
 
 brand4: 
-    title:              Snooey Theme
+    title:              blog.snooey.com
     url:                /
     icon:               fas fa-portrait fa-1x
     navigation: 
       - title:          home
-        url:            /
+        url:            /index.html
       - title:          docs
-        url:            /docs/
-      - title:          tools
-        url:            /tools/   
-      - title:          blog
-        url:            /blog/
-      - title:          hello
-        url:            /hello/
-      - title:          examples
-        url:            /examples/    
+        url:            /docs/ 
         children:
-          - title:          examples
-            url:            /examples/
-          - title:          hello
-            url:            /hello/
-          - title:          code
-            url:            /code/
-          - title:          docs
-            url:            /docs/
-          - title:          blogs
-            url:            /blogs/
-          - title:          tools
-            url:            /tools/
-          - title:          snippets
-            url:            /snippets/
-          - title:          blog
-            url:            /blog/
-          - title:          videos
-            url:            /videos/
-          - title:          wizards
-            url:            /wizards/
+          - title:      docs
+            url:        /docs/
+          - title:      tldr
+            url:        /tldr/
+          - title:      videos
+            url:        /videos/
+      - title:          tools
+        url:            /tools/ 
+        children:
+          - title:      tools
+            url:        /tools/
+          - title:      code
+            url:        /code/
+          - title:      snippets
+            url:        /snippets/
+          - title:      wizards
+            url:        /wizards/
+      - title:          blog
+        url:            /blog/ 
+      - title:          hello
+        url:            /hello/ 
+      - title:          examples
+        url:            /examples/
 
 brand5: 
-    title:              Snooey Theme
+    title:              hello.snooey.com
     url:                /
     icon:               fas fa-portrait fa-1x
     navigation: 
       - title:          home
-        url:            /
+        url:            /index.html
       - title:          docs
-        url:            /docs/
-      - title:          tools
-        url:            /tools/
-      - title:          blog
-        url:            /blog/
-      - title:          hello
-        url:            /hello/
-      - title:          examples
-        url:            /examples/    
+        url:            /docs/ 
         children:
-          - title:          examples
-            url:            /examples/
-          - title:          hello
-            url:            /hello/
-          - title:          code
-            url:            /code/
-          - title:          docs
-            url:            /docs/
-          - title:          blogs
-            url:            /blogs/
-          - title:          tools
-            url:            /tools/
-          - title:          snippets
-            url:            /snippets/
-          - title:          blog
-            url:            /blog/
-          - title:          videos
-            url:            /videos/
-          - title:          wizards
-            url:            /wizards/
-            
+          - title:      docs
+            url:        /docs/
+          - title:      tldr
+            url:        /tldr/
+          - title:      videos
+            url:        /videos/
+      - title:          tools
+        url:            /tools/ 
+        children:
+          - title:      tools
+            url:        /tools/
+          - title:      code
+            url:        /code/
+          - title:      snippets
+            url:        /snippets/
+          - title:      wizards
+            url:        /wizards/
+      - title:          blog
+        url:            /blog/ 
+      - title:          hello
+        url:            /hello/ 
+      - title:          examples
+        url:            /examples/
