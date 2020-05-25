@@ -1,4 +1,3 @@
-# proxy
 https://docs.snooey.com/documents/* https://docs.snooey.com/documents/:splat 200
 https://docs.snooey.com/tldr/* https://docs.snooey.com/tldr/:splat 200
 https://docs.snooey.com/videos/* https://docs.snooey.com/videos/:splat 200
@@ -9,7 +8,6 @@ https://tools.snooey.com/wizards/* https://tools.snooey.com/wizards/:splat 200
 https://blog.snooey.com/blogs/* https://blog.snooey.com/blogs/:splat 200
 https://hello.snooey.com/hello/* https://hello.snooey.com/hello/:splat 200
 
-# redirect to correct sub domain
 /documents/* https://docs.snooey.com/documents/:splat 301!
 /tldr/* https://docs.snooey.com/documents/:splat 301!
 /videos/* https://docs.snooey.com/videos/:splat 301!
@@ -19,23 +17,8 @@ https://hello.snooey.com/hello/* https://hello.snooey.com/hello/:splat 200
 /wizards/* https://tools.snooey.com/wizards/:splat 301!
 /blogs/* https://blog.snooey.com/blogs/:splat 301!
 
-# Redirect /index to main site
-https://tools.snooey.com/index.html https://snooey.com/ 302!
-https://docs.snooey.com/index.html https://snooey.com/ 302!
-https://blog.snooey.com/index.html https://snooey.com/ 302!
-https://hello.snooey.com/index.html https://snooey.com/ 302!
-
-
-# redirect subdomain to correct file 
 https://snooey.com /index.html 200!
 https://tools.snooey.com /tools.html 200!
 https://docs.snooey.com /docs.html 200!
-https://blog.snooey.com /blogs/ 200!
+https://blog.snooey.com /blogs.html 200!
 https://hello.snooey.com /hello.html 200!
-
-
-#https://tools.snooey.com/tools.html https://tools.snooey.com/ 302!
-#https://docs.snooey.com/docs.html https://docs.snooey.com/ 302!
-#https://blog.snooey.com/blogs.html https://blog.snooey.com/ 302!
-#https://hello.snooey.com/hello.html https://hello.snooey.com/ 302!
-
