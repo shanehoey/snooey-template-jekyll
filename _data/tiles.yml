@@ -1,44 +1,46 @@
 brand1:
-  - title:  docs
-    description:
-  - title: tools
-    description: 
-  - title: blog 
-    description:
+      - title:  docs
+        description:
+        url:  /docs.html
+        button: docs.snooey.com
+      - title: tools
+        description:
+        url:  /tools.html
+        button: tools.snooey.com
+      - title: blog 
+        description:
+        url:  /blog.html
+        button: blog.html
+
 
 brand2:
       - title:  documents
         description:
-        url:  /videos
-        button: view videos
+        url:  /documents/
+        button: Read Documents
       - title: tldr
         description:
-        url:  /videos
-        button: view videos
+        url:  /tldr/
+        button: Read TLDR's
       - title: videos 
         description:
-        url:  /videos
-        button: view videos
+        url:  /videos/
+        button: Watch Videos
 
 brand3:
     - title:  tools
       description:
-      url:  /tools
-      button: view videos
+      url:  /tools/
+      button: Browse Tools
     - title:  code
       description:
-      url:  /videos
-      button: view videos
+      url:  /code/
+      button: Get Code
     - title: snippets
       description:
-      url:  /snippets
-      button: view snippets
+      url:  /snippets/
+      button: View Snippets
     - title: wizards 
       description:
-      url:  /videos
-      button: view videos
-      
-    
-
-
-
+      url:  /wizards/
+      button: View Wizards
