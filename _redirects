@@ -30,6 +30,7 @@ https://hello.snooey.com/hello/* https://hello.snooey.com/hello/:splat 200
 /code/* https://tools.snooey.com/code/:splat 301!
 /snippets/* https://tools.snooey.com/snippets/:splat 301!
 /wizards/* https://tools.snooey.com/wizards/:splat 301!
+/wizards/* https://tools.snooey.com/tools/:splat 301!
 
 # redirect blog
 /blogs/* https://blog.snooey.com/blogs/:splat 301!
@@ -39,14 +40,14 @@ https://hello.snooey.com/hello/* https://hello.snooey.com/hello/:splat 200
 
 # proxy subdomain to file
 https://snooey.com /index.html 200!
-https://tools.snooey.com /tools.html 200!
+https://tools.snooey.com /tool.html 200!
 https://docs.snooey.com /docs.html 200!
 https://blog.snooey.com /blogs.html 200!
 https://hello.snooey.com /hello.html 200!
 
-#is this needed
+#
 https://snooey.com/index.html /index.html 200!
-https://tools.snooey.com/tools.html /tools.html 200!
+https://tools.snooey.com/tool.html /tool.html 200!
 https://docs.snooey.com/docs.html /docs.html 200!
 https://blog.snooey.com/blogs.html /blogs.html 200!
 https://hello.snooey.com/hello.html /hello.html 200!
