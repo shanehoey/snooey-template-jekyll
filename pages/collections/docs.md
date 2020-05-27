@@ -10,7 +10,7 @@ permalink: /documents/
 
 {% assign docs = site.docs | where_exp: "item", "item.url contains 'html'" %}
 
-{% include blog01.html     title = page.title 
+{% include blog01.html  title = page.title 
                                 description = page.description 
                                 collection = docs
                                 theme = themes.dark
