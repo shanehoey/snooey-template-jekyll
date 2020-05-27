@@ -13,6 +13,11 @@ https://hello.snooey.com/hello/* https://hello.snooey.com/hello/:splat 200
 /tools/* https://tools.snooey.com/:splat 301!
 /blog/* https://blog.snooey.com/:splat 301!
 /hello/* https://hello.snooey.com/:splat 301!
+#ADDED 
+/docs.html https://docs.snooey.com/:splat 301!
+/tools.html https://tools.snooey.com/:splat 301!
+/blog.html https://blog.snooey.com/:splat 301!
+/hello.html https://hello.snooey.com/:splat 301!
 
 #
 /documents/* https://docs.snooey.com/documents/:splat 301!
