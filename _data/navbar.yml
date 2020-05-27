@@ -33,8 +33,6 @@ brand1:
         url:            /blogs/ 
       - title:          hello
         url:            /hello/ 
-      - title:          examples
-        url:            /examples/
 
 brand2: 
     title:              docs.snooey.com
@@ -69,8 +67,6 @@ brand2:
         url:            /blogs/ 
       - title:          hello
         url:            /hello/ 
-      - title:          examples
-        url:            /examples/
 
 brand3: 
     title:              tools.snooey.com
@@ -105,8 +101,6 @@ brand3:
         url:            /blogs/ 
       - title:          hello
         url:            /hello/ 
-      - title:          examples
-        url:            /examples/
 
 brand4: 
     title:              blog.snooey.com
@@ -141,8 +135,6 @@ brand4:
         url:            /blogs/ 
       - title:          hello
         url:            /hello/ 
-      - title:          examples
-        url:            /examples/
 
 brand5: 
     title:              hello.snooey.com
@@ -177,5 +169,3 @@ brand5:
         url:            /blogs/ 
       - title:          hello
         url:            /hello/ 
-      - title:          examples
-        url:            /examples/

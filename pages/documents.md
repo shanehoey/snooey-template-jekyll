@@ -7,9 +7,12 @@ excerpt: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explica
 brand: brand2
 ---
 
-# {{ page.title }} 
 
-{{ page.description }}
+{% assign docs = site.docs | where_exp: "item", "item.url contains 'html'" %}
 
-
-documents.html
+{% include portfolio01.html     title = page.title 
+                                description = page.description 
+                                collection = docs
+                                theme = themes.dark
+                                columns = 4
+                                hidden = "description,overlay,subtitle,excerpt,button" %}

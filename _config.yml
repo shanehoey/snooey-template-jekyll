@@ -48,9 +48,9 @@ collections:
     code:
         output: true
         permalink: /:collection/:path/
-    documents:
+    docs:
         output: true
-        permalink: /:collection/:path/
+        permalink: /documents/:path/
     snippets:
         output: true
         permalink: /:collection/:path/
@@ -119,9 +119,9 @@ defaults:
           scheme:  default
     - scope:
           path: ""
-          type: documents
+          type: docs
       values:
-          layout:  documents
+          layout:  docs
           brand:   brand2
           theme:   theme1
           scheme:  default
