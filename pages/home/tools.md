@@ -11,7 +11,6 @@ brand: brand3
 
 {{ page.description }}
 
-
 {% include tiles.html %}
 
 {% include social.html %}

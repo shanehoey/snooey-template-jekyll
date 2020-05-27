@@ -12,5 +12,4 @@ permalink: /tools/
 
 {{ page.description }}
 
-
 {% include blog01.html collection = site.tools %}

@@ -11,6 +11,6 @@ permalink: /blogs.html
 
 {{ page.description }}
 
-/blogs.html
+{% include blog01.html collection = site.tools %}
 
 {% include social.html %}
