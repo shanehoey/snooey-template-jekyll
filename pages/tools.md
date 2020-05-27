@@ -11,7 +11,9 @@ brand: brand3
 
 {{ page.description }}
 
-tools.html
+/tools.html
+
+{% include tiles.html %}
 
 {% include social.html %}
 

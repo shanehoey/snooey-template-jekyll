@@ -1,0 +1,44 @@
+brand1:
+  - title:  docs
+    description:
+  - title: tools
+    description: 
+  - title: blog 
+    description:
+
+brand2:
+      - title:  documents
+        description:
+        url:  /videos
+        button: view videos
+      - title: tldr
+        description:
+        url:  /videos
+        button: view videos
+      - title: videos 
+        description:
+        url:  /videos
+        button: view videos
+
+brand3:
+    - title:  tools
+      description:
+      url:  /tools
+      button: view videos
+    - title:  code
+      description:
+      url:  /videos
+      button: view videos
+    - title: snippets
+      description:
+      url:  /snippets
+      button: view snippets
+    - title: wizards 
+      description:
+      url:  /videos
+      button: view videos
+      
+    
+
+
+

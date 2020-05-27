@@ -11,7 +11,9 @@ brand: brand2
 
 {{ page.description }}
 
-docs.html
+/docs.html
+
+{% include tiles.html %}
 
 {% include social.html %}
 

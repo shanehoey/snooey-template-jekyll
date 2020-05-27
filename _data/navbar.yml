@@ -8,10 +8,10 @@ brand1:
       - title:          home
         url:            /index.html
       - title:          docs
-        url:            /docs/ 
+        url:            /docs.html
         children:
           - title:      docs
-            url:        /docs/
+            url:        /docs.html
           - title:      documents
             url:        /documents/
           - title:      tldr
@@ -19,8 +19,10 @@ brand1:
           - title:      videos
             url:        /videos/
       - title:          tools
-        url:            /tools/ 
+        url:            /tools.html
         children:
+          - title:      tools
+            url:        /tools.html
           - title:      tools
             url:        /tools/
           - title:      code
@@ -30,142 +32,152 @@ brand1:
           - title:      wizards
             url:        /wizards/
       - title:          blog
-        url:            /blogs/ 
+        url:            /blogs.html 
       - title:          hello
-        url:            /hello/ 
+        url:            /hello.html
 
 brand2: 
-    title:              docs.snooey.com
-    url:                /
-    icon:               fas fa-portrait fa-1x
-    navigation: 
-      - title:          home
-        url:            /index.html
-      - title:          docs
-        url:            /docs/ 
-        children:
-          - title:      docs
-            url:        /docs/
-          - title:      documents
-            url:        /documents/
-          - title:      tldr
-            url:        /tldr/
-          - title:      videos
-            url:        /videos/
-      - title:          tools
-        url:            /tools/ 
-        children:
-          - title:      tools
-            url:        /tools/
-          - title:      code
-            url:        /code/
-          - title:      snippets
-            url:        /snippets/
-          - title:      wizards
-            url:        /wizards/
-      - title:          blog
-        url:            /blogs/ 
-      - title:          hello
-        url:            /hello/ 
+  title:              snooey.com
+  url:                /
+  icon:               fas fa-portrait fa-1x
+  navigation: 
+    - title:          home
+      url:            /index.html
+    - title:          docs
+      url:            /docs.html
+      children:
+        - title:      docs
+          url:        /docs.html
+        - title:      documents
+          url:        /documents/
+        - title:      tldr
+          url:        /tldr/
+        - title:      videos
+          url:        /videos/
+    - title:          tools
+      url:            /tools.html
+      children:
+        - title:      tools
+          url:        /tools.html
+        - title:      tools
+          url:        /tools/
+        - title:      code
+          url:        /code/
+        - title:      snippets
+          url:        /snippets/
+        - title:      wizards
+          url:        /wizards/
+    - title:          blog
+      url:            /blogs.html 
+    - title:          hello
+      url:            /hello.html
+
 
 brand3: 
-    title:              tools.snooey.com
-    url:                /
-    icon:               fas fa-portrait fa-1x
-    navigation: 
-      - title:          home
-        url:            /index.html
-      - title:          docs
-        url:            /docs/ 
-        children:
-          - title:      docs
-            url:        /docs/
-          - title:      documents
-            url:        /documents/
-          - title:      tldr
-            url:        /tldr/
-          - title:      videos
-            url:        /videos/
-      - title:          tools
-        url:            /tools/ 
-        children:
-          - title:      tools
-            url:        /tools/
-          - title:      code
-            url:        /code/
-          - title:      snippets
-            url:        /snippets/
-          - title:      wizards
-            url:        /wizards/
-      - title:          blog
-        url:            /blogs/ 
-      - title:          hello
-        url:            /hello/ 
+  title:              snooey.com
+  url:                /
+  icon:               fas fa-portrait fa-1x
+  navigation: 
+    - title:          home
+      url:            /index.html
+    - title:          docs
+      url:            /docs.html
+      children:
+        - title:      docs
+          url:        /docs.html
+        - title:      documents
+          url:        /documents/
+        - title:      tldr
+          url:        /tldr/
+        - title:      videos
+          url:        /videos/
+    - title:          tools
+      url:            /tools.html
+      children:
+        - title:      tools
+          url:        /tools.html
+        - title:      tools
+          url:        /tools/
+        - title:      code
+          url:        /code/
+        - title:      snippets
+          url:        /snippets/
+        - title:      wizards
+          url:        /wizards/
+    - title:          blog
+      url:            /blogs.html 
+    - title:          hello
+      url:            /hello.html
 
 brand4: 
-    title:              blog.snooey.com
-    url:                /
-    icon:               fas fa-portrait fa-1x
-    navigation: 
-      - title:          home
-        url:            /index.html
-      - title:          docs
-        url:            /docs/ 
-        children:
-          - title:      docs
-            url:        /docs/
-          - title:      documents
-            url:        /documents/
-          - title:      tldr
-            url:        /tldr/
-          - title:      videos
-            url:        /videos/
-      - title:          tools
-        url:            /tools/ 
-        children:
-          - title:      tools
-            url:        /tools/
-          - title:      code
-            url:        /code/
-          - title:      snippets
-            url:        /snippets/
-          - title:      wizards
-            url:        /wizards/
-      - title:          blog
-        url:            /blogs/ 
-      - title:          hello
-        url:            /hello/ 
+  title:              snooey.com
+  url:                /
+  icon:               fas fa-portrait fa-1x
+  navigation: 
+    - title:          home
+      url:            /index.html
+    - title:          docs
+      url:            /docs.html
+      children:
+        - title:      docs
+          url:        /docs.html
+        - title:      documents
+          url:        /documents/
+        - title:      tldr
+          url:        /tldr/
+        - title:      videos
+          url:        /videos/
+    - title:          tools
+      url:            /tools.html
+      children:
+        - title:      tools
+          url:        /tools.html
+        - title:      tools
+          url:        /tools/
+        - title:      code
+          url:        /code/
+        - title:      snippets
+          url:        /snippets/
+        - title:      wizards
+          url:        /wizards/
+    - title:          blog
+      url:            /blogs.html 
+    - title:          hello
+      url:            /hello.html
+
 
 brand5: 
-    title:              hello.snooey.com
-    url:                /
-    icon:               fas fa-portrait fa-1x
-    navigation: 
-      - title:          home
-        url:            /index.html
-      - title:          docs
-        url:            /docs/ 
-        children:
-          - title:      docs
-            url:        /docs/
-          - title:      documents
-            url:        /documents/
-          - title:      tldr
-            url:        /tldr/
-          - title:      videos
-            url:        /videos/
-      - title:          tools
-        url:            /tools/ 
-        children:
-          - title:      tools
-            url:        /tools/
-          - title:      code
-            url:        /code/
-          - title:      snippets
-            url:        /snippets/
-          - title:      wizards
-            url:        /wizards/
-      - title:          blog
-        url:            /blogs/ 
-      - title:          hello
-        url:            /hello/ 
+  title:              snooey.com
+  url:                /
+  icon:               fas fa-portrait fa-1x
+  navigation: 
+    - title:          home
+      url:            /index.html
+    - title:          docs
+      url:            /docs.html
+      children:
+        - title:      docs
+          url:        /docs.html
+        - title:      documents
+          url:        /documents/
+        - title:      tldr
+          url:        /tldr/
+        - title:      videos
+          url:        /videos/
+    - title:          tools
+      url:            /tools.html
+      children:
+        - title:      tools
+          url:        /tools.html
+        - title:      tools
+          url:        /tools/
+        - title:      code
+          url:        /code/
+        - title:      snippets
+          url:        /snippets/
+        - title:      wizards
+          url:        /wizards/
+    - title:          blog
+      url:            /blogs.html 
+    - title:          hello
+      url:            /hello.html
