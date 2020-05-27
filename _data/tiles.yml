@@ -12,7 +12,6 @@ brand1:
         url:  /blog.html
         button: blog.html
 
-
 brand2:
       - title:  documents
         description:
@@ -30,17 +29,17 @@ brand2:
 brand3:
     - title:  tools
       description:
-      url:  /tools/
+      url:    /tools/
       button: Browse Tools
     - title:  code
       description:
-      url:  /code/
+      url:    /code/
       button: Get Code
-    - title: snippets
+    - title:  snippets
       description:
-      url:  /snippets/
+      url:    /snippets/
       button: View Snippets
-    - title: wizards 
+    - title:  wizards 
       description:
-      url:  /wizards/
+      url:    /wizards/
       button: View Wizards

@@ -7,10 +7,12 @@ brand1:
     navigation: 
       - title:          home
         url:            /index.html
+      - title:          blog
+        url:            /blogs.html 
       - title:          docs
         url:            /docs.html
         children:
-          - title:      docs
+          - title:      docs.snooey.com
             url:        /docs.html
           - title:      documents
             url:        /documents/
@@ -21,8 +23,8 @@ brand1:
       - title:          tools
         url:            /tools.html
         children:
-          - title:      tools
-            url:        /tools.html
+          - title:      tools.snooey.com
+            url:        /tool.html
           - title:      tools
             url:        /tools/
           - title:      code
@@ -31,22 +33,22 @@ brand1:
             url:        /snippets/
           - title:      wizards
             url:        /wizards/
-      - title:          blog
-        url:            /blogs.html 
       - title:          hello
         url:            /hello.html
 
 brand2: 
-  title:              snooey.com
+  title:              docs.snooey.com
   url:                /
   icon:               fas fa-portrait fa-1x
   navigation: 
     - title:          home
       url:            /index.html
+    - title:          blog
+      url:            /blogs.html 
     - title:          docs
       url:            /docs.html
       children:
-        - title:      docs
+        - title:      docs.snooey.com
           url:        /docs.html
         - title:      documents
           url:        /documents/
@@ -57,8 +59,8 @@ brand2:
     - title:          tools
       url:            /tools.html
       children:
-        - title:      tools
-          url:        /tools.html
+        - title:      tools.snooey.com
+          url:        /tool.html
         - title:      tools
           url:        /tools/
         - title:      code
@@ -67,23 +69,23 @@ brand2:
           url:        /snippets/
         - title:      wizards
           url:        /wizards/
-    - title:          blog
-      url:            /blogs.html 
     - title:          hello
       url:            /hello.html
 
 
 brand3: 
-  title:              snooey.com
+  title:              tools.snooey.com
   url:                /
   icon:               fas fa-portrait fa-1x
   navigation: 
     - title:          home
       url:            /index.html
+    - title:          blog
+      url:            /blogs.html 
     - title:          docs
       url:            /docs.html
       children:
-        - title:      docs
+        - title:      docs.snooey.com
           url:        /docs.html
         - title:      documents
           url:        /documents/
@@ -94,8 +96,8 @@ brand3:
     - title:          tools
       url:            /tools.html
       children:
-        - title:      tools
-          url:        /tools.html
+        - title:      tools.snooey.com
+          url:        /tool.html
         - title:      tools
           url:        /tools/
         - title:      code
@@ -104,22 +106,22 @@ brand3:
           url:        /snippets/
         - title:      wizards
           url:        /wizards/
-    - title:          blog
-      url:            /blogs.html 
     - title:          hello
       url:            /hello.html
 
 brand4: 
-  title:              snooey.com
+  title:              blog.snooey.com
   url:                /
   icon:               fas fa-portrait fa-1x
   navigation: 
     - title:          home
       url:            /index.html
+    - title:          blog
+      url:            /blogs.html 
     - title:          docs
       url:            /docs.html
       children:
-        - title:      docs
+        - title:      docs.snooey.com
           url:        /docs.html
         - title:      documents
           url:        /documents/
@@ -130,8 +132,8 @@ brand4:
     - title:          tools
       url:            /tools.html
       children:
-        - title:      tools
-          url:        /tools.html
+        - title:      tools.snooey.com
+          url:        /tool.html
         - title:      tools
           url:        /tools/
         - title:      code
@@ -140,23 +142,22 @@ brand4:
           url:        /snippets/
         - title:      wizards
           url:        /wizards/
-    - title:          blog
-      url:            /blogs.html 
     - title:          hello
       url:            /hello.html
 
-
 brand5: 
-  title:              snooey.com
+  title:              hello.snooey.com
   url:                /
   icon:               fas fa-portrait fa-1x
   navigation: 
     - title:          home
       url:            /index.html
+    - title:          blog
+      url:            /blogs.html 
     - title:          docs
       url:            /docs.html
       children:
-        - title:      docs
+        - title:      docs.snooey.com
           url:        /docs.html
         - title:      documents
           url:        /documents/
@@ -167,8 +168,8 @@ brand5:
     - title:          tools
       url:            /tools.html
       children:
-        - title:      tools
-          url:        /tools.html
+        - title:      tools.snooey.com
+          url:        /tool.html
         - title:      tools
           url:        /tools/
         - title:      code
@@ -177,7 +178,5 @@ brand5:
           url:        /snippets/
         - title:      wizards
           url:        /wizards/
-    - title:          blog
-      url:            /blogs.html 
     - title:          hello
       url:            /hello.html
