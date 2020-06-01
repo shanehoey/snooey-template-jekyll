@@ -1,0 +1,9 @@
+# v1.00 _data/author.yml
+
+default:
+    title:        Shane Hoey
+    subtitle:     UC Rockstar
+    description:  Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
+    excerpt:      Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
+    url:          https://shanehoey.com/
+    image:        https://source.unsplash.com/random/100x150

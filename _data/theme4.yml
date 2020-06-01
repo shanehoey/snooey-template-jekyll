@@ -57,7 +57,7 @@ dark:
  
 image:
     layout:
-        body:           d-flex flex-column h-100 brand-color1
+        body:           d-flex flex-column h-100 brand-bg-unsplash4
         section:        container
         container:      container
     text:

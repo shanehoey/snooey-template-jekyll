@@ -35,7 +35,7 @@ light:
 
 dark:
     layout:
-        body:           d-flex flex-column h-100
+        body:           d-flex flex-column h-100 brand-bg-unsplash2-fixed
         section:        container
         container:      container
     text:
