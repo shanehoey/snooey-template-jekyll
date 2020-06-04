@@ -14,11 +14,9 @@ excerpt: "Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explic
 {% raw %}
 ```
 
-{% include alert.html   message  = [string]
+{% include spacer.html  id = [string] (Optional)
+                        section = [string](option)
                         theme    = (optional)[object]
-                        icon     = (optional)[string]*
-                        section  = (optional)[string]*
-                        container  = (optional)[string]*
 %}
 
 ```
@@ -28,10 +26,27 @@ excerpt: "Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explic
 
 ## Examples
 
+```
+{% raw %}{% include spacer.html  id = "spacer01" section = "py-5" theme = site.data.theme.theme1 %}{% endraw %}
+```
+{% include spacer.html  id = "spacer01" section = "py-5" theme = site.data.theme.theme1 %}
 
+```
+{% raw %}{% include spacer.html  id = "spacer02" section = "py-5" theme = site.data.theme.theme2 %}{% endraw %}
+```
+{% include spacer.html  id = "spacer02" section = "py-5" theme = site.data.theme.theme2 %}
 
-{% include spacer.html  id = "spacer" section = "py-5" theme = site.data.theme.theme1 %}
-{% include spacer.html  id = "spacer" section = "py-5" theme = site.data.theme.theme2 %}
-{% include spacer.html  id = "spacer" section = "py-5" theme = site.data.theme.theme3 %}
-{% include spacer.html  id = "spacer" section = "py-5" theme = site.data.theme.theme4 %}
-{% include spacer.html  id = "spacer" section = "py-5" theme = site.data.theme.theme5 %}
+```
+{% raw %}{% include spacer.html  id = "spacer03" section = "py-5" theme = site.data.theme.theme3 %}{% endraw %}
+```
+{% include spacer.html  id = "spacer03" section = "py-5" theme = site.data.theme.theme3 %}
+
+```
+{% raw %}{% include spacer.html  id = "spacer04" section = "py-5" theme = site.data.theme.theme4 %}{% endraw %}
+```
+{% include spacer.html  id = "spacer04" section = "py-5" theme = site.data.theme.theme4 %}
+
+```
+{% raw %}{% include spacer.html  id = "spacer05" section = "py-5" theme = site.data.theme.theme5 %}{% endraw %}
+```
+{% include spacer.html  id = "spacer05" section = "py-5" theme = site.data.theme.theme5 %}
