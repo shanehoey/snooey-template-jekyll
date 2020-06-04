@@ -11,16 +11,14 @@ excerpt: "Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explic
 {{ page.description }}
 
 ## Syntax
-{% raw %}
 ```
-
+{% raw %}
 {% include spacer.html  id = [string] (Optional)
                         section = [string](option)
                         theme    = (optional)[object]
 %}
-
-```
 {% endraw %}
+```
 
 {% assign themes = site.data[page.theme] %}
 
