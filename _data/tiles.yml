@@ -41,7 +41,7 @@ brand3:
       description:
       url:    /snippets/
       button: View Snippets
-    - title:  wizards 
+    - title:  automate 
       description:
-      url:    /wizards/
-      button: View Wizards
+      url:    /automate/
+      button: View automate

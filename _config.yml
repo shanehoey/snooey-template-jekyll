@@ -63,7 +63,7 @@ collections:
     videos:
         output: true
         permalink: /:collection/:path/
-    wizards:
+    automate:
         output: true
         permalink: /:collection/:path/
 
@@ -159,9 +159,9 @@ defaults:
           scheme: default
     - scope:
           path:  ""
-          type:  wizards
+          type:  automate
       values:
-          layout: wizards
+          layout: automate
           brand: brand3
           theme: theme1
           scheme: default

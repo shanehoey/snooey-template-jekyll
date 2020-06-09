@@ -4,7 +4,7 @@ https://docs.snooey.com/videos/* https://docs.snooey.com/videos/:splat 200
 https://tools.snooey.com/tools/* https://tools.snooey.com/tools/:splat 200
 https://tools.snooey.com/code/* https://tools.snooey.com/code/:splat 200
 https://tools.snooey.com/snippets/* https://tools.snooey.com/snippets/:splat 200
-https://tools.snooey.com/wizards/* https://tools.snooey.com/wizards/:splat 200
+https://tools.snooey.com/automate/* https://tools.snooey.com/automate/:splat 200
 https://blog.snooey.com/blogs/* https://blog.snooey.com/blogs/:splat 200
 https://hello.snooey.com/hello/* https://hello.snooey.com/hello/:splat 200
 
@@ -29,8 +29,8 @@ https://hello.snooey.com/hello/* https://hello.snooey.com/hello/:splat 200
 # redirect tools
 /code/* https://tools.snooey.com/code/:splat 301!
 /snippets/* https://tools.snooey.com/snippets/:splat 301!
-/wizards/* https://tools.snooey.com/wizards/:splat 301!
-/wizards/* https://tools.snooey.com/tools/:splat 301!
+/automate/* https://tools.snooey.com/automate/:splat 301!
+/automate/* https://tools.snooey.com/tools/:splat 301!
 
 # redirect blog
 /blogs/* https://blog.snooey.com/blogs/:splat 301!
