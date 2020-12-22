@@ -4,7 +4,7 @@ An example site using then snooey theme with Jekyll.
 
 View a live example @ [snooey.com](https://snooey.com)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/531d26ad-f8c2-412d-900e-e4cfe05603b3/deploy-status)](https://app.netlify.com/sites/snooey/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4a073a6e-02dd-40a8-94e0-1bcb2179fa64/deploy-status)](https://app.netlify.com/sites/snooey/deploys)
 
 ## Want more information
 
