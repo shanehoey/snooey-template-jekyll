@@ -77,13 +77,13 @@ defaults:
           description:
           author: Shane Hoey
           icon: fas fa-rocket
-          navbar: true
+          navbar:    true
           breadcrumb: true
-          carousel: false
-          footer: true
-          brand: brand1
-          theme: theme1
-          scheme: default
+          carousel:  false
+          footer:    true
+          brand:     brand1
+          theme:     theme1
+          scheme:    default
           image:
               default: https://source.unsplash.com/random/800x600
               horizontal: https://source.unsplash.com/random/750x400
