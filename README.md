@@ -12,4 +12,4 @@ This repository just contains the remote theme files only,  refer to [github](ht
 
 ## Known Issues
 
-[] # Not yet at stable v1.00 release expect breaking changes
+[ ] Not yet at stable v1.00 release expect breaking changes
