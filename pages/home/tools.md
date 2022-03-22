@@ -14,4 +14,3 @@ brand: brand3
 {% include tiles.html %}
 
 {% include social.html %}
-

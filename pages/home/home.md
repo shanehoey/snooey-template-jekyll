@@ -6,7 +6,7 @@ permalink: /
 carousel: true
 ---
 
-# {{ page.title }} 
+# {{ page.title }}
 
 {{ page.description }}
 
@@ -14,19 +14,18 @@ carousel: true
                                 title = "Lorem ipsum dolor sit amet."
                                 description = page.description
                                 theme = "default"
-                                limit = 6 
+                                limit = 6
                                 %}
 
 {% include feature01.html       collection = site.data.feature.default
                                 title = "Lorem ipsum dolor sit amet."
                                 description = page.description
-                                limit = 6 
+                                limit = 6
                                 %}
 
 {% include feature01.html       collection = site.data.feature.default
                                 title = "Lorem ipsum dolor sit amet."
-                                description = page.description 
+                                description = page.description
                                 %}
  
 {% include social.html %}
-

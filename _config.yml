@@ -51,19 +51,7 @@ collections:
     docs:
         output: true
         permalink: /documents/:path/
-    snippets:
-        output: true
-        permalink: /:collection/:path/
-    tldr:
-        output: true
-        permalink: /:collection/:path/
-    tools:
-        output: true
-        permalink: /:collection/:path/
     videos:
-        output: true
-        permalink: /:collection/:path/
-    automate:
         output: true
         permalink: /:collection/:path/
 
@@ -111,58 +99,9 @@ defaults:
           permalink: /blogs/:slug/
     - scope:
           path: ""
-          type: code
-      values:
-          layout: code
-          brand:   brand3
-          theme:   theme1
-          scheme:  default
-    - scope:
-          path: ""
-          type: docs
-      values:
-          layout:  docs
-          brand:   brand2
-          theme:   theme1
-          scheme:  default
-    - scope:
-          path:  ""
-          type:  tools
-      values:
-          layout: tools
-          brand:  brand3
-          theme:  theme1
-          scheme: default
-    - scope:
-          path: ""
-          type: snippets
-      values:
-          layout: snippets
-          brand: brand3
-          theme: theme1
-          scheme: default
-    - scope:
-          path: ""
-          type: tldr
-      values:
-          layout: tldr
-          brand: brand2
-          theme: theme1
-          scheme: default
-    - scope:
-          path: ""
           type: videos
       values:
           layout: videos
           brand: brand2
           theme: theme1
           scheme: default
-    - scope:
-          path:  ""
-          type:  automate
-      values:
-          layout: automate
-          brand: brand3
-          theme: theme1
-          scheme: default
-          

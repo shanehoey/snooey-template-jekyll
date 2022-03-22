@@ -20,5 +20,4 @@ powerpoint:         Lorem ipsum
 speaker:            Lorem ipsum
 year:               Lorem ipsum
 conference:         Lorem ipsum
-layout: page
 ---

@@ -10,7 +10,7 @@ permalink: /blogs.html
 # {{ page.title }} 
 
 {{ page.description }}
-
-{% include blog01.html collection = site.tools %}
-
+<container>
+{% include blog01.html collection = site.posts %}
+</container>
 {% include social.html %}

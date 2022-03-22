@@ -11,6 +11,4 @@ permalink: /hello.html
 
 {{ page.description }}
 
-/hello.html
-
 {% include social.html %}
