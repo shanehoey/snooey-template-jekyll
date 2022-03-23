@@ -45,3 +45,40 @@ brand3:
       description:
       url:    /automate/
       button: View automate
+
+brand4:
+    - title:  tools
+      description:
+      url:    /tools/
+      button: Browse Tools
+    - title:  code
+      description:
+      url:    /code/
+      button: Get Code
+    - title:  snippets
+      description:
+      url:    /snippets/
+      button: View Snippets
+    - title:  automate 
+      description:
+      url:    /automate/
+      button: View automate
+
+
+brand5:
+    - title:  tools
+      description:
+      url:    /tools/
+      button: Browse Tools
+    - title:  code
+      description:
+      url:    /code/
+      button: Get Code
+    - title:  snippets
+      description:
+      url:    /snippets/
+      button: View Snippets
+    - title:  automate 
+      description:
+      url:    /automate/
+      button: View automate

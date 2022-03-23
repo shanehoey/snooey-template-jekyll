@@ -1,0 +1,49 @@
+{% comment %}
+<!-- v1.00 _includes/feature02.html -->
+{% endcomment %}
+
+{% assign collection = include.collection %}
+{% unless collection %}
+{% assign collection  = paginator.posts %}
+{% endunless %}
+{% unless collection %}
+{% assign collection = site.data.feature.[page.brand] %}
+{% endunless %}
+{% unless collection %}
+{% assign collection = site.data.feature.brand1 %}
+{% endunless %}
+
+{% assign limit         =  include.limit %}
+{% unless limit %}
+{% assign limit         =  4 %}
+{% endunless %}
+
+{% assign title         =  include.title %}
+{% assign description   =  include.description %}
+
+{% assign theme = include.theme %}
+{% unless theme %}
+{% assign theme = site.data[page.theme].light %}
+{% endunless %}
+
+{% assign section = include.section %}
+{% assign container = include.container %}
+
+
+<section id="feature02" class="{{ theme.bg.primary }} {{ theme.text.primary }} {{ section }}">
+    {% if container %}<div id="container" class="{{ container }}">{% endif %}
+            {% if title %}<h2 class="mb-4 pb-2 text-center {{ theme.text.primary }}">{{ title }}</h2>{% endif %}
+    {% if description %}<p class="mx-auto mb-5 text-justify {{ theme.text.primary }}">{{ description }}</p>{% endif %}
+    <div class="row text-center d-flex justify-content-center my-5">
+        {% for item in collection limit: {{limit}} %}
+        {% unless post.hidden %}
+        <div class="col-lg-6 col-md-6 mb-4">
+            <i class="{{ item.icon }} fa-3x {{ theme.text.primary }} mb-4 "></i>
+            <h5 class="{{ theme.text.primary }}">{{ item.title }}</h5>
+            <p class="mb-0 {{ theme.text.primary }}">{{ item.excerpt }}</p>
+        </div>
+        {% endunless %}
+        {% endfor %}
+    </div>
+    {% if container %}</div>{% endif %}
+</section>

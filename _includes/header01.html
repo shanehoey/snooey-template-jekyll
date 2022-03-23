@@ -1,0 +1,24 @@
+{% comment %}
+<!-- v1.00 _includes/header01.html -->
+{% endcomment %}
+
+{% assign limit       =  include.limit %}
+{% unless limit %}
+{% assign limit       =  1 %}
+{% endunless %}
+
+{% assign theme = include.theme %}
+{% unless theme %}
+{% assign theme = site.data[page.theme].light %}
+{% endunless %}
+
+{% assign section = include.section %}
+{% assign container = include.container %}
+
+
+<section id="feature04" class="{{ theme.bg.primary }} {{ theme.text.primary }} {{ section }}">
+    {% if container %}<div id="container" class="{{ container }}">{% endif %}
+            {% if include.title %}<h2 class="{{ theme.text.primary }} pb-1">{{ include.title }}</h2>{% endif %}
+    {% if include.description %}<p class="text-justify {{ theme.text.primary }}">{{ include.description }}</p>{% endif %}
+    {% if container %}</div>{% endif %}
+</section>

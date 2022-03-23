@@ -1,0 +1,24 @@
+{% comment %}
+<!-- v1.00 _includes/video-ignite.html -->
+{% endcomment %}
+
+{% assign id = include.id %}
+
+{% assign width = include.width %}
+{% unless width %}
+{% assign width = "640" %}
+{% endunless %}
+
+{% assign height = include.height %}
+{% unless height %}
+{% assign height = "480" %}
+{% endunless %}
+
+{% assign theme = include.theme %}
+{% unless theme %}
+{% assign theme = site.data[page.theme].light %}
+{% endunless %}
+
+{% if include.id %}
+<iframe width="{{ width }}" height="{{ height }}" src="https://www.youtube.com/embed/{{ id }}" frameborder="0" allowfullscreen></iframe>
+{% endif %}

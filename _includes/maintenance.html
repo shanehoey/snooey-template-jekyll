@@ -1,0 +1,20 @@
+{% comment %}
+<!--  v1.00 _includes/maintenance.html -->
+{% endcomment %}
+
+{% assign theme = include.theme %}
+{% unless theme %}
+{% assign theme = site.data[page.theme][page.scheme] %}
+{% endunless %}
+
+<section id = "maintenance" class = "{{ theme.bg.primary }}">
+    <i class="fas fa-tools fa-10x p-5 d-flex justify-content-center {{ theme.text.primary }}"></i>
+    <div class="container rounded p-5">
+        <div class="d-flex justify-content-center">
+            <h1 class="mr-3 pr-3 align-top border-right inline-block align-content-center {{ theme.text.primary }}">Under Maintenance</h1>
+            <div class="inline-block align-middle">
+                <h2 class="font-weight-normal lead {{ theme.text.primary }}" >Sorry but the page you are looking for is currently under Maintenance...</h2>
+            </div>
+        </div>
+    </div>
+</section>

@@ -5,8 +5,7 @@
 #  brand-bg-unsplash1 brand-bg-unsplash2 brand-bg-unsplash3 brand-bg-unsplash4 brand-bg-unsplash5 
 #  brand-img-pattern brand-img-background
 
-# this is used to set the theme used in all layouts files
- 
+
 light:
     layout:
         body:           d-flex flex-column h-100

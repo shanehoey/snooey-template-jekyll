@@ -27,3 +27,7 @@ theme3:
 theme4:
     class: alert text-white brand-bg-unsplash2
     icon:
+
+theme5:
+    class: alert text-white brand-bg-unsplash2
+    icon:
