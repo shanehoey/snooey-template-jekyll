@@ -1,0 +1,28 @@
+# v1.10 _data/content/calltoaction.yml
+# DRAFT Only
+
+template: &template
+    - title: Lorem ipsum dolor
+      subtitle: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
+      default: https://source.unsplash.com/random/960x540
+      url: https://blog.snooey.com'
+      btn: more     
+
+brand1:
+  <<: *template
+
+brand2:
+  <<: *template
+
+brand3:
+  <<: *template
+
+brand4:
+  <<: *template
+
+brand5:
+  <<: *template
+
+custom1:
+  <<: *template
+  

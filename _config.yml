@@ -6,7 +6,7 @@ baseurl: /
 separator: " | "
 locale: en
 timezone: Australia/Brisbane
-copyright: Copyright (c) 2018-2020 Shane Hoey
+copyright: Copyright (c) 2018-2022 Shane Hoey
 
 # Future Use - Jekyll-seo-tag
 # tagline: "Snooey Jekyll Theme"
@@ -63,45 +63,30 @@ defaults:
           subtitle:
           excerpt:
           description:
-          author: Shane Hoey
-          icon: fas fa-rocket
-          navbar:    true
-          breadcrumb: true
-          carousel:  false
-          footer:    true
-          brand:     brand1
-          theme:     theme1
-          scheme:    default
-          image:
-              default: https://source.unsplash.com/random/800x600
-              horizontal: https://source.unsplash.com/random/750x400
-              vertical: https://source.unsplash.com/random/400x750
-              square: https://source.unsplash.com/random/300x300
-              random: https://source.unsplash.com/random/750x400
-              background: https://source.unsplash.com/random/2400x1800
-              profile: https://source.unsplash.com/random/300x450
+          author:     Shane Hoey
+          icon:       fas fa-rocket
+          debug:      true      # true/false - should be false for production
+          layout:     default   # default/page/paginate/post/video
+          navbar:     true      # true/false
+          breadcrumb: true      # true/false
+          carousel:   true      # true/false
+          footer:     true      # true/false
+          content:    brand1    # sets the Default for the page or include
+          theme:      theme1    # sets the default css classes
+          schema:     dark      # dark,light,image
     - scope:
           path: ""
           type: pages
       values:
           layout:  page
-          brand:   brand1
-          theme:   theme1
-          scheme:  default  
     - scope:
           path: ""
           type: posts
       values:
           layout:    post
-          brand:     brand4
-          theme:     theme1
-          scheme:    default
           permalink: /blogs/:slug/
     - scope:
           path: ""
           type: videos
       values:
           layout: videos
-          brand: brand2
-          theme: theme1
-          scheme: default

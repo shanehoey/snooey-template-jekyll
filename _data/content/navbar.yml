@@ -1,0 +1,57 @@
+# v1.10 _data/content/navbar.yml
+# BETA still under construction
+
+template: &template 
+    title:              snooey.com
+    url:                /
+    icon:               fas fa-portrait fa-1x
+    navigation: 
+      - title:          home
+        url:            /index.html
+      - title:          blog
+        url:            /blogs.html 
+      - title:          docs
+        url:            /docs.html
+        children:
+          - title:      docs.snooey.com
+            url:        /docs.html
+          - title:      documents
+            url:        /documents/
+          - title:      tldr
+            url:        /tldr/
+          - title:      videos
+            url:        /videos/
+      - title:          tools
+        url:            /tools.html
+        children:
+          - title:      tools.snooey.com
+            url:        /tool.html
+          - title:      tools
+            url:        /tools/
+          - title:      code
+            url:        /code/
+          - title:      snippets
+            url:        /snippets/
+          - title:      automate
+            url:        /automate/
+      - title:          hello
+        url:            /hello.html
+
+brand1:
+  <<: *template
+
+brand2:
+  <<: *template
+
+brand3:
+  <<: *template
+
+brand4:
+  <<: *template
+
+brand5:
+  <<: *template
+
+custom1:
+  <<: *template
+  

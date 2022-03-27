@@ -1,0 +1,30 @@
+# v1.10 _data/content/sponsor.yml
+# BETA still under construction
+
+template:
+    sponsor:      "Sponsored by:"
+    title:        Lorem ipsum dolor
+    subtitle:     Lorem ipsum dolor
+    description:  Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
+    excerpt:      Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
+    url:          https://snooey.com
+    image:        https://source.unsplash.com/random/100x150
+
+brand1:
+  <<: *template
+
+brand2:
+  <<: *template
+
+brand3:
+  <<: *template
+
+brand4:
+  <<: *template
+
+brand5:
+  <<: *template
+
+custom1:
+  <<: *template
+  

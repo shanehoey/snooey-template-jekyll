@@ -1,0 +1,47 @@
+# v1.10 _data/content/tiles.yml
+# BETA still under construction
+
+template: &template
+      - title:  docs
+        description:
+        url:  /docs.html
+        button: docs.snooey.com
+      - title: tools
+        description:
+        url:  /tools.html
+        button: tools.snooey.com
+      - title: blog 
+        description:
+        url:  /blog.html
+        button: blog.htmlbrand1:
+      - title:  docs
+        description:
+        url:  /docs.html
+        button: docs.snooey.com
+      - title: tools
+        description:
+        url:  /tools.html
+        button: tools.snooey.com
+      - title: blog 
+        description:
+        url:  /blog.html
+        button: blog.html
+
+brand1:
+  <<: *template
+
+brand2:
+  <<: *template
+
+brand3:
+  <<: *template
+
+brand4:
+  <<: *template
+
+brand5:
+  <<: *template
+
+custom1:
+  <<: *template
+  

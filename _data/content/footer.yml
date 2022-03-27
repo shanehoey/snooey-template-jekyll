@@ -1,0 +1,31 @@
+# v1.10 _data/content/footer.yml
+# BETA still under construction
+
+template: &template
+    - title:          snooey.com
+      url:            /index.html
+    - title:          terms
+      url:            /terms/
+    - title:          license
+      url:            /license/
+    - title:          contact
+      url:            /contact/
+
+brand1:
+  <<: *template
+
+brand2:
+  <<: *template
+
+brand3:
+  <<: *template
+
+brand4:
+  <<: *template
+
+brand5:
+  <<: *template
+
+custom1:
+  <<: *template
+  
