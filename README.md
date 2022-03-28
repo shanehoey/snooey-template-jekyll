@@ -1,6 +1,6 @@
 # Snooey Jekyll Remote Template
 
-View a live example @[snooey.com](https://snooey.com)
+View a live example of the theme @ [snooey.com](https://snooey.com)
 
 ![status](https://img.shields.io/static/v1?label=Known%20Issues&color=red&message=Major)
 ![status](https://img.shields.io/netlify/4a073a6e-02dd-40a8-94e0-1bcb2179fa64?label=Build%20Status)
@@ -9,10 +9,8 @@ View a live example @[snooey.com](https://snooey.com)
 
 ## Want more information
 
-This repository just contains the remote theme files only, refer to [github](https://github.com/shanehoey/snooey-template) for usage details/
+This repository just contains the example site, refer to [github.com/shanehoey/snooey](https://github.com/shanehoey/snooey) for usage details
 
 ## Known Issues
 
 - Not yet at stable release expect breaking changes
-
-https://img.shields.io/github/last-commit/shanehoey/snooey?label=Last%20Commit%20Remote%20Theme
