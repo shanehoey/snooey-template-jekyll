@@ -3,8 +3,8 @@ version: '3'
 services:
     jekyll:
         image: jekyll/jekyll:latest
-        command: jekyll serve --watch --force_polling --trace
+        command: jekyll serve --watch --force_polling --incremental --drafts --future --unpublished --trace --verbose
         ports:
-            - 82:4000
+            - 80:4000
         volumes:
             - .:/srv/jekyll

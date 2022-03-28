@@ -35,6 +35,10 @@ plugins:
     - jekyll-seo-tag
     - jekyll-spaceship
     - jekyll-toc
+    - jekyll-optional-front-matter  # TODO check if the css in generated without the --- ---
+    - jekyll-admin
+    - jekyll-redirect-from 
+    - jekyll-gist
 
 remote_theme: shanehoey/snooey
 
@@ -57,36 +61,52 @@ collections:
 
 defaults:
     - scope:
-          path: ""
+        path: ""
       values:
-          title:
-          subtitle:
-          excerpt:
-          description:
-          author:     Shane Hoey
-          icon:       fas fa-rocket
-          debug:      true      # true/false - should be false for production
-          layout:     default   # default/page/paginate/post/video
-          navbar:     true      # true/false
-          breadcrumb: true      # true/false
-          carousel:   true      # true/false
-          footer:     true      # true/false
-          content:    brand1    # sets the Default for the page or include
-          theme:      theme1    # sets the default css classes
-          schema:     dark      # dark,light,image
+        title:
+        subtitle:
+        excerpt:
+        description:
+        author:     Shane Hoey
+        icon:       fas fa-rocket
+        debug:      true      # true/false - should be false for production
+        layout:     default   # default/page/paginate/post/video
+        navbar:     true      # true/false
+        breadcrumb: true      # true/false
+        carousel:   true      # true/false
+        footer:     true      # true/false
+        theme:      theme1    # sets the default css classes(brand[1..5])
+        brand:      brand1     # sets the default branding for the page or include (brand[1..5]/custom)
+        schema:     dark      # sets the schema for the page or inbclude (dark,light,image/custom)
+        dataset:    brand1    # sets the default dataset for the page or include (brand[1..5]/custom)
     - scope:
-          path: ""
-          type: pages
+        path: ""
+        type: pages
       values:
-          layout:  page
+        layout:  page
     - scope:
-          path: ""
-          type: posts
+        path: "pages/theme/"
+        type: pages
       values:
-          layout:    post
-          permalink: /blogs/:slug/
+        debug:      true
+        layout:     default
+        navbar:     false
+        breadcrumb: false 
+        carousel:   false
+        footer:     false
+        theme:      theme1
+        brand:      brand1
+        schema:     light
+        dataset:    brand1
+        permalink:  /theme/:slug
     - scope:
-          path: ""
-          type: videos
+        path: ""
+        type: posts
       values:
-          layout: videos
+        layout:    post
+        permalink: /blogs/:slug/
+    - scope:
+        path: ""
+        type: videos
+      values:
+        layout: videos
