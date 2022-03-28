@@ -1,4 +1,4 @@
-# Snooey Jekyll Remote Template
+# Snooey Jekyll Theme Template
 
 View a live example of the theme @ [snooey.com](https://snooey.com)
 
