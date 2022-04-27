@@ -2,7 +2,7 @@
 title: "Terms of Use"
 permalink: /terms/
 ---
-{% comment %}<!-- v1.2.110 pages/static/terms.md -->{% endcomment }
+{% comment %}<!-- v1.2.110 pages/static/terms.md -->{% endcomment %}
 
 # {{ page.title }}
 
