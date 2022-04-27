@@ -6,7 +6,7 @@ carousel: true
 permalink: /docs.html
 ---
 
-<!-- v1.2.110 pages/home/docs.md-->
+{% comment %}<!-- v1.2.110 pages/home/docs.md-->{% endcomment %}
 
 # {{ page.title }} 
 

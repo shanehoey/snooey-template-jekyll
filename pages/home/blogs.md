@@ -6,7 +6,7 @@ excerpt: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explica
 permalink: /blogs.html
 ---
 
-<!-- v1.2.110 pages/home/blogs.md-->
+{% comment %}<!-- v1.2.110 pages/home/blogs.md-->{% endcomment %}
 
 # {{ page.title }} 
 

@@ -6,10 +6,8 @@ permalink: /
 carousel:   true      # true/false
 ---
 
-<!-- v1.2.110 pages/home/home.md-->
+{% comment %}<!-- v1.2.110 pages/home/home.md-->{% endcomment %}
 
 ## {{ page.title }}
-
-{{ page.subtitle }}
 
 {{ page.description }}

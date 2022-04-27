@@ -6,7 +6,8 @@ carousel: true
 permalink: /hello.html
 ---
 
-{% comment %}<!-- v1.2.110 pages/home/hello.md-->{% endcomment }
+{% comment %}<!-- v1.2.110 pages/home/hello.md-->{% endcomment %}
+
 # {{ page.title }} 
 
 {{ page.description }}

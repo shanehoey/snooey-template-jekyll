@@ -6,7 +6,7 @@ excerpt: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explica
 permalink: /automation.html
 ---
 
-{% comment %}<!-- v1.2.110 pages/home/blogs.md-->{% endcomment }
+{% comment %}<!-- v1.2.110 pages/home/blogs.md-->{% endcomment %}
 
 # {{ page.title }} 
 
