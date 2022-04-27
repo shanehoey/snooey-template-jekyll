@@ -66,16 +66,14 @@ dataset2:
   - <<: *home
   - <<: *blog
   - <<: *hello
+  - <<: *code
   - <<: *docs
-  - <<: *projects
-  - <<: *videos
-  - <<: *automation
+  - <<: *tools
 
 dataset3:
   - <<: *home
   - <<: *blog
   - <<: *hello
+  - <<: *code
   - <<: *docs
-  - <<: *projects
-  - <<: *videos
-  - <<: *automation
+  - <<: *tools
