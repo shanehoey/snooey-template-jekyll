@@ -1,0 +1,40 @@
+# v1.2.110 _data/dataset/feature.yml
+
+dataset: &dataset
+  title:  Lorem ipsum
+  subtitle:  Lorem ipsum dolor sit amet.
+  heading: Incididunt excepteur sint officia.
+  excerpt: Do do incididunt ut dolore et fugiat dolore aliqua culpa. In tempor deserunt ad amet aute. Occaecat aliqua non laborum eiusmod amet culpa id ad ex nulla et officia. Consequat sunt fugiat labore veniam duis commodo cillum amet deserunt non. Dolor aute ad quis dolor Lorem dolor occaecat amet incididunt fugiat. Anim non mollit veniam dolor et et quis ex ex deserunt culpa.
+  icon:  bi bi-star
+  url: 
+
+dataset1:
+  - <<: *dataset
+  - <<: *dataset
+    title:  Fugiat voluptate!
+    subtitle: Ut irure deserunt minim veniam voluptate.
+  - <<: *dataset
+    title: Dolor quis anim.
+    subtitle: Amet laboris officia duis esse sint.
+  - <<: *dataset
+    title: Ex magna nulla cillum pariaturt.
+    subtitle:
+  - <<: *dataset
+    title: Tempor eiusmod tempor.
+    subtitle: Nisi sit fugiat labore.
+  - <<: *dataset
+    title: Voluptate reprehenderit excepteur!
+    subtitle: Culpa fugiat exercitation dolore dolore nostrud eiusmod quis id cupidatat.
+dataset2:
+  - <<: *dataset
+  - <<: *dataset
+  - <<: *dataset
+  - <<: *dataset
+  - <<: *dataset
+  - <<: *dataset
+  - <<: *dataset
+  - <<: *dataset
+
+dataset3:
+  - <<: *dataset
+  - <<: *dataset

@@ -1,0 +1,74 @@
+# v1.2.110 _data/schema/calltoaction.yml
+
+schema1: &schema1
+  section: p-4 text-center
+  background: theme-bg-dark
+  text: theme-text-light
+  title: h3 mb-5 mb-5 mb-5 mb-5
+  subtitle: h5
+  excerpt: text-muted
+  button: btn btn-outline-dark 
+  image: img-fluid float-left
+  column1: 
+  column2: 
+
+schema2: &schema2
+  section: p-4 text-center
+  background: theme-bg-dark
+  text: theme-text-light
+  title: h3 mb-5 mb-5 mb-5 mb-5
+  subtitle: h5
+  excerpt: text-muted
+  button: btn btn-outline-dark 
+  image: img-fluid float-left
+  column1: col-lg-6 mb-lg-0 mb-md-4
+  column2: col-lg-6 p-5 pl-2
+
+schema3: &schema3
+  section: p-4 text-center
+  background: theme-bg-dark
+  text: theme-text-light
+  title: h3 mb-5 mb-5 mb-5 mb-5
+  subtitle: h5
+  excerpt: text-muted
+  button: btn btn-dark float-end
+  image: img-fluid float-left
+  column1: col-lg-4 mb-lg-0 mb-md-4 align-self-center justify-content-center
+  column2: col-lg-8
+
+light1: &light1
+  <<: *schema1
+  background: theme-bg-light
+  text: theme-text-dark
+
+light2: &light2
+  <<: *schema2
+  background: theme-bg-light
+  text: theme-text-dark
+
+light3: &light3
+  <<: *schema3
+  background: theme-bg-light
+  text: theme-text-dark
+
+dark1: &dark1
+  <<: *schema1
+
+dark2: &dark2
+  <<: *schema2
+
+dark3: &dark3
+  <<: *schema3
+
+
+image1: &image1
+  <<: *schema1
+  background: theme-bg-unsplash1
+
+image2: &image2
+  <<: *schema2
+  background: theme-bg-unsplash1
+
+image3: &image3
+  <<: *schema3
+  background: theme-bg-unsplash1

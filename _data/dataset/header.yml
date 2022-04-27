@@ -1,0 +1,15 @@
+# v1.2.110 _data/dataset/header.yml
+
+dataset: &dataset
+  title: Lorem ipsum dolor.
+  subtitle: Lorem ipsum dolor sit amet.
+
+dataset1:
+  <<: *dataset
+
+dataset2:
+  <<: *dataset
+
+dataset3:
+  <<: *dataset
+  

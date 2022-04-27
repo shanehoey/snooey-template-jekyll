@@ -1,0 +1,19 @@
+# v1.2.110 _data/dataset/author.yml
+
+dataset: &dataset
+  title: snooey
+  subtitle: snooey
+  excerpt: Laborum laboris aute aliquip exercitation excepteur.
+  description: Incididunt reprehenderit adipisicing veniam amet ipsum esse dolor ullamco anim consequat velit sit culpa. Esse fugiat aliquip nostrud nisi incididunt eiusmod. Et proident ex nostrud irure aute magna. Laboris adipisicing irure elit sint ut quis aliquip tempor eiusmod velit enim aliqua qui ipsum. Anim anim sit enim eu voluptate.
+  url: https://snooey.com/
+  image: https://source.unsplash.com/_8qzW8tQbNk/300x500
+  
+dataset1:
+  <<: *dataset
+  
+dataset2:
+  <<: *dataset
+
+dataset3:
+  <<: *dataset
+

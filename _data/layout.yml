@@ -1,0 +1,16 @@
+# v1.2.110 _data/layout.yml
+
+schema: &schema
+    body:
+    header:
+    content:
+    footer:   
+
+light: &light
+    <<: *schema
+
+dark: &dark
+    <<: *schema
+
+image: &image
+    <<: *schema

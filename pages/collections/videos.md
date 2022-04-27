@@ -7,8 +7,8 @@ brand: brand2
 permalink: /videos/
 ---
 
+<!-- v1.2.110 pages/collections/videos.md-->
+
 # {{ page.title }} 
 
 {{ page.description }}
-
-{% include blog01.html collection = site.videos %}

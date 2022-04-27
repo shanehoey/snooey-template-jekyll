@@ -1,0 +1,38 @@
+# v1.2.110 _data/brand.yml
+
+dataset: &dataset
+  name:   brand
+  title:  brand.snooey.com
+  url:    https://brand.snooey.com
+  icon:   bi bi-file-person
+  copyright:  '&copy; Shane Hoey 2018-2022. All Rights Reserved.'
+
+brand1:
+  <<: *dataset
+  name:  brand1
+  title:  brand1.snooey.com
+  url:  https://brand1.snooey.com
+
+brand2:
+  <<: *dataset
+  name:  brand2
+  title:  brand2.snooey.com
+  url:  https://brand2.snooey.com
+
+brand3:
+  <<: *dataset
+  name:  brand3
+  title:  brand3.snooey.com
+  url:  https://brand3.snooey.com
+
+brand4:
+  <<: *dataset
+  name:  brand4
+  title:  brand4.snooey.com
+  url:  https://brand4.snooey.com
+
+brand5:
+  <<: *dataset
+  name:  brand5
+  title:  brand5.snooey.com
+  url:  https://brand5.snooey.com

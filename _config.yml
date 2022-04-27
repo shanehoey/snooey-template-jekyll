@@ -1,4 +1,4 @@
-# v1.00 _config.yml
+# v1.2.110 _config.yml
 
 title: Snooey
 url:  https://snooey.com
@@ -8,7 +8,7 @@ locale: en
 timezone: Australia/Brisbane
 copyright: Copyright (c) 2018-2022 Shane Hoey
 
-# Future Use - Jekyll-seo-tag
+# VNEXT TODO - Jekyll-seo-tag
 # tagline: "Snooey Jekyll Theme"
 # description:
 # url: https://snooey.com
@@ -27,18 +27,21 @@ exclude:
     - .gitignore
     - Gemfile
     - Gemfile.lock
-
+    - SECURITY.md
+    - _dev/
+#    - _dev/_includes/
+#    - _dev/_layouts/
+#    - _dev/dataset/
+#    - _dev/pages/
+#    - _dev/schema/
+    
 plugins_dir: _plugins
 plugins:
     - jekyll-remote-theme
     - jekyll-sitemap
-    - jekyll-seo-tag
-    - jekyll-spaceship
-    - jekyll-toc
-    - jekyll-optional-front-matter  # TODO check if the css in generated without the --- ---
+    - jekyll-optional-front-matter
     - jekyll-admin
-    - jekyll-redirect-from 
-    - jekyll-gist
+    - jekyll-redirect-from
 
 remote_theme: shanehoey/snooey
 
@@ -49,13 +52,16 @@ include:
 collections_dir: collections
 
 collections:
-    code:
-        output: true
-        permalink: /:collection/:path/
     docs:
         output: true
         permalink: /documents/:path/
+    tools:
+        output: true
+        permalink: /:collection/:path/
     videos:
+        output: true
+        permalink: /:collection/:path/
+    automation:
         output: true
         permalink: /:collection/:path/
 
@@ -67,26 +73,60 @@ defaults:
         subtitle:
         excerpt:
         description:
+        icon: bi bi-file-earmark
+        button:
+          icon: bi bi-link
+          text: read more
+          url:
+        image: 
+          header: https://placeimg.com/2560/640/tech
+          vertical: https://placeimg.com/800×1200/tech
+          horizontal: https://placeimg.com/1200/800/tech
         author:     Shane Hoey
-        icon:       fas fa-rocket
         debug:      true      # true/false - should be false for production
         layout:     default   # default/page/paginate/post/video
         navbar:     true      # true/false
         breadcrumb: true      # true/false
-        carousel:   true      # true/false
+        carousel:   false     # true/false
         footer:     true      # true/false
-        theme:      theme1    # sets the default css classes(brand[1..5])
-        brand:      brand1     # sets the default branding for the page or include (brand[1..5]/custom)
-        schema:     dark      # sets the schema for the page or inbclude (dark,light,image/custom)
-        dataset:    brand1    # sets the default dataset for the page or include (brand[1..5]/custom)
+        brand:      brand1    # sets the default branding for page
+        theme:      theme1    # sets the default css classes(theme[1..5])
+        schema:     light     # sets the schema for the page (dark,light,image/custom)
+        dataset:    dataset1  # sets the default dataset for the page (dataset[1..5]/custom)
     - scope:
-        path: ""
-        type: pages
+        path:       ""
+        type:       pages
       values:
-        layout:  page
+        layout:     page
     - scope:
-        path: "pages/theme/"
-        type: pages
+        path:       ""
+        type:       posts
+      values:
+        layout:     post
+        permalink:  /blogs/:slug
+    - scope:
+        path:       ""
+        type:       tools
+      values:
+        layout:     tools
+    - scope:
+        path:       ""
+        type:       docs
+      values:
+        layout:     docs
+    - scope:
+        path:       ""
+        type:       videos
+      values:
+        layout:     videos
+    - scope:
+        path:       ""
+        type:       automation
+      values:
+        layout:     automation
+    - scope:        # remove from production sites, only to show content examples
+        path:       pages/theme/
+        type:       pages
       values:
         debug:      true
         layout:     default
@@ -94,19 +134,5 @@ defaults:
         breadcrumb: false 
         carousel:   false
         footer:     false
-        theme:      theme1
-        brand:      brand1
-        schema:     light
-        dataset:    brand1
         permalink:  /theme/:slug
-    - scope:
-        path: ""
-        type: posts
-      values:
-        layout:    post
-        permalink: /blogs/:slug/
-    - scope:
-        path: ""
-        type: videos
-      values:
-        layout: videos
+        

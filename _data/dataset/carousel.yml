@@ -1,0 +1,29 @@
+# v1.2.110 _data/dataset/carousel.yml
+
+dataset: &dataset
+  title: Lorem ipsum dolor
+  subtitle: Lorem ipsum dolor sit amet. 
+  description:  Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
+  background: https://source.unsplash.com/551H4M7mRwk/960x540 
+  url: https://snooey.com
+  button: null
+
+dataset1:
+  - <<: *dataset
+    title: 1 Lorem ipsum dolor
+    button: <span class='h4'><i class = 'bi bi-box-arrow-up-right'></i> Learn More</span>
+  - <<: *dataset
+    title: 
+    background: https://source.unsplash.com/xA2B20eNXYI/960x540
+  - <<: *dataset
+    subtitle: 
+  - <<: *dataset
+    content:
+  - <<: *dataset
+    buttontext: 
+
+dataset2:
+  - <<: *dataset
+    title: 5 Lorem ipsum dolor
+  - <<: *dataset
+    title: 6 Lorem ipsum dolor

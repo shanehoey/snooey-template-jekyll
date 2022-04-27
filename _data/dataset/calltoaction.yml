@@ -1,0 +1,28 @@
+# v1.2.110 _data/dataset/calltoaction.yml
+
+dataset: &dataset
+  title: Occaecat nulla commodo anim qui.
+  subtitle: Commodo tempor cillum nisi duis ea qui.
+  excerpt: Pariatur adipisicing consectetur ad qui nisi esse qui deserunt est eiusmod.Elit est est labore voluptate tempor enim consequat aliquip qui.
+  image: https://source.unsplash.com/random/960x540
+  button:
+    url: https://snooey.com/
+    text: Read More
+    icon: bi bi-box-arrow-up-right
+
+dataset1:
+  - <<: *dataset
+    title: Labore ut laboris eiusmod irure laboris sunt cupidatat.
+  - <<: *dataset
+    title: Consectetur ex deserunt velit aute cillum velit.
+  - <<: *dataset
+    title: Mollit mollit eu occaecat pariatur esse sint ipsum.
+
+dataset2:
+  - <<: *dataset
+    title: Dolor tempor ipsum eu velit ea est.
+
+dataset3:
+  - <<: *dataset
+    title: Ipsum est ex duis proident aliqua officia ad et.
+ 

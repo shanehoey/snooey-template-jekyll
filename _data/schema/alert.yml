@@ -1,0 +1,36 @@
+# v1.2.110 _data/schema/alert.yml
+
+schema: &schema
+  section:  alert alert-primary
+  icon:  null
+
+light: 
+  <<: *schema
+
+dark:
+  <<: *schema
+  section:  alert alert-primary theme-bg-color1 theme-text-light alert-dismissible fade show
+  
+image:
+  <<: *schema
+  section:  alert alert-primary theme-bg-unsplash1 theme-text-light
+
+success:
+  <<: *schema
+  section:  alert alert-success alert-dismissible fade show
+  icon:   bi bi-check-square
+
+info:
+  <<: *schema
+  section:  alert alert-info alert-dismissible fade show 
+  icon:   bi bi-info-square  
+
+warning:
+  <<: *schema
+  section:  alert alert-warning alert-dismissible fade show
+  icon:   bi bi-exclamation-triangle
+
+danger: 
+  <<: *schema
+  section: alert alert-danger alert-dismissible fade show
+  icon:  bi bi-exclamation-triangle-fill

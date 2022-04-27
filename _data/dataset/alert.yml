@@ -1,0 +1,22 @@
+# v1.2.110 _data/dataset/alert.yml
+
+dataset: &dataset
+  description: null
+  icon: null
+  
+dataset1:
+  <<: *dataset
+  description: Exercitation nisi minim sit aute.
+  
+dataset2:
+  <<: *dataset
+  description: Ipsum velit fugiat consectetur ullamco laborum officia qui.
+ 
+dataset3:
+  <<: *dataset
+  description: Aliqua anim proident sit excepteur labore.
+
+dev:
+  <<: *dataset
+  description: This file is under development
+  icon: bi bi-tools

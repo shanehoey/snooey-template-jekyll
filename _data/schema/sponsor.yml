@@ -1,0 +1,49 @@
+# v1.2.110 _data/schema/sponsor.yml
+
+schema: &schema
+  section: p-3 position-relative #container
+  background: theme-bg-dark
+  text: theme-text-light
+  column1: col-lg-2 align-self-center
+  column2: col
+  image: border border-5 border-white rounded-3
+  title: theme-text-light h3 text-decoration-none stretched-link 
+  subtitle: h4
+  excerpt: h5
+  description: text-muted
+
+light: &light
+  <<: *schema
+  background: theme-bg-light
+  text: theme-text-dark
+
+dark: &dark
+  <<: *schema
+
+image: &image
+  <<: *schema
+  background: theme-bg-unsplash1
+
+light-left:
+  <<: *light
+  image: img-fluid float-start
+
+dark-left:
+  <<: *dark
+  image: img-fluid float-start
+
+image-left:
+  <<: *image
+  image: img-fluid float-start
+
+light-right:
+  <<: *light
+  image: img-fluid float-end
+
+dark-right:
+  <<: *dark
+  image: img-fluid float-end
+
+image-right:
+  <<: *image
+  image: img-fluid float-end

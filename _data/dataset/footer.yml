@@ -1,0 +1,21 @@
+# v1.2.110 _data/dataset/footer.yml
+
+dataset: &dataset
+  home: &home
+    title:  snooey.com
+    url:  /index.html
+  terms: &terms
+    title:  terms
+    url:  /terms/
+  license: &license
+    title:  license
+    url:  /license/
+  contact: &contact
+    title:  contact
+    url:  /contact/
+
+dataset1: 
+  - <<: *home
+  - <<: *terms
+  - <<: *license 
+  - <<: *contact

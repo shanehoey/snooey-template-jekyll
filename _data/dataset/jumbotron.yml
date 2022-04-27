@@ -1,0 +1,27 @@
+# v1.2.110 _data/dataset/jumbotron.yml
+
+dataset: &dataset
+  title: Occaecat nulla commodo anim qui.
+  subtitle: Commodo tempor cillum nisi duis ea qui.
+  excerpt: Pariatur adipisicing consectetur ad qui nisi esse qui deserunt est eiusmod.Elit est est labore voluptate tempor enim consequat aliquip qui.
+  button:
+    url: https://snooey.com/
+    text: Read More
+    icon: bi bi-box-arrow-up-right
+
+dataset1:
+  <<: *dataset
+  title: Voluptate cupidatat tempor id veniam non ea.
+  
+dataset2:
+  <<: *dataset
+  title: Ad culpa et pariatur sunt ex.
+  button:
+    url: https://snooey.com/
+    text: Read More
+    icon:
+
+dataset3:
+  <<: *dataset
+  title: Do commodo tempor ad do amet.
+  button: null

@@ -1,0 +1,20 @@
+# v1.2.110 _data/schema/footer.yml
+
+schema: &schema
+  footer: footer fixed-bottom mx-auto
+  background: theme-bg-dark
+  text: theme-text-light
+  copyright:  text-reset text-center font-weight-light small
+  links:  text-reset text-decoration-none font-weight-light px-2 small
+
+light: &light 
+  <<: *schema
+
+dark: &dark
+  <<: *schema
+  background: theme-bg-light
+  text: theme-text-dark
+
+image: &image
+  <<: *schema
+  background: theme-bg-unsplash1

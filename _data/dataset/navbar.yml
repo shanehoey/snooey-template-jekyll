@@ -1,0 +1,67 @@
+# v1.2.110 _data/dataset/navbar.yml
+
+dataset:
+  home: &home
+    title:          home
+    url:            /index.html
+  blog: &blog
+    title:          blog
+    url:            /blogs.html 
+  hello: &hello
+    title:          hello
+    url:            /hello.html
+  docs: &docs
+    title:          docs
+    url:            /docs.html
+    children:
+      - title:      docs
+        url:        /docs/
+      - title:      documents
+        url:        /documents/
+      - title:      tldr
+        url:        /tldr/
+  tools: &projects
+    title:          projects
+    url:            /projects.html
+    children:
+      - title:      projects
+        url:        /projects/
+      - title:      github
+        url:        /github/
+      - title:      gitsts
+        url:        /gists/
+  automation: &automation
+    title:          automation
+    url:            /automation.html
+  videos: &videos
+    title:          videos
+    url:            /videos.html
+
+dataset1:
+  - <<: *home
+  - <<: *blog
+  - <<: *hello
+  - <<: *docs
+  - <<: *projects
+  - <<: *videos
+  - <<: *automation
+  - title: theme
+    url: /theme/
+
+dataset2:
+  - <<: *home
+  - <<: *blog
+  - <<: *hello
+  - <<: *docs
+  - <<: *projects
+  - <<: *videos
+  - <<: *automation
+
+dataset3:
+  - <<: *home
+  - <<: *blog
+  - <<: *hello
+  - <<: *docs
+  - <<: *projects
+  - <<: *videos
+  - <<: *automation

@@ -1,10 +1,21 @@
 version: '3'
 
 services:
-    jekyll:
+    development:
         image: jekyll/jekyll:latest
-        command: jekyll serve --watch --force_polling --incremental --drafts --future --unpublished --trace --verbose
+        command: jekyll serve --trace --watch --force_polling --incremental  --drafts --future --unpublished
         ports:
             - 80:4000
         volumes:
             - .:/srv/jekyll
+        environment:
+            - NODE_ENV=development
+    production:
+        image: jekyll/jekyll:latest
+        command: jekyll serve
+        ports:
+            - 80:4000
+        volumes:
+            - .:/srv/jekyll
+        environment:
+            - NODE_ENV=production

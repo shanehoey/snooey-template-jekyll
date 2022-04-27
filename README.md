@@ -1,5 +1,7 @@
 # Snooey Jekyll Theme Template
 
+EXPECT BREAKING CHANGES TO THIS REPOSITORY
+
 View a live example of the theme @ [snooey.com](https://snooey.com)
 
 ![status](https://img.shields.io/static/v1?label=Known%20Issues&color=red&message=Major)
@@ -10,7 +12,3 @@ View a live example of the theme @ [snooey.com](https://snooey.com)
 ## Want more information
 
 This repository just contains the example site, refer to [github.com/shanehoey/snooey](https://github.com/shanehoey/snooey) for usage details
-
-## Known Issues
-
-- Not yet at stable release expect breaking changes

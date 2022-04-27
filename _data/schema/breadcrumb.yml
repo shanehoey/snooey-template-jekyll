@@ -1,0 +1,18 @@
+# v1.2.110 _data/schema/breadcrumb.yml
+
+schema: &schema
+  nav:  mb-0
+  background: theme-bg-dark
+  text: font-monospace
+
+light: &light
+  <<: *schema
+  background: theme-bg-light
+  text: theme-text-dark
+
+dark: &dark
+  <<: *schema
+
+image: &image
+  <<: *schema
+  background: theme-bg-unsplash1

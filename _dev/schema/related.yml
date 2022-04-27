@@ -1,0 +1,19 @@
+# v1.2.110 _data/schema/related.yml
+
+
+schema: &schema
+  container: container
+  background: theme-bg-dark
+  text: theme-text-light
+
+light:
+  <<: *schema
+  background: theme-bg-light
+  text: theme-text-dark
+
+dark:
+  <<: *schema
+
+image: &image
+  <<: *schema
+  background: theme-bg-unsplash1

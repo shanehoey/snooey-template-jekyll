@@ -1,0 +1,22 @@
+# v1.2.110 _data/schema/jumbotron.yml
+
+schema: &schema
+  section: p-5 mb-4 rounded-3 container-fluid
+  background: theme-bg-dark
+  text: theme-text-light
+  title: display-5 fw-bold
+  subtitle: fs-4
+  excerpt: lead
+  button: btn btn-dark btn-lg
+
+light:
+  <<: *schema
+  background: theme-bg-light
+  text: theme-text-dark
+
+dark: &dark
+  <<: *schema
+
+image: &image
+  <<: *schema
+  background: theme-bg-unsplash1

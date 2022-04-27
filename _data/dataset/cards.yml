@@ -1,0 +1,47 @@
+# v1.2.110 _data/dataset/cards.yml
+
+dataset: &dataset
+  docs: &docs
+    header: Featured1
+    title: Occaecat nulla commodo anim qui.
+    subtitle: Commodo tempor cillum nisi duis ea qui.
+    excerpt: Pariatur adipisicing consectetur ad qui nisi esse qui deserunt est eiusmod.Elit est est labore voluptate tempor enim consequat aliquip qui.
+    image: https://placeimg.com/380/230/tech
+    button:
+      url: https://snooey.com/
+      text: Read More
+      icon: bi bi-box-arrow-up-right
+  tools: &tools
+    title: Qui quis esse officia consequat.
+    subtitle: Ipsum labore ad exercitation fugiat reprehenderit culpa qui ut eu voluptate ad.
+    excerpt: Do in ex ut quis culpa exercitation nulla ipsum sit Lorem voluptate ipsum aute dolore.Officia aliqua magna labore consequat non irure elit ex.
+    image: https://placeimg.com/380/230/tech
+    button:
+      url: https://snooey.com/
+      text: Read More
+      icon: bi bi-box-arrow-up-rightm
+  hello: &hello
+    title: Cupidatat commodo mollit anim esse laborum.
+    subtitle: Sint minim non exercitation veniam pariatur sunt velit cupidatat ad officia labore..
+    excerpt: Dolor magna labore adipisicing cillum incididunt esse dolore Lorem consectetur incididunt officia cillum fugiat.Eu et veniam consectetur proident ad Lorem deserunt incididunt incididunt veniam proident duis nulla cillum.
+    image: https://placeimg.com/380/230/tech
+    button:
+      url: https://snooey.com/
+      text: Read More
+      icon: bi bi-box-arrow-up-right
+
+dataset1:
+  - <<: *docs
+  - <<: *tools
+  - <<: *hello
+
+dataset2:
+  - <<: *docs
+  - <<: *tools
+  - <<: *hello
+
+dataset3:
+  - <<: *docs
+  - <<: *tools
+  - <<: *hello
+

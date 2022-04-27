@@ -1,0 +1,20 @@
+# v1.2.110 _data/schema/header.yml
+
+schema: &schema
+  container: p-3
+  background: theme-bg-dark pb-1
+  text: text-justify theme-text-light
+  title: h2
+  subtitle: h5
+
+light:
+  <<: *schema
+  background: theme-bg-light
+  text: theme-text-dark
+
+dark: &dark
+  <<: *schema
+
+image: &image
+  <<: *schema
+  background: theme-bg-unsplash1

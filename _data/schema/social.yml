@@ -1,0 +1,22 @@
+# v1.2.110 _data/schema/social.yml
+
+schema: &schema
+  section: text-center py-5
+  background: theme-bg-dark
+  text: theme-text-light
+  title: display-1 mx-3 theme-text-light
+  icon: display-5 mx-1 theme-text-light
+
+light:
+  <<: *schema
+  background: theme-bg-light
+  text: theme-text-dark
+  title: display-1 mx-3 theme-text-dark
+  icon: display-5 mx-1 theme-text-dark
+  
+dark:
+  <<: *schema
+
+image: &image
+  <<: *schema
+  background: theme-bg-unsplash1

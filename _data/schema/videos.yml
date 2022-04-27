@@ -1,0 +1,16 @@
+# v1.2.110 _data/schema/videos.yml
+
+schema: &schema
+    container: container
+    width: 640
+    height: 480
+
+light:
+  <<: *schema
+
+dark:
+  <<: *schema
+
+image: &image
+ <<: *schema
+
