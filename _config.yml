@@ -52,87 +52,79 @@ include:
 collections_dir: collections
 
 collections:
+    code:
+        output: true
+        permalink: /:collection/:path/
     docs:
         output: true
         permalink: /documents/:path/
     tools:
         output: true
         permalink: /:collection/:path/
-    videos:
-        output: true
-        permalink: /:collection/:path/
-    automation:
-        output: true
-        permalink: /:collection/:path/
 
 defaults:
-    - scope:
-        path: ""
-      values:
-        title:
-        subtitle:
-        excerpt:
-        description:
+  - scope:
+      path: ""
+    values:
+      title:
+      subtitle:
+      heading:
+      excerpt:
+      description:
+      guid:
+      authorid: shanehoey
+      link:
+        icon: bi bi-link
+        text: read more
+        url:
+      assets:
         icon: bi bi-file-earmark
-        button:
-          icon: bi bi-link
-          text: read more
-          url:
-        image: 
-          header: https://placeimg.com/2560/640/tech
-          vertical: https://placeimg.com/800×1200/tech
-          horizontal: https://placeimg.com/1200/800/tech
-        author:     Shane Hoey
-        debug:      true      # true/false - should be false for production
-        layout:     default   # default/page/paginate/post/video
-        navbar:     true      # true/false
-        breadcrumb: true      # true/false
-        carousel:   false     # true/false
-        footer:     true      # true/false
-        brand:      brand1    # sets the default branding for page
-        theme:      theme1    # sets the default css classes(theme[1..5])
-        schema:     light     # sets the schema for the page (dark,light,image/custom)
-        dataset:    dataset1  # sets the default dataset for the page (dataset[1..5]/custom)
-    - scope:
-        path:       ""
-        type:       pages
-      values:
-        layout:     page
-    - scope:
-        path:       ""
-        type:       posts
-      values:
-        layout:     post
-        permalink:  /blogs/:slug
-    - scope:
-        path:       ""
-        type:       tools
-      values:
-        layout:     tools
-    - scope:
-        path:       ""
-        type:       docs
-      values:
-        layout:     docs
-    - scope:
-        path:       ""
-        type:       videos
-      values:
-        layout:     videos
-    - scope:
-        path:       ""
-        type:       automation
-      values:
-        layout:     automation
-    - scope:        # remove from production sites, only to show content examples
-        path:       pages/theme/
-        type:       pages
-      values:
-        debug:      true
-        layout:     default
-        navbar:     false
-        breadcrumb: false 
-        carousel:   false
-        footer:     false
-        permalink:  /theme/:slug
-        
+        header: https://placeimg.com/2560/640/tech
+        square: https://placeimg.com/300/300/tech
+        vertical: https://placeimg.com/800×1200/tech
+        horizontal: https://placeimg.com/1200/800/tech
+        teaser: https://placeimg.com/700/394/tech
+        background: https://placeimg.com/1920/1080/tech
+      debug:      true      # true/false - should be false for production
+      layout:     default   # default/page/paginate/post/video
+      navbar:     true      # true/false
+      breadcrumb: true      # true/false
+      carousel:   false     # true/false
+      footer:     true      # true/false
+      brand:      brand1    # sets the default branding for page
+      theme:      theme1    # sets the default css classes(theme[1..5])
+      schema:     light     # sets the schema for the page (dark,light,image/custom)
+  - scope:
+      path:       ""
+      type:       pages
+    values:
+      layout:     page
+  - scope:
+      path:       ""
+      type:       posts
+    values:
+      layout:     post
+      permalink:  /blogs/:slug
+  - scope:
+      path:       ""
+      type:       code
+    values:
+      layout:     code
+  - scope:
+      path:       ""
+      type:       docs
+    values:
+      layout:     docs
+  - scope:
+      path:       ""
+      type:       tools
+    values:
+      layout:     tools
+  - scope:        # remove from production sites, only to show content examples
+      path:       pages/theme/
+      type:       pages
+    values:
+      debug:      true
+      layout:     theme
+      breadcrumb: false 
+      permalink:  /theme/:slug

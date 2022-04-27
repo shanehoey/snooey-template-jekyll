@@ -1,15 +1,31 @@
-# v1.2.110 _data/dataset/calltoaction.yml
+# v1.2.117 _data/dataset/calltoaction.yml
+link: &link
+    icon: bi bi-link
+    text: read more
+    url: https://snooey.com/
 
+assets: &assets
+    icon: bi bi-file-earmark
+    header: https://placeimg.com/2560/640/tech
+    square: https://placeimg.com/300/300/tech
+    vertical: https://placeimg.com/800×1200/tech
+    horizontal: https://placeimg.com/1200/800/tech
+    teaser: https://placeimg.com/700/394/tech
+    background: https://placeimg.com/1920/1080/tech
+  
 dataset: &dataset
   title: Occaecat nulla commodo anim qui.
   subtitle: Commodo tempor cillum nisi duis ea qui.
+  heading:
   excerpt: Pariatur adipisicing consectetur ad qui nisi esse qui deserunt est eiusmod.Elit est est labore voluptate tempor enim consequat aliquip qui.
-  image: https://source.unsplash.com/random/960x540
-  button:
-    url: https://snooey.com/
-    text: Read More
-    icon: bi bi-box-arrow-up-right
-
+  description: Tempor ad duis anim ullamco id elit proident incididunt.Mollit nostrud non eu aliqua veniam voluptate commodo sint cillum mollit duis ex.Mollit voluptate exercitation minim quis ex esse in consectetur laborum culpa sint ipsum.Magna eiusmod magna eiusmod id consectetur laborum.Aute incididunt veniam proident nostrud ea cillum consequat mollit exercitation laborum.
+  guid:
+  #authorid:
+  link:
+    <<: *link
+  assets:
+    <<: *assets
+    
 dataset1:
   - <<: *dataset
     title: Labore ut laboris eiusmod irure laboris sunt cupidatat.

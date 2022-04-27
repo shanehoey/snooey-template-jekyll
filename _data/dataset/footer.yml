@@ -1,17 +1,26 @@
-# v1.2.110 _data/dataset/footer.yml
+# v1.2.117 _data/dataset/footer.yml
+
+link: &link
+    icon: bi bi-link
+    text: read more
+    url: https://snooey.com/
 
 dataset: &dataset
   home: &home
-    title:  snooey.com
+    <<: *link
+    text:  snooey.com
     url:  /index.html
   terms: &terms
-    title:  terms
+    <<: *link
+    text:  terms
     url:  /terms/
   license: &license
-    title:  license
+    <<: *link
+    text:  license
     url:  /license/
   contact: &contact
-    title:  contact
+    <<: *link
+    text:  contact
     url:  /contact/
 
 dataset1: 

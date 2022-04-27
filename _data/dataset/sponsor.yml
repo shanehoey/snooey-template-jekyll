@@ -1,12 +1,31 @@
-# v1.2.110 _data/dataset/sponsor.yml
+# v1.2.117 _data/dataset/sponsor.yml
 
+link: &link
+    icon: bi bi-link
+    text: read more
+    url: https://snooey.com/
+
+assets: &assets
+    icon: bi bi-file-earmark
+    header: https://placeimg.com/2560/640/tech
+    square: https://placeimg.com/300/300/tech
+    vertical: https://placeimg.com/800×1200/tech
+    horizontal: https://placeimg.com/1200/800/tech
+    teaser: https://placeimg.com/700/394/tech
+    background: https://placeimg.com/1920/1080/tech
+  
 dataset: &dataset
     title:        Sponsored Post by
     subtitle:     Lorem ipsum dolor
-    description:  Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
+    heading:
     excerpt:      Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
-    url:          https://snooey.com
-    image:        https://source.unsplash.com/random/100x150
+    description:  Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
+    guid:
+    authorid: shanehoey
+    link:
+      <<: *link
+    assets:
+      <<: *assets
 
 dataset1:
   <<: *dataset

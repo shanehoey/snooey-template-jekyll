@@ -1,7 +1,7 @@
 # v1.2.110 _data/layout.yml
 
 schema: &schema
-    body:
+    body: container
     header:
     content:
     footer:   
@@ -14,3 +14,7 @@ dark: &dark
 
 image: &image
     <<: *schema
+
+theme:
+    <<: *schema
+    content: container mt-1 p-1

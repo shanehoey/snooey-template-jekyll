@@ -1,12 +1,18 @@
-# v1.2.110 _data/dataset/title.yml
+# v1.2.117 _data/dataset/title.yml
 
 dataset: &dataset
-  pagetitle: Est irure excepteur!
   title: Et mollit Lorem laborum?
   subtitle: A Dalor sit amet ipsum.
-  heading: Dolor sit amet aute ipsum.
+  heading:
   excerpt: Ipsum tempor dolore laborum aliquip. Cupidatat aliquip irure magna ex irure ad elit culpa consequat pariatur deserunt ut ullamco est. Aliqua sunt esse eiusmod esse labore Lorem ipsum culpa. Incididunt commodo incididunt culpa excepteur. Exercitation est qui nisi cillum esse eu consequat exercitation Lorem exercitation esse incididunt Lorem. Cupidatat occaecat voluptate sint deserunt exercitation nostrud reprehenderit pariatur cupidatat deserunt. Fugiat occaecat quis eu ad duis magna non reprehenderit esse. Officia laborum cupidatat anim est qui incididunt nulla in ad nulla ea. Proident consequat voluptate consequat enim voluptate aliquip velit anim laboris est. Ad nulla officia labore amet. Nostrud in laboris amet consectetur est adipisicing incididunt incididunt. Esse nisi velit enim do est pariatur do aliqua cupidatat esse consequat.
-  
+  description:
+  guid:
+  authorid:  
+  link:
+    <<: *link
+  assets:
+    <<: *assets
+    
 dataset1:
   <<: *dataset
   

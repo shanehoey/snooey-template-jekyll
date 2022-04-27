@@ -1,22 +1,47 @@
-# v1.2.110 _data/dataset/alert.yml
+# v1.2.117 _data/dataset/alert.yml
 
+link: &link
+    icon: bi bi-link
+    text: read more
+    url: https://snooey.com/
+
+assets: &assets
+    icon: bi bi-file-earmark
+    #header: https://placeimg.com/2560/640/tech
+    #square: https://placeimg.com/300/300/tech
+    #vertical: https://placeimg.com/800×1200/tech
+    #horizontal: https://placeimg.com/1200/800/tech
+    #teaser: https://placeimg.com/700/394/tech
+    #background: https://placeimg.com/1920/1080/tech
+  
 dataset: &dataset
-  description: null
-  icon: null
+  #title:
+  #subtitle:
+  heading:
+  excerpt:
+  #description:
+  guid:
+  #authorid: shanehoey
+  link:
+    <<: *link
+  assets:
+    <<: *assets
   
 dataset1:
   <<: *dataset
-  description: Exercitation nisi minim sit aute.
+  title: Exercitation nisi minim sit aute.
   
 dataset2:
   <<: *dataset
-  description: Ipsum velit fugiat consectetur ullamco laborum officia qui.
+  title: Ipsum velit fugiat consectetur ullamco laborum officia qui.
  
 dataset3:
   <<: *dataset
-  description: Aliqua anim proident sit excepteur labore.
+  title: Aliqua anim proident sit excepteur labore.
 
 dev:
   <<: *dataset
-  description: This file is under development
-  icon: bi bi-tools
+  title: This file is under development
+  assets:
+    <<: *assets
+    icon: bi bi-tools

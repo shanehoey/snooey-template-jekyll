@@ -1,51 +1,65 @@
-# v1.2.110 _data/dataset/navbar.yml
+# v1.2.11 _data/dataset/navbar.yml
+
+link: &link
+    icon: bi bi-link
+    text: read more
+    url: https://snooey.com/
 
 dataset:
   home: &home
-    title:          home
+    <<: *link
+    text:          home
     url:            /index.html
   blog: &blog
-    title:          blog
+    <<: *link
+    text:          blog
     url:            /blogs.html 
   hello: &hello
-    title:          hello
+    <<: *link
+    text:          hello
     url:            /hello.html
+  code: &code
+    <<: *link
+    text:          code
+    url:            /code.html
+    children:
+      - <<: *link
+        text:      code
+        url:        /code/
+      - <<: *link
+        text:      github
+        url:        /github/
+      - <<: *link
+        text:      gitsts
+        url:        /gists/  
   docs: &docs
-    title:          docs
+    <<: *link
+    text:          docs
     url:            /docs.html
     children:
-      - title:      docs
-        url:        /docs/
-      - title:      documents
+      - <<: *link
+        text:      documents
         url:        /documents/
-      - title:      tldr
+      - <<: *link
+        text:      tldr
         url:        /tldr/
-  tools: &projects
-    title:          projects
-    url:            /projects.html
-    children:
-      - title:      projects
-        url:        /projects/
-      - title:      github
-        url:        /github/
-      - title:      gitsts
-        url:        /gists/
-  automation: &automation
-    title:          automation
-    url:            /automation.html
-  videos: &videos
-    title:          videos
-    url:            /videos.html
+      - <<: *link
+        text:      videos
+        url:        /videos/
+  tools: &tools
+    <<: *link
+    text:          tools
+    url:            /tools.html
 
 dataset1:
   - <<: *home
   - <<: *blog
   - <<: *hello
+  - <<: *code
   - <<: *docs
-  - <<: *projects
-  - <<: *videos
-  - <<: *automation
-  - title: theme
+  - <<: *tools
+  - <<: *link
+    text: theme
     url: /theme/
 
 dataset2:

@@ -1,26 +1,46 @@
-# v1.2.110 _data/dataset/carousel.yml
+# v1.2.117 _data/dataset/carousel.yml
 
+link: &link
+    icon: bi bi-link
+    text: read more
+    url: https://snooey.com/
+
+assets: &assets
+    icon: bi bi-file-earmark
+    header: https://placeimg.com/2560/640/tech
+    square: https://placeimg.com/300/300/tech
+    vertical: https://placeimg.com/800×1200/tech
+    horizontal: https://placeimg.com/1200/800/tech
+    teaser: https://placeimg.com/700/394/tech
+    background: https://placeimg.com/1920/1080/tech
+  
 dataset: &dataset
   title: Lorem ipsum dolor
   subtitle: Lorem ipsum dolor sit amet. 
+  heading:
+  excerpt:
   description:  Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
-  background: https://source.unsplash.com/551H4M7mRwk/960x540 
-  url: https://snooey.com
-  button: null
+  guid:
+  authorid: shanehoey
+  link:
+    <<: *link
+  assets:
+    <<: *assets
 
 dataset1:
   - <<: *dataset
     title: 1 Lorem ipsum dolor
-    button: <span class='h4'><i class = 'bi bi-box-arrow-up-right'></i> Learn More</span>
   - <<: *dataset
     title: 
-    background: https://source.unsplash.com/xA2B20eNXYI/960x540
+    assets:
+      <<: *assets
+      background: https://source.unsplash.com/xA2B20eNXYI/960x540
   - <<: *dataset
     subtitle: 
   - <<: *dataset
-    content:
+    heading:
   - <<: *dataset
-    buttontext: 
+    excerpt:
 
 dataset2:
   - <<: *dataset

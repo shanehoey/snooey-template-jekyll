@@ -1,12 +1,30 @@
-# v1.2.110 _data/dataset/feature.yml
+# v1.2.117 _data/dataset/feature.yml
+link: &link
+    icon: bi bi-link
+    text: read more
+    url: https://snooey.com/
 
+assets: &assets
+    icon: bi bi-file-earmark
+    header: https://placeimg.com/2560/640/tech
+    square: https://placeimg.com/300/300/tech
+    vertical: https://placeimg.com/800×1200/tech
+    horizontal: https://placeimg.com/1200/800/tech
+    teaser: https://placeimg.com/700/394/tech
+    background: https://placeimg.com/1920/1080/tech
+  
 dataset: &dataset
   title:  Lorem ipsum
   subtitle:  Lorem ipsum dolor sit amet.
-  heading: Incididunt excepteur sint officia.
+  heading:
   excerpt: Do do incididunt ut dolore et fugiat dolore aliqua culpa. In tempor deserunt ad amet aute. Occaecat aliqua non laborum eiusmod amet culpa id ad ex nulla et officia. Consequat sunt fugiat labore veniam duis commodo cillum amet deserunt non. Dolor aute ad quis dolor Lorem dolor occaecat amet incididunt fugiat. Anim non mollit veniam dolor et et quis ex ex deserunt culpa.
-  icon:  bi bi-star
-  url: 
+  description: 
+  guid:
+  authorid: shanehoey
+  link:
+    <<: *link
+  assets:
+    <<: *assets
 
 dataset1:
   - <<: *dataset

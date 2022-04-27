@@ -1,35 +1,49 @@
-# v1.2.110 _data/dataset/social.yml
+# v1.2.117 _data/dataset/social.yml
+
+link: &link
+    icon: bi bi-link
+    text: Connect
+    url:  https://snooey.com/
 
 dataset: &dataset
-  title: &title connect with me
+  title: connect with me
   description: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe qui quibusdam accusamus ut velit asperiores vel natus temporibus.
   social: &social
-    - name:  www
+    - <<: *link
       icon:  bi bi-globe2
+      text:  www
       url:   https://snooey.com
-    - name:  facebook
+    - <<: *link
       icon:  bi bi-facebook
+      text:  facebook
       url:  
-    - name:  twitter
+    - <<: *link
       icon:  bi bi-twitter
+      text:  twitter
       url:  
-    - name:  linkedin
+    - <<: *link
       icon:  bi bi-linkedin
+      text:  linkedin
       url:  
-    - name:  instagram
+    - <<: *link
       icon:  bi bi-instagram
+      text:  instagram
       url:        
-    - name:  paypal
+    - <<: *link
       icon:  bi bi-paypal
+      text:  paypal
       url:  
-    - name:  youtube
+    - <<: *link
       icon:  bi bi-youtube
+      text:  youtube
       url:  
-    - name:  github
+    - <<: *link
       icon:  bi bi-github
+      text:  github
       url:  
-    - name:  stackoverflow
+    - <<: *link
       icon:  bi bi-stack-overflow
+      text:  stackoverflow
       url: 
 
 dataset1:
@@ -39,40 +53,14 @@ dataset2:
   <<: *dataset
   title: connect
   social:
-    - name:  www
+    - <<: *link
       icon:  bi bi-globe2 display-2
-      url:    
-    - name:  github
+      text:  www
+      url:   https://www.snooey.com 
+    - <<: *link
       icon:  bi bi-github
-      url:     
+      text:  github
+      url:   https://www.snooey.com  
 
 dataset3:
-  title: connect with snooey
-  social:
-    - name:  www
-      icon:  bi bi-globe2 display-2
-      url:   "#"
-    - name:  facebook
-      icon:  bi bi-facebook
-      url:   "#"
-    - name:  twitter
-      icon:  bi bi-twitter
-      url:   "#"
-    - name:  linkedin
-      icon:  bi bi-linkedin
-      url:   "#"
-    - name:  instagram
-      icon:  bi bi-instagram
-      url:   "#"   
-    - name:  paypal
-      icon:  bi bi-paypal
-      url:   "#"
-    - name:  youtube
-      icon:  bi bi-youtube
-      url:   "#"
-    - name:  github
-      icon:  bi bi-github
-      url:   "#"
-    - name:  stackoverflow
-      icon:  bi bi-stack-overflow
-      url:   "#"
+  <<: *dataset
