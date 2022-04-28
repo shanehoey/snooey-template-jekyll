@@ -5,11 +5,11 @@ services:
         image: jekyll/jekyll:latest
         command: jekyll serve  --watch --force_polling --incremental  --drafts --future --unpublished  --verbose --trace
         ports:
-            - 80:4000
+            - 8080:4000
         volumes:
             - .:/srv/jekyll
         environment:
-            - NODE_ENV=development
+            - JEKYLL_ENV=development
     production:
         image: jekyll/jekyll:latest
         command: jekyll serve
@@ -18,4 +18,4 @@ services:
         volumes:
             - .:/srv/jekyll
         environment:
-            - NODE_ENV=production
+            - JEKYLL_ENV=production
