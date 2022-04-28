@@ -1,0 +1,67 @@
+{% comment %}
+<!--
+ v1.2.117 _includes/navbar.html
+-->
+{% endcomment %}
+
+{% assign schema = include.schema %}
+{% unless schema %}
+{% assign schema = page.schema %}
+{% endunless %}
+{% assign dataset = include.dataset %}
+{% unless dataset %}
+{% assign dataset = page.dataset %}
+{% endunless %}
+{% assign brand = include.brand %}
+{% unless brand %}
+{% assign brand = page.brand %}
+{% endunless %}
+{% assign schema = site.data.schema.navbar[schema] %}
+{% assign dataset = site.data.dataset.navbar[dataset] %}
+{% assign brand = site.data.brand[brand] %} 
+
+{% unless dataset %}
+{% include error.html message = "_include/navbar.html no dataset" %}
+{% endunless %}
+
+<nav id="navbar" class = "{{ schema.navbar }} {{ schema.background }} {{ schema.text }}">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> 
+        {% if brand.url %}<a class = "navbar-brand" href="{{ brand.url }}">{% endif %}
+        {% if brand.text or brand.icon %}<span>{% endif %}
+        {% if brand.icon %}<i class = "{{ brand.icon }}"></i>{% endif %}
+        {% if brand.text %}{{ brand.text }}{% endif %}
+        {% if brand.text or brand.icon %}</span>{% endif %}
+        {% if brand.url %}</a>{% endif %}
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">
+                {% for item in dataset %}
+                    {% if item.children %}
+                        <li class = "nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="{{ item.url }}" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ item.text }}</a>
+                            <div class = "dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                {% for child in item.children %}
+                                    <a class = "dropdown-item" href="{{ child.url }}">{{ child.text }}</a>
+                                {% endfor %}
+                            </div>
+                        </li>
+                    {% else %}
+                        <li class = "nav-item">
+                            <a class = "nav-link" href="{{ item.url }}">{{ item.text }}</a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+</nav>
+<!-- VNEXT BUG workaround for spacing issue -->
+<Section id = "spacer00" class = "p-4 theme-bg-light"></Section>
+<script>
+    $( window ).scroll(function() {
+    if ($(window).scrollTop() == 0)
+        $("#navbar").removeClass().addClass("{{ schema.navbar }}");
+    else
+        $("#navbar").removeClass().addClass("{{ schema.navbar2 }}");
+    })
+</script>

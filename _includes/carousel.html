@@ -1,0 +1,62 @@
+{% comment -%}
+<!--
+ ALPHA v1.2.121 _includes/carousel.html
+ 
+ dataset:    [string]dataset1
+ schema:     [string]dark
+
+ VNEXT Add ability to change height - defaulting to 240 ? 
+ VNEXT Low priority add ability for more than one carosel per page ie in the dataset have an ID or generate random number or have a default and an override 
+
+-->
+{% endcomment -%}
+{% assign schema = include.schema -%}
+{% unless schema -%}
+{% assign schema = page.schema -%}
+{% endunless -%}
+{% assign dataset = include.dataset -%}
+{% unless dataset -%}
+{% assign dataset = page.dataset -%}
+{% endunless -%}
+{% assign schema = site.data.schema.carousel[schema] -%}
+{% assign dataset = site.data.dataset.carousel[dataset] -%}
+<section id="myCarousel" class = "carousel slide {{ scheme.section }}" data-bs-ride = "carousel">
+    <div class = "carousel-indicators" >
+        {% for item in dataset -%}
+            {% if forloop.index == 1 -%}
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="{{ forloop.index | minus: 1 }}" class = "active" aria-current="true" aria-label="Slide {{ forloop.index }}"></button>
+            {% else -%}
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="{{ forloop.index | minus: 1 }}" aria-label="Slide {{ forloop.index }}"></button>
+            {% endif -%}
+        {% endfor -%}
+    </div>
+    <div class = "carousel-inner">
+    {% for item in dataset -%}
+    {% if item.background contains 'http' -%}
+        {% assign background = item.background -%}
+    {% else -%}
+        {% assign background = site.url | append: site.baseurl | append: item.background -%}
+    {% endif -%}
+    {% if forloop.index == 1 -%}
+        <div class = "carousel-item active" style = "background-image: url('{{ background }}')">
+    {% else -%}
+        <div class = "carousel-item" style = "background-image: url('{{ background }}')">
+    {% endif -%}
+            <div class = "carousel-caption d-none d-md-block">
+                {% if item.title %}<p class = "{{ schema.title }}"><a href='{{ item.url }}' style = 'color: inherit; text-decoration: none'>{{ item.title }}</a></p>{% endif %}
+                {% if item.subtitle %}<p class = "{{ schema.subtitle }}">{{ item.subtitle }}</p>{% endif %}
+                {% if item.description %}<p class = "{{ schema.description }}">{{ item.description }}</p>{% endif %}
+                {% if item.button %}<p><a class = "{{ schema.button }}" href="{{ item.url }}">{{ item.button }}</a></p>{% endif %}
+            </div>
+        </div>
+    {% endfor -%}
+    </div>
+    <button class = "carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class = "carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class = "visually-hidden">Previous</span>
+    </button>
+    <button class = "carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class = "carousel-control-next-icon" aria-hidden="true"></span>
+        <span class = "visually-hidden">Next</span>
+    </button>
+</section>

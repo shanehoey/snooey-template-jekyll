@@ -1,0 +1,26 @@
+{% comment %}
+<!-- 
+ ALPHA v1.2.121 _includes/calltoaction01.html
+-->
+{% endcomment %}
+{% assign schema = include.schema %}
+{% unless schema %}
+{% assign schema = page.schema %}
+{% endunless %}
+{% assign dataset = include.dataset %}
+{% unless dataset %}
+{% assign dataset = page.dataset %}
+{% endunless %}
+{% assign schema = site.data.schema.calltoaction[schema] %}
+{% assign dataset = site.data.dataset.calltoaction[dataset] %}
+{% assign count = count | plus: 1 %}
+{% if dataset %}
+<section id = "calltoaction1{{ count }}" class = "{{ schema.section }} {{ schema.background }} {{ schema.text }}">
+{% for item in dataset limit: 1 %}
+    {% if item.title %}<p class = "{{ schema.title }}">{{ item.title }}</p>{% endif %}
+    {% if item.subtitle %}<p class = "{{ schema.subtitle }}">{{ item.subtitle }}</p>{% endif %}
+    {% if item.excerpt %}<p class = "{{ schema.excerpt }}">{{ item.excerpt }}</p>{% endif %}
+    {% if item.button.url%}<a class = "{{ schema.button }}" href="{{ item.button.url }}" role="button">{{ item.button.text }}{% if item.button.icon %} <i class="{{ item.button.icon }}"></i>{% endif %}</a>{% endif %}
+{% endfor %}
+</section>
+{% endif %}

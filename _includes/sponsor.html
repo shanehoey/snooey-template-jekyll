@@ -1,0 +1,36 @@
+{% comment %}
+<!--
+ ALPHA v1.2.121 _includes/sponsor.html
+
+ dataset:    [string]dataset1   
+ schema:     [string]dark
+-->
+{% endcomment %}
+{% assign schema = include.schema %}
+{% unless schema %}
+{% assign schema = page.schema %}
+{% endunless %}
+{% assign dataset = include.dataset %}
+{% unless dataset %}
+{% assign dataset = page.dataset %}
+{% endunless %}
+{% assign schema = site.data.schema.sponsor[schema] %}
+{% assign dataset = site.data.dataset.sponsor[dataset] %}
+{% assign count = count | plus: 1 %}
+{% if dataset %}
+<section id="sponsor{{ count }}" class = " {{ schema.section }} {{ schema.background }} {{ schema.text }}">
+    <div class = "row">
+        {% if dataset.image %}
+        <div class = "{{ schema.column1 }}">
+            <img src="{{ dataset.image }}" class = "{{ schema.image }}" >
+        </div>
+        {% endif %}
+        <div class = "{{ schema.column2 }}">
+            {% if dataset.title %}{% if dataset.url %}<a href="{{ dataset.url }}" class="{{ schema.title }}">{{ dataset.title }}</a>{% else %}<p class = "{{ schema.title }}">{{ dataset.title }}</p>{% endif %}{% endif %}
+            {% if dataset.subtitle %}<p class = "{{ schema.subtitle }}">{{ dataset.subtitle }}</p>{% endif %}
+            {% if dataset.excerpt %}<p class = "{{ schema.excerpt }}">{{ dataset.excerpt }}</p>{% endif %}
+            {% if dataset.description %}<p class = "{{ schema.description }}">{{ dataset.description }}</p>{% endif %}
+        </div>
+    </div>
+</section>
+{% endif %}
