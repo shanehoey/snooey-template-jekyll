@@ -85,7 +85,6 @@ defaults:
         horizontal: https://placeimg.com/1200/800/tech
         teaser: https://placeimg.com/700/394/tech
         background: https://placeimg.com/1920/1080/tech
-      debug:      true      # true/false - should be false for production
       layout:     default   # default/page/paginate/post/video
       navbar:     true      # true/false
       breadcrumb: true      # true/false
@@ -124,7 +123,6 @@ defaults:
       path:       pages/theme/
       type:       pages
     values:
-      debug:      true
       layout:     theme
       breadcrumb: false 
       permalink:  /theme/:slug

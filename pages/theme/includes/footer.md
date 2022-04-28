@@ -3,7 +3,6 @@ title: footer
 permalink:  /theme/includes/footer/
 navbar: true
 footer: true
-debug: false
 ---
 <!-- v1.2.110 pages/theme/includes/footer.md-->
 
