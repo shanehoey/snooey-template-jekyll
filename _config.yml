@@ -1,4 +1,4 @@
-# v1.2.110 _config.yml
+# v1.2.117 _config.yml
 
 title: Snooey
 url:  https://snooey.com
@@ -94,7 +94,6 @@ defaults:
       brand:      brand1    # sets the default branding for page
       theme:      theme1    # sets the default css classes(theme[1..5])
       schema:     light     # sets the schema for the page (dark,light,image/custom)
-      dataset:    dataset1  # sets the default dataset (only works on some pages)
   - scope:
       path:       ""
       type:       pages

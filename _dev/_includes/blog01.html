@@ -64,7 +64,7 @@
     {% for item in collection  limit: {{limit}} %}
     <div class = "row">
         <div class = "{{ column1 }}">
-            <img src="{{ item.image.horizontal }}" alt="{{ item.excerpt }}" class = "img-fluid p-2 rounded">
+            <img src="{{ item.assets.teaser.horizontal }}" alt="{{ item.excerpt }}" class = "img-fluid p-2 rounded">
         </div>
         <div class = "{{ column2 }}">
             {% unless options contains "title" %}<a href="{{ item.url }}">

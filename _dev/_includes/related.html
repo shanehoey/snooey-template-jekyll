@@ -44,7 +44,7 @@ VNEXT v1.2.110 _includes/related.html
     {% for item in collection limit: {{limit}} %}
     <div class = "col-md-3 col-sm-6 mb-4">
       <a href="{{ item.url}}" class='text-reset text-decoration-none'>
-        <img class = "" src="{{ item.image.horizontal }}" alt="" />
+        <img class = "" src="{{ item.assets.teaser.horizontal }}" alt="" />
         <h4 class = "{{ theme.text.accent1 }}">{{ item.title }}</h4>
       </a>
     </div>

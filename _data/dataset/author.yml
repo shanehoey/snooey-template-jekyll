@@ -7,12 +7,12 @@ link: &link
 
 assets: &assets
     icon: bi bi-file-earmark
-    header: https://placeimg.com/2560/640/tech
-    square: https://placeimg.com/300/300/tech
-    vertical: https://placeimg.com/800×1200/tech
-    horizontal: https://placeimg.com/1200/800/tech
-    teaser: https://placeimg.com/700/394/tech
-    background: https://placeimg.com/1920/1080/tech
+    header: https://placeimg.com/2560/640/people
+    square: https://placeimg.com/300/300/people
+    vertical: https://placeimg.com/800/1200/people
+    horizontal: https://placeimg.com/1200/800/people
+    teaser: https://placeimg.com/700/394/people
+    background: https://placeimg.com/1920/1080/people
   
 dataset: &dataset
   title: snooey

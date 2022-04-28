@@ -2,15 +2,16 @@
 title: sponsor
 permalink:  /theme/includes/sponsor/
 ---
-<!-- v1.2.110 pages/theme/includes/sponsor.md-->
-{% include sponsor.html %}
-{% include sponsor.html schema = "light" %}
-{% include sponsor.html schema = "dark" %}
-{% include sponsor.html schema = "image" %}
-{% include sponsor.html schema = "light-left" %}
-{% include sponsor.html schema = "dark-left" %}
-{% include sponsor.html schema = "image-left" %}
+<!-- v1.2.117 pages/theme/includes/sponsor.md-->
 
-{% include sponsor.html schema = "light-right" %}
-{% include sponsor.html schema = "dark-right" %}
-{% include sponsor.html schema = "image-right" %}
+{% include sponsor.html datasource = site.data.dataset.sponsor.dataset1 %}
+{% include sponsor.html datasource = site.data.dataset.sponsor.dataset1 schema = "light" %}
+{% include sponsor.html datasource = site.data.dataset.sponsor.dataset1 schema = "dark" %}
+{% include sponsor.html datasource = site.data.dataset.sponsor.dataset1 schema = "image" %}
+{% include sponsor.html datasource = site.data.dataset.sponsor.dataset1 schema = "light-left" %}
+{% include sponsor.html datasource = site.data.dataset.sponsor.dataset1 schema = "dark-left" %}
+{% include sponsor.html datasource = site.data.dataset.sponsor.dataset1 schema = "image-left" %}
+
+{% include sponsor.html datasource = site.data.dataset.sponsor.dataset1 schema = "light-right" %}
+{% include sponsor.html datasource = site.data.dataset.sponsor.dataset1 schema = "dark-right" %}
+{% include sponsor.html datasource = site.data.dataset.sponsor.dataset1 schema = "image-right" %}

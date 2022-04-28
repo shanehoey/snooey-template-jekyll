@@ -29,19 +29,19 @@ dataset: &dataset
   
 dataset1:
   <<: *dataset
-  title: Exercitation nisi minim sit aute.
+  heading: Exercitation nisi minim sit aute.
   
 dataset2:
   <<: *dataset
-  title: Ipsum velit fugiat consectetur ullamco laborum officia qui.
+  heading: Ipsum velit fugiat consectetur ullamco laborum officia qui.
  
 dataset3:
   <<: *dataset
-  title: Aliqua anim proident sit excepteur labore.
+  heading: Aliqua anim proident sit excepteur labore.
 
 dev:
   <<: *dataset
-  title: This file is under development
+  heading: This file is under development
   assets:
     <<: *assets
     icon: bi bi-tools

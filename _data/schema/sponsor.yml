@@ -1,4 +1,4 @@
-# v1.2.110 _data/schema/sponsor.yml
+# v1.2.117 _data/schema/sponsor.yml
 
 schema: &schema
   section: p-3 position-relative #container
@@ -16,34 +16,34 @@ light: &light
   <<: *schema
   background: theme-bg-light
   text: theme-text-dark
+  image: img-fluid float-start
 
 dark: &dark
   <<: *schema
+  image: img-fluid float-start
 
 image: &image
   <<: *schema
   background: theme-bg-unsplash1
+  image: img-fluid float-start
 
 light-left:
   <<: *light
-  image: img-fluid float-start
 
 dark-left:
   <<: *dark
-  image: img-fluid float-start
 
 image-left:
   <<: *image
-  image: img-fluid float-start
 
 light-right:
   <<: *light
-  image: img-fluid float-end
+  column1: col-lg-2 align-self-center order-2
 
 dark-right:
   <<: *dark
-  image: img-fluid float-end
+  column1: col-lg-2 align-self-center order-2
 
 image-right:
   <<: *image
-  image: img-fluid float-end
+  column1: col-lg-2 align-self-center order-2

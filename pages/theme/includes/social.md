@@ -2,8 +2,8 @@
 title:  social
 permalink:  /theme/includes/social/
 ---
-<!-- v1.2.110 pages/theme/includes/social.md-->
-{% include social.html %}
-{% include social.html schema = 'light' dataset = 'dataset2' %}
-{% include social.html schema = 'dark' %}
-{% include social.html schema = 'image' dataset = 'dataset3' %}
+<!-- v1.2.117 pages/theme/includes/social.md-->
+{% include social.html datasource = site.data.dataset.cards.dataset1 %}
+{% include social.html datasource = site.data.dataset.cards.dataset1 schema = 'light' dataset = 'dataset2' %}
+{% include social.html datasource = site.data.dataset.cards.dataset1 schema = 'dark' %}
+{% include social.html datasource = site.data.dataset.cards.dataset1 schema = 'image' dataset = 'dataset3' %}

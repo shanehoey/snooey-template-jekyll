@@ -2,11 +2,8 @@
 title: author
 permalink:  /theme/includes/author/
 ---
-<!-- v1.2.110 pages/theme/includes/alert.md-->
+<!-- v1.2.117 pages/theme/includes/author.md-->
 
-{% include alert.html %}
-{% include author.html %}
-{% include author.html schema = "light" %}
-{% include author.html schema = "dark" %}
-{% include author.html schema = "image" %}
-{% include alert.html %}
+{% include author.html datasource = site.data.dataset.author.dataset1 %}
+
+{% include author.html datasource = site.data.dataset.author.dataset2 schema = "image" %}

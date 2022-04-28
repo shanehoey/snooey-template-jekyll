@@ -87,7 +87,7 @@
         {% unless post.hidden %}
             <div class = "row">
                     <div class = "{{ column1 }}">
-                    <a href="{{ item.url }}"><img class = "img-fluid rounded mb-3 mb-md-0" src="{{ item.image.default }}"  alt="{{ post.title }}"></a>
+                    <a href="{{ item.url }}"><img class = "img-fluid rounded mb-3 mb-md-0" src="{{ item.assets.teaser.default }}"  alt="{{ post.title }}"></a>
                 </div>
                 <div class = "{{ column2 }}">
                     <h3 class = "card-title"><a href="{{ item.url }}">{{ item.title }}</a></h3>

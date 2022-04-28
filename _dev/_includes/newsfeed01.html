@@ -39,7 +39,7 @@
         {% for item in collection %}
             {% if forloop.first %}
                 <div class = "col-lg-6 col-md-12 mb-4">
-                    <a href = "{{ item.url }}" class = "text-decoration-none"><img class = "img-fluid rounded px-3" src = "{{ item.image.horizontal }}" alt = "{{ item.excerpt }}"></a>
+                    <a href = "{{ item.url }}" class = "text-decoration-none"><img class = "img-fluid rounded px-3" src = "{{ item.assets.teaser.horizontal }}" alt = "{{ item.excerpt }}"></a>
                     <a href = "{{ item.url }}" class = "text-decoration-none"><h3 class = "{{ theme.item.title }}">{{ item.title }}</h3></a>
                     <p class = "text-justify">{{ item.description }}</p>
                 </div>
@@ -52,7 +52,7 @@
               <div class = "row mb-2">
                   <div class = "col-md-3">
                       <a href = "{{ item.url }}" class = "text-decoration-none">
-                          <img class = "img-fluid rounded px-3" src = "{{ item.image.horizontal }}" alt = "{{ item.excerpt }}">
+                          <img class = "img-fluid rounded px-3" src = "{{ item.assets.teaser.horizontal }}" alt = "{{ item.excerpt }}">
                       </a>
                   </div>
                   <div class = "col-md-9">

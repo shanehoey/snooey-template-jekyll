@@ -2,9 +2,8 @@
 title: heading
 permalink:  /theme/includes/heading/
 ---
-<!-- v1.2.110 pages/theme/includes/heading.md-->
+<!-- v1.2.117 pages/theme/includes/heading.md-->
 
-{% include heading.html %}
-{% include heading.html schema = "light" %}
-{% include heading.html schema = "dark" %}
-{% include heading.html schema = "image" %}
+{% include heading.html datasource = site.data.dataset.heading.dataset1 schema = "light" %}
+{% include heading.html datasource = site.data.dataset.heading.dataset1 schema = "dark" %}
+{% include heading.html datasource = site.data.dataset.heading.dataset1 schema = "image" %}

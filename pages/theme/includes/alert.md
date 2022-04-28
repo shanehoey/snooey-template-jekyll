@@ -9,16 +9,16 @@ layoutschema: theme
 
 Deserunt veniam ad dolor incididunt irure consectetur consectetur fugiat quis non amet.Sunt nulla nisi sunt laboris elit. Duis enim amet mollit est ex velit est nisi ut culpa.Et id exercitation labore officia. Mollit laboris laborum irure qui.Mollit cupidatat deserunt ad do officia veniam laborum fugiat sit dolor aute eu ullamco.
 
-{% include alert.html text = "this is an example alert"
+{% include alert.html heading = "this is an example alert"
                       schema = "image"
 %}
 
-{% include alert.html text = site.data.dataset.alert.dev.title
+{% include alert.html heading = site.data.dataset.alert.dev.heading
                       icon = site.data.dataset.alert.dev.icon
                       schema = "dark"
 %}
 
-{% include alert.html text = page.title
+{% include alert.html heading = page.title
                       icon = page.icon
                       schema = "success"
 %}
