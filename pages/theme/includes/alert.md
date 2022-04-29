@@ -1,7 +1,6 @@
 ---
 title: Alert Includes Examples
 permalink:  /theme/includes/alert/
-layoutschema: theme
 ---
 {% comment %}<!-- v1.2.117 pages/theme/includes/alert.md-->{% endcomment %}
 

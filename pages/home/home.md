@@ -11,3 +11,5 @@ carousel:   true      # true/false
 ## {{ page.title }}
 
 {{ page.description }}
+
+{% include cards02.html datasource = site.code limit = 100 %}

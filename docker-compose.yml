@@ -3,13 +3,24 @@ version: '3'
 services:
     development:
         image: jekyll/jekyll:latest
-        command: jekyll serve  --watch --force_polling --incremental  --drafts --future --unpublished  --verbose --trace
+        command: jekyll serve --watch --force_polling --incremental --drafts --future --unpublished  --verbose --trace
         ports:
             - 8080:4000
         volumes:
             - .:/srv/jekyll
         environment:
+            - NODE_ENV=development
             - JEKYLL_ENV=development
+    test:
+        image: jekyll/jekyll:latest
+        command: jekyll serve --watch --force_polling --incremental 
+        ports:
+            - 8081:4000
+        volumes:
+            - .:/srv/jekyll
+        environment:
+            - NODE_ENV=test
+            - JEKYLL_ENV=test
     production:
         image: jekyll/jekyll:latest
         command: jekyll serve
@@ -18,4 +29,5 @@ services:
         volumes:
             - .:/srv/jekyll
         environment:
+            - NODE_ENV=production
             - JEKYLL_ENV=production

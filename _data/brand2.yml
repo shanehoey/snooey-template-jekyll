@@ -23,7 +23,7 @@ brand:
     background: https://placeimg.com/1920/1080/people
 
 layout: &schema
-    body: container
+    body: container  theme-bg-unsplash1
     header:
     content:
     footer:   
@@ -39,11 +39,11 @@ navbar:
       - url: /code/
         text: code
         icon: bi bi-link
-      - url: /github/
+      - url: https://github.com/shanehoey/
         text: github
         icon: bi bi-link
-      - url: /gists/ 
-        text: gitsts
+      - url: /code/gist/
+        text: gists
         icon: bi bi-link
   - url: /docs/
     icon: bi bi-link
