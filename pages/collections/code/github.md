@@ -6,12 +6,12 @@ excerpt: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explica
 permalink: /code/gist/
 ---
 
-<!-- v1.2.121 pages/collections/gist.md-->
+<!-- v1.2.121 pages/collections/github.md-->
 
 # {{ page.title }} 
 
 {{ page.description }}
 
-{% for item in site.data.dataset.gist %}
-<p><a href = "{{ item.gist }}">{{ item.gist }}</a></p>
+{% for item in site.data.dataset.github %}
+<p><a href = "{{ item.gist }}">{{ item.github }}</a></p>
 {% endfor %}

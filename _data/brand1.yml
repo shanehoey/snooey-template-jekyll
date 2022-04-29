@@ -15,7 +15,7 @@ brand:
     text: brand1.snooey.com
   assets: &assets
     icon: bi bi-file-earmark
-    header: https://placeimg.com/2560/640/people
+    header: https://placeimg.com/2560/640/people 
     square: https://placeimg.com/300/300/people
     vertical: https://placeimg.com/800/1200/people
     horizontal: https://placeimg.com/1200/800/people
@@ -25,7 +25,7 @@ brand:
 layout: &schema
     body: container theme-bg-dark
     header:
-    content:
+    content: theme-bg-light
     footer:   
 
 navbar:

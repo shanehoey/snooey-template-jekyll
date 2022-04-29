@@ -1,0 +1,13 @@
+# .github/workflows/deploy.yml
+
+name: scheduled deploy
+on:
+  schedule:
+    - cron: '0 8 * * *'
+jobs:
+  build:
+    name: Netlify Webhook
+    runs-on: ubuntu-latest
+    steps:
+      - name: Curl request
+        run:  curl -X POST -d ${{ secrets.netlify_build}}
