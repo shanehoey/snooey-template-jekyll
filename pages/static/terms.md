@@ -1,6 +1,7 @@
 ---
 title: "Terms of Use"
 permalink: /terms/
+layout: page
 ---
 {% comment %}<!-- v1.2.110 pages/static/terms.md -->{% endcomment %}
 
@@ -8,7 +9,7 @@ permalink: /terms/
 
 {{ page.description }}
 
-## Disclaimer!
+## Disclaimer
 
 All content provided is for informational purposes only and PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
@@ -18,7 +19,7 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMA
 
 ## Discloser
 
-I work full time for AudioCodes deploying Skype for Business. As such this information on this website may focus towards the products I work with on a daily bases. From time to time I also may receive other products from 3rd parties.
+I work full time for AudioCodes focusing on Microsoft Teams Direct Routing including Operator Connect. As such this information on this website may focus towards the products I work with on a daily bases. From time to time I also may receive other products from 3rd parties.
 
 ## Privacy
 

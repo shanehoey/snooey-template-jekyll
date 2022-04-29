@@ -5,7 +5,7 @@ services:
         image: jekyll/jekyll:latest
         command: jekyll serve --watch --force_polling --incremental --drafts --future --unpublished  --verbose --trace
         ports:
-            - 8080:4000
+            - 80:4000
         volumes:
             - .:/srv/jekyll
         environment:
@@ -15,7 +15,7 @@ services:
         image: jekyll/jekyll:latest
         command: jekyll serve --watch --force_polling --incremental 
         ports:
-            - 8081:4000
+            - 80:4000
         volumes:
             - .:/srv/jekyll
         environment:
