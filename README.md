@@ -1,6 +1,6 @@
 # Snooey Jekyll Theme Template
 
-EXPECT BREAKING CHANGES TO THIS REPOSITORY
+EXPECT BREAKING CHANGES TO THIS REPOSITORY<!--more-->
 
 View a live example of the theme @ [snooey.com](https://snooey.com)
 
