@@ -18,7 +18,6 @@ dataset: &dataset
     title:        Sponsored Post by
     subtitle:     Lorem ipsum dolor
     heading:
-    excerpt:      Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
     description:  Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
     guid:
     authorid: shanehoey

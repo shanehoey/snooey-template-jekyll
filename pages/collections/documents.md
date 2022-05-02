@@ -5,7 +5,7 @@ description: Ipsum Lorem amet Lorem veniam ipsum velit laborum id in Lorem repre
 permalink: /documents/
 ---
 
-<!-- v1.2.121 pages/collections/docs.md-->
+{% comment %}<!-- v1.2.121 pages/collections/documents.md-->{% endcomment %}
 
 # {{ page.title }} 
 

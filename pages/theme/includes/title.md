@@ -10,12 +10,12 @@ permalink:  /theme/includes/title/
                       title = "h2 title"
                       subtitle = "h3 subtitle"
                       heading = "h3 heading"
-                      excerpt = "Laborum minim exercitation sunt laboris in excepteur deserunt adipisicing.Culpa ut sunt et velit ut et consectetur non sit ea pariatur qui.Excepteur minim culpa fugiat occaecat.Et aute qui deserunt ex velit irure exercitation qui ex culpa ullamco et."
+                      description = "Laborum minim exercitation sunt laboris in excepteur deserunt adipisicing.Culpa ut sunt et velit ut et consectetur non sit ea pariatur qui.Excepteur minim culpa fugiat occaecat.Et aute qui deserunt ex velit irure exercitation qui ex culpa ullamco et."
                       %}
 
 {% include title.html schema = "light"
                       title = site.data.dataset.title.dataset1.title
-                      excerpt = site.data.dataset.title.dataset1.excerpt -%}
+                      description = site.data.dataset.title.dataset1.excerpt -%}
 
 {% include title.html schema = "dark"
                       subtitle = site.data.dataset.title.dataset2.subtitle -%}

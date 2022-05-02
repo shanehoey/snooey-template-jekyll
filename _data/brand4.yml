@@ -4,7 +4,6 @@ brand:
   title: brand4.snooey.com
   subtitle:  Branding for brand4
   heading: brand4.snooey.com
-  excerpt: brand4 Lorem nostrud sit cupidatat.
   description: brand4 dolore laboris nostrud minim deserunt nulla reprehenderit cillum quis deserunt fugiat et elit do.
   copyright: '&copy; Shane Hoey 2018-2022. All Rights Reserved.'
   guid:
@@ -92,7 +91,6 @@ carousel: &dataset
   - title: Lorem ipsum dolor
     subtitle: Lorem ipsum dolor sit amet. 
     heading:
-    excerpt:
     description:  Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
     guid:
     authorid: shanehoey

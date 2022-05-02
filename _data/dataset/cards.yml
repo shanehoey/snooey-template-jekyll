@@ -17,7 +17,6 @@ dataset: &dataset
   title:
   subtitle:
   heading:
-  excerpt:
   description:
   guid:
   authorid:

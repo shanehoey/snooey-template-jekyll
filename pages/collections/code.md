@@ -5,7 +5,7 @@ description: Anim proident sint reprehenderit sit ipsum minim aliqua.Duis ullamc
 permalink: /code/
 ---
 
-<!-- v1.2.121 pages/collections/code.md-->
+{% comment %}<!-- v1.2.121 pages/collections/code.md-->{% endcomment %}
 
 # {{ page.title }} 
 

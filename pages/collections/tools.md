@@ -5,10 +5,16 @@ description: Cillum culpa amet est officia fugiat consequat velit commodo aute.E
 permalink: /tools/
 ---
 
-<!-- v1.2.117 pages/collections/videos.md-->
+{% comment %}<!-- v1.2.121 pages/collections/tools.md-->{% endcomment %}
 
 # {{ page.title }} 
 
 {{ page.description }}
 
-{% include cards01.html datasource = site.tools schema = "image" %}
+{{ jekyll.environment }}
+
+## Tools
+
+{% include cards02.html datasource = site.tools schema = horizontal %}
+
+{% include cards02.html datasource = site.tools schema = "horizontal-image"  %}

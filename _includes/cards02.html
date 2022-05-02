@@ -28,10 +28,10 @@
         <div class = "{{ schema.card.body }} ">
           <p class = "{{ schema.title }}">{{ item.title }}</p>
           <p class = "{{ schema.excerpt }}">{{ item.excerpt }}</p>
-          {%if item.link.url %}
-          <a href = "{{ item.link.url }}" class = "{{ schema.button}}">{{item.link.text}}</a>
+          {% if item.link.url %}
+          <a href = "{{ item.link.url }}" class = "{{ schema.link}}">{{ item.link.text }}</a>
           {% else %}
-          <a href = "{{ item.url }}" class = "{{ schema.button }}">{{item.link.text}}</a>
+          <a href = "{{ item.url }}" class = "{{ schema.link }}">{{ item.link.text }}</a>
           {% endif %}
         </div>
       </div>

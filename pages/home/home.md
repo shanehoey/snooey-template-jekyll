@@ -8,8 +8,11 @@ carousel:   true      # true/false
 
 {% comment %}<!-- v1.2.110 pages/home/home.md-->{% endcomment %}
 
-## {{ page.title }}
+{% include title.html pagetitle = site.data.pages.home.title
+                      description = site.data.pages.home.description
+                      %}
+{% include feature01.html datasource = site.data.pages.home.feature%}
 
-{{ page.description }}
+{% include author.html datasource = site.data.dataset.author.dataset1 %}
 
-{% include cards02.html datasource = site.code limit = 100 %}
+{% include social.html datasource = site.data.dataset.social.dataset1 %}
