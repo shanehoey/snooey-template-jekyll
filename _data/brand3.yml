@@ -1,4 +1,4 @@
-# v1.2.117 _data/brand3.yml
+# v1.2.121 _data/brand3.yml
 
 brand: 
   title: brand3.snooey.com
@@ -25,9 +25,9 @@ brand:
 layout: &schema
     body: container  theme-bg-color1
     header:
-    content:
+    section: theme-bg-light p-3 mb-2
     footer:   
-
+ 
 navbar:
   - url: /
     icon: bi bi-file-person
@@ -35,26 +35,13 @@ navbar:
   - url: /code/
     icon: bi bi-link
     text: Code
-    children:
-      - url: /code/
-        text: code
-        icon: bi bi-link
-      - url: https://github.com/shanehoey/
-        text: github
-        icon: bi bi-link
-      - url: /code/gist/
-        text: gists
-        icon: bi bi-link
   - url: /docs/
     icon: bi bi-link
     text: Docs
     children:
       - url: /documents/
         icon: bi bi-link
-        text: documents
-      - url: /tldr/
-        icon: bi bi-link
-        text: tldr   
+        text: documents 
       - url: /videos/
         icon: bi bi-link
         text: videos  

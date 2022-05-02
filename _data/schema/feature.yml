@@ -1,4 +1,4 @@
-# v1.2.110 _data/schema/feature.yml
+# v1.2.121 _data/schema/feature.yml
 
 column1x: &column1x mb-4
 column2x: &column2x col-lg-6 col-md-6 mb-4
@@ -17,7 +17,6 @@ schema: &schema
   excerpt:
   image:   # VNEXT have a image instead of a icon
   icon: display-1
-
 
 schema1x-light:
   <<: *schema 

@@ -1,4 +1,4 @@
-# v1.2.117 _config.yml
+# v1.2.121 _config.yml
 
 title: Snooey
 url:  https://snooey.com
@@ -29,12 +29,7 @@ exclude:
     - Gemfile.lock
     - SECURITY.md
     - _dev/
-#    - _dev/_includes/
-#    - _dev/_layouts/
-#    - _dev/dataset/
-#    - _dev/pages/
-#    - _dev/schema/
-    
+
 plugins_dir: _plugins
 plugins:
     - jekyll-remote-theme
@@ -42,6 +37,12 @@ plugins:
     - jekyll-optional-front-matter
     - jekyll-admin
     - jekyll-redirect-from
+    - jekyll-minifier
+ 
+jekyll-minifier:
+    compress_javascript: false
+
+excerpt_separator: <!--more-->
 
 remote_theme: shanehoey/snooey
 
@@ -69,22 +70,22 @@ defaults:
       title:
       subtitle:
       heading:
-      excerpt:
       description:
       guid:
       authorid: shanehoey
-      link:
+      link: &link
         icon: bi bi-link
         text: read more
         url:
-      assets:
-        icon: bi bi-file-earmark
-        header: https://placeimg.com/2560/640/tech
-        square: https://placeimg.com/300/300/tech
-        vertical: https://placeimg.com/800×1200/tech
+      assets: &assets
+        icon:       bi bi-file-earmark
+        header:     https://placeimg.com/2560/640/tech
+        square:     https://placeimg.com/300/300/tech
+        vertical:   https://placeimg.com/800×1200/tech
         horizontal: https://placeimg.com/1200/800/tech
-        teaser: https://placeimg.com/700/394/tech
+        teaser:     https://placeimg.com/700/394/tech
         background: https://placeimg.com/1920/1080/tech
+      categories: []
       layout:     default   # default/page/paginate/post/video
       navbar:     true      # true/false
       breadcrumb: true      # true/false
@@ -98,31 +99,103 @@ defaults:
       type:       pages
     values:
       layout:     page
+      link:
+        <<: *link
+      assets:
+        <<: *assets
   - scope:
       path:       ""
       type:       posts
     values:
       layout:     post
-      permalink:  /blogs/:slug
+      permalink:  /posts/:slug
+      link:
+        <<: *link
+      assets:
+        <<: *assets
+
   - scope:
       path:       ""
       type:       code
     values:
       layout:     code
+      categories: ["code"]
+      link:
+        <<: *link
+        icon: bi bi-file-code
+      assets:
+        <<: *assets
+  - scope:
+      path:       "collections/_code/github/"
+      type:       code
+    values:
+      layout:     github
+      categories: ["github"]
+      link:
+        <<: *link
+        icon: bi bi-file-code
+      assets:
+        <<: *assets
+      
+  - scope:
+      path:       "collections/_code/gist/"
+      type:       code
+    values:
+      layout:     gist
+      link:
+        <<: *link
+        icon: bi bi-file-code
+      assets:
+        <<: *assets
+      categories: ["gist"]  
   - scope:
       path:       ""
       type:       docs
     values:
       layout:     docs
+      link:
+        <<: *link
+        icon: bi bi-file-text
+      assets:
+        <<: *assets
+      categories: ["docs"]
+  - scope:
+      path:       "collections/_docs/document/"
+      type:       docs
+    values:
+      categories: ["document"]
+      layout:     docs
+      link:
+        <<: *link
+        icon: bi bi-file-text
+      assets:
+        <<: *assets
+  - scope:
+      path:       "collections/_docs/videos/"
+      type:       docs
+    values:
+      categories: ["video"]
+      layout:     videos
+      link:
+        <<: *link
+        icon: bi bi-file-play
+      assets:
+        <<: *assets
   - scope:
       path:       ""
       type:       tools
     values:
+      categories: ["tools"]
       layout:     tools
+      link:
+        <<: *link
+        icon: bi bi-tools
+      assets:
+        <<: *assets
   - scope:        # remove from production sites, only to show content examples
       path:       pages/theme/
       type:       pages
     values:
-      layout:     theme
+      layout:     page
       breadcrumb: false 
       permalink:  /theme/:slug

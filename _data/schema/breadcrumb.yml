@@ -1,7 +1,7 @@
-# v1.2.110 _data/schema/breadcrumb.yml
+# v1.2.121 _data/schema/breadcrumb.yml
 
 schema: &schema
-  nav:  mb-0
+  nav:  p-3 mt-3
   background: theme-bg-dark
   text: font-monospace
 

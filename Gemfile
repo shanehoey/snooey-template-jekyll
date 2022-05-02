@@ -8,4 +8,5 @@ group :jekyll_plugins do
   gem 'jekyll-optional-front-matter'
   gem 'jekyll-admin'
   gem 'jekyll-redirect-from'
+  gem 'jekyll-minifier'
 end

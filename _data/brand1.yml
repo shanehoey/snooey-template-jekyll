@@ -1,4 +1,4 @@
-# v1.2.117 _data/brand1.yml
+# v1.2.121 _data/brand1.yml
 
 brand: 
   title: brand1.snooey.com
@@ -23,10 +23,10 @@ brand:
     background: https://placeimg.com/1920/1080/people
 
 layout: &schema
-    body: container theme-bg-dark
+    body: container theme-bg-unsplash2
     header:
-    content: theme-bg-light
-    footer:   
+    section: theme-bg-light mb-2
+    footer:
 
 navbar:
   - url: /
@@ -35,35 +35,28 @@ navbar:
   - url: /code/
     icon: bi bi-link
     text: Code
-    children:
-      - url: /code/
-        text: code
-        icon: bi bi-link
-      - url: https://github.com/shanehoey/
-        text: github
-        icon: bi bi-link
-      - url: /code/gist/
-        text: gists
-        icon: bi bi-link
-  - url: /docs/
+  - url: /documents/
     icon: bi bi-link
-    text: Docs
-    children:
-      - url: /documents/
-        icon: bi bi-link
-        text: documents
-      - url: /tldr/
-        icon: bi bi-link
-        text: tldr   
-      - url: /videos/
-        icon: bi bi-link
-        text: videos  
+    text: Documents
+  - url: /videos/
+    icon: bi bi-link
+    text: Videos
   - url: /tools/
     icon: bi bi-link
     text: Tools
   - url: /theme/includes/
     icon: bi bi-palette
     text: theme
+    children:
+      - url: /theme/cheatsheet/
+        icon: bi bi-link
+        text: cheatsheet 
+      - url: /theme/examples/
+        icon: bi bi-link
+        text: examples 
+      - url: /theme/includes/
+        icon: bi bi-link
+        text: includes 
 
 footer: 
   - url:  /

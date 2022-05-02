@@ -1,4 +1,4 @@
-# v1.2.110 _data/schema/calltoaction.yml
+# v1.2.121 _data/schema/calltoaction.yml
 
 schema1: &schema1
   section: p-4 text-center
@@ -7,7 +7,7 @@ schema1: &schema1
   title: h3 mb-5 mb-5 mb-5 mb-5
   subtitle: h5
   excerpt: text-muted
-  button: btn btn-outline-dark 
+  link: btn btn-outline-dark 
   image: img-fluid float-left
   column1: 
   column2: 
@@ -19,7 +19,7 @@ schema2: &schema2
   title: h3 mb-5 mb-5 mb-5 mb-5
   subtitle: h5
   excerpt: text-muted
-  button: btn btn-outline-dark 
+  link: btn btn-outline-dark 
   image: img-fluid float-left
   column1: col-lg-6 mb-lg-0 mb-md-4
   column2: col-lg-6 p-5 pl-2
@@ -31,7 +31,7 @@ schema3: &schema3
   title: h3 mb-5 mb-5 mb-5 mb-5
   subtitle: h5
   excerpt: text-muted
-  button: btn btn-dark float-end
+  link: btn btn-dark float-end
   image: img-fluid float-left
   column1: col-lg-4 mb-lg-0 mb-md-4 align-self-center justify-content-center
   column2: col-lg-8

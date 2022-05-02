@@ -1,0 +1,41 @@
+{% comment %}
+<!--
+ v1.2.121 _includes/cards01.html
+  datasource = [collection] 
+  datasource = [dataset]    
+  schema = [string]
+  limit = [int]
+  todo add a floating image over graphic  font-size: 12px;margin:0;padding:10px 5px;line-height: 0;
+
+-->
+{% endcomment %}
+
+{% assign name = "_includes/cards01.html " %}
+{% assign schema = site.data.schema.cards[include.schema] | default: site.data.schema.cards.vertical %}
+{% assign dataset = include.datasource | default: site.data[page.brand]brand %}
+{% unless include.datasource %}{% include error.html error = name %}{%endunless %}
+{% assign count = count | plus: 1 %}
+{% assign limit = include.limit %}
+
+{% if dataset %}
+<section id = "cards01-{{ count }}" class = "{{ schema.layout.section }} {{ schema.background }} {{ schema.text }}">
+<div class = "{{ schema.layout.row }}">
+{% for item in dataset limit: {{limit}} %}
+<div class = "{{ schema.layout.column }}">
+<div class = "{{ schema.card.div }}">
+{%if item.assets.teaser %}<img src = "{{ item.assets.teaser }}" class = "{{ schema.card.image }}" >{%endif%}
+<div class = "{{schema.card.body}}">
+<p class = "{{ schema.title }}">{{ item.title }}</p>
+<p class = "{{ schema.excerpt }}">{{ item.excerpt }}</p>
+</div>
+{%if item.link.url %}
+<div class = "{{ schema.card.footer }}"><a href = "{{ item.link.url }}" class = "{{ schema.button}}">{{item.link.text}}</a></div>
+{% else %}
+<div class = "{{ schema.card.footer }}"><a href = "{{ item.url }}" class = "{{ schema.button }}">{{item.link.text}}</a></div>
+{% endif %}
+</div>
+</div>
+{% endfor %}
+</div>
+</section>
+{% endif %}

@@ -1,54 +1,63 @@
-# v1.2.110 _data/schema/cards.yml
+# v1.2.121 _data/schema/cards.yml
 
 schema: &schema
-  section: container p-4
+  layout: &layout
+    section: container p-4
+    row: row
+    column: col-md-4
+    body: container theme-bg-unsplash2
+  card:  &card
+    div: card h-100
+    image: card-img-top
+    body: card-body
+    footer:  card-footer
   background: theme-bg-dark
   text: theme-text-light
-  title: h5 card-title 
+  title: h5 card-title theme-text-dark
   subtitle: card-subtitle theme-text-light
-  excerpt: card-text theme-text-light
-  button:  theme-text-light
-  image: card-img-top
-  column: col-md-4
+  excerpt: card-text theme-text-dark
+  link: btn btn-primary theme-text-light stretched-link
 
-light:
+vertical: &vertical
+  <<: *schema 
+
+horizontal: &horizontal
   <<: *schema
+  layout:
+    <<: *layout
+    body: container theme-bg-unsplash2
+    column: card p-0 mb-2
+  card:
+    <<: *card
+    image: img-fluid rounded-start h-100 
+    footer: 
+
+vertical-dark:
+  <<: *vertical 
+  background: theme-bg-dark
+  text: theme-text-light
+
+horizontal-dark:
+  <<: *horizontal
+  background: theme-bg-dark
+  text: theme-text-light
+
+vertical-light:
+  <<: *vertical 
   background: theme-bg-light
   text: theme-text-dark
 
-dark:
-  <<: *schema
-
-image: &image
-  <<: *schema
-  background: theme-bg-unsplash1
-
-light-wide:
-  <<: *schema
+horizontal-light:
+  <<: *horizontal
   background: theme-bg-light
   text: theme-text-dark
-  column: p-2
 
-dark-wide:
-  <<: *schema
-  column: p-2
+vertical-image:
+  <<: *vertical 
+  background: theme-bg-unsplash2
+  text: theme-text-light
 
-image-wide: &image
-  <<: *schema
-  background: theme-bg-unsplash1
-  column: p-2
-
-light-2x:
-  <<: *schema
-  background: theme-bg-light
-  text: theme-text-dark
-  column: col-md-6 p-2
-
-dark-2x:
-  <<: *schema
-  column: col-md-6 p-2
-
-image-2x: &image
-  <<: *schema
-  background: theme-bg-unsplash1
-  column: col-md-6 p-2
+horizontal-image:
+  <<: *horizontal
+  background: theme-bg-unsplash2
+  text: theme-text-light

@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+    production:
+        image: jekyll/jekyll:latest
+        command: jekyll serve
+        ports:
+            - 80:4000
+        volumes:
+            - .:/srv/jekyll
+        environment:
+            - NODE_ENV=production
+            - JEKYLL_ENV=production

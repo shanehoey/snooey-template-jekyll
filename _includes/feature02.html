@@ -1,0 +1,32 @@
+{% comment %}
+<!--
+ v1.2.121 _includes/feature02.html
+  datasource = [collection] 
+  datasource = [dataset]    
+  schema = [string]
+  limit = [int]
+-->
+{% endcomment %}
+
+{% assign name = "_includes/feature02.html " %}
+{% assign schema = site.data.schema.feature[include.schema] | default: site.data.schema.feature[page.schema] %}
+{% assign dataset = include.datasource | default: site.data[page.brand]brand %}
+{% unless include.datasource %}{% include error.html error = name %}{%endunless %}
+{% assign count = count | plus: 1 %}
+{% assign limit = include.limit | default: 1 %}
+
+{% if dataset %}
+<section id="feature05-{{count}}" class = "{{ schema.section }} {{ schema.background }} {{ schema.text }}">
+    {% for item in dataset limit: {{limit}} %}
+    <div class = "d-flex flex-row">
+        <div class = "{% if include.left %}order-2 {% endif %}flex-grow-1 d-flex flex-column"> 
+            <h2 class = "{{ schema.text }}">{{ item.title }}</h2>
+            <p class = "{{ schema.text }}">{{ item.excerpt }}</p>
+        </div>
+        <div class = " justify-content-center align-items-center {{ schema.column }}"> <!-- d-flex -->
+            <i class = "{{ schema.icon }} {{ item.assets.icon }}"></i>
+        </div>
+    </div>
+    {% endfor %}
+</section>
+{% endif %}

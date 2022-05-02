@@ -8,9 +8,11 @@ permalink:  /theme/includes/alert/
 
 Deserunt veniam ad dolor incididunt irure consectetur consectetur fugiat quis non amet.Sunt nulla nisi sunt laboris elit. Duis enim amet mollit est ex velit est nisi ut culpa.Et id exercitation labore officia. Mollit laboris laborum irure qui.Mollit cupidatat deserunt ad do officia veniam laborum fugiat sit dolor aute eu ullamco.
 
-{% include alert.html heading = "this is an example alert"
+{% include alert.html heading = "this is an example alert!"
                       schema = "image"
 %}
+
+{% remote_markdown https://raw.githubusercontent.com/shanehoey/snooey/master/README.md %}
 
 {% include alert.html heading = site.data.dataset.alert.dev.heading
                       icon = site.data.dataset.alert.dev.icon

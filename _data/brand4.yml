@@ -1,4 +1,4 @@
-# v1.2.117 _data/brand4.yml
+# v1.2.121 _data/brand4.yml
 
 brand: 
   title: brand4.snooey.com
@@ -25,7 +25,7 @@ brand:
 layout: &schema
     body: container  theme-bg-unsplash2
     header:
-    content:
+    section: theme-bg-light p-3 mb-2
     footer:   
 
 navbar:
@@ -35,16 +35,6 @@ navbar:
   - url: /code/
     icon: bi bi-link
     text: Code
-    children:
-      - url: /code/
-        text: code
-        icon: bi bi-link
-      - url: https://github.com/shanehoey/
-        text: github
-        icon: bi bi-link
-      - url: /code/gist/
-        text: gists
-        icon: bi bi-link
   - url: /docs/
     icon: bi bi-link
     text: Docs
@@ -52,9 +42,6 @@ navbar:
       - url: /documents/
         icon: bi bi-link
         text: documents
-      - url: /tldr/
-        icon: bi bi-link
-        text: tldr   
       - url: /videos/
         icon: bi bi-link
         text: videos  
