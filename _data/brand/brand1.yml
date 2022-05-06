@@ -1,6 +1,6 @@
 # v1.2.121 _data/brand1.yml
 
-brand: 
+brand: &brand
   title: brand1.snooey.com
   subtitle: Branding for brand1
   heading: brand1.snooey.com
@@ -21,13 +21,13 @@ brand:
     teaser: https://placeimg.com/700/394/people
     background: https://placeimg.com/1920/1080/people
 
-layout:
+layout: &layout
     body: container theme-bg-unsplash5
     header: 
     content: theme-bg-light mb-2
     footer:
 
-navbar:
+navbar: &navbar
   - url: /
     icon: bi bi-file-person
     text: Home
@@ -57,7 +57,7 @@ navbar:
     #    icon: bi bi-link
     #    text: includes 
 
-footer: 
+footer: &footer
   - url:  /
     icon: bi bi-house-fill
     text: Home
@@ -71,58 +71,142 @@ footer:
     icon: bi bi-mailbox
     text: contact
 
-carousel: &dataset
-  - title: Dolore deserunt consectetur.
-    subtitle: Laborum sint sit ex ad consectetur.
-    heading: Quis ex proident nulla mollit.
-    description: Laborum Lorem quis fugiat ad laborum non Lorem est voluptate Lorem. Officia et dolor velit aliqua et voluptate duis tempor.
+sites: &sites
+  - title:  code.snooey.com
+    subtitle: Code
+    heading: code.snooey.com 
+    description: 
     guid:
-    author: shanehoey
-    link: 
-      url:  https://brand1.snooey.com
-      icon: bi bi-file-person
-      text: brand1.snooey.com
+    author: snooey
+    link: &link
+      icon: bi bi-file-earmark-code
+      text: read more
+      url: /code/
     assets: &assets
       icon: bi bi-file-earmark
-      header: https://placeimg.com/2560/640/people 
-      square: https://placeimg.com/300/300/people
-      vertical: https://placeimg.com/800/1200/people
-      horizontal: https://placeimg.com/1200/800/people
-      teaser: https://placeimg.com/700/394/people
-      background: https://placeimg.com/1920/1080/people
-  - title: Velit nisi velit excepteur.
-    subtitle: Quis ullamco elit qui adipisicing.
-    heading: Labore excepteur elit aliqua.
-    description:  Fugiat non incididunt elit sit et duis in voluptate voluptate adipisicing tempor nulla pariatur.
+      header: https://placeimg.com/2560/640/tech
+      square: https://placeimg.com/300/300/tech
+      vertical: https://placeimg.com/800/1200/tech
+      horizontal: https://placeimg.com/1200/800/tech
+      teaser: https://placeimg.com/700/394/tech
+      background: https://placeimg.com/1920/1080/tech 
+  - title:  docs.snooey.com
+    subtitle: Documents
+    heading: 
+    excerpt: 
+    description: 
     guid:
-    author: shanehoey
-    link:
-      url:  https://brand1.snooey.com
-      icon: bi bi-file-person
-      text: brand1.snooey.com
-    assets:
+    author: snooey
+    link: &link
+      icon: bi bi-link
+      text: read more
+      url: /docs/
+    assets: &assets
       icon: bi bi-file-earmark
-      header: https://placeimg.com/2560/640/people 
-      square: https://placeimg.com/300/300/people
-      vertical: https://placeimg.com/800/1200/people
-      horizontal: https://placeimg.com/1200/800/people
-      teaser: https://placeimg.com/700/394/people
-      background: https://placeimg.com/1920/1080/people
-  - title: Magna veniam nulla tempor.
-    subtitle: Sunt veniam adipisicing laboris.
-    heading: Duis consectetur duis laborum.
-    description:  Qui commodo ex amet ullamco cillum culpa qui do ex esse. Ut sunt exercitation magna elit laborum cillum sit excepteur reprehenderit.
+      header: https://placeimg.com/2560/640/tech
+      square: https://placeimg.com/300/300/tech
+      vertical: https://placeimg.com/800/1200/tech
+      horizontal: https://placeimg.com/1200/800/tech
+      teaser: https://placeimg.com/700/394/tech
+      background: https://placeimg.com/1920/1080/tech
+  - title: tools.snooey.com
+    subtitle: Tools
+    heading: 
+    excerpt: 
+    description: Sometimes you just need to write your own tool to do something and heres mine
     guid:
-    author: shanehoey
-    link:
-      url:  https://brand1.snooey.com
-      icon: bi bi-file-person
-      text: brand1.snooey.com
-    assets:
+    author: snooey
+    link: &link
+      icon: bi bi-link
+      text: read more
+      url: /tools/
+    assets: &assets
       icon: bi bi-file-earmark
-      header: https://placeimg.com/2560/640/people 
-      square: https://placeimg.com/300/300/people
-      vertical: https://placeimg.com/800/1200/people
-      horizontal: https://placeimg.com/1200/800/people
-      teaser: https://placeimg.com/700/394/people
-      background: https://placeimg.com/1920/1080/people
+      header: https://placeimg.com/2560/640/tech
+      square: https://placeimg.com/300/300/tech
+      vertical: https://placeimg.com/800/1200/tech
+      horizontal: https://placeimg.com/1200/800/tech
+      teaser: https://placeimg.com/700/394/tech
+      background: https://placeimg.com/1920/1080/tech
+  - title: hello.snooey.com
+    subtitle: Hello
+    heading: 
+    excerpt: 
+    description: "Who is <b>Shane Hoey</b>?<br/> #BuiltforTeamwork<br/> #USRockstar<br/> #AutomationNinja<br/>"
+    guid:
+    author: snooey
+    link: &link
+      icon: bi bi-link
+      text: read more
+      url: /hello/
+    assets: &assets
+      icon: bi bi-file-earmark
+      header: https://placeimg.com/2560/640/tech
+      square: https://placeimg.com/300/300/tech
+      vertical: https://placeimg.com/800/1200/tech
+      horizontal: https://placeimg.com/1200/800/tech
+      teaser: https://placeimg.com/700/394/tech
+      background: https://placeimg.com/1920/1080/tech
+
+subsites: &subsites
+  docs:
+    - title:  Documents
+      subtitle: Documents
+      heading: 
+      excerpt: 
+      description: 
+      guid:
+      author: snooey
+      link: &link
+        icon: bi bi-link
+        text: read more
+        url: /docs/document/
+      assets: &assets
+        icon: bi bi-file-earmark
+        header: https://placeimg.com/2560/640/tech
+        square: https://placeimg.com/300/300/tech
+        vertical: https://placeimg.com/800/1200/tech
+        horizontal: https://placeimg.com/1200/800/tech
+        teaser: https://placeimg.com/700/394/tech
+        background: https://placeimg.com/1920/1080/tech
+    - title:  Code
+      subtitle: Code
+      heading: 
+      excerpt: 
+      description: 
+      guid:
+      author: snooey
+      link: &link
+        icon: bi bi-link
+        text: read more
+        url: /docs/document/
+      assets: &assets
+        icon: bi bi-file-earmark
+        header: https://placeimg.com/2560/640/tech
+        square: https://placeimg.com/300/300/tech
+        vertical: https://placeimg.com/800/1200/tech
+        horizontal: https://placeimg.com/1200/800/tech
+        teaser: https://placeimg.com/700/394/tech
+        background: https://placeimg.com/1920/1080/tech
+    - title:  Tools
+      subtitle: Tools
+      heading: 
+      excerpt: 
+      description: 
+      guid:
+      author: snooey
+      link: &link
+        icon: bi bi-link
+        text: read more
+        url: /docs/document/
+      assets: &assets
+        icon: bi bi-file-earmark
+        header: https://placeimg.com/2560/640/tech
+        square: https://placeimg.com/300/300/tech
+        vertical: https://placeimg.com/800/1200/tech
+        horizontal: https://placeimg.com/1200/800/tech
+        teaser: https://placeimg.com/700/394/tech
+        background: https://placeimg.com/1920/1080/tech  
+
+carousel:
+  <<: *sites
