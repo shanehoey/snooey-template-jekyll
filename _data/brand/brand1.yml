@@ -22,10 +22,10 @@ brand: &brand
     background: https://placeimg.com/1920/1080/people
 
 layout: &layout
-    body: container theme-bg-unsplash5
-    header: 
-    content: theme-bg-light mb-2
-    footer:
+  body: container theme-bg-unsplash5
+  header: 
+  content: theme-bg-light mb-2
+  footer:
 
 navbar: &navbar
   - url: /
