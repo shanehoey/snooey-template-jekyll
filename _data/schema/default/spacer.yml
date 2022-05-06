@@ -1,0 +1,37 @@
+# v1.2.121 _data/schema/spacer.yml
+
+schema: &schema
+  section: p-0
+  background: theme-bg-dark
+  text:
+
+default:
+  <<: *schema
+
+default0:
+  <<: *schema
+  section: p-0
+
+default1:
+  <<: *schema
+  section: p-1
+
+default2:
+  <<: *schema
+  section: p-2
+
+default3:
+  <<: *schema
+  section: p-3
+
+default4:
+  <<: *schema
+  section: p-4
+
+default5:
+  <<: *schema
+  section: p-5
+
+default6:
+  <<: *schema
+  section: p-5
