@@ -1,87 +1,57 @@
-# v1.2.110 _data/schema/spacer.yml
+# v1.2.121 _data/schema/spacer.yml
 
 schema: &schema
-  section: p-2 theme-bg-dark
 
-light: &light
+  layout: &layout
+    section: p-0
+    background:
+    text:
+
+  include:  &include
+
+  typography: &typography
+
+default:
   <<: *schema
-  section: p-2 theme-bg-light
 
-dark: &dark
+default0:
   <<: *schema
+  layout: 
+    << *layout:
+    section: p-0
 
-image: &image
+default1:
   <<: *schema
-  section: theme-bg-unsplash1
+  layout: 
+    << *layout:
+    section: p-1
 
-light0:
-  <<: *light
-  section: p-0 theme-bg-light
+default2:
+  <<: *schema
+  layout: 
+    <<: *layout
+    section: p-2
 
-light1:
-  <<: *light
-  section: p-1 theme-bg-light
+default3:
+  <<: *schema
+  layout: 
+    <<: *layout
+    section: p-3
 
-light2:
-  <<: *light
-  section: p-2 theme-bg-light
+default4:
+  <<: *schema
+  layout: 
+    <<: *layout
+    section: p-4
 
-light3:
-  <<: *light
-  section: p-3 theme-bg-light
+default5:
+  <<: *schema
+  layout: 
+    <<: *layout
+    section: p-5
 
-light4:
-  <<: *light
-  section: p-4 theme-bg-light
-
-light5:
-  <<: *light
-  section: p-5 theme-bg-light
-
-dark0:
-  <<: *dark
-  section: p-0 theme-bg-dark
-
-dark1:
-  <<: *dark
-  section: p-1 theme-bg-dark
-
-dark2:
-  <<: *dark
-  section: p-2 theme-bg-dark
-
-dark3:
-  <<: *dark
-  section: p-3 theme-bg-dark
-
-dark4:
-  <<: *dark
-  section: p-4 theme-bg-dark
-
-dark5:
-  <<: *dark
-  section: p-5 theme-bg-dark
-
-image0:
-  <<: *image
-  section: p-0 theme-bg-unsplash1
-
-image1:
-  <<: *image
-  section: p-1 theme-bg-unsplash1
-
-image2:
-  <<: *image
-  section: p-2 theme-bg-unsplash1
-
-image3:
-  <<: *image
-  section: p-3 theme-bg-unsplash1
-
-image4:
-  <<: *image
-  section: p-4 theme-bg-unsplash1
-
-image5:
-  <<: *image
-  section: p-5 theme-bg-unsplash1
+default6:
+  <<: *schema
+  layout: 
+    <<: *layout
+    section: p-5

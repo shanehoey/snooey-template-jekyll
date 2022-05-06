@@ -1,11 +1,17 @@
 # v1.2.121 _data/dataset/carousel.yml
 
-link: &link
+dataset: &dataset
+  title:
+  subtitle:
+  heading:
+  description:
+  guid: 00000000-0000-0000-0000-000000000000
+  author: shanehoey
+  link: &link
     icon: bi bi-link
     text: read more
     url: https://snooey.com/
-
-assets: &assets
+  assets: &assets
     icon: bi bi-file-earmark
     header: https://placeimg.com/2560/640/tech
     square: https://placeimg.com/300/300/tech
@@ -14,34 +20,16 @@ assets: &assets
     teaser: https://placeimg.com/700/394/tech
     background: https://placeimg.com/1920/1080/tech
   
-dataset: &dataset
-  title: Lorem ipsum dolor
-  subtitle: Lorem ipsum dolor sit amet. 
-  heading:
-  description:  Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe
-  guid:
-  authorid: shanehoey
-  link:
-    <<: *link
-  assets:
-    <<: *assets
-
-dataset1:
+default:
   - <<: *dataset
-    title: 1 Lorem ipsum dolor
+    title: Veniam officia minim deserunt qui.
   - <<: *dataset
-    title: 
+    title: Incididunt amet anim est incididunt et culpa dolore.
     assets:
       <<: *assets
       background: https://source.unsplash.com/xA2B20eNXYI/960x540
   - <<: *dataset
-    subtitle: 
+    title: Ullamco voluptate esse velit non proident.
   - <<: *dataset
-    heading:
+    title: Ea do occaecat non proident labore ut nulla sunt amet.
   - <<: *dataset
-
-dataset2:
-  - <<: *dataset
-    title: 5 Lorem ipsum dolor
-  - <<: *dataset
-    title: 6 Lorem ipsum dolor

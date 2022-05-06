@@ -1,6 +1,36 @@
 # v1.2.121 _data/schema/jumbotron.yml
 
 schema: &schema
+
+  layout: &layout
+    section:
+    background:
+    text:
+
+  include:  &include
+
+  typography: &typography
+    text: theme-text-light
+    title: h5 card-title theme-text-dark
+    subtitle: card-subtitle theme-text-light
+    description: card-text theme-text-dark
+    heading:
+    link: btn btn-primary theme-text-light stretched-link
+
+  
+  layout1: &layout
+    background:
+    section: container p-4
+    row: row
+    column: col-md-4
+    body: container theme-bg-unsplash2
+  component:  &component
+    div: card h-100
+    image: card-img-top
+    body: card-body
+    footer:  card-footer
+
+old: &schema
   section: p-5 mb-4 rounded-3 container-fluid
   background: theme-bg-dark
   text: theme-text-light
@@ -9,14 +39,5 @@ schema: &schema
   excerpt: lead
   link: btn btn-dark btn-lg
 
-light:
+default:
   <<: *schema
-  background: theme-bg-light
-  text: theme-text-dark
-
-dark: &dark
-  <<: *schema
-
-image: &image
-  <<: *schema
-  background: theme-bg-unsplash1

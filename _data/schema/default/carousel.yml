@@ -1,0 +1,26 @@
+#  v1.2.121 _data/schema/carousel.yml
+# VNEXT - migrate to theme _data\schema
+
+schema: &schema
+
+  id: carousel
+
+  layout: &layout
+    section: carousel slide
+    background: theme-text-light
+    text: theme-text-dark
+
+  carousel:
+ 
+  typography: &typography
+    title: display-6 theme-text-dark
+    subtitle: font-weight-bold lead theme-text-dark
+    heading:
+    description: lead theme-text-dark
+
+  link: &link
+    button: btn btn-sm btn-outline-dark
+    href: 
+
+default:
+  <<: *schema

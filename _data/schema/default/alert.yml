@@ -1,0 +1,39 @@
+# v1.2.121 _data/schema/alert.yml
+# VNEXT - migrate to theme _data\schema
+
+schema: &schema
+  
+  layout: &layout
+    section: m-3 alert alert-primary alert-dismissible fade show
+  include:
+    icon:
+
+default: 
+  <<: *schema
+  
+success:
+  layout:
+    <<: *layout
+    section: m-3 alert alert-success alert-dismissible fade show
+  include:  
+    icon:   bi bi-check-square
+
+info:
+  layout:
+    <<: *layout
+    section: m-3 alert alert-info alert-dismissible fade show
+
+warning:
+  layout:
+    <<: *layout
+    section: m-3 alert alert-warning alert-dismissible fade show
+  include:
+    icon:   bi bi-exclamation-triangle
+
+danger: 
+  layout:
+    <<: *layout
+    section: m-3 alert alert-danger alert-dismissible fade show
+  include:
+      icon:   bi bi-exclamation-triangle-fill
+

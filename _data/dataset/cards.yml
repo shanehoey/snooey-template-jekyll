@@ -1,10 +1,16 @@
 # v1.2.121 _data/dataset/cards.yml
-link: &link
+
+dataset: &dataset
+  title: 
+  subtitle: 
+  heading: 
+  description:
+  guid: 00000000-0000-0000-0000-000000000000
+  link: &link
     icon: bi bi-link
     text: read more
     url: https://snooey.com/
-
-assets: &assets
+  assets: &assets
     icon: bi bi-file-earmark
     header: https://placeimg.com/2560/640/tech
     square: https://placeimg.com/300/300/tech
@@ -12,49 +18,55 @@ assets: &assets
     horizontal: https://placeimg.com/1200/800/tech
     teaser: https://placeimg.com/700/394/tech
     background: https://placeimg.com/1920/1080/tech
-  
-dataset: &dataset
-  title:
-  subtitle:
-  heading:
-  description:
-  guid:
-  authorid:
-  link:
-    <<: *link
-  assets:
-    <<: *assets
 
-docs: &docs
-  <<: *dataset
-  title: Occaecat nulla commodo anim qui.
-  subtitle: Commodo tempor cillum nisi duis ea qui.
-  excerpt: Pariatur adipisicing consectetur ad qui nisi esse qui deserunt est eiusmod.Elit est est labore voluptate tempor enim consequat aliquip qui.
+default: 
+  - <<: *dataset
+    title: Officia dolore adipisicing pariatur irure aliqua mollit.
+    subtitle: Sint anim reprehenderit magna non.
+    description: Mollit exercitation dolor laborum reprehenderit occaecat eiusmod consectetur pariatur elit quis enim ipsum sunt . Tempor officia esse ad ipsum irure est ullamco qui exercitation pariatur ad mollit . Sunt fugiat elit aute consectetur veniam.
+  - <<: *dataset
+    title: Qui quis esse officia consequat.
+    subtitle: Ipsum labore ad exercitation fugiat reprehenderit culpa qui ut eu voluptate ad.
+    description: Do in ex ut quis culpa exercitation nulla ipsum sit Lorem voluptate ipsum aute dolore.Officia aliqua magna labore consequat non irure elit ex.
+  - <<: *dataset
+    title: Cupidatat commodo mollit anim esse laborum.
+    subtitle: Sint minim non exercitation veniam pariatur sunt velit cupidatat ad officia labore..
+    description: Dolor magna labore adipisicing cillum incididunt esse dolore Lorem consectetur incididunt officia cillum fugiat.Eu et veniam consectetur proident ad Lorem deserunt incididunt incididunt veniam proident duis nulla cillum.
+  - <<: *dataset
+    title: Occaecat nulla commodo anim qui.
+    subtitle: Commodo tempor cillum nisi duis ea qui.
+    description: Pariatur adipisicing consectetur ad qui nisi esse qui deserunt est eiusmod.Elit est est labore voluptate tempor enim consequat aliquip qui.
+  - <<: *dataset
+    title: 2Officia dolore adipisicing pariatur irure aliqua mollit.
+    subtitle: 2Sint anim reprehenderit magna non.
+    description: 2Mollit exercitation dolor laborum reprehenderit occaecat eiusmod consectetur pariatur elit quis enim ipsum sunt . Tempor officia esse ad ipsum irure est ullamco qui exercitation pariatur ad mollit . Sunt fugiat elit aute consectetur veniam.
+  - <<: *dataset
+    title: 2Qui quis esse officia consequat.
+    subtitle: 2Ipsum labore ad exercitation fugiat reprehenderit culpa qui ut eu voluptate ad.
+    description: 2Do in ex ut quis culpa exercitation nulla ipsum sit Lorem voluptate ipsum aute dolore.Officia aliqua magna labore consequat non irure elit ex.
+  - <<: *dataset
+    title: 2Cupidatat commodo mollit anim esse laborum.
+    subtitle: 2Sint minim non exercitation veniam pariatur sunt velit cupidatat ad officia labore..
+    description: 2Dolor magna labore adipisicing cillum incididunt esse dolore Lorem consectetur incididunt officia cillum fugiat.Eu et veniam consectetur proident ad Lorem deserunt incididunt incididunt veniam proident duis nulla cillum.
+  - <<: *dataset
+    title: 2Occaecat nulla commodo anim qui.
+    subtitle: 2Commodo tempor cillum nisi duis ea qui.
+    description: 2Pariatur adipisicing consectetur ad qui nisi esse qui deserunt est eiusmod.Elit est est labore voluptate tempor enim consequat aliquip qui.
+  - <<: *dataset
+    title: 3Officia dolore adipisicing pariatur irure aliqua mollit.
+    subtitle: 3Sint anim reprehenderit magna non.
+    description: 3Mollit exercitation dolor laborum reprehenderit occaecat eiusmod consectetur pariatur elit quis enim ipsum sunt . Tempor officia esse ad ipsum irure est ullamco qui exercitation pariatur ad mollit . Sunt fugiat elit aute consectetur veniam.
+  - <<: *dataset
+    title: 3Qui quis esse officia consequat.
+    subtitle: 3Ipsum labore ad exercitation fugiat reprehenderit culpa qui ut eu voluptate ad.
+    description: 3Do in ex ut quis culpa exercitation nulla ipsum sit Lorem voluptate ipsum aute dolore.Officia aliqua magna labore consequat non irure elit ex.
+  - <<: *dataset
+    title: 3Cupidatat commodo mollit anim esse laborum.
+    subtitle: 3Sint minim non exercitation veniam pariatur sunt velit cupidatat ad officia labore..
+    description: 3Dolor magna labore adipisicing cillum incididunt esse dolore Lorem consectetur incididunt officia cillum fugiat.Eu et veniam consectetur proident ad Lorem deserunt incididunt incididunt veniam proident duis nulla cillum.
+  - <<: *dataset
+    title: 3Occaecat nulla commodo anim qui.
+    subtitle: 3Commodo tempor cillum nisi duis ea qui.
+    description: 3Pariatur adipisicing consectetur ad qui nisi esse qui deserunt est eiusmod.Elit est est labore voluptate tempor enim consequat aliquip qui.
 
-tools: &tools
-  <<: *dataset
-  title: Qui quis esse officia consequat.
-  subtitle: Ipsum labore ad exercitation fugiat reprehenderit culpa qui ut eu voluptate ad.
-  excerpt: Do in ex ut quis culpa exercitation nulla ipsum sit Lorem voluptate ipsum aute dolore.Officia aliqua magna labore consequat non irure elit ex.
-
-hello: &hello
-  <<: *dataset
-  title: Cupidatat commodo mollit anim esse laborum.
-  subtitle: Sint minim non exercitation veniam pariatur sunt velit cupidatat ad officia labore..
-  excerpt: Dolor magna labore adipisicing cillum incididunt esse dolore Lorem consectetur incididunt officia cillum fugiat.Eu et veniam consectetur proident ad Lorem deserunt incididunt incididunt veniam proident duis nulla cillum.
-
-dataset1:
-  - <<: *docs
-  - <<: *tools
-  - <<: *hello
-
-dataset2:
-  - <<: *docs
-  - <<: *tools
-  - <<: *hello
-
-dataset3:
-  - <<: *docs
-  - <<: *tools
-  - <<: *hello
 

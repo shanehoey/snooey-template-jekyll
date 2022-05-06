@@ -6,7 +6,37 @@ column3x: &column3x col-lg-4 col-md-6 mb-4
 column4x: &column4x col-lg-3 col-md-6 mb-4
 column6x: &column6x col-lg-2 col-md-3 mb-4
 
-schema: &schema 
+schema: &schema
+
+  layout: &layout
+    section:
+    background:
+    text:
+  
+  include:  &include
+
+  typography: &typography
+    text: theme-text-light
+    title: h5 card-title theme-text-dark
+    subtitle: card-subtitle theme-text-light
+    description: card-text theme-text-dark
+    heading:
+    link: btn btn-primary theme-text-light stretched-link
+
+  layout1: &layout
+    background:
+    section: container p-4
+    row: row
+    column: col-md-4
+    body: container theme-bg-unsplash2
+  component:  &component
+    div: card h-100
+    image: card-img-top
+    body: card-body
+    footer:  card-footer
+
+
+old: &schema 
   section: container justify-content-center text-center p-3
   column: *column3x
   background: theme-bg-dark
@@ -98,9 +128,5 @@ schema6x-image:
   background: theme-bg-unsplash1
   text: theme-text-light  
 
-light:
-  <<: *schema-light
-dark: 
-  <<: *schema-dark
-image: 
-  <<: *schema-image
+default: &default
+  <<: *schema 

@@ -1,66 +1,36 @@
 # v1.2.121 _data/dataset/social.yml
 
-link: &link
-    icon: bi bi-link
-    text: Connect
-    url:  https://snooey.com/
-
 dataset: &dataset
   title: connect with me
   description: Lorem ipsum dolor sit amet. Et unde quaerat aut earum animi aut explicabo saepe qui quibusdam accusamus ut velit asperiores vel natus temporibus.
   social: &social
-    - <<: *link
-      icon:  bi bi-globe2
+    - icon: bi bi-globe2
       text:  www
       url:   https://snooey.com
-    - <<: *link
-      icon:  bi bi-facebook
+    - icon:  bi bi-facebook
       text:  facebook
       url:  
-    - <<: *link
-      icon:  bi bi-twitter
+    - icon:  bi bi-twitter
       text:  twitter
       url:  
-    - <<: *link
-      icon:  bi bi-linkedin
+    - icon:  bi bi-linkedin
       text:  linkedin
       url:  
-    - <<: *link
-      icon:  bi bi-instagram
+    - icon:  bi bi-instagram
       text:  instagram
       url:        
-    - <<: *link
-      icon:  bi bi-paypal
+    - icon:  bi bi-paypal
       text:  paypal
       url:  
-    - <<: *link
-      icon:  bi bi-youtube
+    - icon:  bi bi-youtube
       text:  youtube
       url:  
-    - <<: *link
-      icon:  bi bi-github
+    - icon:  bi bi-github
       text:  github
       url:  
-    - <<: *link
-      icon:  bi bi-stack-overflow
+    - icon:  bi bi-stack-overflow
       text:  stackoverflow
       url: 
 
-dataset1:
-  <<: *dataset
-
-dataset2:
-  <<: *dataset
-  title: connect
-  social:
-    - <<: *link
-      icon:  bi bi-globe2 display-2
-      text:  www
-      url:   https://www.snooey.com 
-    - <<: *link
-      icon:  bi bi-github
-      text:  github
-      url:   https://www.snooey.com  
-
-dataset3:
+default:
   <<: *dataset

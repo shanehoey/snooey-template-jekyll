@@ -1,34 +1,33 @@
-title: Welcome to shanehoey.com
+title: Welcome to snooey.com
 description: Re-Inventing todays workplace with modern collaboration - Passionate about cutting edge technology, I live and breath Technology, It’s what I do best. From playing with the latest gadgets to spending the day writing code, it’s what I get excited about. In my day job I thrive on Microsoft Teams, Skype for Business, Office 365, Windows Azure, Windows PowerShell. I strive to understand how these technologies work at a deep technical level.
 
 feature:
-
-  - title:  code.shanehoey.com
+  - title:  code.snooey.com
     subtitle: Code
-    heading: code.shanehoey.com 
+    heading: code.snooey.com 
     description: 
     guid:
-    authorid: shanehoey
+    author: snooey
     link: &link
-      icon: bi bi-link
+      icon: bi bi-file-earmark-code
       text: read more
-      url: https://snooey.com/
+      url: https://code.snooey.com/
     assets: &assets
       icon: bi bi-file-earmark
       header: https://placeimg.com/2560/640/tech
       square: https://placeimg.com/300/300/tech
-      vertical: https://placeimg.com/800×1200/tech
+      vertical: https://placeimg.com/800/1200/tech
       horizontal: https://placeimg.com/1200/800/tech
       teaser: https://placeimg.com/700/394/tech
       background: https://placeimg.com/1920/1080/tech
   
-  - title:  docs.shanehoey.com
+  - title:  docs.snooey.com
     subtitle: Documents
     heading: 
     excerpt: 
     description: 
     guid:
-    authorid: shanehoey
+    author: snooey
     link: &link
       icon: bi bi-link
       text: read more
@@ -37,18 +36,18 @@ feature:
       icon: bi bi-file-earmark
       header: https://placeimg.com/2560/640/tech
       square: https://placeimg.com/300/300/tech
-      vertical: https://placeimg.com/800×1200/tech
+      vertical: https://placeimg.com/800/1200/tech
       horizontal: https://placeimg.com/1200/800/tech
       teaser: https://placeimg.com/700/394/tech
       background: https://placeimg.com/1920/1080/tech
   
-  - title: tools.shanehoey.com
+  - title: tools.snooey.com
     subtitle: Tools
     heading: 
     excerpt: 
     description: Sometimes you just need to write your own tool to do something and heres mine
     guid:
-    authorid: shanehoey
+    author: snooey
     link: &link
       icon: bi bi-link
       text: read more
@@ -57,18 +56,18 @@ feature:
       icon: bi bi-file-earmark
       header: https://placeimg.com/2560/640/tech
       square: https://placeimg.com/300/300/tech
-      vertical: https://placeimg.com/800×1200/tech
+      vertical: https://placeimg.com/800/1200/tech
       horizontal: https://placeimg.com/1200/800/tech
       teaser: https://placeimg.com/700/394/tech
       background: https://placeimg.com/1920/1080/tech
 
-  - title: hello.shanehoey.com
+  - title: hello.snooey.com
     subtitle: Hello
     heading: 
     excerpt: 
     description: "Who is <b>Shane Hoey</b>?<br/> #BuiltforTeamwork<br/> #USRockstar<br/> #AutomationNinja<br/>"
     guid:
-    authorid: shanehoey
+    author: snooey
     link: &link
       icon: bi bi-link
       text: read more
@@ -77,7 +76,7 @@ feature:
       icon: bi bi-file-earmark
       header: https://placeimg.com/2560/640/tech
       square: https://placeimg.com/300/300/tech
-      vertical: https://placeimg.com/800×1200/tech
+      vertical: https://placeimg.com/800/1200/tech
       horizontal: https://placeimg.com/1200/800/tech
       teaser: https://placeimg.com/700/394/tech
       background: https://placeimg.com/1920/1080/tech

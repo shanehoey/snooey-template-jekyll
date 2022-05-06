@@ -1,20 +1,41 @@
-# v1.2.117 _data/schema/heading.yml
+# v1.2.121 _data/schema/heading.yml
 
 schema: &schema
+
+  layout: &layout
+    section:
+    background:
+    text:
+
+  include:  &include
+
+  typography: &typography
+    text: theme-text-light
+    title: h5 card-title theme-text-dark
+    subtitle: card-subtitle theme-text-light
+    description: card-text theme-text-dark
+    heading:
+    link: btn btn-primary theme-text-light stretched-link
+
+  
+  layout1: &layout
+    background:
+    section: container p-4
+    row: row
+    column: col-md-4
+    body: container theme-bg-unsplash2
+  component:  &component
+    div: card h-100
+    image: card-img-top
+    body: card-body
+    footer:  card-footer
+
+old: &schema
   container: p-3
   background: theme-bg-dark pb-1
   text: text-justify theme-text-light
   title: h2
   subtitle: h5
 
-light:
+default:
   <<: *schema
-  background: theme-bg-light
-  text: theme-text-dark
-
-dark: &dark
-  <<: *schema
-
-image: &image
-  <<: *schema
-  background: theme-bg-unsplash1

@@ -1,7 +1,7 @@
 # v1.2.121 _config.yml
 
 title: Snooey
-url:  https://snooey.com
+url: https://snooey.com
 baseurl: /
 separator: " | "
 locale: en
@@ -39,9 +39,16 @@ plugins:
     - jekyll-redirect-from
     - jekyll-minifier
  
-jekyll-minifier:
-    compress_javascript: false
 
+# BUG: issue when js compressed
+jekyll-minifier:
+    remove_spaces_inside_tags: true
+    remove_multi_spaces: true
+    remove_comments: true
+    remove_intertag_spaces: true
+    compress_css: true
+    compress_javascript: false 
+ 
 excerpt_separator: <!--more-->
 
 remote_theme: shanehoey/snooey
@@ -56,10 +63,10 @@ collections:
     code:
         output: true
         permalink: /:collection/:path/
-    docs:
+    doco:
         output: true
-        permalink: /documents/:path/
-    tools:
+        permalink: /:collection/:path/
+    tool:
         output: true
         permalink: /:collection/:path/
 
@@ -72,64 +79,67 @@ defaults:
       heading:
       description:
       guid:
-      authorid: shanehoey
+      author: shanehoey
       link: &link
         icon: bi bi-link
         text: read more
         url:
       assets: &assets
-        icon:       bi bi-file-earmark
-        header:     https://placeimg.com/2560/640/tech
-        square:     https://placeimg.com/300/300/tech
-        vertical:   https://placeimg.com/800×1200/tech
+        icon: bi bi-file-earmark
+        header: https://placeimg.com/2560/640/tech
+        square: https://placeimg.com/300/300/tech
+        vertical: https://placeimg.com/800×1200/tech
         horizontal: https://placeimg.com/1200/800/tech
-        teaser:     https://placeimg.com/700/394/tech
+        teaser: https://placeimg.com/700/394/tech
         background: https://placeimg.com/1920/1080/tech
       categories: []
-      layout:     default   # default/page/paginate/post/video
-      navbar:     true      # true/false
+      layout: default   # default/page/paginate/post/video
+      navbar: true      # true/false
       breadcrumb: true      # true/false
-      carousel:   false     # true/false
-      footer:     true      # true/false
-      brand:      brand1    # sets the default branding for page
-      theme:      theme1    # sets the default css classes(theme[1..5])
-      schema:     light     # sets the schema for the page (dark,light,image/custom)
+      carousel: false     # true/false
+      footer: true      # true/false
+      brand: brand1    # sets the default branding for page (brand1)
+      theme: theme1    # sets the default css classes (theme1])
+      schema: default   # sets the default schema used (default) 
+
   - scope:
-      path:       ""
-      type:       pages
+      path: ""
+      type: pages
     values:
-      layout:     page
+      layout: page
       link:
         <<: *link
       assets:
         <<: *assets
+  
   - scope:
-      path:       ""
-      type:       posts
+      path: ""
+      type: posts
     values:
-      layout:     post
-      permalink:  /posts/:slug
+      layout: post
+      permalink: /posts/:slug
       link:
         <<: *link
       assets:
         <<: *assets
 
   - scope:
-      path:       ""
-      type:       code
+      path: ""
+      type: code
     values:
-      layout:     code
+      layout: code/default
       categories: ["code"]
       link:
         <<: *link
         icon: bi bi-file-code
       assets:
         <<: *assets
+  
   - scope:
-      path:       "collections/_code/github/"
-      type:       code
+      path: "collections/_code/github/"
+      type: code
     values:
-      layout:     github
+      layout: code/github
       categories: ["github"]
       link:
         <<: *link
@@ -138,64 +148,61 @@ defaults:
         <<: *assets
       
   - scope:
-      path:       "collections/_code/gist/"
-      type:       code
+      path: "collections/_code/gist/"
+      type: code
     values:
-      layout:     gist
+      layout: code/gist
       link:
         <<: *link
         icon: bi bi-file-code
       assets:
         <<: *assets
       categories: ["gist"]  
+  
   - scope:
-      path:       ""
-      type:       docs
+      path: ""
+      type: doco
     values:
-      layout:     docs
+      layout: doco/default
       link:
         <<: *link
         icon: bi bi-file-text
       assets:
         <<: *assets
-      categories: ["docs"]
+      categories: ["document"]
+  
   - scope:
-      path:       "collections/_docs/document/"
-      type:       docs
+      path: "collections/_doco/document/"
+      type: doco
     values:
       categories: ["document"]
-      layout:     docs
+      layout: doco/document
       link:
         <<: *link
         icon: bi bi-file-text
       assets:
         <<: *assets
+  
   - scope:
-      path:       "collections/_docs/videos/"
-      type:       docs
+      path: "collections/_doco/video/"
+      type: doco
     values:
       categories: ["video"]
-      layout:     videos
+      layout: doco/video
       link:
         <<: *link
         icon: bi bi-file-play
       assets:
         <<: *assets
+  
   - scope:
-      path:       ""
-      type:       tools
+      path: "collections/_tool/"
+      type: tool
     values:
-      categories: ["tools"]
-      layout:     tools
+      categories: ["tool"]
+      layout: tool/default
       link:
         <<: *link
         icon: bi bi-tools
       assets:
         <<: *assets
-  - scope:        # remove from production sites, only to show content examples
-      path:       pages/theme/
-      type:       pages
-    values:
-      layout:     page
-      breadcrumb: false 
-      permalink:  /theme/:slug

@@ -1,0 +1,223 @@
+# v1.2.121 _data/schema/flex.yml
+# VNEXT - migrate to theme _data\schema
+
+schema: &schema
+  id: flex
+  layout: &layout
+    section: position-relative
+    background: theme-bg-light
+    text: theme-text-dark
+
+  flex: &flex
+    row: 
+      parent: d-flex flex-row
+      row1: col-4 p-4
+      row2: col d-flex p-4
+      row3: d-none #p-2 col-4 d-flex p-2 col-4 d-flex justify-content-center align-self-center
+      row4: d-none
+    column: 
+      parent: d-flex flex-column
+      col1: 
+      col2:
+      col3: d-none
+      col4: 
+      col5: d-none
+  asset:
+    image:  &image
+      class: img-fluid img-thumbnail float-end
+      style: width:150px;height:250px;
+    icon: display-1
+
+  typography: &typography
+    title: h3 text-dark text-decoration-none 
+    subtitle: h4 text-dark
+    heading: h4 text-dark
+    description: text-muted
+
+  link: &link
+    button: btn btn-primary theme-text-light stretched-link
+    href: text-decoration-none stretched-link
+
+default: 
+  <<: *schema
+
+author: &author
+  id: author
+  layout: &layout
+    section: position-relative
+    background: theme-bg-unsplash1
+    text: theme-text-dark
+  flex: &flex
+    row: 
+      parent: d-flex flex-row p-3 
+      row1: col-3
+      row2: col px-3 
+      row3: d-none   #column
+      row4: d-none  
+    column: 
+      parent: d-flex flex-column
+      col1: 
+      col2:
+      col3: d-none
+      col4: 
+      col5: d-none
+  asset:
+    image:  &image
+      class: img-fluid img-thumbnail float-end 
+      style: width:150px;height:250px;
+    icon: display-1
+  typography: &typography
+    title: h3 text-light text-decoration-none 
+    subtitle: h4 text-light
+    heading: h4 text-light
+    description: text-light
+  link: &link
+    button: btn btn-primary theme-text-light stretched-link
+    href: text-light text-decoration-none stretched-link
+
+sponsor: &sponsor
+  layout: &layout
+    section: position-relative
+    background: theme-bg-unsplash1
+    text: theme-text-dark
+  flex: &flex
+    row: 
+      parent: d-flex flex-row p-3 
+      row1: col-3
+      row2: col px-3 
+      row3: d-none   #column
+      row4: d-none  
+    column: 
+      parent: d-flex flex-column
+      col1: 
+      col2:
+      col3: d-none
+      col4: 
+      col5: d-none
+  asset:
+    image:  &image
+      class: img-fluid img-thumbnail float-end 
+      style: width:150px;height:250px;
+    icon: display-1
+  typography: &typography
+    title: h3 text-light text-decoration-none 
+    subtitle: h4 text-light
+    heading: h4 text-light
+    description: text-light
+  link: &link
+    button: btn btn-primary theme-text-light stretched-link
+    href: text-light text-decoration-none stretched-link
+
+calltoaction01: &calltoaction01
+  id: calltoaction01
+  layout: &layout
+    section:
+    background: theme-bg-unsplash1
+    text: theme-text-dark
+
+  flex: &flex
+    row: 
+      parent: d-flex flex-row
+      row1: p-2 col-4 order-2
+      row2: d-none
+      row3: d-none
+      row4: d-none
+    column: 
+      parent: d-flex flex-column
+      col1: 
+      col2:
+      col3: d-none
+      col4: 
+
+  asset:
+    image:  &image
+      class: img-fluid img-thumbnail float-start
+      style: width:150px;height:250px;
+    icon: display-1
+    
+  typography: &typography
+    title: h2 
+    subtitle: h4
+    heading: h4 
+    description: text-muted
+
+  link: &link
+    button: btn btn-primary theme-text-light stretched-link
+    href: text-decoration-none
+
+calltoaction02: &calltoaction02
+  id: calltoaction02
+  layout: &layout
+    section:
+    background: theme-bg-unsplash1
+    text: theme-text-dark
+
+  flex: &flex
+    row:
+      parent: d-flex flex-row
+      row1: p-2 col-4 order-2
+      row2: p-2 col-8 order-1
+      row3: d-none
+      row4:
+    column:
+      parent: d-flex flex-column
+      col1:
+      col2:
+      col3: d-none
+      col4:
+      col5:
+
+  asset:
+    image:  &image
+      class: img-fluid img-thumbnail float-start
+      style: width:150px;height:250px;
+    icon: display-1
+    
+  typography: &typography
+    title: h2 
+    subtitle: h4
+    heading: h4 
+    description: text-muted
+
+  link: &link
+    button: btn btn-primary theme-text-light stretched-link
+    href: text-decoration-none
+
+calltoaction03: &calltoaction03
+  id: calltoaction03
+  layout: &layout
+    section:
+    background: theme-bg-unsplash1
+    text: theme-text-dark
+
+  flex: &flex
+    row:
+      parent: d-flex flex-row
+      row1: p-2 col-4 order-2
+      row2: p-2 col-8 order-1
+      row3: d-none
+      row4:
+    column:
+      parent: d-flex flex-column
+      col1:
+      col2:
+      col3: d-none
+      col4:
+      col5:
+
+  asset:
+    image:  &image
+      class: img-fluid img-thumbnail float-start
+      style: width:150px;height:250px;
+    icon: display-1
+    
+  typography: &typography
+    title: h2 
+    subtitle: h4
+    heading: h4 
+    description: text-muted
+
+  link: &link
+    button: btn btn-primary theme-text-light stretched-link
+    href: text-decoration-none
+

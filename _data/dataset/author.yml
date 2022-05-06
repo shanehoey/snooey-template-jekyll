@@ -1,37 +1,24 @@
 # v1.2.121 _data/dataset/author.yml
-
-link: &link
+ 
+dataset: &dataset
+  title: snooey
+  subtitle: snooey
+  heading: snooey
+  description: Incididunt reprehenderit adipisicing veniam amet ipsum esse dolor ullamco anim consequat velit sit culpa. Esse fugiat aliquip nostrud nisi incididunt eiusmod. Et proident ex nostrud irure aute magna. Laboris adipisicing irure elit sint ut quis aliquip tempor eiusmod velit enim aliqua qui ipsum. Anim anim sit enim eu voluptate.
+  guid: 00000000-0000-0000-0000-000000000000
+  author: snooey
+  link: &link
     icon: bi bi-link
     text: read more
     url: https://snooey.com/
-
-assets: &assets
-    icon: bi bi-file-earmark
+  assets: &assets
+    icon: bi-person-badge
     header: https://placeimg.com/2560/640/people
     square: https://placeimg.com/300/300/people
     vertical: https://placeimg.com/800/1200/people
     horizontal: https://placeimg.com/1200/800/people
     teaser: https://placeimg.com/700/394/people
     background: https://placeimg.com/1920/1080/people
-  
-dataset: &dataset
-  title: snooey
-  subtitle: snooey
-  heading: snooey
-  description: Incididunt reprehenderit adipisicing veniam amet ipsum esse dolor ullamco anim consequat velit sit culpa. Esse fugiat aliquip nostrud nisi incididunt eiusmod. Et proident ex nostrud irure aute magna. Laboris adipisicing irure elit sint ut quis aliquip tempor eiusmod velit enim aliqua qui ipsum. Anim anim sit enim eu voluptate.
-  guid:
-  authorid:
-  link:
-    <<: *link
-  assets:
-    <<: *assets
-    
-dataset1:
-  <<: *dataset
-  
-dataset2:
-  <<: *dataset
 
-dataset3:
-  <<: *dataset
-
+default:
+  - <<: *dataset

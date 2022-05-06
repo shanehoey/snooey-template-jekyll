@@ -1,11 +1,17 @@
 # v1.2.121 _data/dataset/heading.yml
 
-link: &link
+dataset: &dataset
+  title: Lorem ipsum dolor.
+  subtitle: Lorem ipsum dolor sit amet.
+  heading:
+  description:
+  guid: 00000000-0000-0000-0000-000000000000
+  author: shanehoey
+  link: &link
     icon: bi bi-link
     text: read more
     url: https://snooey.com/
-
-assets: &assets
+  assets: &assets
     icon: bi bi-file-earmark
     header: https://placeimg.com/2560/640/tech
     square: https://placeimg.com/300/300/tech
@@ -14,24 +20,6 @@ assets: &assets
     teaser: https://placeimg.com/700/394/tech
     background: https://placeimg.com/1920/1080/tech
   
-dataset: &dataset
-  title: Lorem ipsum dolor.
-  subtitle: Lorem ipsum dolor sit amet.
-  heading:
-  description:
-  guid:
-  authorid: shanehoey
-  link:
-    <<: *link
-  assets:
-    <<: *assets
-
-dataset1:
+default:
   <<: *dataset
 
-dataset2:
-  <<: *dataset
-
-dataset3:
-  <<: *dataset
-  

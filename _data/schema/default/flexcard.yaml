@@ -1,0 +1,37 @@
+# v1.2.121 _data/schema/flexcard.yml
+# VNEXT - migrate to theme _data\schema
+
+schema: &schema
+
+  id: flexcard
+
+  layout: &layout
+    section: position-relative
+    background: theme-bg-light
+    text: theme-text-dark
+
+  flex: &flex
+    row: 
+      parent: row
+    column:
+      parent: col-lg-3 col-md-4 col-sm-6 p-3
+  
+  card: 
+    parent: card h-100
+    image: card-image-top
+    body: card-body
+    footer: card-footer
+
+  typography: &typography
+    title: h3 text-dark text-decoration-none 
+    subtitle: h4 text-dark
+    heading: h4 text-dark
+    description: text-muted
+
+  link: &link
+    button: btn btn-primary theme-text-light d-grid gap-2 mx-auto stretched-link
+    href: text-decoration-none stretched-link
+
+default: 
+  <<: *schema
+

@@ -2,7 +2,7 @@
 title: "License"
 permalink: /license/
 ---
-{% comment %}<!-- v1.2.110 pages/static/license.md-->{% endcomment %}
+<!--v1.2.110 pages/static/license.md-->
 
 # {{ page.title }} 
 

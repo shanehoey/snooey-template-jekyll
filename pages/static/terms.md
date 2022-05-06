@@ -3,7 +3,7 @@ title: "Terms of Use"
 permalink: /terms/
 layout: page
 ---
-{% comment %}<!-- v1.2.110 pages/static/terms.md -->{% endcomment %}
+<!--v1.2.110 pages/static/terms.md -->
 
 # {{ page.title }}
 

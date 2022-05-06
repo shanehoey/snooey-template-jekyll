@@ -1,24 +1,43 @@
-# v1.2.110 _data/schema/title.yaml
+# v1.2.121 _data/schema/title.yaml
 
 schema: &schema
-  div: p-3
+
+  layout: &layout
+    section:
+    background:
+    text:
+
+  include:  &include
+
+  typography: &typography
+    text: theme-text-light
+    title: h5 card-title theme-text-dark
+    subtitle: card-subtitle theme-text-light
+    description: card-text theme-text-dark
+    heading:
+    link: btn btn-primary theme-text-light stretched-link
+
+default:
+  <<: *schema
+
+removed: 
+  layout: 
+    div: p-3
   background: theme-bg-dark
   text: theme-text-light
   pagetitle: h1 text-center
   title: h2 text-center
   subtitle: h3 text-center
   heading: h3 text-center theme-text-color3
-  excerpt: text-muted
-  
-light:
-  <<: *schema
-  background: theme-bg-light
-  text: theme-text-dark
-  
-dark:
-  <<: *schema
-  
-image:
-  <<: *schema
-  background: theme-bg-unsplash1
-  text: theme-text-dark
+  description: text-muted
+  layout1:
+    background:
+    section: container p-4
+    row: row
+    column: col-md-4
+    body: container theme-bg-unsplash2
+  component:  
+    div: card h-100
+    image: card-img-top
+    body: card-body
+    footer:  card-footer

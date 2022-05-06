@@ -1,24 +1,25 @@
-# v1.2.117 _redirects
+# v1.2.121 _redirects
 
 https://code.snooey.com/code/* https://code.snooey.com/code/:splat 200
-https://docs.snooey.com/documents/* https://docs.snooey.com/documents/:splat 200
+https://docs.snooey.com/doco/* https://docs.snooey.com/doco/:splat 200
 https://hello.snooey.com/hello/* https://hello.snooey.com/hello/:splat 200
 https://tools.snooey.com/tools/* https://tools.snooey.com/tools/:splat 200
 
 # main headings
 /code/* https://code.snooey.com/:splat 301!
-/docs/* https://docs.snooey.com/:splat 301!
-/tools/* https://tools.snooey.com/:splat 301!
+/doco/* https://docs.snooey.com/:splat 301!
+/tool/* https://tools.snooey.com/:splat 301!
 /hello/* https://hello.snooey.com/:splat 301!
 
 # redirect subdomains  
 /index.html https://snooey.com/ 301!
 /code.html https://code.snooey.com/ 301!
-/docs.html https://docs.snooey.com/ 301!
+/doco.html https://docs.snooey.com/ 301!
 /hello.html https://hello.snooey.com/ 301!
-/tools.html https://tools.snooey.com/ 301!
+/tool.html https://tools.snooey.com/ 301!
 
 # redirect docs
+/doco/* https://docs.snooey.com/docs/:splat 301!
 /documents/* https://docs.snooey.com/documents/:splat 301!
 /videos/* https://docs.snooey.com/videos/:splat 301!
 
@@ -26,7 +27,7 @@ https://tools.snooey.com/tools/* https://tools.snooey.com/tools/:splat 200
 /code/* https://code.snooey.com/code/:splat 301!
 
 # redirect tools
-/tools/* https://tools.snooey.com/tools/:splat 301!
+/tool/* https://tools.snooey.com/tool/:splat 301!
 
 # redirect hello
 /hello/* https://hello.snooey.com/hello/:splat 301!
@@ -34,13 +35,13 @@ https://tools.snooey.com/tools/* https://tools.snooey.com/tools/:splat 200
 # proxy subdomain to file
 https://snooey.com /index.html 200!
 https://code.snooey.com /code.html 200!
-https://docs.snooey.com /docs.html 200!
+https://docs.snooey.com /documents.html 200!
 https://hello.snooey.com /hello.html 200!
 https://tools.snooey.com /tools.html 200!
 
 #
 https://snooey.com/index.html /index.html 200!
 https://code.snooey.com/tool.html /code.html 200!
-https://docs.snooey.com/docs.html /docs.html 200!
+https://docs.snooey.com/docuements.html /documents.html 200!
 https://hello.snooey.com/hello.html /hello.html 200!
 https://tools.snooey.com/hello.html /tools.html 200!

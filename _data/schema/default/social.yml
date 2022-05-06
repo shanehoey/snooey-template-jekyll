@@ -1,0 +1,16 @@
+# v1.2.121 _data/schema/social.yml
+# VNEXT - migrate to theme _data\schema
+
+schema: &schema
+
+  layout: &layout
+    section: text-center py-5
+    background: theme-bg-dark
+    text: theme-text-light
+
+  typography: &typography
+    title: display-1 mx-3 theme-text-light
+    icon: display-5 mx-1 theme-text-light
+
+default:
+  <<: *schema

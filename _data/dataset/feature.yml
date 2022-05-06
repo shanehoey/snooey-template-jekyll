@@ -1,10 +1,17 @@
 # v1.2.121 _data/dataset/feature.yml
-link: &link
+ 
+dataset: &dataset
+  title:  Lorem ipsum
+  subtitle:  Lorem ipsum dolor sit amet.
+  heading:
+  description: 
+  guid: 00000000-0000-0000-0000-000000000000
+  author: shanehoey
+  link: &link
     icon: bi bi-link
     text: read more
     url: https://snooey.com/
-
-assets: &assets
+  assets: &assets
     icon: bi bi-file-earmark
     header: https://placeimg.com/2560/640/tech
     square: https://placeimg.com/300/300/tech
@@ -12,20 +19,8 @@ assets: &assets
     horizontal: https://placeimg.com/1200/800/tech
     teaser: https://placeimg.com/700/394/tech
     background: https://placeimg.com/1920/1080/tech
-  
-dataset: &dataset
-  title:  Lorem ipsum
-  subtitle:  Lorem ipsum dolor sit amet.
-  heading:
-  description: 
-  guid:
-  authorid: shanehoey
-  link:
-    <<: *link
-  assets:
-    <<: *assets
-
-dataset1:
+ 
+default:
   - <<: *dataset
   - <<: *dataset
     title:  Fugiat voluptate!
@@ -43,16 +38,3 @@ dataset1:
     title: Voluptate reprehenderit excepteur!
     subtitle: Culpa fugiat exercitation dolore dolore nostrud eiusmod quis id cupidatat.
     
-dataset2:
-  - <<: *dataset
-  - <<: *dataset
-  - <<: *dataset
-  - <<: *dataset
-  - <<: *dataset
-  - <<: *dataset
-  - <<: *dataset
-  - <<: *dataset
-
-dataset3:
-  - <<: *dataset
-  - <<: *dataset

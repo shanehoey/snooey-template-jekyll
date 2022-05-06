@@ -1,74 +1,60 @@
 # v1.2.121 _data/schema/calltoaction.yml
 
-schema1: &schema1
-  section: p-4 text-center
-  background: theme-bg-dark
-  text: theme-text-light
-  title: h3 mb-5 mb-5 mb-5 mb-5
-  subtitle: h5
-  excerpt: text-muted
-  link: btn btn-outline-dark 
-  image: img-fluid float-left
-  column1: 
-  column2: 
+schema: &schema
+  id: calltoaction
+  layout: &layout
+    section:
+    background: theme-bg-light
+    text: theme-text-dark
 
-schema2: &schema2
-  section: p-4 text-center
-  background: theme-bg-dark
-  text: theme-text-light
-  title: h3 mb-5 mb-5 mb-5 mb-5
-  subtitle: h5
-  excerpt: text-muted
-  link: btn btn-outline-dark 
-  image: img-fluid float-left
-  column1: col-lg-6 mb-lg-0 mb-md-4
-  column2: col-lg-6 p-5 pl-2
+  flex: &flex
+    row: 
+      parent: d-flex flex-row
+      row1: p-2 col-4
+      row2: p-2 col-8
+    column: 
+      parent: d-flex flex-column
+      col1: 
+      col2:
+      col3: d-none
+      col4: 
 
-schema3: &schema3
-  section: p-4 text-center
-  background: theme-bg-dark
-  text: theme-text-light
-  title: h3 mb-5 mb-5 mb-5 mb-5
-  subtitle: h5
-  excerpt: text-muted
-  link: btn btn-dark float-end
-  image: img-fluid float-left
-  column1: col-lg-4 mb-lg-0 mb-md-4 align-self-center justify-content-center
-  column2: col-lg-8
+  image:  &image
+    class: img-fluid img-thumbnail float-end
+    style: width:150px;height:250px;
 
-light1: &light1
-  <<: *schema1
-  background: theme-bg-light
-  text: theme-text-dark
+  typography: &typography
+    title: h2 
+    subtitle: h4
+    heading: h4 
+    description: text-muted
 
-light2: &light2
-  <<: *schema2
-  background: theme-bg-light
-  text: theme-text-dark
+  link: &link
+    button: btn btn-primary theme-text-light stretched-link
+    href: text-decoration-none
 
-light3: &light3
-  <<: *schema3
-  background: theme-bg-light
-  text: theme-text-dark
+default: 
+  <<: *schema
 
-dark1: &dark1
-  <<: *schema1
+color:
+  <<: *schema
+  layout:
+    section:
+    background: theme-bg-color1
+    text: theme-text-light
 
-dark2: &dark2
-  <<: *schema2
-
-dark3: &dark3
-  <<: *schema3
-
-
-image1: &image1
-  <<: *schema1
-  background: theme-bg-unsplash1
-
-image2: &image2
-  <<: *schema2
-  background: theme-bg-unsplash1
-
-image3: &image3
-  <<: *schema3
-  background: theme-bg-unsplash1
+image:
+  <<: *schema
+  layout:
+    section:
+    background: theme-bg-unsplash1
+    text: theme-text-light
+  flex:
+    <<: *flex
+    row: 
+      parent: d-flex flex-row
+      row1: p-2 col-3 order-1
+      row2: p-2 col-9 order-0 pf-5
+  image:  &image
+    class: img-fluid img-thumbnail float-start
+    style: width:150px;height:250px;

@@ -1,0 +1,24 @@
+# v1.2.121 _data/schema/breadcrumb.yml
+# VNEXT - migrate to theme _data\schema
+
+schema: &schema
+
+  layout: &layout
+    section: p-3 mt-3
+    background: theme-bg-dark
+    text: font-monospace theme-text-light
+
+dark: &dark
+  <<: *schema
+
+light: &light
+  <<: *schema
+  background: theme-bg-light
+  text: font-monospace theme-text-dark
+
+image: &image
+  <<: *schema
+  background: theme-bg-unsplash1
+
+default: 
+  <<: *dark

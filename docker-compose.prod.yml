@@ -11,3 +11,4 @@ services:
         environment:
             - NODE_ENV=production
             - JEKYLL_ENV=production
+            - TZ=Australia\Brisbane

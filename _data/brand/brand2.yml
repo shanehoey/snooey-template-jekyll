@@ -1,0 +1,127 @@
+# v1.2.121 _data/brand2.yml
+
+brand: 
+  title: brand2.snooey.com
+  subtitle:  Branding for brand2
+  heading: brand2.snooey.com
+  description: brand2 dolore laboris nostrud minim deserunt nulla reprehenderit cillum quis deserunt fugiat et elit do.
+  copyright:  '&copy; Shane Hoey 2018-2022. All Rights Reserved.'
+  guid:
+  author: shanehoey
+  link:
+    url:  https://brand1.snooey.com
+    icon:  bi bi-file-person
+    text:  brand2.snooey.com
+  assets:
+    icon: bi bi-file-earmark
+    header: https://placeimg.com/2560/640/people
+    square: https://placeimg.com/300/300/people
+    vertical: https://placeimg.com/800/1200/people
+    horizontal: https://placeimg.com/1200/800/people
+    teaser: https://placeimg.com/700/394/people
+    background: https://placeimg.com/1920/1080/people
+layout:
+    body: container theme-bg-unsplash3
+    header:
+    content: theme-bg-light mb-2
+    footer:
+
+navbar:
+  - url: /
+    icon: bi bi-file-person
+    text: Home
+  - url: /code/
+    icon: bi bi-link
+    text: Code
+  - url: /documents/
+    icon: bi bi-link
+    text: Documents
+  - url: /videos/
+    icon: bi bi-link
+    text: Videos
+  - url: /tools/
+    icon: bi bi-link
+    text: Tools
+  - url: /theme/
+    icon: bi bi-palette
+    text: theme
+    #children:
+    #  - url: /theme/cheatsheet/
+    #    icon: bi bi-link
+    #    text: cheatsheet 
+    #  - url: /theme/examples/
+    #    icon: bi bi-link
+    #    text: examples 
+    #  - url: /theme/includes/
+    #    icon: bi bi-link
+    #    text: includes 
+
+footer: 
+  - url:  /
+    icon: bi bi-house-fill
+    text: Home
+  - url: /terms/
+    icon: bi bi-file-earmark-text
+    text: terms
+  - url: /license/
+    icon: bi bi-file-earmark-text 
+    text: license
+  - url:  /contact/
+    icon: bi bi-mailbox
+    text: contact
+
+carousel: &dataset
+  - title: Dolore deserunt consectetur.
+    subtitle: Laborum sint sit ex ad consectetur.
+    heading: Quis ex proident nulla mollit.
+    description: Laborum Lorem quis fugiat ad laborum non Lorem est voluptate Lorem. Officia et dolor velit aliqua et voluptate duis tempor.
+    guid:
+    author: shanehoey
+    link: 
+      url:  https://brand1.snooey.com
+      icon: bi bi-file-person
+      text: brand1.snooey.com
+    assets: &assets
+      icon: bi bi-file-earmark
+      header: https://placeimg.com/2560/640/people 
+      square: https://placeimg.com/300/300/people
+      vertical: https://placeimg.com/800/1200/people
+      horizontal: https://placeimg.com/1200/800/people
+      teaser: https://placeimg.com/700/394/people
+      background: https://placeimg.com/1920/1080/people
+  - title: Velit nisi velit excepteur.
+    subtitle: Quis ullamco elit qui adipisicing.
+    heading: Labore excepteur elit aliqua.
+    description:  Fugiat non incididunt elit sit et duis in voluptate voluptate adipisicing tempor nulla pariatur.
+    guid:
+    author: shanehoey
+    link:
+      url:  https://brand1.snooey.com
+      icon: bi bi-file-person
+      text: brand1.snooey.com
+    assets:
+      icon: bi bi-file-earmark
+      header: https://placeimg.com/2560/640/people 
+      square: https://placeimg.com/300/300/people
+      vertical: https://placeimg.com/800/1200/people
+      horizontal: https://placeimg.com/1200/800/people
+      teaser: https://placeimg.com/700/394/people
+      background: https://placeimg.com/1920/1080/people
+  - title: Magna veniam nulla tempor.
+    subtitle: Sunt veniam adipisicing laboris.
+    heading: Duis consectetur duis laborum.
+    description:  Qui commodo ex amet ullamco cillum culpa qui do ex esse. Ut sunt exercitation magna elit laborum cillum sit excepteur reprehenderit.
+    guid:
+    author: shanehoey
+    link:
+      url:  https://brand1.snooey.com
+      icon: bi bi-file-person
+      text: brand1.snooey.com
+    assets:
+      icon: bi bi-file-earmark
+      header: https://placeimg.com/2560/640/people 
+      square: https://placeimg.com/300/300/people
+      vertical: https://placeimg.com/800/1200/people
+      horizontal: https://placeimg.com/1200/800/people
+      teaser: https://placeimg.com/700/394/people
+      background: https://placeimg.com/1920/1080/people

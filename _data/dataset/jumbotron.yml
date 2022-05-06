@@ -1,44 +1,24 @@
 # v1.2.121 _data/dataset/jumbotron.yml
 
-link: &link
-    icon: bi bi-link
-    text: read more
-    url: https://snooey.com/
-
-assets: &assets
-    icon: bi bi-file-earmark
-    header: https://placeimg.com/2560/640/tech
-    square: https://placeimg.com/300/300/tech
-    vertical: https://placeimg.com/800×1200/tech
-    horizontal: https://placeimg.com/1200/800/tech
-    teaser: https://placeimg.com/700/394/tech
-    background: https://placeimg.com/1920/1080/tech
-  
 dataset: &dataset
   title: Occaecat nulla commodo anim qui.
   subtitle: Commodo tempor cillum nisi duis ea qui.
   heading:
   description:
-  guid:
-  authorid: shanehoey
-  link:
-    <<: *link
-  assets:
-    <<: *assets
-    
-dataset1:
-  <<: *dataset
-  title: Voluptate cupidatat tempor id veniam non ea.
-  
-dataset2:
-  <<: *dataset
-  title: Ad culpa et pariatur sunt ex.
-  link:
-    url: https://snooey.com/
-    text: Read More
-    icon:
+  guid: 00000000-0000-0000-0000-000000000000
+  author: shanehoey
+  link: &link
+      icon: bi bi-link
+      text: read more
+      url: https://snooey.com/
+  assets: &assets
+      icon: bi bi-file-earmark
+      header: https://placeimg.com/2560/640/tech
+      square: https://placeimg.com/300/300/tech
+      vertical: https://placeimg.com/800×1200/tech
+      horizontal: https://placeimg.com/1200/800/tech
+      teaser: https://placeimg.com/700/394/tech
+      background: https://placeimg.com/1920/1080/tech
 
-dataset3:
+default:
   <<: *dataset
-  title: Do commodo tempor ad do amet.
-  link: null

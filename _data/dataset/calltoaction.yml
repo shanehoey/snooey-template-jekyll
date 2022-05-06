@@ -1,10 +1,17 @@
 # v1.2.121 _data/dataset/calltoaction.yml
-link: &link
+ 
+dataset: &dataset
+  title: Occaecat nulla commodo anim qui.
+  subtitle: Commodo tempor cillum nisi duis ea qui.
+  heading:
+  description: Tempor ad duis anim ullamco id elit proident incididunt.Mollit nostrud non eu aliqua veniam voluptate commodo sint cillum mollit duis ex.Mollit voluptate exercitation minim quis ex esse in consectetur laborum culpa sint ipsum.Magna eiusmod magna eiusmod id consectetur laborum.Aute incididunt veniam proident nostrud ea cillum consequat mollit exercitation laborum.
+  guid: 00000000-0000-0000-0000-000000000000
+  author:
+  link: &link
     icon: bi bi-link
     text: read more
     url: https://snooey.com/
-
-assets: &assets
+  assets: &assets
     icon: bi bi-file-earmark
     header: https://placeimg.com/2560/640/tech
     square: https://placeimg.com/300/300/tech
@@ -12,32 +19,7 @@ assets: &assets
     horizontal: https://placeimg.com/1200/800/tech
     teaser: https://placeimg.com/700/394/tech
     background: https://placeimg.com/1920/1080/tech
-  
-dataset: &dataset
-  title: Occaecat nulla commodo anim qui.
-  subtitle: Commodo tempor cillum nisi duis ea qui.
-  heading:
-  description: Tempor ad duis anim ullamco id elit proident incididunt.Mollit nostrud non eu aliqua veniam voluptate commodo sint cillum mollit duis ex.Mollit voluptate exercitation minim quis ex esse in consectetur laborum culpa sint ipsum.Magna eiusmod magna eiusmod id consectetur laborum.Aute incididunt veniam proident nostrud ea cillum consequat mollit exercitation laborum.
-  guid:
-  #authorid:
-  link:
-    <<: *link
-  assets:
-    <<: *assets
-    
-dataset1:
-  - <<: *dataset
-    title: Labore ut laboris eiusmod irure laboris sunt cupidatat.
-  - <<: *dataset
-    title: Consectetur ex deserunt velit aute cillum velit.
-  - <<: *dataset
-    title: Mollit mollit eu occaecat pariatur esse sint ipsum.
 
-dataset2:
+default:
   - <<: *dataset
-    title: Dolor tempor ipsum eu velit ea est.
-
-dataset3:
   - <<: *dataset
-    title: Ipsum est ex duis proident aliqua officia ad et.
- 
