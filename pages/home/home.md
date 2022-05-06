@@ -8,15 +8,17 @@ carousel:   true
 <!--v1.2.121 pages/home/home.md-->
 
 <!-- title -->
-{% include flex.html datasource = site.data.brand.[page.brand].brand
-                     schema = site.data.schema.default.flex.h1title %}
-<!-- feature -->
-{% include flexcard.html datasource = site.data.brand.[page.brand].sites limit = 4 %}
+{% assign datasource = site.data.brand[page.brand].brand %}
+{% include flex.html datasource = datasource schema = site.data.schema.default.flex.h1title %}
 
+{% include spacer.html schema = site.data.schema.spacer.default4 %}
+<!-- feature -->
+{% assign datasource = site.data.brand[page.brand].sites %}
+{% include flexcard.html datasource = datasource limit = 4 %}
+{% include spacer.html schema = site.data.schema.spacer.default4 %}
 <!-- author -->
 {% include flex.html datasource = site.data.dataset.author.default schema = site.data.schema.default.flex.author %}
 
-{% include spacer.html %}
+{% include spacer.html schema = site.data.schema.spacer.default4 %}
 <!-- social -->
 {% include social.html datasource = site.data.dataset.social.default schema = site.data.schema.default.social.default %}
-
