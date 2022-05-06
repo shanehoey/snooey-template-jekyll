@@ -1,5 +1,5 @@
 ---
-title: flex sponsor
+title: flex-sponsor
 categories: ['theme']
 permalink: "/:collection/theme/:name/"
 ---

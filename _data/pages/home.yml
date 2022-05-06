@@ -1,5 +1,7 @@
-title: Welcome to snooey.com
-description: Re-Inventing todays workplace with modern collaboration - Passionate about cutting edge technology, I live and breath Technology, It’s what I do best. From playing with the latest gadgets to spending the day writing code, it’s what I get excited about. In my day job I thrive on Microsoft Teams, Skype for Business, Office 365, Windows Azure, Windows PowerShell. I strive to understand how these technologies work at a deep technical level.
+default:
+  - id: home
+    title: Welcome to snooey.com
+    description: Eu non enim sunt Lorem duis irure. Sunt in velit veniam qui deserunt occaecat eiusmod dolor tempor elit enim. In minim ullamco nisi sit dolore est non labore dolor. Reprehenderit officia reprehenderit veniam consequat eiusmod nisi velit. Sunt Lorem laboris et excepteur cupidatat dolor anim.
 
 feature:
   - title:  code.snooey.com

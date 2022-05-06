@@ -1,5 +1,5 @@
 ---
-title: flex calltoaction
+title: flex-calltoaction
 categories: ['theme']
 permalink: "/:collection/theme/:name/"
 ---

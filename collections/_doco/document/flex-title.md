@@ -8,8 +8,6 @@ permalink: "/:collection/theme/:name/"
 {% include flex.html datasource = site.page
                      schema = site.data.schema.default.flex.h1title %}
 
-### here
-
 ## site.data.schema.default.flex.default (default)
 
 {% include flex.html datasource = site.data.dataset.author.default %}

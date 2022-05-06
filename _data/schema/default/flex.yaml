@@ -299,3 +299,83 @@ h3title:
   typography: &typography
     title: h3 text-dark text-decoration-none 
     description: text-muted
+
+
+
+h1heading: 
+  id: flex
+  layout: &layout
+    section: position-relative
+    background: theme-bg-light
+    text: theme-text-dark
+
+  flex: &flex
+    row: 
+      parent: d-flex flex-row
+      row1:                               #image : no value to hide
+      row2: col d-flex p-4                #text : no value to hide
+      row3:                               #icon : no value to hide #p-2 col-4 d-flex p-2 col-4 d-flex justify-content-center align-self-center
+      row4:                               #heading : no value to hide
+    column: 
+      parent: d-flex flex-column
+      col1: text                            # title h1,h2,h3,h4,h5 no value to hide
+      col2:                                # subtitle h1,h2,h3,h4,h5 no value to hide
+      col3:                                # heading h1,h2,h3,h4,h5 no value to hide
+      col4: text                           # description
+      col5:                                # button
+  
+  typography: &typography
+    title: h1 text-dark text-decoration-none 
+    description: text-muted
+
+h2heading: 
+  id: flex
+  layout: &layout
+    section: position-relative
+    background: theme-bg-light
+    text: theme-text-dark
+
+  flex: &flex
+    row: 
+      parent: d-flex flex-row
+      row1:                               #image : no value to hide
+      row2: col d-flex p-4                #text : no value to hide
+      row3:                               #icon : no value to hide #p-2 col-4 d-flex p-2 col-4 d-flex justify-content-center align-self-center
+      row4:                               #heading : no value to hide
+    column: 
+      parent: d-flex flex-column
+      col1: text                           # title h1,h2,h3,h4,h5 no value to hide
+      col2:                                # subtitle h1,h2,h3,h4,h5 no value to hide
+      col3:                                # heading h1,h2,h3,h4,h5 no value to hide
+      col4: text                           # description
+      col5:                                # button
+  
+  typography: &typography
+    title: h2 text-dark text-decoration-none 
+    description: text-muted
+
+h3heading: 
+  id: flex
+  layout: &layout
+    section: position-relative
+    background: theme-bg-light
+    text: theme-text-dark
+
+  flex: &flex
+    row: 
+      parent: d-flex flex-row
+      row1:                               #image : no value to hide
+      row2: col d-flex p-4                #text : no value to hide
+      row3:                               #icon : no value to hide #p-2 col-4 d-flex p-2 col-4 d-flex justify-content-center align-self-center
+      row4:                               #heading : no value to hide
+    column: 
+      parent: d-flex flex-column
+      col1:  text                             # title h1,h2,h3,h4,h5 no value to hide
+      col2:                                # subtitle h1,h2,h3,h4,h5 no value to hide
+      col3:                                # heading h1,h2,h3,h4,h5 no value to hide
+      col4: text                           # description
+      col5:                                # button
+  
+  typography: &typography
+    title: h3 text-dark text-decoration-none 
+    description: text-muted
