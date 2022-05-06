@@ -18,9 +18,13 @@ schema: &schema
   
   card: 
     parent: card h-100
-    image: card-image-top
-    body: card-body
-    footer: card-footer
+    horizontal:
+      row:
+      col:
+    image: card-image-top rounded-top #cardimage no value here hides image
+    body:                    
+      parent: card-body               #cardbody no value here hides body
+    footer: card-footer               #cardfooter no value here hides footer
 
   typography: &typography
     title: h3 text-dark text-decoration-none 

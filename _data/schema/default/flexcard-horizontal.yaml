@@ -3,7 +3,7 @@
 
 schema: &schema
 
-  id: flexhorizontal
+  id: flexcard-horizontal
 
   layout: &layout
     section: position-relative
@@ -21,7 +21,7 @@ schema: &schema
     horizontal:
       row: row
       col: col-4,col-8
-    image: card-image-top img-fluid
+    image: card-image-top img-fluid rounded
     body: card-body
     footer: card-footer
 

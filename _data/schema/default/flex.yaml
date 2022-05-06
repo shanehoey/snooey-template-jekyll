@@ -1,4 +1,4 @@
-# v1.2.121 _data/schema/flex.yml
+# v1.2.125 _data/schema/flex.yml
 # VNEXT - migrate to theme _data\schema
 
 schema: &schema
@@ -11,17 +11,18 @@ schema: &schema
   flex: &flex
     row: 
       parent: d-flex flex-row
-      row1: col-4 p-4
-      row2: col d-flex p-4
-      row3: d-none #p-2 col-4 d-flex p-2 col-4 d-flex justify-content-center align-self-center
-      row4: d-none
+      row1: col-4 p-4                     #image : no value to hide
+      row2: col d-flex p-4                #text : no value to hide
+      row3:                               #icon : no value to hide #p-2 col-4 d-flex p-2 col-4 d-flex justify-content-center align-self-center
+      row4:                               #heading : no value to hide
     column: 
       parent: d-flex flex-column
-      col1: 
-      col2:
-      col3: d-none
-      col4: 
-      col5: d-none
+      col1: h3                             # title h1,h2,h3,h4,h5 no value to hide
+      col2: h5                             # subtitle h1,h2,h3,h4,h5 no value to hide
+      col3:                                # heading h1,h2,h3,h4,h5 no value to hide
+      col4: text                               # description
+      col5:                                # button
+  
   asset:
     image:  &image
       class: img-fluid img-thumbnail float-end
@@ -50,17 +51,17 @@ author: &author
   flex: &flex
     row: 
       parent: d-flex flex-row p-3 
-      row1: col-3
-      row2: col px-3 
-      row3: d-none   #column
-      row4: d-none  
+      row1: col-3     #image
+      row2: col px-3  #text
+      row3:           #icon
+      row4:           #heading
     column: 
       parent: d-flex flex-column
-      col1: 
-      col2:
-      col3: d-none
-      col4: 
-      col5: d-none
+      col1:  h3 f       #title
+      col2:  h5         #subtitle
+      col3:             #heading
+      col4:  show       #description
+      col5:             #link
   asset:
     image:  &image
       class: img-fluid img-thumbnail float-end 
@@ -68,12 +69,12 @@ author: &author
     icon: display-1
   typography: &typography
     title: h3 text-light text-decoration-none 
-    subtitle: h4 text-light
-    heading: h4 text-light
+    subtitle: h5 text-light
+    heading:
     description: text-light
   link: &link
-    button: btn btn-primary theme-text-light stretched-link
-    href: text-light text-decoration-none stretched-link
+    button: btn btn-primary theme-text-light
+    href: text-light text-decoration-none
 
 sponsor: &sponsor
   layout: &layout
@@ -221,3 +222,80 @@ calltoaction03: &calltoaction03
     button: btn btn-primary theme-text-light stretched-link
     href: text-decoration-none
 
+h1title: 
+  id: flex
+  layout: &layout
+    section: position-relative
+    background: theme-bg-light
+    text: theme-text-dark
+
+  flex: &flex
+    row: 
+      parent: d-flex flex-row
+      row1:                               #image : no value to hide
+      row2: col d-flex p-4                #text : no value to hide
+      row3:                               #icon : no value to hide #p-2 col-4 d-flex p-2 col-4 d-flex justify-content-center align-self-center
+      row4:                               #heading : no value to hide
+    column: 
+      parent: d-flex flex-column
+      col1: h1                             # title h1,h2,h3,h4,h5 no value to hide
+      col2:                                # subtitle h1,h2,h3,h4,h5 no value to hide
+      col3:                                # heading h1,h2,h3,h4,h5 no value to hide
+      col4: text                           # description
+      col5:                                # button
+  
+  typography: &typography
+    title: h1 text-dark text-decoration-none 
+    description: text-muted
+
+h2title: 
+  id: flex
+  layout: &layout
+    section: position-relative
+    background: theme-bg-light
+    text: theme-text-dark
+
+  flex: &flex
+    row: 
+      parent: d-flex flex-row
+      row1:                               #image : no value to hide
+      row2: col d-flex p-4                #text : no value to hide
+      row3:                               #icon : no value to hide #p-2 col-4 d-flex p-2 col-4 d-flex justify-content-center align-self-center
+      row4:                               #heading : no value to hide
+    column: 
+      parent: d-flex flex-column
+      col1: h2                             # title h1,h2,h3,h4,h5 no value to hide
+      col2:                                # subtitle h1,h2,h3,h4,h5 no value to hide
+      col3:                                # heading h1,h2,h3,h4,h5 no value to hide
+      col4: text                           # description
+      col5:                                # button
+  
+  typography: &typography
+    title: h2 text-dark text-decoration-none 
+    description: text-muted
+
+h3title: 
+  id: flex
+  layout: &layout
+    section: position-relative
+    background: theme-bg-light
+    text: theme-text-dark
+
+  flex: &flex
+    row: 
+      parent: d-flex flex-row
+      row1:                               #image : no value to hide
+      row2: col d-flex p-4                #text : no value to hide
+      row3:                               #icon : no value to hide #p-2 col-4 d-flex p-2 col-4 d-flex justify-content-center align-self-center
+      row4:                               #heading : no value to hide
+    column: 
+      parent: d-flex flex-column
+      col1: h3                             # title h1,h2,h3,h4,h5 no value to hide
+      col2:                                # subtitle h1,h2,h3,h4,h5 no value to hide
+      col3:                                # heading h1,h2,h3,h4,h5 no value to hide
+      col4: text                           # description
+      col5:                                # button
+  
+  typography: &typography
+    title: h3 text-dark text-decoration-none 
+    description: text-muted

@@ -8,17 +8,11 @@ carousel:   true
 <!--v1.2.121 pages/home/home.md-->
 
 <!-- title -->
-{% include title.html pagetitle = site.data.pages.home.title
-                      description = site.data.pages.home.description
-                      schema = "dark"
-                      %}
+
 <!-- feature -->
-{% include flexcard.html datasource = site.data.pages.home.feature
-                         limit = 4 %}
+{% include flexcard.html datasource = site.data.pages.home.feature limit = 4 %}
 
-{% include flex.html datasource = site.data.dataset.author.default
-                     schema = site.data.schema.flex.author %}
+{% include flex.html datasource = site.data.dataset.author.default schema = site.data.schema.flex.author %}
 
-{% include social.html datasource = site.data.dataset.social.default
-                       schema = site.data.schema.social.default %}
+{% include social.html datasource = site.data.dataset.social.default schema = site.data.schema.social.default %}
 

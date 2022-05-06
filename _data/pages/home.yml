@@ -11,7 +11,7 @@ feature:
     link: &link
       icon: bi bi-file-earmark-code
       text: read more
-      url: https://code.snooey.com/
+      url: /code/
     assets: &assets
       icon: bi bi-file-earmark
       header: https://placeimg.com/2560/640/tech
@@ -31,7 +31,7 @@ feature:
     link: &link
       icon: bi bi-link
       text: read more
-      url: https://snooey.com/
+      url: /docs/
     assets: &assets
       icon: bi bi-file-earmark
       header: https://placeimg.com/2560/640/tech
@@ -51,7 +51,7 @@ feature:
     link: &link
       icon: bi bi-link
       text: read more
-      url: https://snooey.com/
+      url: /tools/
     assets: &assets
       icon: bi bi-file-earmark
       header: https://placeimg.com/2560/640/tech
@@ -71,7 +71,7 @@ feature:
     link: &link
       icon: bi bi-link
       text: read more
-      url: https://snooey.com/
+      url: /hello/
     assets: &assets
       icon: bi bi-file-earmark
       header: https://placeimg.com/2560/640/tech
