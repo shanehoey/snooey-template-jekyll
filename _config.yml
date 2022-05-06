@@ -66,10 +66,10 @@ collections:
         permalink: /:collection/:path/
     doco:
         output: true
-        permalink: /:collection/:path/
+        permalink: /docs/:path/
     tool:
         output: true
-        permalink: /:collection/:path/
+        permalink: /tools/:path/
 
 defaults:
   - scope:

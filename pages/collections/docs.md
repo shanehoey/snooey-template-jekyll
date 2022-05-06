@@ -9,8 +9,5 @@ permalink: /docs/
 
 {{ page.description }}
 
-<a href = "theme" class = "display-3">document</a>
-
-<a href = "theme" class = "display-3">theme</a>
-
-<a href = "theme" class = "display-3">video</a>
+{% assign datasource = site.data.pages.home.feature %}
+{% include flexcard.html datasource = datasource limit = 3 %}

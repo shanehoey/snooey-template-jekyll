@@ -12,7 +12,7 @@ schema: &schema
 
   flex: &flex
     row: 
-      parent: row
+      parent: row justify-content-around
     column:
       parent: col-lg-3 col-md-4 col-sm-6 p-3
   

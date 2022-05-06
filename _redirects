@@ -27,17 +27,17 @@ https://tools.snooey.com/tools/* https://tools.snooey.com/tools/:splat 200
 /code/* https://code.snooey.com/code/:splat 301!
 
 # redirect tools
-/tool/* https://tools.snooey.com/tools/:splat 301!
+/tools/* https://tools.snooey.com/tools/:splat 301!
 
 # redirect hello
 /hello/* https://hello.snooey.com/hello/:splat 301!
 
 # proxy subdomain to file
-# https://snooey.com /index.html 200!
-# https://code.snooey.com /code.html 200!
-# https://docs.snooey.com /documents.html 200!
-# https://hello.snooey.com /hello.html 200!
-# https://tools.snooey.com /tools.html 200!
+https://snooey.com /index.html 200!
+https://code.snooey.com /code/ 200!
+https://docs.snooey.com /docs/ 200!
+https://hello.snooey.com /hello/ 200!
+https://tools.snooey.com /tools/ 200!
 
 #
 # https://snooey.com/index.html /index.html 200!
