@@ -300,8 +300,6 @@ h3title:
     title: h3 text-dark text-decoration-none 
     description: text-muted
 
-
-
 h1heading: 
   id: flex
   layout: &layout

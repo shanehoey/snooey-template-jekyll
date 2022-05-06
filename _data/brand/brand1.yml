@@ -149,7 +149,7 @@ sites: &sites
       background: https://placeimg.com/1920/1080/tech
 
 subsites: &subsites
-  docs:
+  docs: &docs
     - title:  Documents
       subtitle: Documents
       heading: 
@@ -209,4 +209,78 @@ subsites: &subsites
         background: https://placeimg.com/1920/1080/tech  
 
 carousel:
-  <<: *sites
+  - title:  code.snooey.com
+    subtitle: Code
+    heading: code.snooey.com 
+    description: 
+    guid:
+    author: snooey
+    link: &link
+      icon: bi bi-file-earmark-code
+      text: read more
+      url: /code/
+    assets: &assets
+      icon: bi bi-file-earmark
+      header: https://placeimg.com/2560/640/tech
+      square: https://placeimg.com/300/300/tech
+      vertical: https://placeimg.com/800/1200/tech
+      horizontal: https://placeimg.com/1200/800/tech
+      teaser: https://placeimg.com/700/394/tech
+      background: https://placeimg.com/1920/1080/tech 
+  - title:  docs.snooey.com
+    subtitle: Documents
+    heading: 
+    excerpt: 
+    description: 
+    guid:
+    author: snooey
+    link: &link
+      icon: bi bi-link
+      text: read more
+      url: /docs/
+    assets: &assets
+      icon: bi bi-file-earmark
+      header: https://placeimg.com/2560/640/tech
+      square: https://placeimg.com/300/300/tech
+      vertical: https://placeimg.com/800/1200/tech
+      horizontal: https://placeimg.com/1200/800/tech
+      teaser: https://placeimg.com/700/394/tech
+      background: https://placeimg.com/1920/1080/tech
+  - title: tools.snooey.com
+    subtitle: Tools
+    heading: 
+    excerpt: 
+    description: Sometimes you just need to write your own tool to do something and heres mine
+    guid:
+    author: snooey
+    link: &link
+      icon: bi bi-link
+      text: read more
+      url: /tools/
+    assets: &assets
+      icon: bi bi-file-earmark
+      header: https://placeimg.com/2560/640/tech
+      square: https://placeimg.com/300/300/tech
+      vertical: https://placeimg.com/800/1200/tech
+      horizontal: https://placeimg.com/1200/800/tech
+      teaser: https://placeimg.com/700/394/tech
+      background: https://placeimg.com/1920/1080/tech
+  - title: hello.snooey.com
+    subtitle: Hello
+    heading: 
+    excerpt: 
+    description: "Who is <b>Shane Hoey</b>?<br/> #BuiltforTeamwork<br/> #USRockstar<br/> #AutomationNinja<br/>"
+    guid:
+    author: snooey
+    link: &link
+      icon: bi bi-link
+      text: read more
+      url: /hello/
+    assets: &assets
+      icon: bi bi-file-earmark
+      header: https://placeimg.com/2560/640/tech
+      square: https://placeimg.com/300/300/tech
+      vertical: https://placeimg.com/800/1200/tech
+      horizontal: https://placeimg.com/1200/800/tech
+      teaser: https://placeimg.com/700/394/tech
+      background: https://placeimg.com/1920/1080/tech
