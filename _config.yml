@@ -103,8 +103,7 @@ defaults:
       carousel: false     # true/false
       footer: true      # true/false
       brand: brand0    # sets the default branding for page (brand1)
-      #theme: theme1    # sets the default css classes (theme1])
-      #schema: default   # sets the default schema used (default) 
+      theme: theme1    # sets the default css classes (theme1])
 
   - scope:
       path: ""
