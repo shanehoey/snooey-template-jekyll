@@ -9,5 +9,5 @@ permalink: /docs/
 
 {{ page.description }}
 
-{% assign datasource = site.data.pages.home.feature %}
+{% assign datasource = site.data.brand[page.brand].subsites.docs %}
 {% include flexcard.html datasource = datasource limit = 3 %}

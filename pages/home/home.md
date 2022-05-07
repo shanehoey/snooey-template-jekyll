@@ -8,7 +8,9 @@ carousel:   true
 <!--v1.2.121 pages/home/home.md-->
 
 <!-- title -->
-{% assign datasource = site.data.brand[page.brand].brand %}
+{% assign datasource = "" | split: "," %} <!-- trick to create array -->
+{% assign datasource = datasource | push: site.data.brand[page.brand].brand %} <!-- add to array -->
+
 {% include flex.html datasource = datasource schema = site.data.schema.default.flex.h1title %}
 
 {% include spacer.html schema = site.data.schema.default.spacer.default4 %}
@@ -22,3 +24,5 @@ carousel:   true
 {% include spacer.html schema = site.data.schema.default.spacer.default4 %}
 <!-- social -->
 {% include social.html datasource = site.data.dataset.social.default schema = site.data.schema.default.social.default %}
+
+{% include spacer.html schema = site.data.schema.default.spacer.default4 %}
