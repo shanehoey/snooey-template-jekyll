@@ -14,12 +14,12 @@ brand: &brand
     text: snooey.com
   assets: 
     icon: bi bi-file-earmark
-    header: https://placeimg.com/2560/640/people 
-    square: https://placeimg.com/300/300/people
-    vertical: https://placeimg.com/800/1200/people
-    horizontal: https://placeimg.com/1200/800/people
-    teaser: https://placeimg.com/700/394/people
-    background: https://placeimg.com/1920/1080/people
+    header: https://source.unsplash.com/NgHG0szvwQk/2560x640/
+    square: https://source.unsplash.com/NgHG0szvwQk/300x300/
+    vertical: https://source.unsplash.com/NgHG0szvwQk/800x1200/
+    horizontal: https://source.unsplash.com/NgHG0szvwQk/1200x800/
+    teaser: https://source.unsplash.com/NgHG0szvwQk/700x394/
+    background: https://source.unsplash.com/NgHG0szvwQk/1920x1080/
 
 layout: &layout
   body: container theme-bg-unsplash1-fixed

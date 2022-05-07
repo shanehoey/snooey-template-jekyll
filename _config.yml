@@ -63,16 +63,19 @@ collections_dir: collections
 collections:
     brand1:
         output: true
-        permalink: /code/:path/
+        permalink: /:collection/:path/
     brand2:
         output: true
-        permalink: /docs/:path/
+        permalink: /:collection/:path;/
     brand3:
         output: true
-        permalink: /tools/:path/
+        permalink: /:collection/:path/
     brand4:
         output: true
-        permalink: /hello/:path/
+        permalink: /:collection/:path/
+    brand5:
+        output: true
+        permalink: /:collection/:path/
 
 defaults:
   - scope:
@@ -82,7 +85,7 @@ defaults:
       subtitle:
       heading:
       description:
-      guid:
+      guid:  00000000-0000-0000-0000-000000000000
       author: shanehoey
       link: &link
         icon: bi bi-link
@@ -102,8 +105,8 @@ defaults:
       breadcrumb: true      # true/false
       carousel: false     # true/false
       footer: true      # true/false
-      brand: brand0    # sets the default branding for page (brand1)
-      theme: theme1    # sets the default css classes (theme1])
+      brand: brand0    # sets the default branding for page (brand0)
+      theme: theme1    # sets the default css classes (theme[1..5]])
 
   - scope:
       path: ""
@@ -134,33 +137,9 @@ defaults:
       categories: ["brand1"]
       link:
         <<: *link
-        icon: bi bi-file-code
       assets:
         <<: *assets
-  
-  - scope:
-      path: "collections/_brand1/github/"
-      type: brand1
-    values:
-      layout: brand1/github
-      categories: ["brand1","github"]
-      link:
-        <<: *link
-        icon: bi bi-file-code
-      assets:
-        <<: *assets
-      
-  - scope:
-      path: "collections/_brand1/gist/"
-      type: code
-    values:
-      layout: code/gist
-      link:
-        <<: *link
-        icon: bi bi-file-code
-      assets:
-        <<: *assets
-      categories: ["brand1","gist"]  
+        icon: bi bi-file-text
   
   - scope:
       path: ""
@@ -169,34 +148,11 @@ defaults:
       layout: brand2/default
       link:
         <<: *link
-        icon: bi bi-file-text
       assets:
         <<: *assets
+        icon: bi bi-file-text
       categories: ["brand2"]
   
-  - scope:
-      path: "collections/_brand2/document/"
-      type: brand2
-    values:
-      categories: ["brand2","document"]
-      layout: brand2/document
-      link:
-        <<: *link
-        icon: bi bi-file-text
-      assets:
-        <<: *assets
-  
-  - scope:
-      path: "collections/_brand2/video/"
-      type: brand2
-    values:
-      categories: ["brand2","video"]
-      layout: brand2/video
-      link:
-        <<: *link
-        icon: bi bi-file-play
-      assets:
-        <<: *assets
   
   - scope:
       path: ""
@@ -206,10 +162,10 @@ defaults:
       layout: brand3/default
       link:
         <<: *link
-        icon: bi bi-tools
       assets:
         <<: *assets
-
+        icon: bi bi-file-text
+  
   - scope:
       path: ""
       type: brand4
@@ -218,6 +174,19 @@ defaults:
       layout: brand4/default
       link:
         <<: *link
-        icon: bi bi-tools
       assets:
         <<: *assets
+        icon: bi bi-file-text
+ 
+  - scope:
+      path: ""
+      type: brand5
+    values:
+      categories: ["brand5"]
+      layout: brand5/default
+      link:
+        <<: *link
+      assets:
+        <<: *assets
+        icon: bi bi-file-text
+
