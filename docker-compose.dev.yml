@@ -10,6 +10,6 @@ services:
             - .:/srv/jekyll
         environment:
             - NODE_ENV=development
-            - JEKYLL_ENV=development
+            - JEKYLL_ENV=production
             - TZ=Australia\Brisbane
    

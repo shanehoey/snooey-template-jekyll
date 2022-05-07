@@ -1,30 +1,30 @@
 # v1.2.121 _data/brand1.yml
 
 brand: &brand
-  - title: brand1.snooey.com
-    subtitle: Branding for brand1
-    heading: brand1.snooey.com
-    description: brand1 dolore laboris nostrud minim deserunt nulla reprehenderit cillum quis deserunt fugiat et elit do.
-    copyright: '&copy; Shane Hoey 2018-2022. All Rights Reserved.'
-    guid:
-    author: shanehoey
-    link: 
-      url:  https://brand1.snooey.com
-      icon: bi bi-file-person
-      text: brand1.snooey.com
-    assets: 
-      icon: bi bi-file-earmark
-      header: https://placeimg.com/2560/640/people 
-      square: https://placeimg.com/300/300/people
-      vertical: https://placeimg.com/800/1200/people
-      horizontal: https://placeimg.com/1200/800/people
-      teaser: https://placeimg.com/700/394/people
-      background: https://placeimg.com/1920/1080/people
+  title: brand1.snooey.com
+  subtitle: Branding for brand1
+  heading: brand1.snooey.com
+  description: brand1 dolore laboris nostrud minim deserunt nulla reprehenderit cillum quis deserunt fugiat et elit do.
+  copyright: '&copy; Shane Hoey 2018-2022. All Rights Reserved.'
+  guid:
+  author: shanehoey
+  link: 
+    url:  https://brand1.snooey.com
+    icon: bi bi-file-person
+    text: brand1.snooey.com
+  assets: 
+    icon: bi bi-file-earmark
+    header: https://placeimg.com/2560/640/people 
+    square: https://placeimg.com/300/300/people
+    vertical: https://placeimg.com/800/1200/people
+    horizontal: https://placeimg.com/1200/800/people
+    teaser: https://placeimg.com/700/394/people
+    background: https://placeimg.com/1920/1080/people
 
 layout: &layout
-  body: container theme-bg-unsplash5
+  body: container theme-bg-unsplash1-fixed
   header: 
-  content: theme-bg-light mb-2
+  content: theme-bg-light
   footer:
 
 navbar: &navbar
