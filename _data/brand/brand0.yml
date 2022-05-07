@@ -1,17 +1,17 @@
-# v1.2.121 _data/brand4.yml
+# v1.2.121 _data/brand1.yml
 
 brand: &brand
-  title: brand4.snooey.com
-  subtitle: Branding for brand1
-  heading: brand4.snooey.com
-  description: brand4 dolore laboris nostrud minim deserunt nulla reprehenderit cillum quis deserunt fugiat et elit do.
+  title: snooey.com
+  subtitle: Branding for snooey.com
+  heading: snooey.com
+  description: brand1 dolore laboris nostrud minim deserunt nulla reprehenderit cillum quis deserunt fugiat et elit do.
   copyright: '&copy; Shane Hoey 2018-2022. All Rights Reserved.'
   guid:
   author: shanehoey
   link: 
-    url:  https://brand1.snooey.com
+    url:  https://snooey.com
     icon: bi bi-file-person
-    text: brand4.snooey.com
+    text: snooey.com
   assets: 
     icon: bi bi-file-earmark
     header: https://placeimg.com/2560/640/people 
@@ -22,7 +22,7 @@ brand: &brand
     background: https://placeimg.com/1920/1080/people
 
 layout: &layout
-  body: container theme-bg-unsplash4-fixed
+  body: container theme-bg-unsplash1-fixed
   header: 
   content: theme-bg-light
   footer:

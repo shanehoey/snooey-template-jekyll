@@ -61,15 +61,18 @@ include:
 collections_dir: collections
 
 collections:
-    code:
+    brand1:
         output: true
-        permalink: /:collection/:path/
-    doco:
+        permalink: /code/:path/
+    brand2:
         output: true
         permalink: /docs/:path/
-    tool:
+    brand3:
         output: true
         permalink: /tools/:path/
+    brand4:
+        output: true
+        permalink: /hello/:path/
 
 defaults:
   - scope:
@@ -99,9 +102,9 @@ defaults:
       breadcrumb: true      # true/false
       carousel: false     # true/false
       footer: true      # true/false
-      brand: brand1    # sets the default branding for page (brand1)
-      theme: theme1    # sets the default css classes (theme1])
-      schema: default   # sets the default schema used (default) 
+      brand: brand0    # sets the default branding for page (brand1)
+      #theme: theme1    # sets the default css classes (theme1])
+      #schema: default   # sets the default schema used (default) 
 
   - scope:
       path: ""
@@ -126,10 +129,10 @@ defaults:
 
   - scope:
       path: ""
-      type: code
+      type: brand1
     values:
-      layout: code/default
-      categories: ["code"]
+      layout: brand1/default
+      categories: ["brand1"]
       link:
         <<: *link
         icon: bi bi-file-code
@@ -137,11 +140,11 @@ defaults:
         <<: *assets
   
   - scope:
-      path: "collections/_code/github/"
-      type: code
+      path: "collections/_brand1/github/"
+      type: brand1
     values:
-      layout: code/github
-      categories: ["github"]
+      layout: brand1/github
+      categories: ["brand1","github"]
       link:
         <<: *link
         icon: bi bi-file-code
@@ -149,7 +152,7 @@ defaults:
         <<: *assets
       
   - scope:
-      path: "collections/_code/gist/"
+      path: "collections/_brand1/gist/"
       type: code
     values:
       layout: code/gist
@@ -158,26 +161,26 @@ defaults:
         icon: bi bi-file-code
       assets:
         <<: *assets
-      categories: ["gist"]  
+      categories: ["brand1","gist"]  
   
   - scope:
       path: ""
-      type: doco
+      type: brand2
     values:
-      layout: doco/default
+      layout: brand2/default
       link:
         <<: *link
         icon: bi bi-file-text
       assets:
         <<: *assets
-      categories: ["document"]
+      categories: ["brand2"]
   
   - scope:
-      path: "collections/_doco/document/"
-      type: doco
+      path: "collections/_brand2/document/"
+      type: brand2
     values:
-      categories: ["document"]
-      layout: doco/document
+      categories: ["brand2","document"]
+      layout: brand2/document
       link:
         <<: *link
         icon: bi bi-file-text
@@ -185,11 +188,11 @@ defaults:
         <<: *assets
   
   - scope:
-      path: "collections/_doco/video/"
-      type: doco
+      path: "collections/_brand2/video/"
+      type: brand2
     values:
-      categories: ["video"]
-      layout: doco/video
+      categories: ["brand2","video"]
+      layout: brand2/video
       link:
         <<: *link
         icon: bi bi-file-play
@@ -197,11 +200,23 @@ defaults:
         <<: *assets
   
   - scope:
-      path: "collections/_tool/"
-      type: tool
+      path: ""
+      type: brand3
     values:
-      categories: ["tool"]
-      layout: tool/default
+      categories: ["brand3"]
+      layout: brand3/default
+      link:
+        <<: *link
+        icon: bi bi-tools
+      assets:
+        <<: *assets
+
+  - scope:
+      path: ""
+      type: brand4
+    values:
+      categories: ["brand4"]
+      layout: brand4/default
       link:
         <<: *link
         icon: bi bi-tools

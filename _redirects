@@ -1,43 +1,35 @@
 # v1.2.121 _redirects
 
-https://code.snooey.com/code/* https://code.snooey.com/code/:splat 200
-https://docs.snooey.com/docs/* https://docs.snooey.com/docs/:splat 200
-https://hello.snooey.com/hello/* https://hello.snooey.com/hello/:splat 200
-https://tools.snooey.com/tools/* https://tools.snooey.com/tools/:splat 200
+https://brand1.snooey.com/brand1/* https://brand1.snooey.com/brand1/:splat 200
+https://brand2.snooey.com/brand2/* https://brand2.snooey.com/brand2/:splat 200
+https://brand3.snooey.com/brand3/* https://brand3.snooey.com/brand3/:splat 200
+https://brand4.snooey.com/brand4/* https://brand4.snooey.com/brand4/:splat 200
 
 # main headings
-/code/* https://code.snooey.com/:splat 301!
-/docs/* https://docs.snooey.com/:splat 301!
-/tools/* https://tools.snooey.com/:splat 301!
-/hello/* https://hello.snooey.com/:splat 301!
+/brand1/* https://brand1.snooey.com/:splat 301!
+/brand2/* https://brand2.snooey.com/:splat 301!
+/brand3/* https://brand3.snooey.com/:splat 301!
+/brand4/* https://brand4.snooey.com/:splat 301!
 
 # redirect subdomains  
 /index.html https://snooey.com/ 301!
-/code.html https://code.snooey.com/ 301!
-/doco.html https://docs.snooey.com/ 301!
-/hello.html https://hello.snooey.com/ 301!
-/tool.html https://tools.snooey.com/ 301!
+# /code.html https://code.snooey.com/ 301!
+# /doco.html https://docs.snooey.com/ 301!
+# /hello.html https://hello.snooey.com/ 301!
+#  /tool.html https://tools.snooey.com/ 301!
 
-# redirect docs
-/docs/* https://docs.snooey.com/docs/:splat 301!
-/documents/* https://docs.snooey.com/documents/:splat 301!
-/videos/* https://docs.snooey.com/videos/:splat 301!
-
-# redirect code
-/code/* https://code.snooey.com/code/:splat 301!
-
-# redirect tools
-/tools/* https://tools.snooey.com/tools/:splat 301!
-
-# redirect hello
-/hello/* https://hello.snooey.com/hello/:splat 301!
+# redirect
+/brand1/* https://brand1.snooey.com/brand1/:splat 301!
+/brand2/* https://brand2.snooey.com/brand1/:splat 301!
+/brand3/* https://brand3.snooey.com/brand1/:splat 301!
+/brand4/* https://brand4.snooey.com/brand1/:splat 301!
 
 # proxy subdomain to file
 https://snooey.com /index.html 200!
-https://code.snooey.com /code/ 200!
-https://docs.snooey.com /docs/ 200!
-https://hello.snooey.com /hello/ 200!
-https://tools.snooey.com /tools/ 200!
+https://brand1.snooey.com /brand1/ 200!
+https://brand2.snooey.com /brand2/ 200!
+https://brand3.snooey.com /brand3/ 200!
+https://brand4.snooey.com /brand4/ 200!
 
 #
 # https://snooey.com/index.html /index.html 200!
