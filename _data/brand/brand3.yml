@@ -31,19 +31,19 @@ navbar: &navbar
   - url: /
     icon: bi bi-file-person
     text: Home
-  - url: /code/
+  - url: /brand1/
     icon: bi bi-link
-    text: Code
-  - url: /doco/
+    text: brand1
+  - url: /brand2/
     icon: bi bi-link
-    text: Documents
-  - url: /videos/
+    text: brand2
+  - url: /brand3/
     icon: bi bi-link
-    text: Videos
-  - url: /tools/
+    text: brand3
+  - url: /brand4/
     icon: bi bi-link
-    text: Tools
-  - url: /doco/theme/
+    text: brand4
+  - url: /brand2/theme/
     icon: bi bi-palette
     text: theme
     #children:

@@ -43,7 +43,7 @@ navbar: &navbar
   - url: /brand4/
     icon: bi bi-link
     text: brand4
-  - url: /doco/theme/
+  - url: /brand2/theme/
     icon: bi bi-palette
     text: theme
     #children:
@@ -82,14 +82,14 @@ sites: &sites
       icon: bi bi-file-earmark-code
       text: read more
       url: /brand1/
-    assets: &assets
+    assets: &assets 
       icon: bi bi-file-earmark
-      header: https://placeimg.com/2560/640/tech
-      square: https://placeimg.com/300/300/tech
-      vertical: https://placeimg.com/800/1200/tech
-      horizontal: https://placeimg.com/1200/800/tech
-      teaser: https://placeimg.com/700/394/tech
-      background: https://placeimg.com/1920/1080/tech 
+      header: https://source.unsplash.com/4T5MTKMrjZg/2560x640/
+      square: https://source.unsplash.com/4T5MTKMrjZg/300x300/
+      vertical: https://source.unsplash.com/4T5MTKMrjZg/800x1200/
+      horizontal: https://source.unsplash.com/4T5MTKMrjZg/1200x800/
+      teaser: https://source.unsplash.com/4T5MTKMrjZg/700x394/
+      background: https://source.unsplash.com/4T5MTKMrjZg/1920x1080/ 
   - title:  brand2.snooey.com
     subtitle: brand2
     heading: 
@@ -103,12 +103,12 @@ sites: &sites
       url: /brand2/
     assets: &assets
       icon: bi bi-file-earmark
-      header: https://placeimg.com/2560/640/tech
-      square: https://placeimg.com/300/300/tech
-      vertical: https://placeimg.com/800/1200/tech
-      horizontal: https://placeimg.com/1200/800/tech
-      teaser: https://placeimg.com/700/394/tech
-      background: https://placeimg.com/1920/1080/tech
+      header: https://source.unsplash.com/-Pg63JThyCg/2560x640
+      square: https://source.unsplash.com/-Pg63JThyCg/300x300/
+      vertical: https://source.unsplash.com/-Pg63JThyCg/800x1200/
+      horizontal: https://source.unsplash.com/-Pg63JThyCg/1200x800/
+      teaser: https://source.unsplash.com/-Pg63JThyCg/700x394/
+      background: https://source.unsplash.com/-Pg63JThyCg/1920x1080/
   - title: brand3.snooey.com
     subtitle: brand3
     heading: 
@@ -122,12 +122,12 @@ sites: &sites
       url: /brand3/
     assets: &assets
       icon: bi bi-file-earmark
-      header: https://placeimg.com/2560/640/tech
-      square: https://placeimg.com/300/300/tech
-      vertical: https://placeimg.com/800/1200/tech
-      horizontal: https://placeimg.com/1200/800/tech
-      teaser: https://placeimg.com/700/394/tech
-      background: https://placeimg.com/1920/1080/tech
+      header: https://source.unsplash.com/vS7LVkPyXJU/2560x640
+      square: https://source.unsplash.com/vS7LVkPyXJU/300x300/
+      vertical: https://source.unsplash.com/vS7LVkPyXJU/800x1200/
+      horizontal: https://source.unsplash.com/vS7LVkPyXJU/1200x800/
+      teaser: https://source.unsplash.com/vS7LVkPyXJU/700x394/
+      background: https://source.unsplash.com/vS7LVkPyXJU/1920x1080/
   - title: brand4.snooey.com
     subtitle: brand4
     heading: 
@@ -141,12 +141,12 @@ sites: &sites
       url: /brand4/
     assets: &assets
       icon: bi bi-file-earmark
-      header: https://placeimg.com/2560/640/tech
-      square: https://placeimg.com/300/300/tech
-      vertical: https://placeimg.com/800/1200/tech
-      horizontal: https://placeimg.com/1200/800/tech
-      teaser: https://placeimg.com/700/394/tech
-      background: https://placeimg.com/1920/1080/tech
+      header: https://source.unsplash.com/bepwY8khinw/2560x640
+      square: https://source.unsplash.com/bepwY8khinw/300x300/
+      vertical: https://source.unsplash.com/bepwY8khinw/800x1200/
+      horizontal: https://source.unsplash.com/bepwY8khinw/1200x800/
+      teaser: https://source.unsplash.com/bepwY8khinw/700x394/
+      background: https://source.unsplash.com/bepwY8khinw/1920x1080/
 
 subsites: &subsites
   docs: &docs
@@ -163,12 +163,12 @@ subsites: &subsites
         url: /docs/document/
       assets: &assets
         icon: bi bi-file-earmark
-        header: https://placeimg.com/2560/640/tech
-        square: https://placeimg.com/300/300/tech
-        vertical: https://placeimg.com/800/1200/tech
-        horizontal: https://placeimg.com/1200/800/tech
-        teaser: https://placeimg.com/700/394/tech
-        background: https://placeimg.com/1920/1080/tech
+        header: https://source.unsplash.com/NgHG0szvwQk/2560x640
+        square: https://source.unsplash.com/NgHG0szvwQk/300x300/
+        vertical: https://source.unsplash.com/NgHG0szvwQk/800x1200/
+        horizontal: https://source.unsplash.com/NgHG0szvwQk/1200x800/
+        teaser: https://source.unsplash.com/NgHG0szvwQk/700x394/
+        background: https://source.unsplash.com/NgHG0szvwQk/1920x1080/
     - title:  Code
       subtitle: Code
       heading: 
@@ -182,12 +182,12 @@ subsites: &subsites
         url: /docs/document/
       assets: &assets
         icon: bi bi-file-earmark
-        header: https://placeimg.com/2560/640/tech
-        square: https://placeimg.com/300/300/tech
-        vertical: https://placeimg.com/800/1200/tech
-        horizontal: https://placeimg.com/1200/800/tech
-        teaser: https://placeimg.com/700/394/tech
-        background: https://placeimg.com/1920/1080/tech
+        header: https://source.unsplash.com/NgHG0szvwQk/2560x640
+        square: https://source.unsplash.com/NgHG0szvwQk/300x300/
+        vertical: https://source.unsplash.com/NgHG0szvwQk/800x1200/
+        horizontal: https://source.unsplash.com/NgHG0szvwQk/1200x800/
+        teaser: https://source.unsplash.com/NgHG0szvwQk/700x394/
+        background: https://source.unsplash.com/NgHG0szvwQk/1920x1080/
     - title:  Tools
       subtitle: Tools
       heading: 
@@ -201,12 +201,12 @@ subsites: &subsites
         url: /docs/document/
       assets: &assets
         icon: bi bi-file-earmark
-        header: https://placeimg.com/2560/640/tech
-        square: https://placeimg.com/300/300/tech
-        vertical: https://placeimg.com/800/1200/tech
-        horizontal: https://placeimg.com/1200/800/tech
-        teaser: https://placeimg.com/700/394/tech
-        background: https://placeimg.com/1920/1080/tech  
+        header: https://source.unsplash.com/NgHG0szvwQk/2560x640
+        square: https://source.unsplash.com/NgHG0szvwQk/300x300/
+        vertical: https://source.unsplash.com/NgHG0szvwQk/800x1200/
+        horizontal: https://source.unsplash.com/NgHG0szvwQk/1200x800/
+        teaser: https://source.unsplash.com/NgHG0szvwQk/700x394/
+        background: https://source.unsplash.com/NgHG0szvwQk/1920x1080/  
 
 carousel:
   - title:  code.snooey.com
@@ -221,12 +221,12 @@ carousel:
       url: /code/
     assets: &assets
       icon: bi bi-file-earmark
-      header: https://placeimg.com/2560/640/tech
-      square: https://placeimg.com/300/300/tech
-      vertical: https://placeimg.com/800/1200/tech
-      horizontal: https://placeimg.com/1200/800/tech
-      teaser: https://placeimg.com/700/394/tech
-      background: https://placeimg.com/1920/1080/tech 
+      header: https://source.unsplash.com/NgHG0szvwQk/2560x640
+      square: https://source.unsplash.com/NgHG0szvwQk/300x300/
+      vertical: https://source.unsplash.com/NgHG0szvwQk/800x1200/
+      horizontal: https://source.unsplash.com/NgHG0szvwQk/1200x800/
+      teaser: https://source.unsplash.com/NgHG0szvwQk/700x394/
+      background: https://source.unsplash.com/NgHG0szvwQk/1920x1080/ 
   - title:  docs.snooey.com
     subtitle: Documents
     heading: 
@@ -240,12 +240,12 @@ carousel:
       url: /docs/
     assets: &assets
       icon: bi bi-file-earmark
-      header: https://placeimg.com/2560/640/tech
-      square: https://placeimg.com/300/300/tech
-      vertical: https://placeimg.com/800/1200/tech
-      horizontal: https://placeimg.com/1200/800/tech
-      teaser: https://placeimg.com/700/394/tech
-      background: https://placeimg.com/1920/1080/tech
+      header: https://source.unsplash.com/NgHG0szvwQk/2560x640
+      square: https://source.unsplash.com/NgHG0szvwQk/300x300/
+      vertical: https://source.unsplash.com/NgHG0szvwQk/800x1200/
+      horizontal: https://source.unsplash.com/NgHG0szvwQk/1200x800/
+      teaser: https://source.unsplash.com/NgHG0szvwQk/700x394/
+      background: https://source.unsplash.com/NgHG0szvwQk/1920x1080/
   - title: tools.snooey.com
     subtitle: Tools
     heading: 
@@ -259,12 +259,12 @@ carousel:
       url: /tools/
     assets: &assets
       icon: bi bi-file-earmark
-      header: https://placeimg.com/2560/640/tech
-      square: https://placeimg.com/300/300/tech
-      vertical: https://placeimg.com/800/1200/tech
-      horizontal: https://placeimg.com/1200/800/tech
-      teaser: https://placeimg.com/700/394/tech
-      background: https://placeimg.com/1920/1080/tech
+      header: https://source.unsplash.com/NgHG0szvwQk/2560x640
+      square: https://source.unsplash.com/NgHG0szvwQk/300x300/
+      vertical: https://source.unsplash.com/NgHG0szvwQk/800x1200/
+      horizontal: https://source.unsplash.com/NgHG0szvwQk/1200x800/
+      teaser: https://source.unsplash.com/NgHG0szvwQk/700x394/
+      background: https://source.unsplash.com/NgHG0szvwQk/1920x1080/
   - title: hello.snooey.com
     subtitle: Hello
     heading: 
@@ -278,9 +278,9 @@ carousel:
       url: /hello/
     assets: &assets
       icon: bi bi-file-earmark
-      header: https://placeimg.com/2560/640/tech
-      square: https://placeimg.com/300/300/tech
-      vertical: https://placeimg.com/800/1200/tech
-      horizontal: https://placeimg.com/1200/800/tech
-      teaser: https://placeimg.com/700/394/tech
-      background: https://placeimg.com/1920/1080/tech
+      header: https://source.unsplash.com/NgHG0szvwQk/2560x640
+      square: https://source.unsplash.com/NgHG0szvwQk/300x300/
+      vertical: https://source.unsplash.com/NgHG0szvwQk/800x1200/
+      horizontal: https://source.unsplash.com/NgHG0szvwQk/1200x800/
+      teaser: https://source.unsplash.com/NgHG0szvwQk/700x394/
+      background: https://source.unsplash.com/NgHG0szvwQk/1920x1080/
