@@ -31,18 +31,18 @@ navbar: &navbar
   - url: /
     icon: bi bi-file-person
     text: Home
-  - url: /code/
+  - url: /brand1/
     icon: bi bi-link
-    text: Code
-  - url: /doco/
+    text: brand1
+  - url: /brand2/
     icon: bi bi-link
-    text: Documents
-  - url: /videos/
+    text: brand2
+  - url: /brand3/
     icon: bi bi-link
-    text: Videos
-  - url: /tools/
+    text: brand3
+  - url: /brand4/
     icon: bi bi-link
-    text: Tools
+    text: brand4
   - url: /doco/theme/
     icon: bi bi-palette
     text: theme
@@ -72,16 +72,16 @@ footer: &footer
     text: contact
 
 sites: &sites
-  - title:  code.snooey.com
-    subtitle: Code
-    heading: code.snooey.com 
+  - title:  brand1.snooey.com
+    subtitle: brand1
+    heading: brand1.snooey.com 
     description: 
     guid:
     author: snooey
     link: &link
       icon: bi bi-file-earmark-code
       text: read more
-      url: /code/
+      url: /brand1/
     assets: &assets
       icon: bi bi-file-earmark
       header: https://placeimg.com/2560/640/tech
@@ -90,8 +90,8 @@ sites: &sites
       horizontal: https://placeimg.com/1200/800/tech
       teaser: https://placeimg.com/700/394/tech
       background: https://placeimg.com/1920/1080/tech 
-  - title:  docs.snooey.com
-    subtitle: Documents
+  - title:  brand2.snooey.com
+    subtitle: brand2
     heading: 
     excerpt: 
     description: 
@@ -100,7 +100,7 @@ sites: &sites
     link: &link
       icon: bi bi-link
       text: read more
-      url: /docs/
+      url: /brand2/
     assets: &assets
       icon: bi bi-file-earmark
       header: https://placeimg.com/2560/640/tech
@@ -109,8 +109,8 @@ sites: &sites
       horizontal: https://placeimg.com/1200/800/tech
       teaser: https://placeimg.com/700/394/tech
       background: https://placeimg.com/1920/1080/tech
-  - title: tools.snooey.com
-    subtitle: Tools
+  - title: brand3.snooey.com
+    subtitle: brand3
     heading: 
     excerpt: 
     description: Sometimes you just need to write your own tool to do something and heres mine
@@ -119,7 +119,7 @@ sites: &sites
     link: &link
       icon: bi bi-link
       text: read more
-      url: /tools/
+      url: /brand3/
     assets: &assets
       icon: bi bi-file-earmark
       header: https://placeimg.com/2560/640/tech
@@ -128,8 +128,8 @@ sites: &sites
       horizontal: https://placeimg.com/1200/800/tech
       teaser: https://placeimg.com/700/394/tech
       background: https://placeimg.com/1920/1080/tech
-  - title: hello.snooey.com
-    subtitle: Hello
+  - title: brand4.snooey.com
+    subtitle: brand4
     heading: 
     excerpt: 
     description: "Who is <b>Shane Hoey</b>?<br/> #BuiltforTeamwork<br/> #USRockstar<br/> #AutomationNinja<br/>"
@@ -138,7 +138,7 @@ sites: &sites
     link: &link
       icon: bi bi-link
       text: read more
-      url: /hello/
+      url: /brand4/
     assets: &assets
       icon: bi bi-file-earmark
       header: https://placeimg.com/2560/640/tech
