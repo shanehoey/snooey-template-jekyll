@@ -73,9 +73,6 @@ collections:
     brand4:
         output: true
         permalink: /:collection/:path/
-    brand5:
-        output: true
-        permalink: /:collection/:path/
 
 defaults:
   - scope:
@@ -100,13 +97,13 @@ defaults:
         teaser: https://placeimg.com/700/394/tech
         background: https://placeimg.com/1920/1080/tech
       categories: []
-      layout: default   # default/page/paginate/post/video
+      layout: brand0   # default/page/paginate/post/video
       navbar: true      # true/false
       breadcrumb: true      # true/false
       carousel: false     # true/false
       footer: true      # true/false
       brand: brand0    # sets the default branding for page (brand0)
-      theme: theme1    # sets the default css classes (theme[1..5]])
+      theme: theme0    # sets the default css classes (theme[1..5]])
 
   - scope:
       path: ""
@@ -130,10 +127,12 @@ defaults:
         <<: *assets
 
   - scope:
-      path: ""
+      path: "/brand1/*"
       type: brand1
     values:
-      layout: brand1/default
+      layout: brand1
+      brand: brand1
+      theme: theme1
       categories: ["brand1"]
       link:
         <<: *link
@@ -145,7 +144,9 @@ defaults:
       path: ""
       type: brand2
     values:
-      layout: brand2/default
+      layout: brand2
+      brand: brand2
+      theme: theme2
       link:
         <<: *link
       assets:
@@ -159,7 +160,9 @@ defaults:
       type: brand3
     values:
       categories: ["brand3"]
-      layout: brand3/default
+      layout: brand3
+      brand: brand3
+      theme: theme3
       link:
         <<: *link
       assets:
@@ -171,22 +174,12 @@ defaults:
       type: brand4
     values:
       categories: ["brand4"]
-      layout: brand4/default
+      layout: brand4
+      brand: brand4
+      theme: theme4
       link:
         <<: *link
       assets:
         <<: *assets
         icon: bi bi-file-text
  
-  - scope:
-      path: ""
-      type: brand5
-    values:
-      categories: ["brand5"]
-      layout: brand5/default
-      link:
-        <<: *link
-      assets:
-        <<: *assets
-        icon: bi bi-file-text
-

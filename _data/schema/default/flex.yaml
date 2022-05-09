@@ -46,7 +46,7 @@ author: &author
   id: author
   layout: &layout
     section: position-relative
-    background: theme-bg-unsplash1
+    background: theme-bg-teaser
     text: theme-text-dark
   flex: &flex
     row: 
@@ -79,7 +79,7 @@ author: &author
 sponsor: &sponsor
   layout: &layout
     section: position-relative
-    background: theme-bg-unsplash1
+    background: theme-bg-teaser
     text: theme-text-dark
   flex: &flex
     row: 
@@ -113,7 +113,7 @@ calltoaction01: &calltoaction01
   id: calltoaction01
   layout: &layout
     section:
-    background: theme-bg-unsplash1
+    background: theme-bg-teaser
     text: theme-text-dark
 
   flex: &flex
@@ -150,7 +150,7 @@ calltoaction02: &calltoaction02
   id: calltoaction02
   layout: &layout
     section:
-    background: theme-bg-unsplash1
+    background: theme-bg-teaser
     text: theme-text-dark
 
   flex: &flex
@@ -188,7 +188,7 @@ calltoaction03: &calltoaction03
   id: calltoaction03
   layout: &layout
     section:
-    background: theme-bg-unsplash1
+    background: theme-bg-teaser
     text: theme-text-dark
 
   flex: &flex

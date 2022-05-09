@@ -18,7 +18,7 @@ light: &light
 
 image: &image
   <<: *schema
-  background: theme-bg-unsplash1
+  background: theme-bg-teaser
 
 default: 
   <<: *dark

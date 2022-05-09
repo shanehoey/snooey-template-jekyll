@@ -15,10 +15,10 @@ brand: &brand
     icon: bi bi-file-earmark
     header: https://source.unsplash.com/4T5MTKMrjZg/2560x640/ 
     square: https://source.unsplash.com/4T5MTKMrjZg/300x300/
-    vertical: https://source.unsplash.com/4T5MTKMrjZg/800/1200/people
-    horizontal: https://source.unsplash.com/4T5MTKMrjZg/1200/800/people
-    teaser: https://source.unsplash.com/4T5MTKMrjZg/700/394/people
-    background: https://source.unsplash.com/4T5MTKMrjZg/1920/1080/people
+    vertical: https://source.unsplash.com/4T5MTKMrjZg/800x1200/
+    horizontal: https://source.unsplash.com/4T5MTKMrjZg/1200x800/
+    teaser: https://source.unsplash.com/4T5MTKMrjZg/700x394/
+    background: https://source.unsplash.com/4T5MTKMrjZg/1920x1080/
 
 brands: &brands
   brand0: &brand0
@@ -101,9 +101,8 @@ brands: &brands
       teaser: https://source.unsplash.com/bepwY8khinw/700x394/
       background: https://source.unsplash.com/bepwY8khinw/1920x1080/
 
-
 layout: &layout
-  body: container theme-bg-unsplash1-fixed
+  body: container theme-bg-background-fixed
   header: 
   content: theme-bg-light
   footer:

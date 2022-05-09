@@ -14,3 +14,12 @@ schema: &schema
 
 default:
   <<: *schema
+
+image:
+  <<: *schema
+  layout:
+    <<: *layout
+    background: theme-bg-teaser
+    text: theme-text-light
+
+

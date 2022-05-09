@@ -103,7 +103,7 @@ brands: &brands
 
 
 layout: &layout
-  body: container theme-bg-unsplash2-fixed
+  body: container theme-bg-background-fixed
   header: 
   content: theme-bg-light
   footer:
