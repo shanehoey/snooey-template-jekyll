@@ -13,12 +13,14 @@ dataset: &dataset
     url: https://snooey.com/
   assets: &assets
     icon: bi-person-badge
-    header: https://placeimg.com/2560/640/people
-    square: https://placeimg.com/300/300/people
-    vertical: https://placeimg.com/800/1200/people
-    horizontal: https://placeimg.com/1200/800/people
-    teaser: https://placeimg.com/700/394/people
-    background: https://placeimg.com/1920/1080/people
+    header: /assets/images/profile/profile.jpg
+    square: 
+    vertical: 
+    horizontal: 
+    teaser: /assets/images/profile/profile.jpg
+    background: 
+    profile: "/assets/images/brand0/profile.jpg"
+       
 
 default:
   - <<: *dataset
