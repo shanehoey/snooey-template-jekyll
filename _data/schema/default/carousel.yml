@@ -8,19 +8,17 @@ schema: &schema
   layout: &layout
     section: carousel slide
     background: theme-text-light
-    text: theme-text-dark
+    text: theme-text-light
 
   carousel:
  
   typography: &typography
-    title: display-6 theme-text-dark
-    subtitle: font-weight-bold lead theme-text-dark
-    heading:
-    description: lead theme-text-dark
+    title: display-3
+    subtitle: display-4
+    heading:  display-4
+    description: lead 
 
-  link: &link
-    button: btn btn-sm btn-outline-dark
-    href: 
+  link: &link btn btn-sm btn-outline-light
 
 default:
   <<: *schema

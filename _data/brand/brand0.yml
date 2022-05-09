@@ -10,7 +10,6 @@ brand: &brand
   author: shanehoey
   link: 
     url:  https://snooey.com
-    icon: bi bi-file-person
     text: snooey.com
   assets: 
     icon: bi bi-file-person-fill
