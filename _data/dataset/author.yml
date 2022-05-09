@@ -9,8 +9,8 @@ dataset: &dataset
   author: snooey
   link: &link
     icon: bi bi-link
-    text: read more
-    url: https://snooey.com/
+    text: "learn more about shane "
+    url: https://brand4.snooey.com/brand4/
   assets: &assets
     icon: bi-person-badge
     header: /assets/images/profile/profile.jpg
