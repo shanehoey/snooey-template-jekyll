@@ -13,12 +13,14 @@ dataset: &dataset
     url: https://snooey.com/
   assets: &assets
     icon: bi bi-file-earmark
-    header: https://placeimg.com/2560/640/tech
-    square: https://placeimg.com/300/300/tech
-    vertical: https://placeimg.com/800×1200/tech
-    horizontal: https://placeimg.com/1200/800/tech
-    teaser: https://placeimg.com/700/394/tech
-    background: https://placeimg.com/1920/1080/tech
+    background: "/assets/images/brand0/background.jpg"
+    horizontal: "/assets/images/brand0/horizontal.jpg"
+    vertical: "/assets/images/brand0/vertical.jpg"
+    square: "/assets/images/brand0/square.jpg"
+    profile: "/assets/images/brand0/profile.jpg"
+    header: "/assets/images/brand0/header.jpg"
+    teaser: "/assets/images/brand0/teaser.jpg"
+
   
 default:
   - <<: *dataset

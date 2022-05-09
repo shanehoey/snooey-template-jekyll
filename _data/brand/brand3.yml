@@ -13,12 +13,14 @@ brand: &brand
     url: /brand3/
   assets: 
     icon: bi bi-file-person-fill
-    header: https://source.unsplash.com/vS7LVkPyXJU/2560x640
-    square: https://source.unsplash.com/vS7LVkPyXJU/300x300/
-    vertical: https://source.unsplash.com/vS7LVkPyXJU/800x1200/
-    horizontal: https://source.unsplash.com/vS7LVkPyXJU/1200x800/
-    teaser: https://source.unsplash.com/vS7LVkPyXJU/700x394/
-    background: https://source.unsplash.com/vS7LVkPyXJU/1920x1080/
+    background: "/assets/images/brand3/background.jpg"
+    horizontal: "/assets/images/brand3/horizontal.jpg"
+    vertical: "/assets/images/brand3/vertical.jpg"
+    square: "/assets/images/brand3/square.jpg"
+    profile: "/assets/images/brand3/profile.jpg"
+    header: "/assets/images/brand3/header.jpg"
+    teaser: "/assets/images/brand3/teaser.jpg"
+
 
 brands: &brands
   brand0: &brand0
@@ -35,12 +37,14 @@ brands: &brands
       text: snooey.com
     assets: 
       icon: bi bi-file-person-fill
-      header: https://source.unsplash.com/NgHG0szvwQk/2560x640/
-      square: https://source.unsplash.com/NgHG0szvwQk/300x300/
-      vertical: https://source.unsplash.com/NgHG0szvwQk/800x1200/
-      horizontal: https://source.unsplash.com/NgHG0szvwQk/1200x800/
-      teaser: https://source.unsplash.com/NgHG0szvwQk/700x394/
-      background: https://source.unsplash.com/NgHG0szvwQk/1920x1080/
+      background: "/assets/images/brand0/background.jpg"
+      horizontal: "/assets/images/brand0/horizontal.jpg"
+      vertical: "/assets/images/brand0/vertical.jpg"
+      square: "/assets/images/brand0/square.jpg"
+      profile: "/assets/images/brand0/profile.jpg"
+      header: "/assets/images/brand0/header.jpg"
+      teaser: "/assets/images/brand0/teaser.jpg"
+
   brand1: &brand1
     title: brand1.snooey.com
     subtitle: Brand1/Theme1 example for brand1.snooey.com
@@ -54,12 +58,14 @@ brands: &brands
       url: /brand1/
     assets: 
       icon: bi bi-file-earmark
-      header: https://source.unsplash.com/4T5MTKMrjZg/2560x640/ 
-      square: https://source.unsplash.com/4T5MTKMrjZg/300x300/
-      vertical: https://source.unsplash.com/4T5MTKMrjZg/800/1200/people
-      horizontal: https://source.unsplash.com/4T5MTKMrjZg/1200/800/people
-      teaser: https://source.unsplash.com/4T5MTKMrjZg/700/394/people
-      background: https://source.unsplash.com/4T5MTKMrjZg/1920/1080/people
+      background: "/assets/images/brand1/background.jpg"
+      horizontal: "/assets/images/brand1/horizontal.jpg"
+      vertical: "/assets/images/brand1/vertical.jpg"
+      square: "/assets/images/brand1/square.jpg"
+      profile: "/assets/images/brand1/profile.jpg"
+      header: "/assets/images/brand1/header.jpg"
+      teaser: "/assets/images/brand1/teaser.jpg"
+
   brand2: &brand2
     title: brand2.snooey.com
     subtitle: Brand2/Theme2 example for brand2.snooey.com
@@ -73,12 +79,14 @@ brands: &brands
       url: /brand2/
     assets: 
       icon: bi bi-file-person-fill
-      header: https://source.unsplash.com/-Pg63JThyCg/2560x640
-      square: https://source.unsplash.com/-Pg63JThyCg/300x300/
-      vertical: https://source.unsplash.com/-Pg63JThyCg/800x1200/
-      horizontal: https://source.unsplash.com/-Pg63JThyCg/1200x800/
-      teaser: https://source.unsplash.com/-Pg63JThyCg/700x394/
-      background: https://source.unsplash.com/-Pg63JThyCg/1920x1080/
+      background: "/assets/images/brand2/background.jpg"
+      horizontal: "/assets/images/brand2/horizontal.jpg"
+      vertical: "/assets/images/brand2/vertical.jpg"
+      square: "/assets/images/brand2/square.jpg"
+      profile: "/assets/images/brand2/profile.jpg"
+      header: "/assets/images/brand2/header.jpg"
+      teaser: "/assets/images/brand2/teaser.jpg"
+
   brand3: &brand3
     <<: *brand
   brand4: &brand4
@@ -94,12 +102,14 @@ brands: &brands
       url: /brand4/
     assets: 
       icon: bi bi-file-person-fill
-      header: https://source.unsplash.com/bepwY8khinw/2560x640
-      square: https://source.unsplash.com/bepwY8khinw/300x300/
-      vertical: https://source.unsplash.com/bepwY8khinw/800x1200/
-      horizontal: https://source.unsplash.com/bepwY8khinw/1200x800/
-      teaser: https://source.unsplash.com/bepwY8khinw/700x394/
-      background: https://source.unsplash.com/bepwY8khinw/1920x1080/
+      background: "/assets/images/brand4/background.jpg"
+      horizontal: "/assets/images/brand4/horizontal.jpg"
+      vertical: "/assets/images/brand4/vertical.jpg"
+      square: "/assets/images/brand4/square.jpg"
+      profile: "/assets/images/brand4/profile.jpg"
+      header: "/assets/images/brand4/header.jpg"
+      teaser: "/assets/images/brand4/teaser.jpg"
+
 
 layout: &layout
   body: container theme-bg-background-fixed
