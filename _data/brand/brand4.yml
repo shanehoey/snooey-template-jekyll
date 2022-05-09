@@ -2,24 +2,104 @@
 
 brand: &brand
   title: brand4.snooey.com
-  subtitle: Branding for brand1
+  subtitle: Brand4/Theme4 example for brand4.snooey.com
   heading: brand4.snooey.com
   description: brand4 dolore laboris nostrud minim deserunt nulla reprehenderit cillum quis deserunt fugiat et elit do.
   copyright: '&copy; Shane Hoey 2018-2022. All Rights Reserved.'
   guid:
   author: shanehoey
   link: 
-    url:  https://brand1.snooey.com
-    icon: bi bi-file-person
     text: brand4.snooey.com
+    url: /brand4/
   assets: 
-    icon: bi bi-file-earmark
-    header: https://placeimg.com/2560/640/people 
-    square: https://placeimg.com/300/300/people
-    vertical: https://placeimg.com/800/1200/people
-    horizontal: https://placeimg.com/1200/800/people
-    teaser: https://placeimg.com/700/394/people
-    background: https://placeimg.com/1920/1080/people
+    icon: bi bi-file-person-fill
+    header: https://source.unsplash.com/bepwY8khinw/2560x640
+    square: https://source.unsplash.com/bepwY8khinw/300x300/
+    vertical: https://source.unsplash.com/bepwY8khinw/800x1200/
+    horizontal: https://source.unsplash.com/bepwY8khinw/1200x800/
+    teaser: https://source.unsplash.com/bepwY8khinw/700x394/
+    background: https://source.unsplash.com/bepwY8khinw/1920x1080/
+
+brands: &brands
+  brand0: &brand0
+    title: snooey.com
+    subtitle: Brand0/Theme0 Example for Snooey.com
+    heading: snooey.com
+    description: brand0 dolore laboris nostrud minim deserunt nulla reprehenderit cillum quis deserunt fugiat et elit do.
+    copyright: '&copy; Shane Hoey 2018-2022. All Rights Reserved.'
+    guid:
+    author: shanehoey
+    link: 
+      url:  https://snooey.com
+      icon: bi bi-file-person
+      text: snooey.com
+    assets: 
+      icon: bi bi-file-person-fill
+      header: https://source.unsplash.com/NgHG0szvwQk/2560x640/
+      square: https://source.unsplash.com/NgHG0szvwQk/300x300/
+      vertical: https://source.unsplash.com/NgHG0szvwQk/800x1200/
+      horizontal: https://source.unsplash.com/NgHG0szvwQk/1200x800/
+      teaser: https://source.unsplash.com/NgHG0szvwQk/700x394/
+      background: https://source.unsplash.com/NgHG0szvwQk/1920x1080/
+  brand1: &brand1
+    title: brand1.snooey.com
+    subtitle: Brand1/Theme1 example for brand1.snooey.com
+    heading: brand1.snooey.com
+    description: brand1 dolore laboris nostrud minim deserunt nulla reprehenderit cillum quis deserunt fugiat et elit do.
+    copyright: '&copy; Shane Hoey 2018-2022. All Rights Reserved.'
+    guid:
+    author: shanehoey
+    link: 
+      text: brand1.snooey.com
+      url: /brand1/
+    assets: 
+      icon: bi bi-file-earmark
+      header: https://source.unsplash.com/4T5MTKMrjZg/2560x640/ 
+      square: https://source.unsplash.com/4T5MTKMrjZg/300x300/
+      vertical: https://source.unsplash.com/4T5MTKMrjZg/800/1200/people
+      horizontal: https://source.unsplash.com/4T5MTKMrjZg/1200/800/people
+      teaser: https://source.unsplash.com/4T5MTKMrjZg/700/394/people
+      background: https://source.unsplash.com/4T5MTKMrjZg/1920/1080/people
+  brand2: &brand2
+    title: brand2.snooey.com
+    subtitle: Brand2/Theme2 example for brand2.snooey.com
+    heading: brand2.snooey.com
+    description: brand2 dolore laboris nostrud minim deserunt nulla reprehenderit cillum quis deserunt fugiat et elit do.
+    copyright: '&copy; Shane Hoey 2018-2022. All Rights Reserved.'
+    guid:
+    author: shanehoey
+    link: 
+      text: brand2.snooey.com
+      url: /brand2/
+    assets: 
+      icon: bi bi-file-person-fill
+      header: https://source.unsplash.com/-Pg63JThyCg/2560x640
+      square: https://source.unsplash.com/-Pg63JThyCg/300x300/
+      vertical: https://source.unsplash.com/-Pg63JThyCg/800x1200/
+      horizontal: https://source.unsplash.com/-Pg63JThyCg/1200x800/
+      teaser: https://source.unsplash.com/-Pg63JThyCg/700x394/
+      background: https://source.unsplash.com/-Pg63JThyCg/1920x1080/
+  brand3: &brand3
+    title: brand3.snooey.com
+    subtitle: Brand3/Theme3 example for brand3.snooey.com
+    heading: brand3.snooey.com
+    description: brand1 dolore laboris nostrud minim deserunt nulla reprehenderit cillum quis deserunt fugiat et elit do.
+    copyright: '&copy; Shane Hoey 2018-2022. All Rights Reserved.'
+    guid:
+    author: shanehoey
+    link: 
+      text: brand3.snooey.com
+      url: /brand3/
+    assets: 
+      icon: bi bi-file-person-fill
+      header: https://source.unsplash.com/vS7LVkPyXJU/2560x640
+      square: https://source.unsplash.com/vS7LVkPyXJU/300x300/
+      vertical: https://source.unsplash.com/vS7LVkPyXJU/800x1200/
+      horizontal: https://source.unsplash.com/vS7LVkPyXJU/1200x800/
+      teaser: https://source.unsplash.com/vS7LVkPyXJU/700x394/
+      background: https://source.unsplash.com/vS7LVkPyXJU/1920x1080/
+  brand4: &brand4
+    <<: *brand
 
 layout: &layout
   body: container theme-bg-unsplash4-fixed
@@ -43,9 +123,7 @@ navbar: &navbar
   - url: /brand4/
     icon: bi bi-link
     text: brand4
-  - url: /brand2/theme/
-    icon: bi bi-palette
-    text: theme    #children:
+    #children:
     #  - url: /theme/cheatsheet/
     #    icon: bi bi-link
     #    text: cheatsheet 
@@ -71,215 +149,51 @@ footer: &footer
     text: contact
 
 sites: &sites
-  - title:  code.snooey.com
-    subtitle: Code
-    heading: code.snooey.com 
-    description: 
-    guid:
-    author: snooey
-    link: &link
-      icon: bi bi-file-earmark-code
-      text: read more
-      url: /code/
-    assets: &assets
-      icon: bi bi-file-earmark
-      header: https://placeimg.com/2560/640/tech
-      square: https://placeimg.com/300/300/tech
-      vertical: https://placeimg.com/800/1200/tech
-      horizontal: https://placeimg.com/1200/800/tech
-      teaser: https://placeimg.com/700/394/tech
-      background: https://placeimg.com/1920/1080/tech 
-  - title:  docs.snooey.com
-    subtitle: Documents
-    heading: 
-    excerpt: 
-    description: 
-    guid:
-    author: snooey
-    link: &link
-      icon: bi bi-link
-      text: read more
-      url: /docs/
-    assets: &assets
-      icon: bi bi-file-earmark
-      header: https://placeimg.com/2560/640/tech
-      square: https://placeimg.com/300/300/tech
-      vertical: https://placeimg.com/800/1200/tech
-      horizontal: https://placeimg.com/1200/800/tech
-      teaser: https://placeimg.com/700/394/tech
-      background: https://placeimg.com/1920/1080/tech
-  - title: tools.snooey.com
-    subtitle: Tools
-    heading: 
-    excerpt: 
-    description: Sometimes you just need to write your own tool to do something and heres mine
-    guid:
-    author: snooey
-    link: &link
-      icon: bi bi-link
-      text: read more
-      url: /tools/
-    assets: &assets
-      icon: bi bi-file-earmark
-      header: https://placeimg.com/2560/640/tech
-      square: https://placeimg.com/300/300/tech
-      vertical: https://placeimg.com/800/1200/tech
-      horizontal: https://placeimg.com/1200/800/tech
-      teaser: https://placeimg.com/700/394/tech
-      background: https://placeimg.com/1920/1080/tech
-  - title: hello.snooey.com
-    subtitle: Hello
-    heading: 
-    excerpt: 
-    description: "Who is <b>Shane Hoey</b>?<br/> #BuiltforTeamwork<br/> #USRockstar<br/> #AutomationNinja<br/>"
-    guid:
-    author: snooey
-    link: &link
-      icon: bi bi-link
-      text: read more
-      url: /hello/
-    assets: &assets
-      icon: bi bi-file-earmark
-      header: https://placeimg.com/2560/640/tech
-      square: https://placeimg.com/300/300/tech
-      vertical: https://placeimg.com/800/1200/tech
-      horizontal: https://placeimg.com/1200/800/tech
-      teaser: https://placeimg.com/700/394/tech
-      background: https://placeimg.com/1920/1080/tech
+ - <<: *brand0
+ - <<: *brand1
+ - <<: *brand2
+ - <<: *brand3
+ - <<: *brand4
 
 subsites: &subsites
-  docs: &docs
-    - title:  Documents
-      subtitle: Documents
-      heading: 
-      excerpt: 
-      description: 
-      guid:
-      author: snooey
-      link: &link
-        icon: bi bi-link
-        text: read more
-        url: /docs/document/
-      assets: &assets
-        icon: bi bi-file-earmark
-        header: https://placeimg.com/2560/640/tech
-        square: https://placeimg.com/300/300/tech
-        vertical: https://placeimg.com/800/1200/tech
-        horizontal: https://placeimg.com/1200/800/tech
-        teaser: https://placeimg.com/700/394/tech
-        background: https://placeimg.com/1920/1080/tech
-    - title:  Code
-      subtitle: Code
-      heading: 
-      excerpt: 
-      description: 
-      guid:
-      author: snooey
-      link: &link
-        icon: bi bi-link
-        text: read more
-        url: /docs/document/
-      assets: &assets
-        icon: bi bi-file-earmark
-        header: https://placeimg.com/2560/640/tech
-        square: https://placeimg.com/300/300/tech
-        vertical: https://placeimg.com/800/1200/tech
-        horizontal: https://placeimg.com/1200/800/tech
-        teaser: https://placeimg.com/700/394/tech
-        background: https://placeimg.com/1920/1080/tech
-    - title:  Tools
-      subtitle: Tools
-      heading: 
-      excerpt: 
-      description: 
-      guid:
-      author: snooey
-      link: &link
-        icon: bi bi-link
-        text: read more
-        url: /docs/document/
-      assets: &assets
-        icon: bi bi-file-earmark
-        header: https://placeimg.com/2560/640/tech
-        square: https://placeimg.com/300/300/tech
-        vertical: https://placeimg.com/800/1200/tech
-        horizontal: https://placeimg.com/1200/800/tech
-        teaser: https://placeimg.com/700/394/tech
-        background: https://placeimg.com/1920/1080/tech  
+  brand1:
+    - <<: *brand1
+      title: Culpa elit nostrud.
+      subtitle: Sit qui reprehenderit amet deserunt excepteur consequat cupidatat in qui eiusmod dolore.
+      heading: Commodo proident ea id ipsum cillum.
+      description: Consectetur eu voluptate incididunt incididunt ad magna duis ipsum do. Occaecat do duis cupidatat tempor reprehenderit exercitation nulla eu.
+  brand2: 
+    - <<: *brand2
+      title: Nulla qui.
+      subtitle: Ad pariatur mollit tempor minim cillum consectetur sit quis laboris officia labore.
+      heading: Magna dolore ea dolor mollit esse culpa cupidatat duis in culpa.
+      description: Proident laborum ad enim exercitation ea sit eu aliqua.
+    - <<: *brand2
+      title: Duis quis magna.
+      subtitle: Duis reprehenderit in laborum excepteur reprehenderit ut nulla aliquip Lorem et id incididunt.
+      heading: Id aliqua exercitation eu anim non pariatur labore minim amet dolore fugiat tempor.
+      description: Cillum adipisicing et mollit minim qui sunt nostrud deserunt elit incididunt.
+    - <<: *brand2
+      title: Deserunt consequat deserunt nulla irure eiusmod et culpa nulla sunt duis enim culpa amet.
+      subtitle: Consectetur fugiat do proident id.
+      heading: Velit labore veniam eiusmod sit sunt sit ullamco eu eu sint et nulla officia veniam.
+      description: Anim minim eiusmod proident exercitation duis dolore non commodo ad quis. Eiusmod minim enim aliquip ad do deserunt dolor fugiat in sunt mollit.
+  brand3: 
+    - <<: *brand3
+      title: Sunt minim nulla incididunt labore Lorem exercitation quis consectetur duis.
+      subtitle: Anim mollit ad minim mollit nisi.
+      heading: Deserunt dolore ea ad fugiat ea dolor aliqua et irure.
+      description: Ut mollit irure in nulla nulla fugiat consectetur exercitation labore commodo. Esse aliquip do commodo ut.
+  brand4: 
+    - <<: *brand4
+      title: Ea excepteur incididunt amet eiusmod anim.
+      subtitle: Magna fugiat exercitation consectetur dolor reprehenderit pariatur deserunt ex nulla nisi.
+      heading: In dolor ex ea proident.
+      description: Et irure ex occaecat sunt aliqua ipsum duis id. Laborum quis adipisicing non labore Lorem laborum nulla proident anim ut cillum minim.
 
 carousel:
-  - title:  code.snooey.com
-    subtitle: Code
-    heading: code.snooey.com 
-    description: 
-    guid:
-    author: snooey
-    link: &link
-      icon: bi bi-file-earmark-code
-      text: read more
-      url: /code/
-    assets: &assets
-      icon: bi bi-file-earmark
-      header: https://placeimg.com/2560/640/tech
-      square: https://placeimg.com/300/300/tech
-      vertical: https://placeimg.com/800/1200/tech
-      horizontal: https://placeimg.com/1200/800/tech
-      teaser: https://placeimg.com/700/394/tech
-      background: https://placeimg.com/1920/1080/tech 
-  - title:  docs.snooey.com
-    subtitle: Documents
-    heading: 
-    excerpt: 
-    description: 
-    guid:
-    author: snooey
-    link: &link
-      icon: bi bi-link
-      text: read more
-      url: /docs/
-    assets: &assets
-      icon: bi bi-file-earmark
-      header: https://placeimg.com/2560/640/tech
-      square: https://placeimg.com/300/300/tech
-      vertical: https://placeimg.com/800/1200/tech
-      horizontal: https://placeimg.com/1200/800/tech
-      teaser: https://placeimg.com/700/394/tech
-      background: https://placeimg.com/1920/1080/tech
-  - title: tools.snooey.com
-    subtitle: Tools
-    heading: 
-    excerpt: 
-    description: Sometimes you just need to write your own tool to do something and heres mine
-    guid:
-    author: snooey
-    link: &link
-      icon: bi bi-link
-      text: read more
-      url: /tools/
-    assets: &assets
-      icon: bi bi-file-earmark
-      header: https://placeimg.com/2560/640/tech
-      square: https://placeimg.com/300/300/tech
-      vertical: https://placeimg.com/800/1200/tech
-      horizontal: https://placeimg.com/1200/800/tech
-      teaser: https://placeimg.com/700/394/tech
-      background: https://placeimg.com/1920/1080/tech
-  - title: hello.snooey.com
-    subtitle: Hello
-    heading: 
-    excerpt: 
-    description: "Who is <b>Shane Hoey</b>?<br/> #BuiltforTeamwork<br/> #USRockstar<br/> #AutomationNinja<br/>"
-    guid:
-    author: snooey
-    link: &link
-      icon: bi bi-link
-      text: read more
-      url: /hello/
-    assets: &assets
-      icon: bi bi-file-earmark
-      header: https://placeimg.com/2560/640/tech
-      square: https://placeimg.com/300/300/tech
-      vertical: https://placeimg.com/800/1200/tech
-      horizontal: https://placeimg.com/1200/800/tech
-      teaser: https://placeimg.com/700/394/tech
-      background: https://placeimg.com/1920/1080/tech
+  - <<: *brand0
+  - <<: *brand1
+  - <<: *brand2
+  - <<: *brand3
+  - <<: *brand4
