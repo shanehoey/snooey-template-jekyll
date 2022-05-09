@@ -22,12 +22,12 @@ schema: &schema
       row:
       col:
     image: card-image-top rounded-top #cardimage no value here hides image
-    body:                    
-      parent: card-body               #cardbody no value here hides body
+    body: card-body               #cardbody no value here hides body
     footer: card-footer               #cardfooter no value here hides footer
 
   typography: &typography
-    title: h3 text-dark text-decoration-none 
+    #h1,h2,h3,h4,h5 or div
+    title: h3 text-dark text-decoration-none  
     subtitle: h4 text-dark
     heading: h4 text-dark
     description: text-muted
