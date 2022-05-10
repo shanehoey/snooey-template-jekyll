@@ -14,14 +14,14 @@ guid: bfc1c662-2560-4865-ae68-2692927d2aab
 {% include flex.html datasource = datasource schema = site.data.schema.default.flex.h1title  %}
 {% include spacer.html schema = site.data.schema.default.spacer.default4 %}
 
-<!-- feature VNEXT Improve where_exp-->
-{% assign datasource = site.data.brand.brands.sites | where_exp: "item","item.guid != page.guid" %}
-{% include flexcard.html datasource = datasource %}
+<!-- feature Subsites -->
+{% assign datasource = site.data.brand.brands.subsites[page.brand] %}
+{% include flexcard.html datasource = datasource schema = site.data.schema.default.flexcard-horizontal.default  imagetype = "vertical"  %}
 {% include spacer.html schema = site.data.schema.default.spacer.default4 %}
 
-<!-- feature VNEXT Improve where_exp-->
-{% assign datasource = site.data.brand.brands.subsites[page.brand] %}
-{% include flexcard.html datasource = datasource schema = site.data.schema.default.flexcard-horizontal.default %}
+<!-- feature Sites -->
+{% assign datasource = site.data.brand.brands.sites | where_exp: "item","item.guid != page.guid" %}
+{% include flexcard.html datasource = datasource %}
 {% include spacer.html schema = site.data.schema.default.spacer.default4 %}
 
 <!-- author -->

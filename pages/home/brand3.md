@@ -14,14 +14,14 @@ guid: 76a67106-ae87-4d09-ad0a-5d7b2958a7ce
 {% include flex.html datasource = datasource schema = site.data.schema.default.flex.h1title  %}
 {% include spacer.html schema = site.data.schema.default.spacer.default4 %}
 
-<!-- feature VNEXT Improve where_exp-->
-{% assign datasource = site.data.brand.brands.sites | where_exp: "item","item.guid != page.guid" %}
-{% include flexcard.html datasource = datasource %}
+<!-- feature Subsites -->
+{% assign datasource = site.data.brand.brands.subsites[page.brand] %}
+{% include flexcard.html datasource = datasource schema = site.data.schema.default.flexcard-horizontal.default  imagetype = "vertical"  %}
 {% include spacer.html schema = site.data.schema.default.spacer.default4 %}
 
-<!-- feature VNEXT Improve where_exp-->
-{% assign datasource = site.data.brand.brands.subsites[page.brand] %}
-{% include flexcard.html datasource = datasource schema = site.data.schema.default.flexcard-horizontal.default %}
+<!-- feature Sites -->
+{% assign datasource = site.data.brand.brands.sites | where_exp: "item","item.guid != page.guid" %}
+{% include flexcard.html datasource = datasource %}
 {% include spacer.html schema = site.data.schema.default.spacer.default4 %}
 
 <!-- author -->

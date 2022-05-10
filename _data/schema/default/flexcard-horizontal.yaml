@@ -6,15 +6,15 @@ schema: &schema
   id: flexcard-horizontal
 
   layout: &layout
-    section: position-relative
-    background: theme-bg-light
+    section: position-relative p-3 
+    background: theme-bg-color1
     text: theme-text-dark
 
   flex: &flex
     row: 
       parent: row
     column:
-      parent: col-12 p-3
+      parent: col-6 p-3
   
   card: 
     parent: card h-100

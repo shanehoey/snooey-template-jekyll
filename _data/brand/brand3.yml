@@ -1,9 +1,9 @@
 # v1.2.121 _data/brand3.yml
 
 layout: &layout
-  body: container theme-bg-background-fixed
+  body: theme-bg-background-fixed
   header: 
-  content: theme-bg-light
+  content: container
   footer:
 
 navbar: &navbar
