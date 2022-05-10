@@ -21,18 +21,17 @@ schema: &schema
     horizontal:
       row:
       col:
-    image: card-image-top rounded-top  #cardimage no value here hides image
-    body: card-body                    #cardbody no value here hides body
-    footer: card-footer                #cardfooter no value here hides footer
+    image: card-image-top              # cardimage
+    body: card-body                    # cardbody
+    footer: card-footer                # cardfooter
 
-  typography: &typography
-    title: h3 text-dark text-decoration-none     # h1,h2,h3,h4,h5 else p or empty to hide
-    subtitle: h4 text-dark                       # h1,h2,h3,h4,h5 else p or empty to hide
-    heading: h4 text-dark                        # h1,h2,h3,h4,h5 else p or empty to hide
-    description: text-muted                      # h1,h2,h3,h4,h5 else p or empty to hide
-
-  link: &link btn btn-primary theme-text-light d-grid gap-2 mx-auto stretched-link
-
+  content: &content # null value will hide the content
+    title: h5 text-dark text-decoration-none    
+    subtitle:
+    heading: 
+    description: text-muted
+    link: btn btn-primary theme-text-light d-grid gap-2 mx-auto stretched-link
+    image: rounded-top
 
 default: 
   <<: *schema

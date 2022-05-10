@@ -32,47 +32,47 @@ exclude:
 
 plugins_dir: _plugins
 plugins:
-    - jekyll-remote-theme
-    - jekyll-sitemap
-    - jekyll-optional-front-matter
-    - jekyll-admin
-    - jekyll-redirect-from
-    - jekyll-minifier
+  - jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-optional-front-matter
+  - jekyll-admin
+  - jekyll-redirect-from
+  - jekyll-minifier
  
 
 # BUG: issue when js compressed
 jekyll-minifier:
-    remove_spaces_inside_tags: true
-    remove_multi_spaces: true
-    remove_comments: true
-    remove_intertag_spaces: true
-    compress_css: true
-    compress_javascript: false 
+  remove_spaces_inside_tags: true
+  remove_multi_spaces: true
+  remove_comments: true
+  remove_intertag_spaces: true
+  compress_css: true
+  compress_javascript: false 
  
 excerpt_separator: <!--more-->
 
 remote_theme: shanehoey/snooey
 
 include:
-    - _pages
-    - _redirects
-    - favicon.ico
+  - _pages
+  - _redirects
+  - favicon.ico
 
 collections_dir: collections
 
 collections:
-    brand1:
-        output: true
-        permalink: /:collection/:path/
-    brand2:
-        output: true
-        permalink: /:collection/:path;/
-    brand3:
-        output: true
-        permalink: /:collection/:path/
-    brand4:
-        output: true
-        permalink: /:collection/:path/
+  brand1:
+      output: true
+      permalink: /:collection/:path/
+  brand2:
+      output: true
+      permalink: /:collection/:path;/
+  brand3:
+      output: true
+      permalink: /:collection/:path/
+  brand4:
+      output: true
+      permalink: /:collection/:path/
 
 defaults:
   - scope:

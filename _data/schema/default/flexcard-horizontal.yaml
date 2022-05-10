@@ -21,19 +21,17 @@ schema: &schema
     horizontal:
       row: row
       col: col-4,col-8
-    image: card-image-top img-fluid rounded
+    image: card-image-top
     body: card-body
     footer: card-footer
 
-  typography: &typography
+  content: &content # null value will hide the content
     title: h3 text-dark text-decoration-none 
     subtitle: h4 text-dark
     heading: h4 text-dark
     description: text-muted
-
-  link: &link
-    button: btn btn-primary theme-text-light d-grid gap-2 mx-auto stretched-link
-    href: text-decoration-none stretched-link
+    link: btn btn-primary theme-text-light d-grid gap-2 mx-auto stretched-link
+    image: img-fluid rounded
 
 default: 
   <<: *schema
