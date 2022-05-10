@@ -27,8 +27,8 @@ schema: &schema
 
   content: &content # null value will hide the content
     title: h3 text-dark text-decoration-none 
-    subtitle: h4 text-dark
-    heading: h4 text-dark
+    subtitle: 
+    heading: 
     description: text-muted
     link: btn btn-primary theme-text-light d-grid gap-2 mx-auto stretched-link
     image: img-fluid rounded

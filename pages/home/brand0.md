@@ -3,19 +3,19 @@ title: Snooey Theme
 permalink: /
 carousel: true
 theme: theme0
+brand: brand0
+guid: c318e339-7018-479a-9114-1d8dd2b4dce5
 ---
-<!--v1.2.121 pages/home/home.md-->
+<!--v1.2.130 pages/home/home.md-->
 
 <!-- title -->
 <!-- trick to create array and then add to the array-->
-{% assign datasource = "" | split: "," %}
-{% assign datasource = datasource | push: site.data.brand[page.brand].brand %}
+{% assign datasource = "" | split: "," | push: site.data.brand.brands[page.brand] %}
 {% include flex.html datasource = datasource schema = site.data.schema.default.flex.h1title  %}
 {% include spacer.html schema = site.data.schema.default.spacer.default4 %}
 
 <!-- feature -->
-{% assign datasource = site.data.brand[page.brand].sites %}
-{% include flexcard.html datasource = datasource offset = 1 %}
+{% include flexcard.html datasource = site.data.brand.brands.sites %}
 {% include spacer.html schema = site.data.schema.default.spacer.default4 %}
 
 <!-- author -->

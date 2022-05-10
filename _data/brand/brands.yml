@@ -105,43 +105,44 @@ brand4: &brand4
     teaser: "/assets/images/brand4/teaser.jpg"
 
 sites: 
+  - <<: *brand0
   - <<: *brand1
-    subsites:
-      - <<: *brand1
-        title: Culpa elit nostrud.
-        subtitle: Sit qui reprehenderit amet deserunt excepteur consequat cupidatat in qui eiusmod dolore.
-        heading: Commodo proident ea id ipsum cillum.
-        description: Consectetur eu voluptate incididunt incididunt ad magna duis ipsum do. Occaecat do duis cupidatat tempor reprehenderit exercitation nulla eu.
   - <<: *brand2
-    subsites:
-      - <<: *brand2
-        title: Nulla qui.
-        subtitle: Ad pariatur mollit tempor minim cillum consectetur sit quis laboris officia labore.
-        heading: Magna dolore ea dolor mollit esse culpa cupidatat duis in culpa.
-        description: Proident laborum ad enim exercitation ea sit eu aliqua.
-      - <<: *brand2
-        title: Duis quis magna.
-        subtitle: Duis reprehenderit in laborum excepteur reprehenderit ut nulla aliquip Lorem et id incididunt.
-        heading: Id aliqua exercitation eu anim non pariatur labore minim amet dolore fugiat tempor.
-        description: Cillum adipisicing et mollit minim qui sunt nostrud deserunt elit incididunt.
-      - <<: *brand2
-        title: Deserunt consequat deserunt nulla irure eiusmod et culpa nulla sunt duis enim culpa amet.
-        subtitle: Consectetur fugiat do proident id.
-        heading: Velit labore veniam eiusmod sit sunt sit ullamco eu eu sint et nulla officia veniam.
-        description: Anim minim eiusmod proident exercitation duis dolore non commodo ad quis. Eiusmod minim enim aliquip ad do deserunt dolor fugiat in sunt mollit.
   - <<: *brand3
-    subsites:
-      - <<: *brand3
-        title: Sunt minim nulla incididunt labore Lorem exercitation quis consectetur duis.
-        subtitle: Anim mollit ad minim mollit nisi.
-        heading: Deserunt dolore ea ad fugiat ea dolor aliqua et irure.
-        description: Ut mollit irure in nulla nulla fugiat consectetur exercitation labore commodo. Esse aliquip do commodo ut.
   - <<: *brand4
-    subsites:
-      - <<: *brand4
-        title: Ea excepteur incididunt amet eiusmod anim.
-        subtitle: Magna fugiat exercitation consectetur dolor reprehenderit pariatur deserunt ex nulla nisi.
-        heading: In dolor ex ea proident.
-        description: Et irure ex occaecat sunt aliqua ipsum duis id. Laborum quis adipisicing non labore Lorem laborum nulla proident anim ut cillum minim.
-  - <<: *brand5
-    subsites:
+  
+subsites:
+  brand1:
+    - <<: *brand0
+      title: Culpa elit nostrud.
+      subtitle: Sit qui reprehenderit amet deserunt excepteur consequat cupidatat in qui eiusmod dolore.
+      heading: Commodo proident ea id ipsum cillum.
+      description: Consectetur eu voluptate incididunt incididunt ad magna duis ipsum do. Occaecat do duis cupidatat tempor reprehenderit exercitation nulla eu.
+  brand2:
+    - <<: *brand2
+      title: Nulla qui.
+      subtitle: Ad pariatur mollit tempor minim cillum consectetur sit quis laboris officia labore.
+      heading: Magna dolore ea dolor mollit esse culpa cupidatat duis in culpa.
+      description: Proident laborum ad enim exercitation ea sit eu aliqua.
+    - <<: *brand2
+      title: Duis quis magna.
+      subtitle: Duis reprehenderit in laborum excepteur reprehenderit ut nulla aliquip Lorem et id incididunt.
+      heading: Id aliqua exercitation eu anim non pariatur labore minim amet dolore fugiat tempor.
+      description: Cillum adipisicing et mollit minim qui sunt nostrud deserunt elit incididunt.
+    - <<: *brand2
+      title: Deserunt consequat deserunt nulla irure eiusmod et culpa nulla sunt duis enim culpa amet.
+      subtitle: Consectetur fugiat do proident id.
+      heading: Velit labore veniam eiusmod sit sunt sit ullamco eu eu sint et nulla officia veniam.
+      description: Anim minim eiusmod proident exercitation duis dolore non commodo ad quis. Eiusmod minim enim aliquip ad do deserunt dolor fugiat in sunt mollit.
+  brand3:
+    - <<: *brand3
+      title: Sunt minim nulla incididunt labore Lorem exercitation quis consectetur duis.
+      subtitle: Anim mollit ad minim mollit nisi.
+      heading: Deserunt dolore ea ad fugiat ea dolor aliqua et irure.
+      description: Ut mollit irure in nulla nulla fugiat consectetur exercitation labore commodo. Esse aliquip do commodo ut.
+  brand4:
+    - <<: *brand4
+      title: Ea excepteur incididunt amet eiusmod anim.
+      subtitle: Magna fugiat exercitation consectetur dolor reprehenderit pariatur deserunt ex nulla nisi.
+      heading: In dolor ex ea proident.
+      description: Et irure ex occaecat sunt aliqua ipsum duis id. Laborum quis adipisicing non labore Lorem laborum nulla proident anim ut cillum minim.
