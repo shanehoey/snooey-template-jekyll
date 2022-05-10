@@ -14,8 +14,9 @@ guid: c318e339-7018-479a-9114-1d8dd2b4dce5
 {% include flex.html datasource = datasource schema = site.data.schema.default.flex.h1title  %}
 {% include spacer.html schema = site.data.schema.default.spacer.default4 %}
 
-<!-- feature -->
-{% include flexcard.html datasource = site.data.brand.brands.sites %}
+<!-- feature VNEXT Improve where_exp-->
+{% assign datasource = site.data.brand.brands.sites | where_exp: "item","item.guid != page.guid" %}
+{% include flexcard.html datasource = datasource %}
 {% include spacer.html schema = site.data.schema.default.spacer.default4 %}
 
 <!-- author -->
