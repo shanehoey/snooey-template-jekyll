@@ -20,7 +20,7 @@ guid: dbc25559-46b4-4729-a7ea-af16813f0f0b
 {% include spacer.html schema = site.data.schema.default.spacer.default4 %}
 
 <!-- feature VNEXT Improve where_exp-->
-{% assign datasource = site.data.brand.brands.subsites.[page.brand] %}
+{% assign datasource = site.data.brand.brands.subsites[page.brand] %}
 {% include flexcard.html datasource = datasource schema = site.data.schema.default.flexcard-horizontal.default %}
 {% include spacer.html schema = site.data.schema.default.spacer.default4 %}
 

@@ -5,7 +5,7 @@ schema: &schema
 
   layout: &layout
     section: text-center py-5
-    background: theme-bg-dark
+    background: theme-bg-color1
     text: theme-text-light
 
   typography: &typography

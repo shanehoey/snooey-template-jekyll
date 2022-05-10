@@ -224,8 +224,8 @@ h1title:
   id: flex
   layout: &layout
     section: position-relative
-    background: theme-bg-light
-    text: theme-text-dark
+    background: theme-bg-color1
+    text: theme-text-light bold
 
   flex: &flex
     row: 
@@ -243,10 +243,10 @@ h1title:
       col5:                                # button
   
   typography: &typography
-    title: h1 text-dark text-decoration-none
-    subtitle: #h4 text-dark
-    heading: #h4 text-dark
-    description: text-muted
+    title: h1 text-decoration-none
+    subtitle: 
+    heading: 
+    description: text-light
 
   link: #&link btn btn-outline-light theme-text-light
 

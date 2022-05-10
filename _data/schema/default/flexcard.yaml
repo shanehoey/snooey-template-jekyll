@@ -6,8 +6,8 @@ schema: &schema
   id: flexcard
 
   layout: &layout
-    section: position-relative
-    background: theme-bg-light
+    section: position-relative p-4
+    background: theme-bg-color1
     text: theme-text-dark
 
   flex: &flex
