@@ -19,7 +19,7 @@ guid: dbc25559-46b4-4729-a7ea-af16813f0f0b
 {% include spacer.html schema = site.data.schema.default.spacer.default4 %}
 
 <!-- BUG! feature2 -->
-{% include flexcard.html datasource = site.data.brand.brands.subsites.brand4 %}
+{% include flexcard.html datasource = site.data.brand.brands.subsites.brand4 schema = site.data.schema.default.flexcard-horizontal.default %}
 {% include spacer.html schema = site.data.schema.default.spacer.default4 %}
 
 <!-- author -->

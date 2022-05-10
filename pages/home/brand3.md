@@ -18,7 +18,7 @@ guid: 76a67106-ae87-4d09-ad0a-5d7b2958a7ce
 {% include flexcard.html datasource = site.data.brand.brands.sites %}
 {% include spacer.html schema = site.data.schema.default.spacer.default4 %}
 <!-- BUG! feature2 -->
-{% include flexcard.html datasource = site.data.brand.brands.subsites.brand3 %}
+{% include flexcard.html datasource = site.data.brand.brands.subsites.brand3 schema = site.data.schema.default.flexcard-horizontal.default %}
 {% include spacer.html schema = site.data.schema.default.spacer.default4 %}
 
 <!-- author -->

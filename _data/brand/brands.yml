@@ -113,7 +113,7 @@ sites:
   
 subsites:
   brand1:
-    - <<: *brand0
+    - <<: *brand1
       title: Culpa elit nostrud.
       subtitle: Sit qui reprehenderit amet deserunt excepteur consequat cupidatat in qui eiusmod dolore.
       heading: Commodo proident ea id ipsum cillum.
