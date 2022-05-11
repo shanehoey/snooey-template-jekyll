@@ -19,7 +19,7 @@ schema: &schema
   card: 
     parent: card h-100
     horizontal:
-      row: row
+      row: row 
       col: col-4,col-8
     image: card-image-top
     body: card-body

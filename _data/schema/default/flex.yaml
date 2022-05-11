@@ -23,21 +23,16 @@ schema: &schema
       col4: text                           
       col5: text                           
   
-  asset:
+  content: &content
     image:  &image
       class: img-fluid img-thumbnail float-end
       style: width:150px;height:250px;
     icon: display-1
-
-  typography: &typography
-    title: h3 text-dark text-decoration-none 
+    title: h3 text-dark text-decoration-none
     subtitle: h4 text-dark
     heading: h4 text-dark
     description: text-muted
-
-  link: &link
-    button: btn btn-primary theme-text-light stretched-link
-    href: text-decoration-none stretched-link
+    link: btn btn-primary theme-text-light stretched-link
 
 default: 
   <<: *schema
@@ -62,17 +57,18 @@ author: &author
       col3:             # heading
       col4:             # description
       col5:             # link
-  asset:
+
+  content: &content
     image:  &image
-      class: img-thumbnail float-end p-3
-      style: max-height:250px;
+      class: img-fluid img-thumbnail float-end
+      style: width:150px;height:250px;
     icon: display-1
-  typography: &typography
-    title: h3 text-light text-decoration-none 
+    title: h3 text-dark text-decoration-none
     subtitle: h5 text-light
-    heading:
+    heading: 
     description: text-light
-  link: &link btn btn-outline-light theme-text-light
+    link: btn btn-outline-light theme-text-light
+
 
 sponsor: &sponsor
   layout: &layout
@@ -93,19 +89,16 @@ sponsor: &sponsor
       col3: d-none
       col4: 
       col5: d-none
-  asset:
+  content: &content
     image:  &image
-      class: img-fluid img-thumbnail float-end 
+      class: img-fluid img-thumbnail float-end
       style: width:150px;height:250px;
     icon: display-1
-  typography: &typography
-    title: h3 text-light text-decoration-none 
-    subtitle: h4 text-light
-    heading: h4 text-light
+    title: h3 text-dark text-decoration-none
+    subtitle: h5 text-light
+    heading: 
     description: text-light
-  link: &link
-    button: btn btn-primary theme-text-light stretched-link
-    href: text-light text-decoration-none stretched-link
+    link: btn btn-outline-light theme-text-light
 
 calltoaction01: &calltoaction01
   id: calltoaction01
@@ -128,21 +121,16 @@ calltoaction01: &calltoaction01
       col3: d-none
       col4: 
 
-  asset:
+  content: &content
     image:  &image
-      class: img-fluid img-thumbnail float-start
+      class: img-fluid img-thumbnail float-end
       style: width:150px;height:250px;
     icon: display-1
-    
-  typography: &typography
-    title: h2 
-    subtitle: h4
-    heading: h4 
-    description: text-muted
-
-  link: &link
-    button: btn btn-primary theme-text-light stretched-link
-    href: text-decoration-none
+    title: h3 text-dark text-decoration-none
+    subtitle: h5 text-light
+    heading: 
+    description: text-light
+    link: btn btn-outline-light theme-text-light
 
 calltoaction02: &calltoaction02
   id: calltoaction02
@@ -166,21 +154,16 @@ calltoaction02: &calltoaction02
       col4:
       col5:
 
-  asset:
+  content: &content
     image:  &image
-      class: img-fluid img-thumbnail float-start
+      class: img-fluid img-thumbnail float-end
       style: width:150px;height:250px;
     icon: display-1
-    
-  typography: &typography
-    title: h2 
-    subtitle: h4
-    heading: h4 
-    description: text-muted
-
-  link: &link
-    button: btn btn-primary theme-text-light stretched-link
-    href: text-decoration-none
+    title: h3 text-dark text-decoration-none
+    subtitle: h5 text-light
+    heading: 
+    description: text-light
+    link: btn btn-outline-light theme-text-light
 
 calltoaction03: &calltoaction03
   id: calltoaction03
@@ -204,21 +187,16 @@ calltoaction03: &calltoaction03
       col4:
       col5:
 
-  asset:
+  content: &content
     image:  &image
-      class: img-fluid img-thumbnail float-start
+      class: img-fluid img-thumbnail float-end
       style: width:150px;height:250px;
     icon: display-1
-    
-  typography: &typography
-    title: h2 
-    subtitle: h4
-    heading: h4 
-    description: text-muted
-
-  link: &link
-    button: btn btn-primary theme-text-light stretched-link
-    href: text-decoration-none
+    title: h3 text-dark text-decoration-none
+    subtitle: h5 text-light
+    heading: 
+    description: text-light
+    link: btn btn-outline-light theme-text-light
 
 h1title: 
   id: flex
@@ -226,7 +204,6 @@ h1title:
     section: position-relative
     background: theme-bg-color1
     text: theme-text-light bold
-
   flex: &flex
     row: 
       parent: d-flex flex-row
@@ -241,14 +218,16 @@ h1title:
       col3:                                # heading
       col4:                                # description
       col5:                                # button
-  
-  typography: &typography
+  content: &content
+    image: &image
+     # class: 
+     # style: 
+    icon:
     title: h1 text-decoration-none
     subtitle: 
     heading: 
     description: text-light
-
-  link: #&link btn btn-outline-light theme-text-light
+    link: 
 
 h1heading: 
   id: flex
@@ -260,22 +239,25 @@ h1heading:
   flex: &flex
     row: 
       parent: d-flex flex-row
-      row1:                               #image : no value to hide
-      row2: col d-flex p-4                #text : no value to hide
-      row3:                               #icon : no value to hide #p-2 col-4 d-flex p-2 col-4 d-flex justify-content-center align-self-center
-      row4:                               #heading : no value to hide
+      row1:                                # image container
+      row2: col d-flex p-4                 # text container
+      row3:                                # icon container
+      row4:                                # heading container
     column: 
       parent: d-flex flex-column
-      col1:                                # title h1,h2,h3,h4,h5 no value to hide
-      col2:                                # subtitle h1,h2,h3,h4,h5 no value to hide
-      col3:                                # heading h1,h2,h3,h4,h5 no value to hide
+      col1:                                # title 
+      col2:                                # subtitle 
+      col3:                                # heading
       col4:                                # description
-      col5:                                # button
+      col5:                                # button/url
   
-  typography: &typography
-    title: h1 text-dark text-decoration-none
-    subtitle: #h4 text-dark
-    heading: #h4 text-dark
-    description: text-muted
-
-  link: #&link btn btn-outline-light theme-text-light
+  content: &content # null value will hide the content
+    image:  &image
+      class: img-fluid img-thumbnail float-end
+      style: width:150px;height:250px;
+    icon: display-1
+    title: h3 text-dark text-decoration-none
+    subtitle: h5 text-light
+    heading: 
+    description: text-light
+    link: btn btn-outline-light theme-text-light
