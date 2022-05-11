@@ -4,21 +4,18 @@
 schema: &schema
 
   id: carousel
-
   layout: &layout
-    section: carousel slide
+    section: 
     background: theme-text-light
     text: theme-text-light
-
   carousel:
- 
-  typography: &typography
+    section: carousel slide
+  content: &content
     title: display-3
     subtitle: display-4
-    heading:  display-4
+    heading: display-4
     description: lead 
-
-  link: &link btn btn-sm btn-outline-light
+    link: btn btn-sm btn-light
 
 default:
   <<: *schema
