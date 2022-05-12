@@ -14,12 +14,7 @@ schema: &schema
       primary: *top
       secondary: *top
 
-  include:  &include
-
-  typography: &typography
-
-
+  content: &content
 
 default:
   <<: *schema
-

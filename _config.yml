@@ -29,6 +29,9 @@ exclude:
     - Gemfile.lock
     - SECURITY.md
     - _dev/
+    - docker-compose.dev.yml 
+    - docker-compose.prod.yml
+    - structure.md
 
 plugins_dir: _plugins
 plugins:

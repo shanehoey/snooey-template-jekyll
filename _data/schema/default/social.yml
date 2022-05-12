@@ -8,7 +8,7 @@ schema: &schema
     background: theme-bg-color1
     text: theme-text-light
 
-  typography: &typography
+  content: &content
     title: display-1 mx-3 theme-text-light
     icon: display-5 mx-1 theme-text-light
 
