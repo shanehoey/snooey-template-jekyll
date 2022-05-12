@@ -1,7 +1,9 @@
 ---
 title: Brand01
 subtitle: Brand01
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultricies turpis eu lorem pellentesque maximus. Proin tincidunt, quam eu finibus tempor, sem leo consequat ligula, non auctor nisl elit et magna. Donec id eleifend nisi, ac pharetra nunc. Integer urna lorem, consequat nec volutpat ac, posuere non tellus. Nunc mi metus, varius quis dapibus.
 tags: ["tag1","tag2"]
+categories: ["category7"]
 ---
 
 # {{ page.title }}

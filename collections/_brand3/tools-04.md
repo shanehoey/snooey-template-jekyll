@@ -4,6 +4,7 @@ subtitle: Tools 04
 description: Velit officia minim nostrud tempor deserunt consectetur eiusmod veniam duis anim minim nisi proident fugiat. Pariatur adipisicing sunt id reprehenderit culpa ea laborum. Et tempor do elit reprehenderit Lorem culpa esse veniam irure minim.
 excerpt: Ullamco sint dolore non commodo ut do esse proident. Non reprehenderit amet ea occaecat duis dolor. Veniam pariatur non ex sunt duis sit.
 tags: ["tag1","tag2"]
+categories: ["category6"]
 ---
 
 # {{ page.title }}

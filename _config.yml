@@ -158,7 +158,6 @@ defaults:
         icon: bi bi-file-text
       categories: ["brand2"]
   
-  
   - scope:
       path: ""
       type: brand3

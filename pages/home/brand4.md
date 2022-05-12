@@ -6,17 +6,13 @@ theme: theme4
 guid: dbc25559-46b4-4729-a7ea-af16813f0f0b
 ---
 
-<!--v1.2.135 pages/home/home.md-->
+<!--v1.2.135 pages/collections/videos.md-->
+# {{ page.title }} 
 
-<!-- title - trick to create array and then add to the array-->
-{% assign datasource = "" | split: "," | push: site.data.brand.brands[page.brand] %}
-{% include flex.html datasource = datasource schema = site.data.schema.default.flex.h1title  %}
+{{ page.description }}
 
-
-<!-- feature Subsites -->
-{% assign datasource = site.data.brand.brands.subsites[page.brand] %}
-{% include flexcard.html datasource = datasource schema = site.data.schema.default.flexcard-horizontal.default  imagetype = "vertical"  %}
-{% include spacer.html schema = site.data.schema.default.spacer.default4 %}
+{% assign datasource = site.brand4 | where: "categories","category7" %}
+{% include flexcard.html datasource = datasource schema = site.data.schema.default.flexcard-horizontal.blog %}
 
 <!-- feature Sites -->
 {% assign datasource = site.data.brand.brands.sites | where_exp: "item","item.guid != page.guid" %}

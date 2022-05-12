@@ -4,6 +4,7 @@ subtitle: Tools 03
 description: Dolor veniam officia aute dolore consequat ea veniam sunt non magna sit. Officia ea ipsum cillum aliquip aliqua. Esse enim occaecat nostrud tempor eiusmod officia eu aute labore laborum esse anim sunt. Lorem velit cupidatat est exercitation ullamco anim consectetur sint ea pariatur tempor magna culpa.
 excerpt: Fugiat anim qui voluptate in nulla ad magna quis esse nulla tempor enim. Ad cillum sint mollit esse. Consectetur veniam ipsum dolore quis labore anim consectetur ut in labore nostrud commodo enim.
 tags: ["tag1","tag2"]
+categories: ["category6"]
 ---
 
 # {{ page.title }}

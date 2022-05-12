@@ -3,12 +3,12 @@
 layout: &layout
   body:
     class: theme-bg-background-fixed
-    style: "margin-top: 62px;"
+    style: "margin-top : 62px; margin-bottom : 64px;"
   header: 
     class:
     style:
   content: 
-    class: container theme-bg-color1 theme-text-light
+    class: container theme-bg-color1 theme-text-light p-4
     style: 
   footer: 
     class:

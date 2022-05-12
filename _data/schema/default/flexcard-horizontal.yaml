@@ -16,7 +16,7 @@ schema: &schema
     column:
       parent: col-6 p-3
   
-  card: 
+  card: &card
     parent: card h-100
     horizontal:
       row: row 
@@ -35,3 +35,17 @@ schema: &schema
 
 default: 
   <<: *schema
+
+blog:
+  <<: *schema
+  id: flexcard-horizontal
+  layout:
+    <<: *layout
+  flex:
+    <<: *flex
+    column:
+      parent: col-12 p-3
+  card:
+    <<: *card
+  content:
+    <<: *content
