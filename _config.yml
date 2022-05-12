@@ -41,7 +41,6 @@ plugins:
   - jekyll-admin
   - jekyll-redirect-from
   - jekyll-minifier
- 
 
 # BUG: issue when js compressed
 jekyll-minifier:
@@ -51,7 +50,7 @@ jekyll-minifier:
   remove_intertag_spaces: true
   compress_css: true
   compress_javascript: false 
- 
+
 excerpt_separator: <!--more-->
 
 remote_theme: shanehoey/snooey

@@ -30,7 +30,7 @@ schema: &schema
     subtitle:
     heading: 
     description: text-muted
-    link: btn btn-primary theme-text-light d-grid gap-2 mx-auto stretched-link
+    link: btn theme-bg-color1 theme-text-light stretched-link
     image: rounded-top
 
 default: 

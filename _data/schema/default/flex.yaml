@@ -32,7 +32,7 @@ schema: &schema
     subtitle: h4 text-dark
     heading: h4 text-dark
     description: text-muted
-    link: btn btn-primary theme-text-light stretched-link
+    link: btn btn-sm btn-block theme-bg-dark theme-text-light stretched-link text-decoration-none
 
 default: 
   <<: *schema
@@ -56,18 +56,18 @@ author: &author
       col2:             # subtitle
       col3:             # heading
       col4:             # description
-      col5:             # link
+      col5:             # link 
 
   content: &content
     image:  &image
-      class: img-fluid img-thumbnail float-end
+      class: img-fluid img-thumbnail float-end 
       style: width:150px;height:250px;
     icon: display-1
     title: h3 text-light text-decoration-none
     subtitle: h5 text-light
     heading: 
     description: text-light
-    link: btn btn-outline-light theme-text-light
+    link: stretched-link
 
 sponsor: &sponsor
   layout: &layout

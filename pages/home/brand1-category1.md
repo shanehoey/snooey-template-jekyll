@@ -10,4 +10,4 @@ permalink: /brand1/category1/
 {{ page.description }}
 
 {% assign datasource = site.brand1 | where: "categories","category1" %}
-{% include flexcard.html datasource = datasource %}
+{% include flexcard.html datasource = datasource schema = site.data.schema.default.flexcard-horizontal.blog %}

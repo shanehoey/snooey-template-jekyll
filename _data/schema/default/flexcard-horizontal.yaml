@@ -47,5 +47,8 @@ blog:
       parent: col-12 p-3
   card:
     <<: *card
+    footer:
   content:
     <<: *content
+    link: stretched-link
+    image: img-fluid rounded

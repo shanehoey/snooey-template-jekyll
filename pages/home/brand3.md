@@ -20,11 +20,8 @@ guid: 76a67106-ae87-4d09-ad0a-5d7b2958a7ce
 {% include flexcard.html datasource = datasource %}
 {% include spacer.html schema = site.data.schema.default.spacer.default4 %}
 
-<!-- author -->
-{% include flex.html datasource = site.data.dataset.author.default schema = site.data.schema.default.flex.author %}
-
-{% include spacer.html schema = site.data.schema.default.spacer.default4 %}
 <!-- social -->
 {% include social.html datasource = site.data.dataset.social.default schema = site.data.schema.default.social.default %}
 
-{% include spacer.html schema = site.data.schema.default.spacer.default4 %}
+<!-- author -->
+{% include flex.html datasource = site.data.dataset.author.default schema = site.data.schema.default.flex.author imagetype = "profile" %}

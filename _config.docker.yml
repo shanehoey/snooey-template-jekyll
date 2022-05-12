@@ -7,5 +7,4 @@ liquid:  #https://jekyllrb.com/docs/configuration/liquid/
   strict_variables: false
   strict_filters: false
 
-  
 remote_theme: shanehoey/snooey@dev
