@@ -1,0 +1,34 @@
+<!--v1.2.135 _layouts/default.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset = "utf-8">
+<meta name = "viewport" content = "width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>{{ page.title }} {{ site.separator }} {{ site.data.brand[page.brand].brand.title }}</title>
+<link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" crossorigin = "anonymous">
+<link rel = "stylesheet" href = "/assets/css/{{ page.theme }}.css"/>    
+{{ seo }}
+</head>
+<!-- body -->
+<body class = "{{ site.data.brand[page.brand].layout.body.class }}" style = "{{ site.data.brand[page.brand].layout.body.style }}">
+<link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+<script src = "https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js" crossorigin = "anonymous"></script>
+<!-- header -->
+<header class = "{{ site.data.brand[page.brand].layout.header.class }}" style = "{{ site.data.brand[page.brand].layout.style }}">
+{% if page.navbar %}{% include navbar.html %}{% endif %}
+{% if page.carousel %}{% include carousel.html datasource = site.data.brand.brands.sites %}{% endif %}
+{% if page.breadcrumb %}{% include breadcrumb.html %}{% endif %}
+</header>
+<!-- content -->
+<section class = "{{ site.data.brand[page.brand].layout.content.class }}" style = "{{ site.data.brand[page.brand].layout.content.style }}">
+{{ content }}
+</section>
+<!-- footer -->
+<footer class = "{{ site.data.brand[page.brand].layout.footer.class }}" style = "{{ site.data.brand[page.brand].layout.footer.style }}" >
+{% if page.footer %}{% include footer.html%}{% endif %}
+</footer>
+{% if jekyll.environment == "development" %}{% include debug.html %}{% endif %}
+<script src = "https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js" crossorigin = "anonymous"></script>
+</body>
+</html>
+<!-- default.html -->

@@ -1,0 +1,39 @@
+<!-- 
+
+ v1.2.135 _includes/footer.html
+ 
+  datasource = [collection] 
+  datasource = [dataset]    
+  schema = [string]
+  limit = [int]
+  brand = [string]
+
+-->
+
+<!-- schema -->
+{% assign schema = include.schema | default: site.data.schema.footer[page.schema] | default: site.data.schema.default.footer.default %}
+
+<!-- dataset -->
+
+{% assign footer = include.footer | default: site.data.brand[page.brand].footer %}
+{% assign brand = include.brand | default: site.data.brand.brands[page.brand] | default: site.data.brand.brands.brand0  %}
+
+<!-- footer -->
+{% if footer or brand %}
+<footer id="footer" class = "{{ schema.layout.footer }} {{ schema.layout.background }} {{ schema.layout.text }}">
+<p class = "{{ schema.typography.copyright }}">{{ brand.copyright }}<br>
+{% if brand.link.url %}<a href="{{ brand.link.url}}" class='text-reset text-decoration-none'>{% endif %}
+{% if brand.link.text or brand.assets.icon %}<span class = "pr-5">{% endif %}
+{% if brand.assets.icon %}<i class = "{{ brand.assets.icon }} pr-1"></i>{% endif %}
+{% if brand.link.text %}<span class = "{{  brand.link.text }}">{{ if brand.link.text }}</span>{% endif %}
+{% if brand.link.text or brand.assets.icon %}</span>{% endif %}
+{% if brand.link.url %}</a>{% endif %}
+{% for item in footer %}
+<a href="{{ item.url }}" class = "{{ schema.typography.link }}">{{ item.text }}</a>
+{% endfor %}
+</p>
+</footer>
+{% else %}
+<!-- error footer -->
+{% include error.html error = "_includes/footer.html" %}
+{% endif %}

@@ -1,11 +1,19 @@
-# v1.2.121 _data/brand1.yml
+# v1.2.135 _data/brand1.yml
 
 layout: &layout
-  body:  theme-bg-background-fixed
+  body:
+    class: theme-bg-background-fixed
+    style: "margin-top: 62px;"
   header: 
-  content: container
-  footer:
-
+    class:
+    style:
+  content: 
+    class:  container theme-bg-color1 theme-text-light
+    style: 
+  footer: 
+    class:
+    style: "position: fixed; width: 100%; left: 0; bottom: 0;"
+    
 navbar: &navbar
   - url: /
     icon: bi bi-file-person

@@ -1,8 +1,11 @@
-# v1.2.121 _config.docker.yml
+# v1.2.135 _config.docker.yml
 
 url:  "http://localhost"
 
 liquid:  #https://jekyllrb.com/docs/configuration/liquid/
-  error_mode: strict
-  strict_variables: true
-  strict_filters: true
+  error_mode: warn
+  strict_variables: false
+  strict_filters: false
+
+  
+remote_theme: shanehoey/snooey@dev

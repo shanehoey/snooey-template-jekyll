@@ -1,10 +1,10 @@
-# v1.2.121 _data/schema/breadcrumb.yml
+# v1.2.135 _data/schema/breadcrumb.yml
 # VNEXT - migrate to theme _data\schema
 
 schema: &schema
 
   layout: &layout
-    section: p-3 mt-3
+    section: p-3
     background: theme-bg-dark
     text: font-monospace theme-text-light
 

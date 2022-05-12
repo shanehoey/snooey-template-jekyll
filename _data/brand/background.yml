@@ -1,4 +1,4 @@
-# v1.2.135 _data/brand3.yml
+# v1.2.135 _data/brand0.yml
 
 layout: &layout
   body:
@@ -8,12 +8,11 @@ layout: &layout
     class:
     style:
   content: 
-    class:  container theme-bg-color1 theme-text-light
+    class: h-100 theme-text-light
     style: 
   footer: 
     class:
-    style: "position: fixed; width: 100%; left: 0; bottom: 0;"
-
+    style: "bottom:0px; position:absolute; width:100%;"
 
 navbar: &navbar
   - url: /

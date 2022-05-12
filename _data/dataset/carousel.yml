@@ -1,4 +1,4 @@
-# v1.2.121 _data/dataset/carousel.yml
+# v1.2.135 _data/dataset/carousel.yml
 
 dataset: &dataset
   title:
@@ -21,7 +21,6 @@ dataset: &dataset
     header: "/assets/images/brand0/header.jpg"
     teaser: "/assets/images/brand0/teaser.jpg"
 
-  
 default:
   - <<: *dataset
     title: Veniam officia minim deserunt qui.
