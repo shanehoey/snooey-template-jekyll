@@ -23,14 +23,14 @@ schema: &schema
       col:
     image: card-image-top              # cardimage
     body: card-body                    # cardbody
-    footer: card-footer                # cardfooter
+    footer: card-footer text-center    # cardfooter
 
   content: &content # null value will hide the content
     title: h5 text-dark text-decoration-none    
     subtitle:
     heading: 
     description: text-muted
-    link: btn theme-bg-color1 theme-text-light stretched-link
+    link: btn btn-sm theme-bg-color1 theme-text-light stretched-link text-center
     image: rounded-top
 
 default: 
