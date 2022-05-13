@@ -68,7 +68,7 @@ collections:
       permalink: /:collection/:path/
   brand2:
       output: true
-      permalink: /:collection/:path;/
+      permalink: /:collection/:path/
   brand3:
       output: true
       permalink: /:collection/:path/

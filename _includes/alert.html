@@ -1,0 +1,32 @@
+<!--
+
+ v1.2.121 _includes/alert.html 
+
+  schema = [yaml]
+  datasource = [object/yaml]
+  heading = [string]
+  icon = [string]
+
+-->
+
+<!-- schema -->
+{% assign schema = include.schema | default: site.data.schema.alert.default[page.schema] | default: site.data.schema.default.alert.default %}
+
+<!-- dataset -->
+{% assign heading = include.heading | default: include.datasource.heading %}
+{% assign icon = include.icon | default: include.datasource.assets.icon | default: schema.content.icon %}
+{% assign count = count | plus: 1 %}
+
+<!-- alert -->
+{% if heading %}
+<section id = "alert{{ count }}" class = "{{ schema.layout.section }}" role="alert">
+<span id = "heading" class = "{{ schema.content.title }}">
+{% if icon %}<i id = "icon" class = "{{ icon }}" ></i>{% endif %}
+{{ heading }}
+</span>
+{% if schema.layout.section contains "dismiss" %}<button type="button" class = "btn-close" data-bs-dismiss="alert" aria-label="Close"></button>{% endif %}
+</section>
+{% else %}
+<!-- error alert -->
+{% include error.html error = "_includes/alert.html" %}
+{% endif %}

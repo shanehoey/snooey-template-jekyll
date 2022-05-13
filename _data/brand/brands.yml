@@ -118,27 +118,42 @@ subsites:
       subtitle: Sit qui reprehenderit amet deserunt excepteur consequat cupidatat in qui eiusmod dolore.
       heading: Commodo proident ea id ipsum cillum.
       description: Consectetur eu voluptate incididunt incididunt ad magna duis ipsum do. Occaecat do duis cupidatat tempor reprehenderit exercitation nulla eu.
+      link: 
+        text: category1
+        url: /brand1/category1/
     - <<: *brand1
       title: Qui irure consectetur.
       subtitle: Reprehenderit aute sit occaecat id nulla duis et eu esse eu.
       heading: Esse voluptate eu minim enim magna deserunt sit quis incididunt ad.
       description: Pariatur esse reprehenderit ad fugiat reprehenderit cupidatat aliquip sunt quis qui. Dolor magna sit aliquip proident.
+      link: 
+        text: category1
+        url: /brand1/category2/
   brand2:
     - <<: *brand2
       title: Nulla qui.
       subtitle: Ad pariatur mollit tempor minim cillum consectetur sit quis laboris officia labore.
       heading: Magna dolore ea dolor mollit esse culpa cupidatat duis in culpa.
       description: Proident laborum ad enim exercitation ea sit eu aliqua.
+      link: 
+        text: category2
+        url: /brand2/category3/
     - <<: *brand2
       title: Duis quis magna.
       subtitle: Duis reprehenderit in laborum excepteur reprehenderit ut nulla aliquip Lorem et id incididunt.
       heading: Id aliqua exercitation eu anim non pariatur labore minim amet dolore fugiat tempor.
       description: Cillum adipisicing et mollit minim qui sunt nostrud deserunt elit incididunt.
+      link: 
+        text: category2
+        url: /brand2/category4/
     - <<: *brand2
       title: Deserunt consequat deserunt nulla irure eiusmod et culpa nulla sunt duis enim culpa amet.
       subtitle: Consectetur fugiat do proident id.
       heading: Velit labore veniam eiusmod sit sunt sit ullamco eu eu sint et nulla officia veniam.
       description: Anim minim eiusmod proident exercitation duis dolore non commodo ad quis. Eiusmod minim enim aliquip ad do deserunt dolor fugiat in sunt mollit.
+      link: 
+        text: category2
+        url: /brand2/category5/
   brand3:
     - <<: *brand3
       title: Sunt minim nulla incididunt labore Lorem exercitation quis consectetur duis.
