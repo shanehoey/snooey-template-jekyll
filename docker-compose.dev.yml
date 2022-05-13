@@ -3,7 +3,7 @@ version: '3'
 services:
     development:
         image: jekyll/jekyll:latest
-        command: jekyll serve --config _config.yml,_config.docker.yml --watch --force_polling --incremental --drafts --future --unpublished --trace
+        command: jekyll serve --config _config.yml,_config.dev.yml --watch --force_polling --incremental --drafts --future --unpublished --trace
         ports:
             - 80:4000
         volumes:

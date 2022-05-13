@@ -1,0 +1,11 @@
+<!-- v1.2.121 _includes/debug.html -->
+{% if jekyll.environment == "development" %}
+<div class = "p-4 bg-dark theme-text-light" >
+<b>brand : </b> {{ page.brand }}&nbsp;&nbsp;-&nbsp;&nbsp;<b>theme : </b> {{ page.theme }}&nbsp;&nbsp;-&nbsp;&nbsp;
+<b>layout : </b> {{ page.layout }}&nbsp;-&nbsp;<b>navbar : </b> {{ page.navbar }}&nbsp;&nbsp;-&nbsp;&nbsp;
+<b>breadcrumb : </b> {{ page.breadcrumb }}&nbsp;&nbsp;-&nbsp;&nbsp;<b>carousel : </b> {{ page.carousel }}&nbsp;&nbsp;-&nbsp;&nbsp;
+<b>footer : </b> {{ page.footer }}&nbsp;&nbsp;-&nbsp;&nbsp;<b>brand : </b>{{ page.brand }}&nbsp;&nbsp;-&nbsp;&nbsp;<b>theme : </b>{{ page.theme }}
+<br/>
+<b>url : </b> {{page.url}}&nbsp;&nbsp;-&nbsp;&nbsp;<b>categories : </b>{{ page.categories | jpon:',' }}&nbsp;&nbsp;-&nbsp;&nbsp;<b>Tags : </b>{{ page.tags }}
+</div>
+{% endif %}
