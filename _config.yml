@@ -63,6 +63,9 @@ include:
 collections_dir: collections
 
 collections:
+  brand0:
+      output: true
+      permalink: /:collection/:path/
   brand1:
       output: true
       permalink: /:collection/:path/
@@ -129,6 +132,20 @@ defaults:
       assets:
         <<: *assets
 
+  - scope:
+      path: "/brand0/*"
+      type: brand0
+    values:
+      layout: brand0
+      brand: brand0
+      theme: theme0
+      categories: ["brand0"]
+      link:
+        <<: *link
+      assets:
+        <<: *assets
+        icon: bi bi-file-text
+        
   - scope:
       path: "/brand1/*"
       type: brand1
