@@ -5,12 +5,12 @@ schema: &schema
 
   layout: &layout
     section: text-center pb-5
-    background: custom-bg-color1
+    background: snooey-bg-color1
     text: text-light
 
   content: &content
     title: display-1 text-light
-    icon: display-3 px-3 text-light
+    icon: display-3 px-2 text-light
 
 default:
   <<: *schema
@@ -19,7 +19,7 @@ image:
   <<: *schema
   layout:
     <<: *layout
-    background: custom-bg-teaser
+    background: snooey-bg-teaser
     text: text-light
 
 

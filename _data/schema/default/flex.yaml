@@ -38,7 +38,7 @@ schema: &schema
     subtitle: h4 text-dark                         # value includes image
     heading: h4 text-dark                         # value includes image
     description: text-muted                           # value includes image
-    href: btn btn-sm btn-block custom-bg-dark text-light stretched-link text-decoration-none  # value includes link
+    href: btn btn-sm btn-block bg-dark text-light stretched-link text-decoration-none  # value includes link
 
 default: 
   <<: *schema
@@ -48,7 +48,7 @@ author:
   layout:
     <<: *layout
     section: position-relative
-    background: custom-bg-unsplash
+    background: snooey-bg-unsplash
     text: text-light
     image: profile
   content:
@@ -65,7 +65,7 @@ sponsor:
   layout:
     <<: *layout
     section: position-relative
-    background: custom-bg-unsplash
+    background: snooey-bg-unsplash
     text: text-light
   content:
     <<: *content
@@ -126,7 +126,7 @@ h1title:
   id: flex
   layout: &layout
     section: position-relative
-    background: custom-bg-color1
+    background: snooey-bg-color1
     text: text-light bold
   flex: &flex
     row: 
@@ -157,7 +157,7 @@ h1heading:
   id: flex
   layout: &layout
     section: position-relative
-    background: custom-bg-light
+    background: bg-light
     text: text-dark
 
   flex: &flex

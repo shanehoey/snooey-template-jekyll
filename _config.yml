@@ -65,19 +65,19 @@ collections_dir: collections
 collections:
   brand0:
       output: true
-      permalink: /:collection/:path/
+      permalink: /:collection/:path
   brand1:
       output: true
-      permalink: /:collection/:path/
+      permalink: /:collection/:path
   brand2:
       output: true
-      permalink: /:collection/:path/
+      permalink: /:collection/:path
   brand3:
       output: true
-      permalink: /:collection/:path/
+      permalink: /:collection/:path
   brand4:
       output: true
-      permalink: /:collection/:path/
+      permalink: /:collection/:path
 
 defaults:
   - scope:

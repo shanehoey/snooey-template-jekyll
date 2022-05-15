@@ -11,12 +11,12 @@ categories: ["category3"]
 
 {% include alert.html heading = "this is an example alert!" %}
 
-{% include alert.html heading = "this is an example alert!" icon = "bi bi-file" %}
+{% include alert.html heading = "this is an example alert!" icon = "bi bi-award-fill" %}
 
-{% include alert.html heading = "this is a success alert!" schema = site.data.schema.alert.default.success %}
+{% include alert.html heading = "this is a success alert!" schema = site.data.schema.default.alert.success %}
 
-{% include alert.html heading = "this is a info alert!" schema = site.data.schema.alert.default.info %}
+{% include alert.html heading = "this is a info alert!" schema = site.data.schema.default.alert.info %}
 
-{% include alert.html heading = "this is a warning alert!" schema = site.data.schema.alert.default.warning %}
+{% include alert.html heading = "this is a warning alert!" schema = site.data.schema.default.alert.warning %}
 
-{% include alert.html heading = "this is a danger alert!" schema = site.data.schema.alert.default.danger %}
+{% include alert.html heading = "this is a danger alert!" schema = site.data.schema.default.alert.danger %}

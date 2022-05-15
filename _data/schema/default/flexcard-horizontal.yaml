@@ -7,7 +7,7 @@ schema: &schema
 
   layout: &layout
     section: position-relative p-3 
-    background: custom-bg-color1
+    background: snooey-bg-color1
     text: text-dark
 
   flex: &flex
@@ -51,4 +51,25 @@ blog:
   content:
     <<: *content
     link: stretched-link
+    image: img-fluid rounded
+
+    
+small-card:
+  <<: *schema
+  id: flexcard-horizontal
+  layout:
+    <<: *layout
+  flex:
+    <<: *flex
+    column:
+      parent: col-4 p-2
+  card:
+    <<: *card
+    footer:
+  content:
+    <<: *content
+    tite: h2 text-dark text-decoration-none text-center align-middle
+    link: stretched-link
+    image: img-fluid rounded
+    description:  
     image: img-fluid rounded
