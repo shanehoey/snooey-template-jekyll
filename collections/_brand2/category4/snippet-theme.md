@@ -4,6 +4,8 @@ tags: ["tag1","tag2"]
 categories: ["category4"]
 ---
 
+<link rel = "stylesheet" href = "https://getbootstrap.com/docs/5.2/assets/css/docs.css"/>
+
 <div class="row font-monospace">
 <div class="col-md-4 mb-3">
 <div class="p-3 bg-primary">primary</div>
