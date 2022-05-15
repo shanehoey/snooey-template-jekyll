@@ -2,8 +2,8 @@
 
 layout: &layout
   body:
-    class: theme-bg-background-fixed
-    style: "margin-top : 62px; margin-bottom : 64px;"
+    class: theme-bg-background-fixed theme-body
+    style: 
   header: 
     class:
     style:
@@ -11,7 +11,7 @@ layout: &layout
     class: container theme-bg-color1 theme-text-light p-4
     style: 
   footer: 
-    class:
+    class: theme-footer
     style: "position: fixed; width: 100%; left: 0; bottom: 0;"
 
 navbar: &navbar

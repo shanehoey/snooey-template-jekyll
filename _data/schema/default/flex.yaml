@@ -2,200 +2,125 @@
 # VNEXT - migrate to theme _data\schema
 
 schema: &schema
+
   id: flex
+
   layout: &layout
     section: position-relative
     background: theme-bg-light
     text: theme-text-dark
+    image: teaser    
 
   flex: &flex
-    row: 
-      parent: d-flex flex-row
-      row1: col-4 p-4                      # image : no value to hide
-      row2: col d-flex p-4                 # text : no value to hide
-      row3:                                # icon : no value to hide #p-2 col-4 d-flex p-2 col-4 d-flex justify-content-center align-self-center
-      row4:                                # heading : no value to hide
-    column: 
-      parent: d-flex flex-column
-      col1: h3                             
-      col2: h5                             
-      col3: text                           
-      col4: text                           
-      col5: text                           
-  
+    rows: &rows
+      row: d-flex flex-row
+      row1: &row1                 # image
+        row: col-4 p-4 
+      row2: &row2                 # text 
+        row:  col d-flex p-4 
+        cols: &cols
+          col: d-flex flex-column
+          col1: h3                             
+          col2: h5                             
+          col3: text                           
+          col4: text                           
+          col5: text  
+      row3: &row3                 # icon
+        row:
+      row4: &row4                 # heading
+        row:                    
+
+  # no value will hide 
   content: &content
-    image:  &image
-      class: img-fluid img-thumbnail float-end
-      style: width:150px;height:250px;
-    icon: display-1
-    title: h3 text-dark text-decoration-none
-    subtitle: h4 text-dark
-    heading: h4 text-dark
-    description: text-muted
-    link: btn btn-sm btn-block theme-bg-dark theme-text-light stretched-link text-decoration-none
+    image: img-fluid img-thumbnail float-end theme-image-profile  # value includes image              
+    icon: display-1                            # value includes image
+    title: h3 text-dark text-decoration-none    # value includes image and href includes link
+    subtitle: h4 text-dark                         # value includes image
+    heading: h4 text-dark                         # value includes image
+    description: text-muted                           # value includes image
+    href: btn btn-sm btn-block theme-bg-dark text-light stretched-link text-decoration-none  # value includes link
 
 default: 
   <<: *schema
 
-author: &author
-  id: author
-  layout: &layout
+author:
+  <<: *schema
+  layout:
+    <<: *layout
     section: position-relative
-    background: theme-bg-teaser
-    text: theme-text-dark
-  flex: &flex
-    row: 
-      parent: d-flex flex-row p-3 
-      row1: col-3 p3    # include image
-      row2: col px-3    # include text
-      row3:             # include icon
-      row4:             # include heading
-    column: 
-      parent: d-flex flex-column
-      col1:             # title
-      col2:             # subtitle
-      col3:             # heading
-      col4:             # description
-      col5:             # link 
-
-  content: &content
-    image:  &image
-      class: img-fluid img-thumbnail float-end 
-      style: width:150px;height:250px;
-    icon: display-1
+    background: theme-bg-unsplash1
+    text: theme-text-light
+    image: profile
+  content:
+    <<: *content
     title: h3 text-light text-decoration-none
-    subtitle: h5 text-light
-    heading: 
-    description: text-light
-    link: stretched-link
+    subtitle: h4 text-light
+    heading:
+    icon: 
+    href:
+    description: text-light  
 
-sponsor: &sponsor
-  layout: &layout
+sponsor:
+  <<: *schema
+  layout:
+    <<: *layout
     section: position-relative
-    background: theme-bg-teaser
-    text: theme-text-dark
-  flex: &flex
-    row: 
-      parent: d-flex flex-row p-3 
-      row1: col-3
-      row2: col px-3 
-      row3: d-none   #column
-      row4: d-none  
-    column: 
-      parent: d-flex flex-column
-      col1: 
-      col2:
-      col3: d-none
-      col4: 
-      col5: d-none
-  content: &content
-    image:  &image
-      class: img-fluid img-thumbnail float-end
-      style: width:150px;height:250px;
-    icon: display-1
-    title: h3 text-dark text-decoration-none
-    subtitle: h5 text-light
-    heading: 
-    description: text-light
-    link: btn btn-outline-light theme-text-light
+    background: theme-bg-unsplash1
+    text: theme-text-light
+  content:
+    <<: *content
+    title: h3 text-light text-decoration-none
+    subtitle: h4 text-light
+    image: img-fluid float-end theme-image-teaser
+    heading:
+    icon: 
+    href:
+    description: text-light  
 
-calltoaction01: &calltoaction01
-  id: calltoaction01
-  layout: &layout
-    section:
-    background: theme-bg-teaser
-    text: theme-text-dark
+calltoaction01:
+  <<: *schema
+  content:
+    <<: *content
+    image: theme-href img-fluid stretched-link
+    icon:
+    heading:
+    href:
 
-  flex: &flex
-    row: 
-      parent: d-flex flex-row
-      row1: p-2 col-4 order-2
-      row2:
+calltoaction02:
+  <<: *schema
+  content:
+    <<: *content
+    image: theme-href img-fluid stretched-link
+    icon:
+    heading:
+    href:
+  flex: 
+    <<: *flex
+    rows:
+      <<: *rows
+      row1:
+        row: col-4 p-4 order-2
+
+
+
+calltoaction03:
+  <<: *schema
+  content:
+    <<: *content
+    icon: display-1 center-block
+    image:
+    heading:
+    href:
+  flex: 
+    <<: *flex
+    rows:
+      <<: *rows
       row3:
-      row4: 
-    column: 
-      parent: d-flex flex-column
-      col1: 
-      col2:
-      col3: d-none
-      col4: 
-
-  content: &content
-    image:  &image
-      class: img-fluid img-thumbnail float-end
-      style: width:150px;height:250px;
-    icon: display-1
-    title: h3 text-dark text-decoration-none
-    subtitle: h5 text-light
-    heading: 
-    description: text-light
-    link: btn btn-outline-light theme-text-light
-
-calltoaction02: &calltoaction02
-  id: calltoaction02
-  layout: &layout
-    section:
-    background: theme-bg-teaser
-    text: theme-text-dark
-
-  flex: &flex
-    row:
-      parent: d-flex flex-row
-      row1: p-2 col-4 order-2
-      row2: p-2 col-8 order-1
-      row3: d-none
-      row4:
-    column:
-      parent: d-flex flex-column
-      col1:
-      col2:
-      col3: d-none
-      col4:
-      col5:
-
-  content: &content
-    image:  &image
-      class: img-fluid img-thumbnail float-end
-      style: width:150px;height:250px;
-    icon: display-1
-    title: h3 text-dark text-decoration-none
-    subtitle: h5 text-light
-    heading: 
-    description: text-light
-    link: btn btn-outline-light theme-text-light
-
-calltoaction03: &calltoaction03
-  id: calltoaction03
-  layout: &layout
-    section:
-    background: theme-bg-teaser
-    text: theme-text-dark
-
-  flex: &flex
-    row:
-      parent: d-flex flex-row
-      row1: p-2 col-4 order-2
-      row2: p-2 col-8 order-1
-      row3: d-none
-      row4:
-    column:
-      parent: d-flex flex-column
-      col1:
-      col2:
-      col3: d-none
-      col4:
-      col5:
-
-  content: &content
-    image:  &image
-      class: img-fluid img-thumbnail float-end
-      style: width:150px;height:250px;
-    icon: display-1
-    title: h3 text-dark text-decoration-none
-    subtitle: h5 text-light
-    heading: 
-    description: text-light
-    link: btn btn-outline-light theme-text-light
+        row: col col-4 p-6 d-flex justify-content-center align-items-center
+      row2: 
+        <<: *row2
+        row:  col d-flex p-4 order-2
+ 
 
 h1title: 
   id: flex
@@ -226,7 +151,7 @@ h1title:
     subtitle: 
     heading: 
     description: text-light
-    link: 
+    href:
 
 h1heading: 
   id: flex
@@ -259,4 +184,4 @@ h1heading:
     subtitle: h5 text-light
     heading: 
     description: text-light
-    link: btn btn-outline-light theme-text-light
+    href: btn btn-outline-light theme-text-light

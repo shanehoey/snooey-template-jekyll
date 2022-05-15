@@ -19,16 +19,16 @@ navbar: &navbar
     icon: bi bi-file-person
     text: Home
   - url: /brand1/
-    icon: bi bi-link
+    icon:
     text: brand1
   - url: /brand2/
-    icon: bi bi-link
+    icon:
     text: brand2
   - url: /brand3/
-    icon: bi bi-link
+    icon:
     text: brand3
   - url: /brand4/
-    icon: bi bi-link
+    icon:
     text: brand4
     #children:
     #  - url: /theme/cheatsheet/

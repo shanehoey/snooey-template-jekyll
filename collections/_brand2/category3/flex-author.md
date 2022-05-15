@@ -6,10 +6,6 @@ categories: ["category3"]
 
 # {{ page.title }}
 
-## site.data.schema.default.flex.default (default)
-
-{% include flex.html datasource = site.data.dataset.author.default %}
-
 ## site.data.schema.default.flex.author
 
 {% include flex.html datasource = site.data.dataset.author.default schema = site.data.schema.default.flex.author %}

@@ -19,7 +19,7 @@ dataset: &dataset
     horizontal: https://placeimg.com/1200/800/people
     teaser: https://placeimg.com/700/394/people
     background: https://placeimg.com/1920/1080/people
-
+    profile: https://placeimg.com/150/250/people
 default:
   - <<: *dataset
 
