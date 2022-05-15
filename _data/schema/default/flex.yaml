@@ -7,8 +7,8 @@ schema: &schema
 
   layout: &layout
     section: position-relative
-    background: custom-bg-light
-    text: theme-text-dark
+    background: bg-light
+    text: text-dark
     image: teaser    
 
   flex: &flex
@@ -48,8 +48,8 @@ author:
   layout:
     <<: *layout
     section: position-relative
-    background: custom-bg-unsplash1
-    text: theme-text-light
+    background: custom-bg-unsplash
+    text: text-light
     image: profile
   content:
     <<: *content
@@ -65,8 +65,8 @@ sponsor:
   layout:
     <<: *layout
     section: position-relative
-    background: custom-bg-unsplash1
-    text: theme-text-light
+    background: custom-bg-unsplash
+    text: text-light
   content:
     <<: *content
     title: h3 text-light text-decoration-none
@@ -127,7 +127,7 @@ h1title:
   layout: &layout
     section: position-relative
     background: custom-bg-color1
-    text: theme-text-light bold
+    text: text-light bold
   flex: &flex
     row: 
       parent: d-flex flex-row
@@ -158,7 +158,7 @@ h1heading:
   layout: &layout
     section: position-relative
     background: custom-bg-light
-    text: theme-text-dark
+    text: text-dark
 
   flex: &flex
     row: 
@@ -184,4 +184,4 @@ h1heading:
     subtitle: h5 text-light
     heading: 
     description: text-light
-    href: btn btn-outline-light theme-text-light
+    href: btn btn-outline-light text-light

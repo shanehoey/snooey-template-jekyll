@@ -6,7 +6,7 @@ schema: &schema
   layout: &layout
     section: footer fixed-bottom mx-auto
     background: custom-bg-dark
-    text: theme-text-light
+    text: text-light
 
   content: &content
     copyright:  text-reset text-center font-weight-light small

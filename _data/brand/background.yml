@@ -2,13 +2,13 @@
 
 layout: &layout
   body:
-    class: custom-bg-background-fixed
+    class: snooey-bg-background-fixed
     style: "margin-top: 62px;"
   header: 
     class:
     style:
   content: 
-    class: h-100 theme-text-light
+    class: h-100 text-light
     style: 
   footer: 
     class:

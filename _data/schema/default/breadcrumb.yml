@@ -6,7 +6,7 @@ schema: &schema
   layout: &layout
     section: p-3
     background: custom-bg-dark
-    text: font-monospace theme-text-light
+    text: font-monospace text-light
 
 dark: &dark
   <<: *schema
@@ -14,7 +14,7 @@ dark: &dark
 light: &light
   <<: *schema
   background: custom-bg-light
-  text: font-monospace theme-text-dark
+  text: font-monospace text-dark
 
 image: &image
   <<: *schema

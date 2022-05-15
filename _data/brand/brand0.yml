@@ -2,16 +2,16 @@
 
 layout: &layout
   body:
-    class: custom-bg-background-fixed theme-body
-    style: 
+    class: snooey-bg-background-fixed theme-body
+    style: snooey-body
   header: 
-    class:
+    class: snooey-body
     style:
   content: 
-    class: container custom-bg-color1 theme-text-light p-4
-    style: 
+    class: container snooey-bg-color1 text-light p-4
+    style: snooey-footer
   footer: 
-    class: theme-footer
+    class: snooey-footer
     style: "position: fixed; width: 100%; left: 0; bottom: 0;"
 
 navbar: &navbar

@@ -6,11 +6,11 @@ schema: &schema
   layout: &layout
     section: text-center pb-5
     background: custom-bg-color1
-    text: theme-text-light
+    text: text-light
 
   content: &content
-    title: display-1 theme-text-light
-    icon: display-3 px-3 theme-text-light
+    title: display-1 text-light
+    icon: display-3 px-3 text-light
 
 default:
   <<: *schema
@@ -20,6 +20,6 @@ image:
   layout:
     <<: *layout
     background: custom-bg-teaser
-    text: theme-text-light
+    text: text-light
 
 

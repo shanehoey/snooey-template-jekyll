@@ -8,7 +8,7 @@ schema: &schema
   layout: &layout
     section: position-relative p-3 
     background: custom-bg-color1
-    text: theme-text-dark
+    text: text-dark
 
   flex: &flex
     row: 
@@ -30,7 +30,7 @@ schema: &schema
     subtitle: 
     heading: 
     description: text-muted
-    link: btn btn-primary theme-text-light d-grid gap-2 mx-auto stretched-link
+    link: btn btn-primary text-light d-grid gap-2 mx-auto stretched-link
     image: img-fluid rounded
 
 default: 
