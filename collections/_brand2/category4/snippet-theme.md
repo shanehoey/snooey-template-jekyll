@@ -1,27 +1,42 @@
 ---
-title: color
+title: theme
 tags: ["tag1","tag2"]
 categories: ["category4"]
 ---
 
 <div class="row font-monospace">
 <div class="col-md-4 mb-3">
-<div class="p-3 mb-2 position-relative swatch-blue">
-  <strong class="d-block">$blue</strong>
-  #0d6efd
+<div class="p-3 bg-primary">primary</div>
+<div class="p-3 bg-secondary">primary</div>
+<div class="p-3 bg-success">success</div>
+<div class="p-3 bg-danger">danger</div>
+<div class="p-3 bg-warning">warning</div>
+<div class="p-3 bg-info">info</div>
+<div class="p-3 bg-light text-dark">light</div>
+<div class="p-3 bg-dark">dark</div>
 </div>
+<div class="col-md-4 mb-3">
+<div class="p-3 snooey-bg-color1">color1</div>
+<div class="p-3 snooey-bg-color2">color2</div>
+<div class="p-3 snooey-bg-color3">color3</div>
+<div class="p-3 snooey-bg-color4">color4</div>
+<div class="p-3 snooey-bg-color5">color5</div>
+<div class="p-3 snooey-bg-unsplash">unsplash</div>
+</div>
+</div>
+
+
+<div class="row font-monospace">
+<div class="col-md-4 mb-3">
+<div class="p-3 mb-2 position-relative swatch-blue"><strong class="d-block">$blue</strong>#0d6efd</div>
 <div class="p-3 bd-blue-100">$blue-100</div>
 <div class="p-3 bd-blue-200">$blue-200</div>
 <div class="p-3 bd-blue-300">$blue-300</div>
 <div class="p-3 bd-blue-400">$blue-400</div>
 <div class="p-3 bd-blue-500">$blue-500</div>
-
 <div class="p-3 bd-blue-600">$blue-600</div>
-
 <div class="p-3 bd-blue-700">$blue-700</div>
-
 <div class="p-3 bd-blue-800">$blue-800</div>
-
 <div class="p-3 bd-blue-900">$blue-900</div>
 </div>
 
