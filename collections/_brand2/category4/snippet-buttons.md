@@ -4,47 +4,36 @@ tags: ["tag1","tag2"]
 categories: ["category4"]
 ---
 
-<h1>Example heading <span class="badge bg-secondary">New</span></h1>
-<h2>Example heading <span class="badge bg-secondary">New</span></h2>
-<h3>Example heading <span class="badge bg-secondary">New</span></h3>
-<h4>Example heading <span class="badge bg-secondary">New</span></h4>
-<h5>Example heading <span class="badge bg-secondary">New</span></h5>
-<h6>Example heading <span class="badge bg-secondary">New</span></h6>
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
 
-<button type="button" class="btn btn-primary">
-  Notifications <span class="badge text-bg-secondary">4</span>
+<button type="button" class="btn btn-link">Link</button>
+
+<a class="btn btn-primary" href="#" role="button">Link</a>
+<button class="btn btn-primary" type="submit">Button</button>
+<input class="btn btn-primary" type="button" value="Input">
+<input class="btn btn-primary" type="submit" value="Submit">
+<input class="btn btn-primary" type="reset" value="Reset">
+
+<button type="button" class="btn btn-outline-primary">Primary</button>
+<button type="button" class="btn btn-outline-secondary">Secondary</button>
+<button type="button" class="btn btn-outline-success">Success</button>
+<button type="button" class="btn btn-outline-danger">Danger</button>
+<button type="button" class="btn btn-outline-warning">Warning</button>
+<button type="button" class="btn btn-outline-info">Info</button>
+<button type="button" class="btn btn-outline-light">Light</button>
+<button type="button" class="btn btn-outline-dark">Dark</button>
+
+<button type="button" class="btn btn-primary btn-lg">Large button</button>
+<button type="button" class="btn btn-secondary btn-lg">Large button</button>
+
+<button type="button" class="btn btn-primary"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+  Custom button
 </button>
-
-<button type="button" class="btn btn-primary position-relative">
-  Inbox
-  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-    99+
-    <span class="visually-hidden">unread messages</span>
-  </span>
-</button>
-
-<button type="button" class="btn btn-primary position-relative">
-  Profile
-  <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
-    <span class="visually-hidden">New alerts</span>
-  </span>
-</button>
-
-
-<span class="badge text-bg-primary">Primary</span>
-<span class="badge text-bg-secondary">Secondary</span>
-<span class="badge text-bg-success">Success</span>
-<span class="badge text-bg-danger">Danger</span>
-<span class="badge text-bg-warning">Warning</span>
-<span class="badge text-bg-info">Info</span>
-<span class="badge text-bg-light">Light</span>
-<span class="badge text-bg-dark">Dark</span>
-
-<span class="badge rounded-pill text-bg-primary">Primary</span>
-<span class="badge rounded-pill text-bg-secondary">Secondary</span>
-<span class="badge rounded-pill text-bg-success">Success</span>
-<span class="badge rounded-pill text-bg-danger">Danger</span>
-<span class="badge rounded-pill text-bg-warning">Warning</span>
-<span class="badge rounded-pill text-bg-info">Info</span>
-<span class="badge rounded-pill text-bg-light">Light</span>
-<span class="badge rounded-pill text-bg-dark">Dark</span>
