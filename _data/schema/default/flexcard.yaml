@@ -7,7 +7,7 @@ schema: &schema
 
   layout: &layout
     section: position-relative p-4
-    background: theme-bg-color1
+    background: custom-bg-color1
     text: theme-text-dark
 
   flex: &flex
@@ -30,7 +30,7 @@ schema: &schema
     subtitle:
     heading: 
     description: text-muted
-    link: btn btn-sm theme-bg-color1 theme-text-light stretched-link text-center
+    link: btn btn-sm custom-bg-color1 theme-text-light stretched-link text-center
     image: rounded-top
 
 default: 

@@ -7,7 +7,7 @@ schema: &schema
 
   layout: &layout
     section: position-relative p-3 
-    background: theme-bg-color1
+    background: custom-bg-color1
     text: theme-text-dark
 
   flex: &flex

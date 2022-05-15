@@ -2,7 +2,7 @@
 
 schema: &schema
   section: p-0
-  background: theme-bg-color1
+  background: custom-bg-color1
   text:
 
 default:

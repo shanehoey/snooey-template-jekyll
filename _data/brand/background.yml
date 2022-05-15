@@ -2,7 +2,7 @@
 
 layout: &layout
   body:
-    class: theme-bg-background-fixed
+    class: custom-bg-background-fixed
     style: "margin-top: 62px;"
   header: 
     class:

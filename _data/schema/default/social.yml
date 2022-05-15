@@ -5,7 +5,7 @@ schema: &schema
 
   layout: &layout
     section: text-center pb-5
-    background: theme-bg-color1
+    background: custom-bg-color1
     text: theme-text-light
 
   content: &content
@@ -19,7 +19,7 @@ image:
   <<: *schema
   layout:
     <<: *layout
-    background: theme-bg-teaser
+    background: custom-bg-teaser
     text: theme-text-light
 
 

@@ -2,13 +2,13 @@
 
 layout: &layout
   body:
-    class: theme-bg-background-fixed theme-body
+    class: custom-bg-background-fixed theme-body
     style: 
   header: 
     class:
     style:
   content: 
-    class: container theme-bg-color1 theme-text-light p-4
+    class: container custom-bg-color1 theme-text-light p-4
     style: 
   footer: 
     class: theme-footer
