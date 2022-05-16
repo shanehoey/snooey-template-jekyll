@@ -1,3 +1,4 @@
+# v1.2.135 _data/brands.yml
 # c318e339-7018-479a-9114-1d8dd2b4dce5
 brand0: &brand0
   title: snooey.com
@@ -131,26 +132,26 @@ subsites:
         url: /brand1/category2/
   brand2:
     - <<: *brand2
-      title: Nulla qui.
+      title: Includes
       subtitle: Ad pariatur mollit tempor minim cillum consectetur sit quis laboris officia labore.
-      heading: Magna dolore ea dolor mollit esse culpa cupidatat duis in culpa.
-      description: Proident laborum ad enim exercitation ea sit eu aliqua.
+      heading: Ullamco reprehenderit ut minim tempor proident non proident proident incididunt reprehenderit reprehenderit occaecat incididunt. Magna dolore ea dolor mollit esse culpa cupidatat duis in culpa.
+      description: Deserunt eiusmod pariatur sit ea commodo proident laborum adipisicing amet in. Proident laborum ad enim exercitation ea sit eu aliqua.
       link: 
         text: category2
         url: /brand2/category3/
     - <<: *brand2
-      title: Duis quis magna.
+      title: Snippets
       subtitle: Duis reprehenderit in laborum excepteur reprehenderit ut nulla aliquip Lorem et id incididunt.
       heading: Id aliqua exercitation eu anim non pariatur labore minim amet dolore fugiat tempor.
-      description: Cillum adipisicing et mollit minim qui sunt nostrud deserunt elit incididunt.
+      description: Laborum exercitation in nisi incididunt consectetur elit culpa eiusmod irure voluptate officia irure ad quis. Cillum adipisicing et mollit minim qui sunt nostrud deserunt elit incididunt.
       link: 
         text: category2
         url: /brand2/category4/
     - <<: *brand2
-      title: Deserunt consequat deserunt nulla irure eiusmod et culpa nulla sunt duis enim culpa amet.
+      title: Examples
       subtitle: Consectetur fugiat do proident id.
       heading: Velit labore veniam eiusmod sit sunt sit ullamco eu eu sint et nulla officia veniam.
-      description: Anim minim eiusmod proident exercitation duis dolore non commodo ad quis. Eiusmod minim enim aliquip ad do deserunt dolor fugiat in sunt mollit.
+      description: Cupidatat in nulla irure minim. Anim minim eiusmod proident exercitation duis dolore non commodo ad quis. Eiusmod minim enim aliquip ad do deserunt dolor fugiat in sunt mollit.
       link: 
         text: category2
         url: /brand2/category5/

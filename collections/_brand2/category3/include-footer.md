@@ -2,9 +2,15 @@
 title: footer
 navbar: true
 footer: true
+description: Culpa proident nisi adipisicing consectetur ut nostrud exercitation do reprehenderit fugiat irure dolore ut irure. Eu consectetur duis est laboris culpa commodo anim ut tempor nulla. Laboris ex et proident exercitation.
 categories: ["category3"]
 ---
-<!--v1.2.121 pages/includes/footer.md-->
+<!--v1.2.135 pages/includes/footer.md-->
+
+# {{ page.title }}
+
+{{ page.description }}
+
 
 # Mollit elit voluptate aute eiusmod incididunt esse amet.
 

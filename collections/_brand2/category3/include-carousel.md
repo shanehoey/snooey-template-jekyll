@@ -1,9 +1,14 @@
 ---
 title: carousel
+description: Culpa proident nisi adipisicing consectetur ut nostrud exercitation do reprehenderit fugiat irure dolore ut irure. Eu consectetur duis est laboris culpa commodo anim ut tempor nulla. Laboris ex et proident exercitation.
 categories: ["category3"]
 ---
 <!--
- v1.2.121 pages/includes/carousel.md
+ v1.2.135 pages/includes/carousel.md
 -->
+
+# {{ page.title }}
+
+{{ page.description }}
 
 {% include carousel.html datasource = site.data.dataset.carousel.default %}

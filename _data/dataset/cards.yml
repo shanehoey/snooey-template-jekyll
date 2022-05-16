@@ -1,4 +1,4 @@
-# v1.2.121 _data/dataset/cards.yml
+# v1.2.135 _data/dataset/cards.yml
 
 dataset: &dataset
   title: 
@@ -14,7 +14,7 @@ dataset: &dataset
     icon: bi bi-file-earmark
     header: https://placeimg.com/2560/640/tech
     square: https://placeimg.com/300/300/tech
-    vertical: https://placeimg.com/800×1200/tech
+    vertical: https://placeimg.com/800/1200/tech
     horizontal: https://placeimg.com/1200/800/tech
     teaser: https://placeimg.com/700/394/tech
     background: https://placeimg.com/1920/1080/tech

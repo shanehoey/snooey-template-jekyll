@@ -1,4 +1,4 @@
-# v1.2.121 _data/schema/flexcard-horizontal.yml
+# v1.2.135 _data/schema/flexcard-horizontal.yml
 # VNEXT - migrate to theme _data\schema
 
 schema: &schema
@@ -9,6 +9,7 @@ schema: &schema
     section: position-relative p-3 
     background: snooey-bg-color1
     text: text-dark
+    image: vertical
 
   flex: &flex
     row: 
@@ -23,16 +24,15 @@ schema: &schema
       col: col-4,col-8
     image: card-image-top
     body: card-body
-    footer: card-footer
+    footer:
 
   content: &content # null value will hide the content
     title: h3 text-dark text-decoration-none 
     subtitle: 
     heading: 
     description: text-muted
-    link: btn btn-primary text-light d-grid gap-2 mx-auto stretched-link
-    image: img-fluid rounded
-
+    link: text-light d-grid gap-2 mx-auto stretched-link
+    image: img-fluid rounded-start  # BUG! image does not stretch fully
 default: 
   <<: *schema
 
@@ -41,6 +41,7 @@ blog:
   id: flexcard-horizontal
   layout:
     <<: *layout
+    image: teaser
   flex:
     <<: *flex
     column:
@@ -52,17 +53,38 @@ blog:
     <<: *content
     link: stretched-link
     image: img-fluid rounded
-
     
 small-card:
   <<: *schema
   id: flexcard-horizontal
   layout:
     <<: *layout
+    image: square
   flex:
     <<: *flex
     column:
       parent: col-4 p-2
+  card:
+    <<: *card
+    footer:
+  content:
+    <<: *content
+    tite: h2 text-dark text-decoration-none text-center align-middle
+    link: stretched-link
+    image: img-fluid rounded
+    description:  
+    image: img-fluid rounded
+
+small-card4:
+  <<: *schema
+  id: flexcard-horizontal
+  layout:
+    <<: *layout
+    image: square
+  flex:
+    <<: *flex
+    column:
+      parent: col-3 p-1
   card:
     <<: *card
     footer:

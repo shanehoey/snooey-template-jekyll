@@ -1,8 +1,14 @@
 ---
 title: navbar
 categories: ["category3"]
+description: Culpa proident nisi adipisicing consectetur ut nostrud exercitation do reprehenderit fugiat irure dolore ut irure. Eu consectetur duis est laboris culpa commodo anim ut tempor nulla. Laboris ex et proident exercitation.
 ---
-<!--v1.2.121 pages/includes/navbar.md-->
+<!--v1.2.135 pages/includes/navbar.md-->
+
+# {{ page.title }}
+
+{{ page.description }}
+
 
 Et officia sit amet id ut et reprehenderit proident ex dolor velit incididunt.Sint Lorem mollit laborum amet ad qui.Ipsum tempor et magna sit mollit exercitation occaecat culpa do sint mollit ea pariatur.Nostrud adipisicing tempor et laboris pariatur sunt et.Occaecat voluptate et sint mollit.<!--more-->
 
