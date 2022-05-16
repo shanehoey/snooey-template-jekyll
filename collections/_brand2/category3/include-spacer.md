@@ -5,23 +5,23 @@ categories: ["category3"]
 ---
 <!--v1.2.135 pages/includes/spacer.md -->
 
+
 # {{ page.title }}
 
 {{ page.description }}
 
 {% include spacer.html %}
-{% include spacer.html schema = "light" %}
-{% include spacer.html schema = "dark" %}
-{% include spacer.html schema = "image" %}
-{% include spacer.html schema = "dark" %}
-{% include spacer.html schema = "image0" %}
-{% include spacer.html schema = "dark" %}
-{% include spacer.html schema = "image1" %}
-{% include spacer.html schema = "dark" %}
-{% include spacer.html schema = "image2" %}
-{% include spacer.html schema = "dark" %}
-{% include spacer.html schema = "image3" %}
-{% include spacer.html schema = "dark" %}
-{% include spacer.html schema = "image4" %}
-{% include spacer.html schema = "dark" %}
-{% include spacer.html schema = "image5" %}
+{% include spacer.html schema = site.data.schema.default.spacer.color5-p0 %}
+{% include spacer.html schema = site.data.schema.default.spacer.color2-p6 %}
+{% include spacer.html schema = site.data.schema.default.spacer.color5-p1 %}
+{% include spacer.html schema = site.data.schema.default.spacer.color2-p5 %}
+{% include spacer.html schema = site.data.schema.default.spacer.color5-p2 %}
+{% include spacer.html schema = site.data.schema.default.spacer.color2-p4 %}
+{% include spacer.html schema = site.data.schema.default.spacer.color5-p3 %}
+{% include spacer.html schema = site.data.schema.default.spacer.color2-p3 %}
+{% include spacer.html schema = site.data.schema.default.spacer.color5-p4 %}
+{% include spacer.html schema = site.data.schema.default.spacer.color2-p2 %}
+{% include spacer.html schema = site.data.schema.default.spacer.color5-p5 %}
+{% include spacer.html schema = site.data.schema.default.spacer.color2-p1 %}
+{% include spacer.html schema = site.data.schema.default.spacer.color5-p6 %}
+{% include spacer.html schema = site.data.schema.default.spacer.color2-p0 %}

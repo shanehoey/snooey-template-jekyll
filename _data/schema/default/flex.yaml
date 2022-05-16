@@ -101,8 +101,6 @@ calltoaction02:
       row1:
         row: col-4 p-4 order-2
 
-
-
 calltoaction03:
   <<: *schema
   content:
@@ -185,3 +183,118 @@ h1heading:
     heading: 
     description: text-light
     href: btn btn-outline-light text-light
+
+
+jumbotron: &jumbotron
+
+  id: flex
+
+  layout: &layout
+    section: position-relative
+    background: bg-light
+    text: text-dark
+    image:     
+
+  flex: &flex
+    rows: &rows
+      row: row p-4
+      row1: &row1                 # image
+        row:
+      row2: &row2                 # text 
+        row:  col-12 d-flex p-2
+        cols: &cols
+          col: d-flex flex-column
+          col1: h3                             
+          col2: h5                             
+          col3: text                           
+          col4: text                           
+          col5: text  
+      row3: &row3                 # icon
+        row: null
+      row4: &row4                 # heading
+        row:  null   
+
+  content: &content
+    image: null
+    icon: null
+    title: h3 text-dark text-decoration-none
+    subtitle: null
+    heading: null
+    description: text-muted
+    href: btn btn-dark
+
+jumbotron-100: &jumbotron-100
+
+  id: flex
+
+  layout: &layout
+    section: rounded-5
+    background: snooey-bg-color5
+    text: snooey-color1
+    image:     
+
+  flex: &flex
+    rows: &rows
+      row: row p-4 
+      row1: &row1                 # image
+        row:
+      row2: &row2                 # text 
+        row:  col-12 d-flex p-2
+        cols: &cols
+          col: d-flex flex-column
+          col1: h3                             
+          col2: h5                             
+          col3: text                           
+          col4: text                           
+          col5: text  
+      row3: &row3                 # icon
+        row: null
+      row4: &row4                 # heading
+        row:  null   
+
+  content: &content #null value to hide
+    image: null            
+    icon: null
+    title: H3 p-3
+    subtitle: null
+    heading: null
+    description: p-3
+    href: btn btn-dark
+
+jumbotron-50: &jumbotron-50
+
+  id: flex
+
+  layout: &layout
+    section:
+    background: snooey-bg-color1
+    text: snooey-color5
+    image:     
+
+  flex: &flex
+    rows: &rows
+      row: row align-items-md-stretch
+      row1: &row1                 # image
+        row:
+      row2: &row2                 # text 
+        row:  col-md-6
+        cols: &cols
+          col: snooey-bg-color5 p-3 rounded-3 h-100
+          col1: h3 
+          col2: h5 
+          col3:  
+          col4:  
+          col5:  
+      row3: &row3                 # icon
+        row: null
+      row4: &row4                 # heading
+        row:  null   
+
+  content: &content
+    image: null 
+    icon: null 
+    title: py-3 
+    subtitle: null 
+    heading: null 
+    description: pb-3 
+    href: btn btn-dark

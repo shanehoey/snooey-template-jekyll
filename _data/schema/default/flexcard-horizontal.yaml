@@ -33,6 +33,7 @@ schema: &schema
     description: text-muted
     link: text-light d-grid gap-2 mx-auto stretched-link
     image: img-fluid rounded-start  # BUG! image does not stretch fully
+
 default: 
   <<: *schema
 
@@ -93,5 +94,5 @@ small-card4:
     tite: h2 text-dark text-decoration-none text-center align-middle
     link: stretched-link
     image: img-fluid rounded
-    description:  
+    description: null
     image: img-fluid rounded

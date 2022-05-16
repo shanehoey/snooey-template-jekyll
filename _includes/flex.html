@@ -1,0 +1,120 @@
+<!--
+ v1.2.135 _includes/flex.html
+
+  schema = [yaml]
+  datasource = [array]
+  limit = [int]
+  offset = [int]
+
+-->
+
+<!-- schema -->
+{% assign schema = include.schema | default: site.data.schema.flex[page.schema] | default: site.data.schema.default.flex.default %}
+
+<!-- dataset -->
+{% assign dataset = include.datasource %}
+{% assign count = count | plus: 1 %}
+
+<!-- flex -->
+{% if dataset %}
+{% assign imagetype = schema.layout.image | default: "teaser" %}
+<section id="{{ schema.id }}{{ count }}" class = "{{ schema.layout.section }} {{ schema.layout.background }} {{ schema.layout.text }}">
+
+<div id = "row" class = "{{ schema.flex.rows.row }}">
+{% for item in dataset limit: {{include.limit}} offset: {{include.offset}} %}
+{% if schema.content.image %}
+<!-- image row1 -->
+<div class = "{{ schema.flex.rows.row1.row }}">
+{% if schema.content.image contains "theme-href" %}
+<a class = "{{ schema.content.image }}" href = "{{ item.link.url | default: item.url }}" >
+<img id = "image" src = "{{ item.assets[imagetype] }}" class = "{{ schema.content.image }}"/> 
+</a>
+{% else %} 
+<img id = "image" src = "{{ item.assets[imagetype] }}" class = "{{ schema.content.image }}"/>
+{% endif %}
+</div>
+{% endif %}  
+
+{% if schema.content.title or schema.content.subtitle or schema.content.heading or schema.content.description or schema.content.href  %}
+<!-- text row2 -->
+<div class = "{{ schema.flex.rows.row2.row }}">
+<div id = "column" class = "{{  schema.flex.rows.row2.cols.col }}">
+
+{% if schema.content.title contains "h1" %}
+<!-- title col1 --><h1 class="{{ schema.flex.rows.row2.cols.col1 }} {{ schema.content.title }}">{{ item.title }}</h1>
+{% elsif schema.content.title contains "h2" %}
+<!-- title col1 --><h2 class="{{ schema.flex.rows.row2.cols.col1 }} {{ schema.content.title }}">{{ item.title }}</h2>
+{% elsif schema.content.title contains "h3" %}
+<!-- title col1 --><h3 class="{{ schema.flex.rows.row2.cols.col1 }} {{ schema.content.title }}">{{ item.title }}</h3>
+{% elsif schema.content.title contains "h4" %}
+<!-- title col1 --><h4 class="{{ schema.flex.rows.row2.cols.col1 }} {{ schema.content.title }}">{{ item.title }}</h4>
+{% elsif schema.content.title contains "h5" %}
+<!-- title col1 --><h5 class="{{ schema.flex.rows.row2.cols.col1 }} {{ schema.content.title }}">{{ item.title }}</h5>
+{% elsif schema.content.title  %} 
+<!-- title col1 --><div class="{{ schema.flex.rows.row2.cols.col1 }} {{ schema.content.title }}">{{ item.title }}</div>
+{% endif %}
+
+{% if schema.content.subtitle contains "h1" %}
+<!-- subtitle col2 --><h1 class="{{ schema.flex.rows.row2.cols.col2 }} {{ schema.content.subtitle }}">{{ item.subtitle }}</h1>
+{% elsif schema.content.subtitle contains "h2" %}
+<!-- subtitle col2 --><h2 class="{{ schema.flex.rows.row2.cols.col2 }} {{ schema.content.subtitle }}">{{ item.subtitle }}</h2>
+{% elsif schema.content.subtitle contains "h3" %}
+<!-- subtitle col2 --><h3 class="{{ schema.flex.rows.row2.cols.col2 }} {{ schema.content.subtitle }}">{{ item.subtitle }}</h3>
+{% elsif schema.content.subtitle contains "h4" %}
+<!-- subtitle col2 --><h4 class="{{ schema.flex.rows.row2.cols.col2 }} {{ schema.content.subtitle }}">{{ item.subtitle }}</h4>
+{% elsif schema.content.subtitle contains "h5" %}
+<!-- subtitle col2 --><h5 class="{{ schema.flex.rows.row2.cols.col2 }} {{ schema.content.subtitle }}">{{ item.subtitle }}</h5>
+{% elsif schema.content.subtitle %} 
+<!--subtitle col2 --><div class="{{ schema.flex.rows.row2.cols.col2 }} {{ schema.content.subtitle }}">{{ item.subtitle }}</div>
+{% endif %}
+
+{% if schema.content.heading contains "h1" %}
+<!-- heading col3 --><h1 class="{{ schema.flex.rows.row2.cols.col3 }} {{ schema.content.heading }}">{{ item.heading }}</h1>
+{% elsif schema.content.heading contains "h2" %}
+<!-- heading col3 --><h2 class="{{ schema.flex.rows.row2.cols.col3 }} {{ schema.content.heading }}">{{ item.heading }}</h2>
+{% elsif schema.content.heading contains "h3" %}
+<!-- heading col3 --><h3 class="{{ schema.flex.rows.row2.cols.col3 }} {{ schema.content.heading }}">{{ item.heading }}</h3>
+{% elsif schema.content.heading contains "h4" %}
+<!-- heading col3 --><h4 class="{{ schema.flex.rows.row2.cols.col3 }} {{ schema.content.heading }}">{{ item.heading }}</h4>
+{% elsif schema.content.heading contains "h5" %}
+<!-- heading col3 --><h5 class="{{ schema.flex.rows.row2.cols.col3 }} {{ schema.content.heading }}">{{ item.heading }}</h5>
+{% elsif schema.content.heading %} 
+<!-- heading col3 --><div class="{{ schema.flex.rows.row2.cols.col3 }} {{ schema.content.heading }}">{{ item.heading }}</div>
+{% endif %}
+
+{% if schema.content.description %}
+<!-- description col4--><p class="{{ schema.flex.rows.row2.cols.col4 }} {{ schema.content.description }}">{{ item.description }}</p>
+{% endif %}
+
+{% if schema.content.href contains "btn" %}
+<!-- href col5 --><a class = "{{ schema.content.href }}" href="{{ item.link.url | default: item.url }}" role="button">{{ item.link.text }}</a>
+{% elsif schema.content.href %}
+<!-- href col5  --><a class = "{{ schema.content.href }}" href="{{ item.link.url | default: item.url }}" >{{ item.link.text }}{% if item.link.icon %}<i class="{{ item.link.icon }}"></i>{% endif %}</a>
+{% endif %}
+
+</div>
+
+</div>
+{% endif %}
+
+{% if schema.content.icon %}
+<!-- icon schema.flex.rows.row3.row -->
+<div class = "{{ schema.flex.rows.row3.row }}">
+<i id = "icon" class = "{{ item.assets.icon }} {{ schema.content.icon }}"></i>
+</div>
+{% endif %}
+
+{% if schema.content.heading %}
+<!-- heading schema.flex.rows.row4.row -->
+<div class = "{{ schema.flex.rows.row4.row }}">
+<div class="{{ schema.content.heading }}">{{ item.heading }}</div>
+</div>
+{% endif %}
+{% endfor %}
+</div>
+
+</section>
+{% else %}
+<!-- error author -->
+{% include error.html error = "_includes/flex.html" %}
+{% endif %}

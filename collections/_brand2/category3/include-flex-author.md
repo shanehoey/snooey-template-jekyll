@@ -5,12 +5,9 @@ categories: ["category3"]
 ---
 <!--v1.2.135 pages/includes/flex-author.md-->
 
-
 # {{ page.title }}
 
 {{ page.description }}
-
-
 
 ## site.data.schema.default.flex.author
 
