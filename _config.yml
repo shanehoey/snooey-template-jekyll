@@ -200,7 +200,7 @@ defaults:
       assets:
         <<: *assets
         icon: bi bi-file-text
-          background: "/assets/images/brand3/background.jpg"
+        background: "/assets/images/brand3/background.jpg"
         horizontal: "/assets/images/brand3/horizontal.jpg"
         vertical: "/assets/images/brand3/vertical.jpg"
         square: "/assets/images/brand3/square.jpg"
