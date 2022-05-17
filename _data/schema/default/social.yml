@@ -4,13 +4,13 @@
 schema: &schema
 
   layout: &layout
-    section: text-center py-5
-    background: theme-bg-color1
-    text: theme-text-light
+    section: text-center pb-5
+    background: snooey-bg-color1
+    text: text-light
 
-  typography: &typography
-    title: display-1 mx-3 theme-text-light
-    icon: display-5 mx-1 theme-text-light
+  content: &content
+    title: display-1 text-light
+    icon: display-3 px-2 text-light
 
 default:
   <<: *schema
@@ -19,7 +19,7 @@ image:
   <<: *schema
   layout:
     <<: *layout
-    background: theme-bg-teaser
-    text: theme-text-light
+    background: snooey-bg-teaser
+    text: text-light
 
 

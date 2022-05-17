@@ -29,6 +29,9 @@ exclude:
     - Gemfile.lock
     - SECURITY.md
     - _dev/
+    - docker-compose.dev.yml 
+    - docker-compose.prod.yml
+    - structure.md
 
 plugins_dir: _plugins
 plugins:
@@ -38,7 +41,6 @@ plugins:
   - jekyll-admin
   - jekyll-redirect-from
   - jekyll-minifier
- 
 
 # BUG: issue when js compressed
 jekyll-minifier:
@@ -48,7 +50,7 @@ jekyll-minifier:
   remove_intertag_spaces: true
   compress_css: true
   compress_javascript: false 
- 
+
 excerpt_separator: <!--more-->
 
 remote_theme: shanehoey/snooey
@@ -61,18 +63,21 @@ include:
 collections_dir: collections
 
 collections:
+  brand0:
+      output: true
+      permalink: /:collection/:path
   brand1:
       output: true
-      permalink: /:collection/:path/
+      permalink: /:collection/:path
   brand2:
       output: true
-      permalink: /:collection/:path;/
+      permalink: /:collection/:path
   brand3:
       output: true
-      permalink: /:collection/:path/
+      permalink: /:collection/:path
   brand4:
       output: true
-      permalink: /:collection/:path/
+      permalink: /:collection/:path
 
 defaults:
   - scope:
@@ -128,6 +133,20 @@ defaults:
         <<: *assets
 
   - scope:
+      path: "/brand0/*"
+      type: brand0
+    values:
+      layout: brand0
+      brand: brand0
+      theme: theme0
+      categories: ["brand0"]
+      link:
+        <<: *link
+      assets:
+        <<: *assets
+        icon: bi bi-file-text
+        
+  - scope:
       path: "/brand1/*"
       type: brand1
     values:
@@ -139,8 +158,14 @@ defaults:
         <<: *link
       assets:
         <<: *assets
-        icon: bi bi-file-text
-  
+        icon: bi bi-file-earmark
+        background: "/assets/images/brand1/background.jpg"
+        horizontal: "/assets/images/brand1/horizontal.jpg"
+        vertical: "/assets/images/brand1/vertical.jpg"
+        square: "/assets/images/brand1/square.jpg"
+        profile: "/assets/images/brand1/profile.jpg"
+        header: "/assets/images/brand1/header.jpg"
+        teaser: "/assets/images/brand1/teaser.jpg"
   - scope:
       path: ""
       type: brand2
@@ -153,8 +178,14 @@ defaults:
       assets:
         <<: *assets
         icon: bi bi-file-text
+        background: "/assets/images/brand2/background.jpg"
+        horizontal: "/assets/images/brand2/horizontal.jpg"
+        vertical: "/assets/images/brand2/vertical.jpg"
+        square: "/assets/images/brand2/square.jpg"
+        profile: "/assets/images/brand2/profile.jpg"
+        header: "/assets/images/brand2/header.jpg"
+        teaser: "/assets/images/brand2/teaser.jpg"
       categories: ["brand2"]
-  
   
   - scope:
       path: ""
@@ -169,7 +200,13 @@ defaults:
       assets:
         <<: *assets
         icon: bi bi-file-text
-  
+        background: "/assets/images/brand3/background.jpg"
+        horizontal: "/assets/images/brand3/horizontal.jpg"
+        vertical: "/assets/images/brand3/vertical.jpg"
+        square: "/assets/images/brand3/square.jpg"
+        profile: "/assets/images/brand3/profile.jpg"
+        header: "/assets/images/brand3/header.jpg"
+        teaser: "/assets/images/brand3/teaser.jpg"
   - scope:
       path: ""
       type: brand4
@@ -183,4 +220,10 @@ defaults:
       assets:
         <<: *assets
         icon: bi bi-file-text
- 
+        background: "/assets/images/brand4/background.jpg"
+        horizontal: "/assets/images/brand4/horizontal.jpg"
+        vertical: "/assets/images/brand4/vertical.jpg"
+        square: "/assets/images/brand4/square.jpg"
+        profile: "/assets/images/brand4/profile.jpg"
+        header: "/assets/images/brand4/header.jpg"
+        teaser: "/assets/images/brand4/teaser.jpg"

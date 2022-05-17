@@ -2,13 +2,13 @@
 
 layout: &layout
   body:
-    class: theme-bg-background-fixed
+    class: snooey-bg-background-fixed
     style: "margin-top: 62px;"
   header: 
     class:
     style:
   content: 
-    class: h-100 theme-text-light
+    class: h-100 text-light
     style: 
   footer: 
     class:
@@ -19,16 +19,16 @@ navbar: &navbar
     icon: bi bi-file-person
     text: Home
   - url: /brand1/
-    icon: bi bi-link
+    icon:
     text: brand1
   - url: /brand2/
-    icon: bi bi-link
-    text: brand2
+    icon:
+    text: docs
   - url: /brand3/
-    icon: bi bi-link
+    icon:
     text: brand3
   - url: /brand4/
-    icon: bi bi-link
+    icon:
     text: brand4
     #children:
     #  - url: /theme/cheatsheet/

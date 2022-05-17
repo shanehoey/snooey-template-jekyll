@@ -4,6 +4,7 @@ subtitle: Tools 02
 description: Nostrud ex consectetur eu ipsum non cupidatat id. Sit eu commodo mollit dolor. Fugiat quis tempor laborum fugiat consequat duis occaecat mollit reprehenderit velit consectetur proident ullamco. Incididunt eu eiusmod exercitation occaecat est laboris. Laboris ad tempor eu ex occaecat.
 excerpt: Ipsum in esse do ea eu tempor dolor aliqua anim. Aute pariatur dolore et aliquip dolore enim veniam sunt. Laboris commodo consectetur id Lorem proident duis.
 tags: ["tag1","tag2"]
+categories: ["category6"]
 ---
 
 # {{ page.title }}

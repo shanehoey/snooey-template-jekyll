@@ -4,6 +4,7 @@ subtitle: Tools 01
 description: Ea est reprehenderit eu irure in et laborum elit nisi ad sunt.Ea eiusmod aliqua enim reprehenderit id ullamco irure mollit ipsum ad sit commodo ipsum. Officia magna cupidatat proident mollit ea qui quis. Lorem magna nulla amet in excepteur nisi exercitation reprehenderit nisi amet. Dolor non exercitation labore anim dolor est tempor velit cillum dolore occaecat proident.
 excerpt: Qui pariatur voluptate ipsum nostrud do aute ut dolor velit deserunt excepteur ex laborum fugiat. Laborum id eu commodo pariatur ut qui ex minim aute et.
 tags: ["tag1","tag2"]
+categories: ["category6"]
 ---
 
 # {{ page.title }}

@@ -5,20 +5,20 @@ schema: &schema
 
   layout: &layout
     section: p-3
-    background: theme-bg-dark
-    text: font-monospace theme-text-light
+    background: bg-dark
+    text: font-monospace text-light
 
 dark: &dark
   <<: *schema
 
 light: &light
   <<: *schema
-  background: theme-bg-light
-  text: font-monospace theme-text-dark
+  background: bg-light
+  text: font-monospace text-dark
 
 image: &image
   <<: *schema
-  background: theme-bg-teaser
+  background: snooey-bg-teaser
 
 default: 
   <<: *dark

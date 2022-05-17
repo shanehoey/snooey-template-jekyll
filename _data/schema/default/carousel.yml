@@ -6,8 +6,8 @@ schema: &schema
   id: carousel
   layout: &layout
     section: 
-    background: theme-text-light
-    text: theme-text-light
+    background: text-light
+    text: text-light
   carousel:
     section: carousel slide
   content: &content

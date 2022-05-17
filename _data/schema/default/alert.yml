@@ -5,7 +5,8 @@ schema: &schema
   
   layout: &layout
     section: m-3 alert alert-primary alert-dismissible fade show
-  include:
+  content:
+    title:
     icon:
 
 default: 
@@ -15,7 +16,7 @@ success:
   layout:
     <<: *layout
     section: m-3 alert alert-success alert-dismissible fade show
-  include:  
+  content:  
     icon:   bi bi-check-square
 
 info:
@@ -27,13 +28,13 @@ warning:
   layout:
     <<: *layout
     section: m-3 alert alert-warning alert-dismissible fade show
-  include:
+  content:
     icon:   bi bi-exclamation-triangle
 
 danger: 
   layout:
     <<: *layout
     section: m-3 alert alert-danger alert-dismissible fade show
-  include:
+  content:
       icon:   bi bi-exclamation-triangle-fill
 

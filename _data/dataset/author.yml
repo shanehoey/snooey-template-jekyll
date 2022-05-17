@@ -9,18 +9,17 @@ dataset: &dataset
   author: snooey
   link: &link
     icon: bi bi-link
-    text: "learn more about shane "
+    text: "learn more about shane"
     url: https://brand4.snooey.com/brand4/
   assets: &assets
     icon: bi-person-badge
     header: /assets/images/profile/profile.jpg
-    square: 
-    vertical: 
-    horizontal: 
+    square: /assets/images/profile/profile-300x300.jpg
+    vertical: /assets/images/profile/profile-800x1200.jpg
+    horizontal: /assets/images/profile/profile.jpg
     teaser: /assets/images/profile/profile.jpg
     background: 
-    profile: "/assets/images/brand0/profile.jpg"
-       
+    profile: /assets/images/profile/profile-100x150.jpg
 
 default:
   - <<: *dataset

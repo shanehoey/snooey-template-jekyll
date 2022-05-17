@@ -2,36 +2,179 @@
 
 schema: &schema
   section: p-0
-  background: theme-bg-color1
+  background: custom-bg-color1
   text:
 
 default:
   <<: *schema
 
-default0:
+color1-p0:
   <<: *schema
   section: p-0
 
-default1:
+color1-p1:
   <<: *schema
   section: p-1
 
-default2:
+color1-p2:
   <<: *schema
   section: p-2
 
-default3:
+color1-p3:
   <<: *schema
   section: p-3
 
-default4:
+color1-p4:
   <<: *schema
   section: p-4
 
-default5:
+color1-p5:
   <<: *schema
   section: p-5
 
-default6:
+color1-p6:
   <<: *schema
   section: p-5
+
+color2-p0:
+  <<: *schema
+  section: p-0
+  background: snooey-bg-color2
+
+color2-p1:
+  <<: *schema
+  section: p-1
+  background: snooey-bg-color2
+
+color2-p2:
+  <<: *schema
+  section: p-2
+  background: snooey-bg-color2
+
+color2-p3:
+  <<: *schema
+  section: p-3
+  background: snooey-bg-color2
+
+color2-p4:
+  <<: *schema
+  section: p-4
+  background: snooey-bg-color2
+
+color2-p5:
+  <<: *schema
+  section: p-5
+  background: snooey-bg-color2
+
+color2-p6:
+  <<: *schema
+  section: p-5
+  background: snooey-bg-color2
+
+  
+color3-p0:
+  <<: *schema
+  section: p-0
+  background: snooey-bg-color3
+
+color3-p1:
+  <<: *schema
+  section: p-1
+  background: snooey-bg-color3
+
+color3-p2:
+  <<: *schema
+  section: p-2
+  background: snooey-bg-color3
+
+color3-p3:
+  <<: *schema
+  section: p-3
+  background: snooey-bg-color3
+
+color3-p4:
+  <<: *schema
+  section: p-4
+  background: snooey-bg-color3
+
+color3-p5:
+  <<: *schema
+  section: p-5
+  background: snooey-bg-color3
+
+color3-p6:
+  <<: *schema
+  section: p-5
+  background: snooey-bg-color3
+
+  
+color4-p0:
+  <<: *schema
+  section: p-0
+  background: snooey-bg-color4
+
+color4-p1:
+  <<: *schema
+  section: p-1
+  background: snooey-bg-color4
+
+color4-p2:
+  <<: *schema
+  section: p-2
+  background: snooey-bg-color4
+
+color4-p3:
+  <<: *schema
+  section: p-3
+  background: snooey-bg-color4
+
+color4-p4:
+  <<: *schema
+  section: p-4
+  background: snooey-bg-color4
+
+color4-p5:
+  <<: *schema
+  section: p-5
+  background: snooey-bg-color4
+
+color4-p6:
+  <<: *schema
+  section: p-5
+  background: snooey-bg-color4
+
+  
+color5-p0:
+  <<: *schema
+  section: p-0
+  background: snooey-bg-color5
+
+color5-p1:
+  <<: *schema
+  section: p-1
+  background: snooey-bg-color5
+
+color5-p2:
+  <<: *schema
+  section: p-2
+  background: snooey-bg-color5
+
+color5-p3:
+  <<: *schema
+  section: p-3
+  background: snooey-bg-color5
+
+color5-p4:
+  <<: *schema
+  section: p-4
+  background: snooey-bg-color5
+
+color5-p5:
+  <<: *schema
+  section: p-5
+  background: snooey-bg-color5
+
+color5-p6:
+  <<: *schema
+  section: p-5
+  background: snooey-bg-color5

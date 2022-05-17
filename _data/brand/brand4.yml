@@ -2,18 +2,17 @@
 
 layout: &layout
   body:
-    class: theme-bg-background-fixed
-    style: "margin-top: 62px;"
+    class: snooey-bg-background-fixed
+    style: "margin-top : 62px; margin-bottom : 64px;"
   header: 
     class:
     style:
   content: 
-    class:  container theme-bg-color1 theme-text-light
+    class:  container snooey-bg-color1 text-light p-4
     style: 
   footer: 
     class:
     style: "position: fixed; width: 100%; left: 0; bottom: 0;"
-
 
 navbar: &navbar
   - url: /
@@ -24,7 +23,7 @@ navbar: &navbar
     text: brand1
   - url: /brand2/
     icon: bi bi-link
-    text: brand2
+    text: docs
   - url: /brand3/
     icon: bi bi-link
     text: brand3

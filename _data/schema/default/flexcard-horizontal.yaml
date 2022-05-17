@@ -1,4 +1,4 @@
-# v1.2.121 _data/schema/flexcard-horizontal.yml
+# v1.2.135 _data/schema/flexcard-horizontal.yml
 # VNEXT - migrate to theme _data\schema
 
 schema: &schema
@@ -7,8 +7,9 @@ schema: &schema
 
   layout: &layout
     section: position-relative p-3 
-    background: theme-bg-color1
-    text: theme-text-dark
+    background: snooey-bg-color1
+    text: text-dark
+    image: vertical
 
   flex: &flex
     row: 
@@ -16,22 +17,82 @@ schema: &schema
     column:
       parent: col-6 p-3
   
-  card: 
+  card: &card
     parent: card h-100
     horizontal:
       row: row 
       col: col-4,col-8
     image: card-image-top
     body: card-body
-    footer: card-footer
+    footer:
 
   content: &content # null value will hide the content
     title: h3 text-dark text-decoration-none 
     subtitle: 
     heading: 
     description: text-muted
-    link: btn btn-primary theme-text-light d-grid gap-2 mx-auto stretched-link
-    image: img-fluid rounded
+    link: text-light d-grid gap-2 mx-auto stretched-link
+    image: img-fluid rounded-start  # BUG! image does not stretch fully
 
 default: 
   <<: *schema
+
+blog:
+  <<: *schema
+  id: flexcard-horizontal
+  layout:
+    <<: *layout
+    image: teaser
+  flex:
+    <<: *flex
+    column:
+      parent: col-12 p-3
+  card:
+    <<: *card
+    footer:
+  content:
+    <<: *content
+    link: stretched-link
+    image: img-fluid rounded
+    
+small-card:
+  <<: *schema
+  id: flexcard-horizontal
+  layout:
+    <<: *layout
+    image: square
+  flex:
+    <<: *flex
+    column:
+      parent: col-4 p-2
+  card:
+    <<: *card
+    footer:
+  content:
+    <<: *content
+    tite: h2 text-dark text-decoration-none text-center align-middle
+    link: stretched-link
+    image: img-fluid rounded
+    description:  
+    image: img-fluid rounded
+
+small-card4:
+  <<: *schema
+  id: flexcard-horizontal
+  layout:
+    <<: *layout
+    image: square
+  flex:
+    <<: *flex
+    column:
+      parent: col-3 p-1
+  card:
+    <<: *card
+    footer:
+  content:
+    <<: *content
+    tite: h2 text-dark text-decoration-none text-center align-middle
+    link: stretched-link
+    image: img-fluid rounded
+    description: null
+    image: img-fluid rounded

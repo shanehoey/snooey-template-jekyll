@@ -1,25 +1,19 @@
 # v1.2.121 _data/schema/navbar.yml
 # VNEXT - migrate to theme _data\schema
 
-temp: 
-  navbar-top: &top container-fluid navbar navbar-expand-lg fixed-top navbar-dark bg-dark
-  navbar-default: &default container-fluid navbar navbar-expand-lg navbar-dark bg-dark
-  navbar-bottom: &bottom container-fluid navbar navbar-expand-lg fixed-bottom navbar-dark bg-dark
-  navbar-sticky: &sticky container-fluid navbar navbar-expand-lg sticky-top navbar-dark bg-dark
+navbar-top: &navbar-top container-fluid navbar navbar-expand-lg fixed-top navbar-dark bg-dark
+navbar-default: &navbar-default container-fluid navbar navbar-expand-lg navbar-dark bg-dark
+navbar-bottom: &navbar-bottom container-fluid navbar navbar-expand-lg fixed-bottom navbar-dark bg-dark
+navbar-sticky: &navbar-sticky container-fluid navbar navbar-expand-lg sticky-top navbar-dark bg-dark
 
 schema: &schema
 
   layout: &layout
     navbar: 
-      primary: *top
-      secondary: *top
+      primary: *navbar-top
+      secondary: *navbar-top
 
-  include:  &include
-
-  typography: &typography
-
-
+  content: &content
 
 default:
   <<: *schema
-

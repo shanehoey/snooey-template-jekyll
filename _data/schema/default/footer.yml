@@ -5,13 +5,12 @@ schema: &schema
 
   layout: &layout
     section: footer fixed-bottom mx-auto
-    background: theme-bg-dark
-    text: theme-text-light
+    background: bg-dark
+    text: text-light
 
-  typography: &typography
+  content: &content
     copyright:  text-reset text-center font-weight-light small
     link:  text-reset text-decoration-none font-weight-light px-2 small
-
 
 default:
   <<: *schema
