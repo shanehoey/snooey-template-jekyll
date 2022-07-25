@@ -73,8 +73,7 @@ small-card:
     tite: h2 text-dark text-decoration-none text-center align-middle
     link: stretched-link
     image: img-fluid rounded
-    description:  
-    image: img-fluid rounded
+    description: 
 
 small-card4:
   <<: *schema
@@ -95,4 +94,3 @@ small-card4:
     link: stretched-link
     image: img-fluid rounded
     description: null
-    image: img-fluid rounded
